@@ -1,0 +1,119 @@
+# 路由器删除接口<a name="ZH-CN_TOPIC_0060495819"></a>
+
+## 功能介绍<a name="section30197552205849"></a>
+
+删除路由器接口。
+
+接口约束：
+
+如果该子网上还有负载均衡器对象，不允许删除路由器接口。
+
+## URI<a name="section2308632205849"></a>
+
+PUT /v2.0/routers/\{router\_id\}/remove\_router\_interface
+
+## 请求消息<a name="section55215913205849"></a>
+
+**表 1**  请求参数
+
+<a name="table43303993205849"></a>
+<table><thead align="left"><tr id="row15734591205849"><th class="cellrowborder" valign="top" width="17.349999999999998%" id="mcps1.2.5.1.1"><p id="p66542384205849"><a name="p66542384205849"></a><a name="p66542384205849"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.29%" id="mcps1.2.5.1.2"><p id="p21224062205849"><a name="p21224062205849"></a><a name="p21224062205849"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="10.2%" id="mcps1.2.5.1.3"><p id="p41427472205849"><a name="p41427472205849"></a><a name="p41427472205849"></a>必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="58.160000000000004%" id="mcps1.2.5.1.4"><p id="p182095205849"><a name="p182095205849"></a><a name="p182095205849"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row14749730205849"><td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.1 "><p id="p53877490205849"><a name="p53877490205849"></a><a name="p53877490205849"></a>subnet_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.29%" headers="mcps1.2.5.1.2 "><p id="p2000550205849"><a name="p2000550205849"></a><a name="p2000550205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="10.2%" headers="mcps1.2.5.1.3 "><p id="p27826855205849"><a name="p27826855205849"></a><a name="p27826855205849"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="58.160000000000004%" headers="mcps1.2.5.1.4 "><p id="p39382748205849"><a name="p39382748205849"></a><a name="p39382748205849"></a>子网id，subnet_id和port_id参数二选一。</p>
+<p id="p18900413205849"><a name="p18900413205849"></a><a name="p18900413205849"></a>使用子网的gateway IP地址来创建路由器接口。</p>
+</td>
+</tr>
+<tr id="row35885997205849"><td class="cellrowborder" valign="top" width="17.349999999999998%" headers="mcps1.2.5.1.1 "><p id="p21084676205849"><a name="p21084676205849"></a><a name="p21084676205849"></a>port_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.29%" headers="mcps1.2.5.1.2 "><p id="p30137158205849"><a name="p30137158205849"></a><a name="p30137158205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="10.2%" headers="mcps1.2.5.1.3 "><p id="p25190749205849"><a name="p25190749205849"></a><a name="p25190749205849"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="58.160000000000004%" headers="mcps1.2.5.1.4 "><p id="p27184817205849"><a name="p27184817205849"></a><a name="p27184817205849"></a>端口id，port_id和subnet_id参数二选一，使用端口的IP地址创建路由器接口。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 响应消息<a name="section43336765205849"></a>
+
+**表 2**  响应参数
+
+<a name="table20617078205849"></a>
+<table><thead align="left"><tr id="row10859799205849"><th class="cellrowborder" valign="top" width="19.32%" id="mcps1.2.4.1.1"><p id="p7228509205849"><a name="p7228509205849"></a><a name="p7228509205849"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="15.909999999999998%" id="mcps1.2.4.1.2"><p id="p48638393205849"><a name="p48638393205849"></a><a name="p48638393205849"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="64.77000000000001%" id="mcps1.2.4.1.3"><p id="p13848780205849"><a name="p13848780205849"></a><a name="p13848780205849"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row48009429205849"><td class="cellrowborder" valign="top" width="19.32%" headers="mcps1.2.4.1.1 "><p id="p63558546205849"><a name="p63558546205849"></a><a name="p63558546205849"></a>subnet_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.909999999999998%" headers="mcps1.2.4.1.2 "><p id="p47968620205849"><a name="p47968620205849"></a><a name="p47968620205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="64.77000000000001%" headers="mcps1.2.4.1.3 "><p id="p48654997205849"><a name="p48654997205849"></a><a name="p48654997205849"></a>子网id</p>
+</td>
+</tr>
+<tr id="row35241790205849"><td class="cellrowborder" valign="top" width="19.32%" headers="mcps1.2.4.1.1 "><p id="p36012759205849"><a name="p36012759205849"></a><a name="p36012759205849"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.909999999999998%" headers="mcps1.2.4.1.2 "><p id="p31352336205849"><a name="p31352336205849"></a><a name="p31352336205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="64.77000000000001%" headers="mcps1.2.4.1.3 "><p id="p14008451205849"><a name="p14008451205849"></a><a name="p14008451205849"></a>项目ID</p>
+</td>
+</tr>
+<tr id="row58967197205849"><td class="cellrowborder" valign="top" width="19.32%" headers="mcps1.2.4.1.1 "><p id="p11613691205849"><a name="p11613691205849"></a><a name="p11613691205849"></a>port_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.909999999999998%" headers="mcps1.2.4.1.2 "><p id="p1184925205849"><a name="p1184925205849"></a><a name="p1184925205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="64.77000000000001%" headers="mcps1.2.4.1.3 "><p id="p56778703205849"><a name="p56778703205849"></a><a name="p56778703205849"></a>端口id</p>
+</td>
+</tr>
+<tr id="row41246284205849"><td class="cellrowborder" valign="top" width="19.32%" headers="mcps1.2.4.1.1 "><p id="p52614697205849"><a name="p52614697205849"></a><a name="p52614697205849"></a>id</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.909999999999998%" headers="mcps1.2.4.1.2 "><p id="p33932046205849"><a name="p33932046205849"></a><a name="p33932046205849"></a>uuid-str</p>
+</td>
+<td class="cellrowborder" valign="top" width="64.77000000000001%" headers="mcps1.2.4.1.3 "><p id="p28056338205849"><a name="p28056338205849"></a><a name="p28056338205849"></a>路由器id</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 样例<a name="section51180458205849"></a>
+
+请求样例
+
+```
+PUT /v2.0/routers/b625c58c-0cfe-49e0-acc8-f2374f8187ff/remove_router_interface
+{"subnet_id": "4b910a10-0860-428b-b463-d84dbc5e288e"}
+```
+
+响应样例
+
+```
+{
+  "subnet_id": "4b910a10-0860-428b-b463-d84dbc5e288e",
+  "tenant_id": "3d72597871904daeb6887f75f848b531",
+  "port_id": "34d7d063-8f40-4958-b420-096db40d4067",
+  "id": "b625c58c-0cfe-49e0-acc8-f2374f8187ff"
+}
+```
+
+## 状态码<a name="section10470352390"></a>
+
+请参见[状态码](状态码.md)。
+
