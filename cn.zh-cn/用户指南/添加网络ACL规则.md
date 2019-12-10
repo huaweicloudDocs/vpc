@@ -7,10 +7,10 @@
 ## 操作步骤<a name="section25103352161542"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/icon-region.png)图标，选择区域和项目。
-3.  在系统首页，单击“网络 \> 虚拟私有云”。
-4.  在左侧导航栏单击“网络ACL”。
-5.  在右侧在“网络ACL”列表区域，选择网络ACL的名称列，单击您需要修改的“网络ACL名称”进入网络ACL详情页面。
+2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
+3.  在系统首页，选择“网络 \> 虚拟私有云”。
+4.  在左侧导航栏选择“访问控制 \> 网络ACL”。
+5.  在“网络ACL”列表区域，选择网络ACL的名称列，单击您需要修改的“网络ACL名称”进入网络ACL详情页面。
 6.  在入方向规则或出方向规则页签，单击“添加规则”，添加入方向或出方向规则。
 
     单击“+”可以依次增加多条规则。
@@ -28,7 +28,7 @@
     </thead>
     <tbody><tr id="row184641148133419"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="p6457134819341"><a name="p6457134819341"></a><a name="p6457134819341"></a>策略</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.769999999999996%" headers="mcps1.2.4.1.2 "><p id="p20487105491017"><a name="p20487105491017"></a><a name="p20487105491017"></a>网络ACL策略。必选项，单击下拉按钮可选择。</p>
+    <td class="cellrowborder" valign="top" width="57.769999999999996%" headers="mcps1.2.4.1.2 "><p id="p20487105491017"><a name="p20487105491017"></a><a name="p20487105491017"></a>网络ACL策略。必选项，单击下拉按钮可选择。目前支持“允许”和“拒绝”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.34%" headers="mcps1.2.4.1.3 "><p id="p1446404843410"><a name="p1446404843410"></a><a name="p1446404843410"></a>允许</p>
     </td>
