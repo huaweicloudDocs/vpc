@@ -1,4 +1,4 @@
-# 申请包周期弹性公网IP<a name="ZH-CN_TOPIC_0201534185"></a>
+# 申请包周期弹性公网IP<a name="zh-cn_topic_0097550708"></a>
 
 ## 功能介绍<a name="section95417125714"></a>
 
@@ -332,7 +332,7 @@ POST /v2.0/\{project\_id\}/publicips
     </td>
     <td class="cellrowborder" valign="top" width="56.620000000000005%" headers="mcps1.1.4.1.3 "><p id="p566413115570"><a name="p566413115570"></a><a name="p566413115570"></a>订单号（预付费场景返回该字段）</p>
     <div class="note" id="note172685205318"><a name="note172685205318"></a><a name="note172685205318"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul619218461815"></a><a name="ul619218461815"></a><ul id="ul619218461815"><li>如果需要支付订单，请参考<a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0075746561.html" target="_blank" rel="noopener noreferrer">支付包周期产品订单</a>。</li></ul>
-    <a name="ul530215481987"></a><a name="ul530215481987"></a><ul id="ul530215481987"><li><span>如果需要查询订单的资源开通详情，请参考“</span><a href="https://support.huaweicloud.com/api-oce/api_order_00001.html" target="_blank" rel="noopener noreferrer">查询订单的资源开通详情</a><span>”。</span></li><li>如果需要退订该包周期资源，请参考“<a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0082522030.html" target="_blank" rel="noopener noreferrer">退订包周期资源</a>”。</li></ul>
+    <a name="ul530215481987"></a><a name="ul530215481987"></a><ul id="ul530215481987"><li>如果需要查询订单的资源开通详情，请参考“<a href="https://support.huaweicloud.com/api-oce/api_order_00001.html" target="_blank" rel="noopener noreferrer">查询订单的资源开通详情</a>”。</li><li>如果需要退订该包周期资源，请参考“<a href="https://support.huaweicloud.com/api-oce/zh-cn_topic_0082522030.html" target="_blank" rel="noopener noreferrer">退订包周期资源</a>”。</li></ul>
     <p id="p925914325818"><a name="p925914325818"></a><a name="p925914325818"></a></p>
     </div></div>
     </td>

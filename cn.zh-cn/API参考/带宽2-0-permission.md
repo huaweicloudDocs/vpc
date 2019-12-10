@@ -1,4 +1,4 @@
-# 带宽（V2.0）<a name="ZH-CN_TOPIC_0201534017"></a>
+# 带宽（V2.0）<a name="vpc_permission_0018"></a>
 
 <a name="table11714123643216"></a>
 <table><thead align="left"><tr id="row1189103603211"><th class="cellrowborder" valign="top" width="40.4040404040404%" id="mcps1.1.5.1.1"><p id="p489173603213"><a name="p489173603213"></a><a name="p489173603213"></a>API</p>

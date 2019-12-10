@@ -1,4 +1,4 @@
-# 配额<a name="ZH-CN_TOPIC_0201534211"></a>
+# 配额<a name="vpc_permission_0006"></a>
 
 <a name="table18466566383"></a>
 <table><thead align="left"><tr id="row14931063384"><th class="cellrowborder" valign="top" width="36%" id="mcps1.1.5.1.1"><p id="p1493465384"><a name="p1493465384"></a><a name="p1493465384"></a>API</p>

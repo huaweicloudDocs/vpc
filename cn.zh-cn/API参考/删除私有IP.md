@@ -1,4 +1,4 @@
-# 删除私有IP<a name="ZH-CN_TOPIC_0201534084"></a>
+# 删除私有IP<a name="zh-cn_topic_0020090613"></a>
 
 ## 功能介绍<a name="section1933992"></a>
 

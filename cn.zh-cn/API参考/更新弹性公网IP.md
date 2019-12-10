@@ -1,4 +1,4 @@
-# 更新弹性公网IP<a name="ZH-CN_TOPIC_0201534286"></a>
+# 更新弹性公网IP<a name="zh-cn_topic_0020090600"></a>
 
 ## 功能介绍<a name="section43589445"></a>
 

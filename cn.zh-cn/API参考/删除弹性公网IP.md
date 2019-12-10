@@ -1,4 +1,4 @@
-# 删除弹性公网IP<a name="ZH-CN_TOPIC_0201534180"></a>
+# 删除弹性公网IP<a name="zh-cn_topic_0020090601"></a>
 
 ## 功能介绍<a name="section21768161"></a>
 

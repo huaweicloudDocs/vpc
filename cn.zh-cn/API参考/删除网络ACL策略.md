@@ -1,4 +1,4 @@
-# 删除网络ACL策略<a name="ZH-CN_TOPIC_0201534172"></a>
+# 删除网络ACL策略<a name="vpc_firewall_0010"></a>
 
 ## 功能介绍<a name="section2007643132549"></a>
 

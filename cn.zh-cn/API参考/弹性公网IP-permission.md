@@ -1,4 +1,4 @@
-# 弹性公网IP<a name="ZH-CN_TOPIC_0201534207"></a>
+# 弹性公网IP<a name="vpc_permission_0002"></a>
 
 <a name="table3381441153612"></a>
 <table><thead align="left"><tr id="row134361241153612"><th class="cellrowborder" valign="top" width="34%" id="mcps1.1.5.1.1"><p id="p24367414363"><a name="p24367414363"></a><a name="p24367414363"></a>API</p>

@@ -1,4 +1,4 @@
-# 删除VPC<a name="ZH-CN_TOPIC_0201534126"></a>
+# 删除VPC<a name="zh-cn_topic_0020090627"></a>
 
 ## 功能介绍<a name="section15422169"></a>
 

@@ -1,4 +1,4 @@
-# 移除网络ACL规则<a name="ZH-CN_TOPIC_0201534278"></a>
+# 移除网络ACL规则<a name="vpc_firewall_0012"></a>
 
 ## 功能介绍<a name="section9946367132633"></a>
 

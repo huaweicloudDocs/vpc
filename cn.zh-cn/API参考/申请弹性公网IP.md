@@ -1,4 +1,4 @@
-# 申请弹性公网IP<a name="ZH-CN_TOPIC_0201534274"></a>
+# 申请弹性公网IP<a name="zh-cn_topic_0020090596"></a>
 
 ## 功能介绍<a name="section12153337"></a>
 

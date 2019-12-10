@@ -1,4 +1,4 @@
-# 弹性公网IP访问虚拟IP<a name="ZH-CN_TOPIC_0201534163"></a>
+# 弹性公网IP访问虚拟IP<a name="vpc_vip_0003"></a>
 
 ## 使用工具<a name="section84221635191520"></a>
 
@@ -48,41 +48,41 @@ Postman或者JMeter。
 
 1.  获取token。
 
-    <a name="zh-cn_topic_0201534141_table16457194412177"></a>
-    <table><thead align="left"><tr id="zh-cn_topic_0201534141_row164541444181716"><th class="cellrowborder" valign="top" width="30.53%" id="mcps1.1.3.1.1"><p id="zh-cn_topic_0201534141_p12454104411178"><a name="zh-cn_topic_0201534141_p12454104411178"></a><a name="zh-cn_topic_0201534141_p12454104411178"></a>方法</p>
+    <a name="vpc_vip_0002_table16457194412177"></a>
+    <table><thead align="left"><tr id="vpc_vip_0002_row164541444181716"><th class="cellrowborder" valign="top" width="30.53%" id="mcps1.1.3.1.1"><p id="vpc_vip_0002_p12454104411178"><a name="vpc_vip_0002_p12454104411178"></a><a name="vpc_vip_0002_p12454104411178"></a>方法</p>
     </th>
-    <th class="cellrowborder" valign="top" width="69.47%" id="mcps1.1.3.1.2"><p id="zh-cn_topic_0201534141_p1445424413176"><a name="zh-cn_topic_0201534141_p1445424413176"></a><a name="zh-cn_topic_0201534141_p1445424413176"></a>POST</p>
+    <th class="cellrowborder" valign="top" width="69.47%" id="mcps1.1.3.1.2"><p id="vpc_vip_0002_p1445424413176"><a name="vpc_vip_0002_p1445424413176"></a><a name="vpc_vip_0002_p1445424413176"></a>POST</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="zh-cn_topic_0201534141_row1145611441173"><td class="cellrowborder" valign="top" width="30.53%" headers="mcps1.1.3.1.1 "><p id="zh-cn_topic_0201534141_p2456124401714"><a name="zh-cn_topic_0201534141_p2456124401714"></a><a name="zh-cn_topic_0201534141_p2456124401714"></a>url</p>
+    <tbody><tr id="vpc_vip_0002_row1145611441173"><td class="cellrowborder" valign="top" width="30.53%" headers="mcps1.1.3.1.1 "><p id="vpc_vip_0002_p2456124401714"><a name="vpc_vip_0002_p2456124401714"></a><a name="vpc_vip_0002_p2456124401714"></a>url</p>
     </td>
-    <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="zh-cn_topic_0201534141_p9456144413177"><a name="zh-cn_topic_0201534141_p9456144413177"></a><a name="zh-cn_topic_0201534141_p9456144413177"></a>iam地址:端口/v3/auth/tokens</p>
+    <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="vpc_vip_0002_p9456144413177"><a name="vpc_vip_0002_p9456144413177"></a><a name="vpc_vip_0002_p9456144413177"></a>iam地址:端口/v3/auth/tokens</p>
     </td>
     </tr>
-    <tr id="zh-cn_topic_0201534141_row124575445176"><td class="cellrowborder" valign="top" width="30.53%" headers="mcps1.1.3.1.1 "><p id="zh-cn_topic_0201534141_p1745694471716"><a name="zh-cn_topic_0201534141_p1745694471716"></a><a name="zh-cn_topic_0201534141_p1745694471716"></a>body体（样例）</p>
+    <tr id="vpc_vip_0002_row124575445176"><td class="cellrowborder" valign="top" width="30.53%" headers="mcps1.1.3.1.1 "><p id="vpc_vip_0002_p1745694471716"><a name="vpc_vip_0002_p1745694471716"></a><a name="vpc_vip_0002_p1745694471716"></a>body体（样例）</p>
     </td>
-    <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="zh-cn_topic_0201534141_p7456444181714"><a name="zh-cn_topic_0201534141_p7456444181714"></a><a name="zh-cn_topic_0201534141_p7456444181714"></a>{</p>
-    <p id="zh-cn_topic_0201534141_p1745620445176"><a name="zh-cn_topic_0201534141_p1745620445176"></a><a name="zh-cn_topic_0201534141_p1745620445176"></a>"auth":{</p>
-    <p id="zh-cn_topic_0201534141_p745619441179"><a name="zh-cn_topic_0201534141_p745619441179"></a><a name="zh-cn_topic_0201534141_p745619441179"></a>"identity":{</p>
-    <p id="zh-cn_topic_0201534141_p24561444173"><a name="zh-cn_topic_0201534141_p24561444173"></a><a name="zh-cn_topic_0201534141_p24561444173"></a>"methods": ["password"],</p>
-    <p id="zh-cn_topic_0201534141_p54561944181720"><a name="zh-cn_topic_0201534141_p54561944181720"></a><a name="zh-cn_topic_0201534141_p54561944181720"></a>"password":{</p>
-    <p id="zh-cn_topic_0201534141_p12456114415175"><a name="zh-cn_topic_0201534141_p12456114415175"></a><a name="zh-cn_topic_0201534141_p12456114415175"></a>"user":{</p>
-    <p id="zh-cn_topic_0201534141_p1145694417174"><a name="zh-cn_topic_0201534141_p1145694417174"></a><a name="zh-cn_topic_0201534141_p1145694417174"></a>"name": "<em id="zh-cn_topic_0201534141_i11456134491717"><a name="zh-cn_topic_0201534141_i11456134491717"></a><a name="zh-cn_topic_0201534141_i11456134491717"></a>user_name</em>",</p>
-    <p id="zh-cn_topic_0201534141_p13456444191717"><a name="zh-cn_topic_0201534141_p13456444191717"></a><a name="zh-cn_topic_0201534141_p13456444191717"></a>"domain":{</p>
-    <p id="zh-cn_topic_0201534141_p12456644141713"><a name="zh-cn_topic_0201534141_p12456644141713"></a><a name="zh-cn_topic_0201534141_p12456644141713"></a>"name":"<em id="zh-cn_topic_0201534141_i1445684401718"><a name="zh-cn_topic_0201534141_i1445684401718"></a><a name="zh-cn_topic_0201534141_i1445684401718"></a>domain_name</em>"</p>
-    <p id="zh-cn_topic_0201534141_p845618441175"><a name="zh-cn_topic_0201534141_p845618441175"></a><a name="zh-cn_topic_0201534141_p845618441175"></a>},</p>
-    <p id="zh-cn_topic_0201534141_p18456144415173"><a name="zh-cn_topic_0201534141_p18456144415173"></a><a name="zh-cn_topic_0201534141_p18456144415173"></a>"password":"<em id="zh-cn_topic_0201534141_i104569447179"><a name="zh-cn_topic_0201534141_i104569447179"></a><a name="zh-cn_topic_0201534141_i104569447179"></a>user_password</em>"</p>
-    <p id="zh-cn_topic_0201534141_p1745604471712"><a name="zh-cn_topic_0201534141_p1745604471712"></a><a name="zh-cn_topic_0201534141_p1745604471712"></a>}</p>
-    <p id="zh-cn_topic_0201534141_p7456204413171"><a name="zh-cn_topic_0201534141_p7456204413171"></a><a name="zh-cn_topic_0201534141_p7456204413171"></a>}</p>
-    <p id="zh-cn_topic_0201534141_p0457154412173"><a name="zh-cn_topic_0201534141_p0457154412173"></a><a name="zh-cn_topic_0201534141_p0457154412173"></a>},</p>
-    <p id="zh-cn_topic_0201534141_p54573440175"><a name="zh-cn_topic_0201534141_p54573440175"></a><a name="zh-cn_topic_0201534141_p54573440175"></a>"scope":{</p>
-    <p id="zh-cn_topic_0201534141_p15457344191719"><a name="zh-cn_topic_0201534141_p15457344191719"></a><a name="zh-cn_topic_0201534141_p15457344191719"></a>"project":{</p>
-    <p id="zh-cn_topic_0201534141_p10457114451715"><a name="zh-cn_topic_0201534141_p10457114451715"></a><a name="zh-cn_topic_0201534141_p10457114451715"></a>"name":"<em id="zh-cn_topic_0201534141_i194571044191719"><a name="zh-cn_topic_0201534141_i194571044191719"></a><a name="zh-cn_topic_0201534141_i194571044191719"></a>project_name</em>"</p>
-    <p id="zh-cn_topic_0201534141_p6457104441710"><a name="zh-cn_topic_0201534141_p6457104441710"></a><a name="zh-cn_topic_0201534141_p6457104441710"></a>}</p>
-    <p id="zh-cn_topic_0201534141_p12457044101712"><a name="zh-cn_topic_0201534141_p12457044101712"></a><a name="zh-cn_topic_0201534141_p12457044101712"></a>}</p>
-    <p id="zh-cn_topic_0201534141_p16457114420175"><a name="zh-cn_topic_0201534141_p16457114420175"></a><a name="zh-cn_topic_0201534141_p16457114420175"></a>}</p>
-    <p id="zh-cn_topic_0201534141_p18457144441710"><a name="zh-cn_topic_0201534141_p18457144441710"></a><a name="zh-cn_topic_0201534141_p18457144441710"></a>}</p>
+    <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="vpc_vip_0002_p7456444181714"><a name="vpc_vip_0002_p7456444181714"></a><a name="vpc_vip_0002_p7456444181714"></a>{</p>
+    <p id="vpc_vip_0002_p1745620445176"><a name="vpc_vip_0002_p1745620445176"></a><a name="vpc_vip_0002_p1745620445176"></a>"auth":{</p>
+    <p id="vpc_vip_0002_p745619441179"><a name="vpc_vip_0002_p745619441179"></a><a name="vpc_vip_0002_p745619441179"></a>"identity":{</p>
+    <p id="vpc_vip_0002_p24561444173"><a name="vpc_vip_0002_p24561444173"></a><a name="vpc_vip_0002_p24561444173"></a>"methods": ["password"],</p>
+    <p id="vpc_vip_0002_p54561944181720"><a name="vpc_vip_0002_p54561944181720"></a><a name="vpc_vip_0002_p54561944181720"></a>"password":{</p>
+    <p id="vpc_vip_0002_p12456114415175"><a name="vpc_vip_0002_p12456114415175"></a><a name="vpc_vip_0002_p12456114415175"></a>"user":{</p>
+    <p id="vpc_vip_0002_p1145694417174"><a name="vpc_vip_0002_p1145694417174"></a><a name="vpc_vip_0002_p1145694417174"></a>"name": "<em id="vpc_vip_0002_i11456134491717"><a name="vpc_vip_0002_i11456134491717"></a><a name="vpc_vip_0002_i11456134491717"></a>user_name</em>",</p>
+    <p id="vpc_vip_0002_p13456444191717"><a name="vpc_vip_0002_p13456444191717"></a><a name="vpc_vip_0002_p13456444191717"></a>"domain":{</p>
+    <p id="vpc_vip_0002_p12456644141713"><a name="vpc_vip_0002_p12456644141713"></a><a name="vpc_vip_0002_p12456644141713"></a>"name":"<em id="vpc_vip_0002_i1445684401718"><a name="vpc_vip_0002_i1445684401718"></a><a name="vpc_vip_0002_i1445684401718"></a>domain_name</em>"</p>
+    <p id="vpc_vip_0002_p845618441175"><a name="vpc_vip_0002_p845618441175"></a><a name="vpc_vip_0002_p845618441175"></a>},</p>
+    <p id="vpc_vip_0002_p18456144415173"><a name="vpc_vip_0002_p18456144415173"></a><a name="vpc_vip_0002_p18456144415173"></a>"password":"<em id="vpc_vip_0002_i104569447179"><a name="vpc_vip_0002_i104569447179"></a><a name="vpc_vip_0002_i104569447179"></a>user_password</em>"</p>
+    <p id="vpc_vip_0002_p1745604471712"><a name="vpc_vip_0002_p1745604471712"></a><a name="vpc_vip_0002_p1745604471712"></a>}</p>
+    <p id="vpc_vip_0002_p7456204413171"><a name="vpc_vip_0002_p7456204413171"></a><a name="vpc_vip_0002_p7456204413171"></a>}</p>
+    <p id="vpc_vip_0002_p0457154412173"><a name="vpc_vip_0002_p0457154412173"></a><a name="vpc_vip_0002_p0457154412173"></a>},</p>
+    <p id="vpc_vip_0002_p54573440175"><a name="vpc_vip_0002_p54573440175"></a><a name="vpc_vip_0002_p54573440175"></a>"scope":{</p>
+    <p id="vpc_vip_0002_p15457344191719"><a name="vpc_vip_0002_p15457344191719"></a><a name="vpc_vip_0002_p15457344191719"></a>"project":{</p>
+    <p id="vpc_vip_0002_p10457114451715"><a name="vpc_vip_0002_p10457114451715"></a><a name="vpc_vip_0002_p10457114451715"></a>"name":"<em id="vpc_vip_0002_i194571044191719"><a name="vpc_vip_0002_i194571044191719"></a><a name="vpc_vip_0002_i194571044191719"></a>project_name</em>"</p>
+    <p id="vpc_vip_0002_p6457104441710"><a name="vpc_vip_0002_p6457104441710"></a><a name="vpc_vip_0002_p6457104441710"></a>}</p>
+    <p id="vpc_vip_0002_p12457044101712"><a name="vpc_vip_0002_p12457044101712"></a><a name="vpc_vip_0002_p12457044101712"></a>}</p>
+    <p id="vpc_vip_0002_p16457114420175"><a name="vpc_vip_0002_p16457114420175"></a><a name="vpc_vip_0002_p16457114420175"></a>}</p>
+    <p id="vpc_vip_0002_p18457144441710"><a name="vpc_vip_0002_p18457144441710"></a><a name="vpc_vip_0002_p18457144441710"></a>}</p>
     </td>
     </tr>
     </tbody>

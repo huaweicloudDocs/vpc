@@ -1,4 +1,4 @@
-# 删除安全组<a name="ZH-CN_TOPIC_0201534250"></a>
+# 删除安全组<a name="zh-cn_topic_0060595555"></a>
 
 ## 功能介绍<a name="section5430745416158"></a>
 

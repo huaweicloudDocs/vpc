@@ -1,4 +1,4 @@
-# 共享带宽插入弹性公网IP<a name="ZH-CN_TOPIC_0201534131"></a>
+# 共享带宽插入弹性公网IP<a name="zh-cn_topic_0106971321"></a>
 
 ## 功能介绍<a name="section16581154"></a>
 

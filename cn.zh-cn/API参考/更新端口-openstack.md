@@ -1,4 +1,4 @@
-# 更新端口<a name="ZH-CN_TOPIC_0201534169"></a>
+# 更新端口<a name="zh-cn_topic_0062207809"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0062207392_section23646388"></a>
 
@@ -100,7 +100,7 @@ PUT /v2.0/ports/\{port\_id\}
 <p id="p1689593911185"><a name="p1689593911185"></a><a name="p1689593911185"></a>{"internal_elb": true}</p>
 </li><li>disable_security_groups字段，布尔类型，普通租户可见。默认为false高性能通信场景下，允许指定为true普通租户可见。仅支持创建port和读取时指定。当前仅支持指定为true，不支持指定为false<p id="p489520395187"><a name="p489520395187"></a><a name="p489520395187"></a>举例：</p>
 <p id="p1789513951810"><a name="p1789513951810"></a><a name="p1789513951810"></a>{"disable_security_groups"：true }，</p>
-<p id="p9895539101812"><a name="p9895539101812"></a><a name="p9895539101812"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS<span>功能不生效</span>。</p>
+<p id="p9895539101812"><a name="p9895539101812"></a><a name="p9895539101812"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS功能不生效。</p>
 </li></ul>
 <a name="ul16895739131811"></a><a name="ul16895739131811"></a>
 </td>
@@ -336,7 +336,7 @@ PUT /v2.0/ports/\{port\_id\}
 <p id="p1774284092111"><a name="p1774284092111"></a><a name="p1774284092111"></a>{"internal_elb": true}</p>
 </li><li>disable_security_groups字段，布尔类型，普通租户可见。默认为false高性能通信场景下，允许指定为true普通租户可见。仅支持创建port和读取时指定。当前仅支持指定为true，不支持指定为false<p id="p19402030145658"><a name="p19402030145658"></a><a name="p19402030145658"></a>举例：</p>
 <p id="p40400544145658"><a name="p40400544145658"></a><a name="p40400544145658"></a>{"disable_security_groups"：true }，</p>
-<p id="p28060583145658"><a name="p28060583145658"></a><a name="p28060583145658"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS<span>功能不生效</span>。</p>
+<p id="p28060583145658"><a name="p28060583145658"></a><a name="p28060583145658"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS功能不生效。</p>
 </li></ul>
 <a name="ul51218659145658"></a><a name="ul51218659145658"></a>
 </td>

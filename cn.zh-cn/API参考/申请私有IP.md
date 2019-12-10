@@ -1,4 +1,4 @@
-# 申请私有IP<a name="ZH-CN_TOPIC_0201534219"></a>
+# 申请私有IP<a name="zh-cn_topic_0020090610"></a>
 
 ## 功能介绍<a name="section31644779"></a>
 
