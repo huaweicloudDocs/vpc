@@ -1,4 +1,4 @@
-# 安全组<a name="ZH-CN_TOPIC_0201534183"></a>
+# 安全组<a name="vpc_permission_0008"></a>
 
 <a name="table127217439395"></a>
 <table><thead align="left"><tr id="row3757114311393"><th class="cellrowborder" valign="top" width="36%" id="mcps1.1.5.1.1"><p id="p16757164323917"><a name="p16757164323917"></a><a name="p16757164323917"></a>API</p>

@@ -1,4 +1,4 @@
-# 查询端口列表<a name="ZH-CN_TOPIC_0201534107"></a>
+# 查询端口列表<a name="zh-cn_topic_0062207806"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0062207386_section66569185"></a>
 
@@ -176,7 +176,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 <p id="p1774284092111"><a name="p1774284092111"></a><a name="p1774284092111"></a>{"internal_elb": true}</p>
 </li><li>disable_security_groups字段，布尔类型，普通租户可见。默认为false高性能通信场景下，允许指定为true普通租户可见。仅支持创建port和读取时指定。当前仅支持指定为true，不支持指定为false<p id="p19402030145658"><a name="p19402030145658"></a><a name="p19402030145658"></a>举例：</p>
 <p id="p40400544145658"><a name="p40400544145658"></a><a name="p40400544145658"></a>{"disable_security_groups"：true }，</p>
-<p id="p28060583145658"><a name="p28060583145658"></a><a name="p28060583145658"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS<span>功能不生效</span>。</p>
+<p id="p28060583145658"><a name="p28060583145658"></a><a name="p28060583145658"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS功能不生效。</p>
 </li></ul>
 <a name="ul51218659145658"></a><a name="ul51218659145658"></a>
 </td>

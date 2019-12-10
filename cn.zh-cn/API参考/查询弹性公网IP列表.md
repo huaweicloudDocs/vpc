@@ -1,4 +1,4 @@
-# 查询弹性公网IP列表<a name="ZH-CN_TOPIC_0201534309"></a>
+# 查询弹性公网IP列表<a name="zh-cn_topic_0020090598"></a>
 
 ## 功能介绍<a name="section52618256"></a>
 

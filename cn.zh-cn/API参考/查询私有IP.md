@@ -1,4 +1,4 @@
-# 查询私有IP<a name="ZH-CN_TOPIC_0201534217"></a>
+# 查询私有IP<a name="zh-cn_topic_0020090611"></a>
 
 ## 功能介绍<a name="section9185002"></a>
 

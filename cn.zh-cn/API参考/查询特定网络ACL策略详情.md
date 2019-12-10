@@ -1,4 +1,4 @@
-# 查询特定网络ACL策略详情<a name="ZH-CN_TOPIC_0201534277"></a>
+# 查询特定网络ACL策略详情<a name="vpc_firewall_0007"></a>
 
 ## 功能介绍<a name="section915947313242"></a>
 

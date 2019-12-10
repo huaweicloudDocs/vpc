@@ -1,4 +1,4 @@
-# 查询安全组<a name="ZH-CN_TOPIC_0201534178"></a>
+# 查询安全组<a name="zh-cn_topic_0060595064"></a>
 
 ## 功能介绍<a name="section1170323616037"></a>
 
@@ -117,116 +117,116 @@ GET https://{Endpoint}/v2.0/security-groups?limit=2&marker=0431c9c5-1660-42e0-8a
 **表 3**  Security Group Rule对象
 
 <a name="table655457801607"></a>
-<table><thead align="left"><tr id="zh-cn_topic_0201534086_row54478641607"><th class="cellrowborder" valign="top" width="26.669999999999998%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0201534086_p389969021607"><a name="zh-cn_topic_0201534086_p389969021607"></a><a name="zh-cn_topic_0201534086_p389969021607"></a>属性</p>
+<table><thead align="left"><tr id="zh-cn_topic_0060595556_row54478641607"><th class="cellrowborder" valign="top" width="26.669999999999998%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0060595556_p389969021607"><a name="zh-cn_topic_0060595556_p389969021607"></a><a name="zh-cn_topic_0060595556_p389969021607"></a>属性</p>
 </th>
-<th class="cellrowborder" valign="top" width="23.330000000000002%" id="mcps1.2.4.1.2"><p id="zh-cn_topic_0201534086_p36789391607"><a name="zh-cn_topic_0201534086_p36789391607"></a><a name="zh-cn_topic_0201534086_p36789391607"></a>类型</p>
+<th class="cellrowborder" valign="top" width="23.330000000000002%" id="mcps1.2.4.1.2"><p id="zh-cn_topic_0060595556_p36789391607"><a name="zh-cn_topic_0060595556_p36789391607"></a><a name="zh-cn_topic_0060595556_p36789391607"></a>类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="50%" id="mcps1.2.4.1.3"><p id="zh-cn_topic_0201534086_p433861031607"><a name="zh-cn_topic_0201534086_p433861031607"></a><a name="zh-cn_topic_0201534086_p433861031607"></a>说明</p>
+<th class="cellrowborder" valign="top" width="50%" id="mcps1.2.4.1.3"><p id="zh-cn_topic_0060595556_p433861031607"><a name="zh-cn_topic_0060595556_p433861031607"></a><a name="zh-cn_topic_0060595556_p433861031607"></a>说明</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="zh-cn_topic_0201534086_row134774871607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p269083981607"><a name="zh-cn_topic_0201534086_p269083981607"></a><a name="zh-cn_topic_0201534086_p269083981607"></a>id</p>
+<tbody><tr id="zh-cn_topic_0060595556_row134774871607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p269083981607"><a name="zh-cn_topic_0060595556_p269083981607"></a><a name="zh-cn_topic_0060595556_p269083981607"></a>id</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p630670281607"><a name="zh-cn_topic_0201534086_p630670281607"></a><a name="zh-cn_topic_0201534086_p630670281607"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p630670281607"><a name="zh-cn_topic_0060595556_p630670281607"></a><a name="zh-cn_topic_0060595556_p630670281607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p334792201607"><a name="zh-cn_topic_0201534086_p334792201607"></a><a name="zh-cn_topic_0201534086_p334792201607"></a>安全组规则id</p>
-<p id="zh-cn_topic_0201534086_p529374054010"><a name="zh-cn_topic_0201534086_p529374054010"></a><a name="zh-cn_topic_0201534086_p529374054010"></a>使用说明：查询安全组规则非必选</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row250554771607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p254411021607"><a name="zh-cn_topic_0201534086_p254411021607"></a><a name="zh-cn_topic_0201534086_p254411021607"></a>description</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p505368621607"><a name="zh-cn_topic_0201534086_p505368621607"></a><a name="zh-cn_topic_0201534086_p505368621607"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p480145951607"><a name="zh-cn_topic_0201534086_p480145951607"></a><a name="zh-cn_topic_0201534086_p480145951607"></a>安全组规则描述</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p334792201607"><a name="zh-cn_topic_0060595556_p334792201607"></a><a name="zh-cn_topic_0060595556_p334792201607"></a>安全组规则id</p>
+<p id="zh-cn_topic_0060595556_p529374054010"><a name="zh-cn_topic_0060595556_p529374054010"></a><a name="zh-cn_topic_0060595556_p529374054010"></a>使用说明：查询安全组规则非必选</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row569401671607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p115724181607"><a name="zh-cn_topic_0201534086_p115724181607"></a><a name="zh-cn_topic_0201534086_p115724181607"></a>security_group_id</p>
+<tr id="zh-cn_topic_0060595556_row250554771607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p254411021607"><a name="zh-cn_topic_0060595556_p254411021607"></a><a name="zh-cn_topic_0060595556_p254411021607"></a>description</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p615991711607"><a name="zh-cn_topic_0201534086_p615991711607"></a><a name="zh-cn_topic_0201534086_p615991711607"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p505368621607"><a name="zh-cn_topic_0060595556_p505368621607"></a><a name="zh-cn_topic_0060595556_p505368621607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p587796621607"><a name="zh-cn_topic_0201534086_p587796621607"></a><a name="zh-cn_topic_0201534086_p587796621607"></a>所属安全组id</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row654332091607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p113008931607"><a name="zh-cn_topic_0201534086_p113008931607"></a><a name="zh-cn_topic_0201534086_p113008931607"></a>remote_group_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p170542961607"><a name="zh-cn_topic_0201534086_p170542961607"></a><a name="zh-cn_topic_0201534086_p170542961607"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p141218971607"><a name="zh-cn_topic_0201534086_p141218971607"></a><a name="zh-cn_topic_0201534086_p141218971607"></a>所属安全组的对端id</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p480145951607"><a name="zh-cn_topic_0060595556_p480145951607"></a><a name="zh-cn_topic_0060595556_p480145951607"></a>安全组规则描述</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row9932071607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p657989401607"><a name="zh-cn_topic_0201534086_p657989401607"></a><a name="zh-cn_topic_0201534086_p657989401607"></a>direction</p>
+<tr id="zh-cn_topic_0060595556_row569401671607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p115724181607"><a name="zh-cn_topic_0060595556_p115724181607"></a><a name="zh-cn_topic_0060595556_p115724181607"></a>security_group_id</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p507988391607"><a name="zh-cn_topic_0201534086_p507988391607"></a><a name="zh-cn_topic_0201534086_p507988391607"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p615991711607"><a name="zh-cn_topic_0060595556_p615991711607"></a><a name="zh-cn_topic_0060595556_p615991711607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p570991491607"><a name="zh-cn_topic_0201534086_p570991491607"></a><a name="zh-cn_topic_0201534086_p570991491607"></a>规则方向</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row97529031607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p478834691607"><a name="zh-cn_topic_0201534086_p478834691607"></a><a name="zh-cn_topic_0201534086_p478834691607"></a>remote_ip_prefix</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p622759951607"><a name="zh-cn_topic_0201534086_p622759951607"></a><a name="zh-cn_topic_0201534086_p622759951607"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p146708701607"><a name="zh-cn_topic_0201534086_p146708701607"></a><a name="zh-cn_topic_0201534086_p146708701607"></a>对端ip网段</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p587796621607"><a name="zh-cn_topic_0060595556_p587796621607"></a><a name="zh-cn_topic_0060595556_p587796621607"></a>所属安全组id</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row315033981607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p163656291607"><a name="zh-cn_topic_0201534086_p163656291607"></a><a name="zh-cn_topic_0201534086_p163656291607"></a>protocol</p>
+<tr id="zh-cn_topic_0060595556_row654332091607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p113008931607"><a name="zh-cn_topic_0060595556_p113008931607"></a><a name="zh-cn_topic_0060595556_p113008931607"></a>remote_group_id</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p628340441607"><a name="zh-cn_topic_0201534086_p628340441607"></a><a name="zh-cn_topic_0201534086_p628340441607"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p170542961607"><a name="zh-cn_topic_0060595556_p170542961607"></a><a name="zh-cn_topic_0060595556_p170542961607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p99902671607"><a name="zh-cn_topic_0201534086_p99902671607"></a><a name="zh-cn_topic_0201534086_p99902671607"></a>协议类型或直接指定IP协议号</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row551583771607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p97886331607"><a name="zh-cn_topic_0201534086_p97886331607"></a><a name="zh-cn_topic_0201534086_p97886331607"></a>port_range_max</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p343603851607"><a name="zh-cn_topic_0201534086_p343603851607"></a><a name="zh-cn_topic_0201534086_p343603851607"></a>Integer</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p188144701607"><a name="zh-cn_topic_0201534086_p188144701607"></a><a name="zh-cn_topic_0201534086_p188144701607"></a>最大端口，当协议类型为ICMP时，该值表示ICMP的code</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p141218971607"><a name="zh-cn_topic_0060595556_p141218971607"></a><a name="zh-cn_topic_0060595556_p141218971607"></a>所属安全组的对端id</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row456604071607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p630384091607"><a name="zh-cn_topic_0201534086_p630384091607"></a><a name="zh-cn_topic_0201534086_p630384091607"></a>port_range_min</p>
+<tr id="zh-cn_topic_0060595556_row9932071607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p657989401607"><a name="zh-cn_topic_0060595556_p657989401607"></a><a name="zh-cn_topic_0060595556_p657989401607"></a>direction</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p337362901607"><a name="zh-cn_topic_0201534086_p337362901607"></a><a name="zh-cn_topic_0201534086_p337362901607"></a>Integer</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p507988391607"><a name="zh-cn_topic_0060595556_p507988391607"></a><a name="zh-cn_topic_0060595556_p507988391607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p258562691607"><a name="zh-cn_topic_0201534086_p258562691607"></a><a name="zh-cn_topic_0201534086_p258562691607"></a>最小端口，当协议类型为ICMP时，该值表示ICMP的type。</p>
-<p id="zh-cn_topic_0201534086_p5690808615417"><a name="zh-cn_topic_0201534086_p5690808615417"></a><a name="zh-cn_topic_0201534086_p5690808615417"></a>protocol为tcp和udp时，port_range_max和port_range_min必须同时输入，且port_range_max应大于等于port_range_min。</p>
-<p id="zh-cn_topic_0201534086_p4241072615417"><a name="zh-cn_topic_0201534086_p4241072615417"></a><a name="zh-cn_topic_0201534086_p4241072615417"></a>protocol为icmp时，指定ICMP code（port_range_max）时，必须同时指定ICMP type（port_range_min）。</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p570991491607"><a name="zh-cn_topic_0060595556_p570991491607"></a><a name="zh-cn_topic_0060595556_p570991491607"></a>规则方向</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row360773491607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p364292801607"><a name="zh-cn_topic_0201534086_p364292801607"></a><a name="zh-cn_topic_0201534086_p364292801607"></a>ethertype</p>
+<tr id="zh-cn_topic_0060595556_row97529031607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p478834691607"><a name="zh-cn_topic_0060595556_p478834691607"></a><a name="zh-cn_topic_0060595556_p478834691607"></a>remote_ip_prefix</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p339523071607"><a name="zh-cn_topic_0201534086_p339523071607"></a><a name="zh-cn_topic_0201534086_p339523071607"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p622759951607"><a name="zh-cn_topic_0060595556_p622759951607"></a><a name="zh-cn_topic_0060595556_p622759951607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p34728681607"><a name="zh-cn_topic_0201534086_p34728681607"></a><a name="zh-cn_topic_0201534086_p34728681607"></a>网络类型</p>
-<p id="zh-cn_topic_0201534086_p568898621607"><a name="zh-cn_topic_0201534086_p568898621607"></a><a name="zh-cn_topic_0201534086_p568898621607"></a>仅支持IPv4</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row532124261607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p593368391607"><a name="zh-cn_topic_0201534086_p593368391607"></a><a name="zh-cn_topic_0201534086_p593368391607"></a>tenant_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p130282191607"><a name="zh-cn_topic_0201534086_p130282191607"></a><a name="zh-cn_topic_0201534086_p130282191607"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p10487112"><a name="zh-cn_topic_0201534086_p10487112"></a><a name="zh-cn_topic_0201534086_p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p146708701607"><a name="zh-cn_topic_0060595556_p146708701607"></a><a name="zh-cn_topic_0060595556_p146708701607"></a>对端ip网段</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row11992111863317"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p169261732143314"><a name="zh-cn_topic_0201534086_p169261732143314"></a><a name="zh-cn_topic_0201534086_p169261732143314"></a>project_id</p>
+<tr id="zh-cn_topic_0060595556_row315033981607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p163656291607"><a name="zh-cn_topic_0060595556_p163656291607"></a><a name="zh-cn_topic_0060595556_p163656291607"></a>protocol</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p69311132153317"><a name="zh-cn_topic_0201534086_p69311132153317"></a><a name="zh-cn_topic_0201534086_p69311132153317"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p628340441607"><a name="zh-cn_topic_0060595556_p628340441607"></a><a name="zh-cn_topic_0060595556_p628340441607"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p13646103310"><a name="zh-cn_topic_0201534086_p13646103310"></a><a name="zh-cn_topic_0201534086_p13646103310"></a>项目ID</p>
-</td>
-</tr>
-<tr id="zh-cn_topic_0201534086_row10903153923318"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p6634195714335"><a name="zh-cn_topic_0201534086_p6634195714335"></a><a name="zh-cn_topic_0201534086_p6634195714335"></a>created_at</p>
-</td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p12638157153319"><a name="zh-cn_topic_0201534086_p12638157153319"></a><a name="zh-cn_topic_0201534086_p12638157153319"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p1364635713332"><a name="zh-cn_topic_0201534086_p1364635713332"></a><a name="zh-cn_topic_0201534086_p1364635713332"></a>资源创建时间，UTC时间</p>
-<p id="zh-cn_topic_0201534086_p65980291419"><a name="zh-cn_topic_0201534086_p65980291419"></a><a name="zh-cn_topic_0201534086_p65980291419"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p99902671607"><a name="zh-cn_topic_0060595556_p99902671607"></a><a name="zh-cn_topic_0060595556_p99902671607"></a>协议类型或直接指定IP协议号</p>
 </td>
 </tr>
-<tr id="zh-cn_topic_0201534086_row1797311427338"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0201534086_p1725445103416"><a name="zh-cn_topic_0201534086_p1725445103416"></a><a name="zh-cn_topic_0201534086_p1725445103416"></a>updated_at</p>
+<tr id="zh-cn_topic_0060595556_row551583771607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p97886331607"><a name="zh-cn_topic_0060595556_p97886331607"></a><a name="zh-cn_topic_0060595556_p97886331607"></a>port_range_max</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534086_p192601514345"><a name="zh-cn_topic_0201534086_p192601514345"></a><a name="zh-cn_topic_0201534086_p192601514345"></a>String</p>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p343603851607"><a name="zh-cn_topic_0060595556_p343603851607"></a><a name="zh-cn_topic_0060595556_p343603851607"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0201534086_p1127018513343"><a name="zh-cn_topic_0201534086_p1127018513343"></a><a name="zh-cn_topic_0201534086_p1127018513343"></a>资源更新时间，UTC时间</p>
-<p id="zh-cn_topic_0201534086_p19850105451210"><a name="zh-cn_topic_0201534086_p19850105451210"></a><a name="zh-cn_topic_0201534086_p19850105451210"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p188144701607"><a name="zh-cn_topic_0060595556_p188144701607"></a><a name="zh-cn_topic_0060595556_p188144701607"></a>最大端口，当协议类型为ICMP时，该值表示ICMP的code</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row456604071607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p630384091607"><a name="zh-cn_topic_0060595556_p630384091607"></a><a name="zh-cn_topic_0060595556_p630384091607"></a>port_range_min</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p337362901607"><a name="zh-cn_topic_0060595556_p337362901607"></a><a name="zh-cn_topic_0060595556_p337362901607"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p258562691607"><a name="zh-cn_topic_0060595556_p258562691607"></a><a name="zh-cn_topic_0060595556_p258562691607"></a>最小端口，当协议类型为ICMP时，该值表示ICMP的type。</p>
+<p id="zh-cn_topic_0060595556_p5690808615417"><a name="zh-cn_topic_0060595556_p5690808615417"></a><a name="zh-cn_topic_0060595556_p5690808615417"></a>protocol为tcp和udp时，port_range_max和port_range_min必须同时输入，且port_range_max应大于等于port_range_min。</p>
+<p id="zh-cn_topic_0060595556_p4241072615417"><a name="zh-cn_topic_0060595556_p4241072615417"></a><a name="zh-cn_topic_0060595556_p4241072615417"></a>protocol为icmp时，指定ICMP code（port_range_max）时，必须同时指定ICMP type（port_range_min）。</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row360773491607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p364292801607"><a name="zh-cn_topic_0060595556_p364292801607"></a><a name="zh-cn_topic_0060595556_p364292801607"></a>ethertype</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p339523071607"><a name="zh-cn_topic_0060595556_p339523071607"></a><a name="zh-cn_topic_0060595556_p339523071607"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p34728681607"><a name="zh-cn_topic_0060595556_p34728681607"></a><a name="zh-cn_topic_0060595556_p34728681607"></a>网络类型</p>
+<p id="zh-cn_topic_0060595556_p568898621607"><a name="zh-cn_topic_0060595556_p568898621607"></a><a name="zh-cn_topic_0060595556_p568898621607"></a>仅支持IPv4</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row532124261607"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p593368391607"><a name="zh-cn_topic_0060595556_p593368391607"></a><a name="zh-cn_topic_0060595556_p593368391607"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p130282191607"><a name="zh-cn_topic_0060595556_p130282191607"></a><a name="zh-cn_topic_0060595556_p130282191607"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p10487112"><a name="zh-cn_topic_0060595556_p10487112"></a><a name="zh-cn_topic_0060595556_p10487112"></a>项目ID</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row11992111863317"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p169261732143314"><a name="zh-cn_topic_0060595556_p169261732143314"></a><a name="zh-cn_topic_0060595556_p169261732143314"></a>project_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p69311132153317"><a name="zh-cn_topic_0060595556_p69311132153317"></a><a name="zh-cn_topic_0060595556_p69311132153317"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p13646103310"><a name="zh-cn_topic_0060595556_p13646103310"></a><a name="zh-cn_topic_0060595556_p13646103310"></a>项目ID</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row10903153923318"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p6634195714335"><a name="zh-cn_topic_0060595556_p6634195714335"></a><a name="zh-cn_topic_0060595556_p6634195714335"></a>created_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p12638157153319"><a name="zh-cn_topic_0060595556_p12638157153319"></a><a name="zh-cn_topic_0060595556_p12638157153319"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p1364635713332"><a name="zh-cn_topic_0060595556_p1364635713332"></a><a name="zh-cn_topic_0060595556_p1364635713332"></a>资源创建时间，UTC时间</p>
+<p id="zh-cn_topic_0060595556_p65980291419"><a name="zh-cn_topic_0060595556_p65980291419"></a><a name="zh-cn_topic_0060595556_p65980291419"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
+<tr id="zh-cn_topic_0060595556_row1797311427338"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0060595556_p1725445103416"><a name="zh-cn_topic_0060595556_p1725445103416"></a><a name="zh-cn_topic_0060595556_p1725445103416"></a>updated_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0060595556_p192601514345"><a name="zh-cn_topic_0060595556_p192601514345"></a><a name="zh-cn_topic_0060595556_p192601514345"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0060595556_p1127018513343"><a name="zh-cn_topic_0060595556_p1127018513343"></a><a name="zh-cn_topic_0060595556_p1127018513343"></a>资源更新时间，UTC时间</p>
+<p id="zh-cn_topic_0060595556_p19850105451210"><a name="zh-cn_topic_0060595556_p19850105451210"></a><a name="zh-cn_topic_0060595556_p19850105451210"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
 </td>
 </tr>
 </tbody>

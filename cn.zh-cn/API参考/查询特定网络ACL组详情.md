@@ -1,4 +1,4 @@
-# 查询特定网络ACL组详情<a name="ZH-CN_TOPIC_0201534254"></a>
+# 查询特定网络ACL组详情<a name="vpc_firewall_0014"></a>
 
 ## 功能介绍<a name="section39340300132713"></a>
 

@@ -1,4 +1,4 @@
-# 创建VPC路由<a name="ZH-CN_TOPIC_0201534174"></a>
+# 创建VPC路由<a name="zh-cn_topic_0075677494"></a>
 
 ## 功能介绍<a name="section47901846151217"></a>
 

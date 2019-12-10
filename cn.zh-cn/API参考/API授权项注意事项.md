@@ -1,4 +1,4 @@
-# API授权项注意事项<a name="ZH-CN_TOPIC_0201534058"></a>
+# API授权项注意事项<a name="vpc_permission_0017"></a>
 
 目前此功能仅对华东、华南、华北区域开放。
 

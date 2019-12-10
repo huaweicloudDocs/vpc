@@ -1,8 +1,8 @@
-# VPC子网接口与OpenStack Neutron子网接口的区别是什么？<a name="ZH-CN_TOPIC_0201534295"></a>
+# VPC子网接口与OpenStack Neutron子网接口的区别是什么？<a name="vpc_api_0005"></a>
 
 ## 两者区别<a name="section1965810513426"></a>
 
-子网接口分为[VPC子网](子网.md)接口、[OpenStack Neutron子网](子网-title-openstack.md)接口两种。两者均可以正常创建、查询、更新、删除子网。
+子网接口分为[VPC子网](子网.md)接口、[OpenStack Neutron子网](子网-1.md)接口两种。两者均可以正常创建、查询、更新、删除子网。
 
 两者的区别及容易混淆的地方在于网络ID、子网ID两个参数的含义。
 

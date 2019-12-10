@@ -1,4 +1,4 @@
-# 查询安全组规则<a name="ZH-CN_TOPIC_0201534086"></a>
+# 查询安全组规则<a name="zh-cn_topic_0060595556"></a>
 
 ## 功能介绍<a name="section6306987516218"></a>
 
