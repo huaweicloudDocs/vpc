@@ -1,4 +1,4 @@
-# 删除VPC<a name="ZH-CN_TOPIC_0020090627"></a>
+# 删除VPC<a name="ZH-CN_TOPIC_0201534126"></a>
 
 ## 功能介绍<a name="section15422169"></a>
 
@@ -7,6 +7,8 @@
 ## URI<a name="section4581796"></a>
 
 DELETE /v1/\{project\_id\}/vpcs/\{vpc\_id\}
+
+参数说明请参见[表1](#table47834478)。
 
 **表 1**  参数说明
 
@@ -23,7 +25,7 @@ DELETE /v1/\{project\_id\}/vpcs/\{vpc\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4700647"><a name="p4700647"></a><a name="p4700647"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p45208163"><a name="p45208163"></a><a name="p45208163"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row4220283"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p6298672"><a name="p6298672"></a><a name="p6298672"></a>vpc_id</p>
@@ -44,7 +46,9 @@ DELETE /v1/\{project\_id\}/vpcs/\{vpc\_id\}
 
 -   请求样例
 
-    无
+    ```
+    DELETE https://{Endpoint}/v1/{project_id}/vpcs/13551d6b-755d-4757-b956-536f674975c0
+    ```
 
 
 ## 响应消息<a name="section35581233"></a>

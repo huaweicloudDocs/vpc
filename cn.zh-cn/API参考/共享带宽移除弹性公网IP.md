@@ -1,4 +1,4 @@
-# 共享带宽移除弹性公网IP<a name="ZH-CN_TOPIC_0106971322"></a>
+# 共享带宽移除弹性公网IP<a name="ZH-CN_TOPIC_0201534216"></a>
 
 ## 功能介绍<a name="section16581154"></a>
 
@@ -7,6 +7,8 @@
 ## URI<a name="section15012662"></a>
 
 POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
+
+参数说明请参见[表1](#table25281875)。
 
 **表 1**  参数说明
 
@@ -23,7 +25,7 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p18100201"><a name="p18100201"></a><a name="p18100201"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p56830139"><a name="p56830139"></a><a name="p56830139"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row41709209"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p23002745"><a name="p23002745"></a><a name="p23002745"></a>bandwidth_id</p>
@@ -40,30 +42,32 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
 
 -   请求参数
 
+    **表 2**  请求参数
+
     <a name="table3057854815556"></a>
-    <table><thead align="left"><tr id="row6286666315556"><th class="cellrowborder" valign="top" width="15.409999999999998%" id="mcps1.1.5.1.1"><p id="p5903494715556"><a name="p5903494715556"></a><a name="p5903494715556"></a>名称</p>
+    <table><thead align="left"><tr id="row6286666315556"><th class="cellrowborder" valign="top" width="15.409999999999998%" id="mcps1.2.5.1.1"><p id="p5903494715556"><a name="p5903494715556"></a><a name="p5903494715556"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="15.98%" id="mcps1.1.5.1.2"><p id="p1710139915556"><a name="p1710139915556"></a><a name="p1710139915556"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="15.98%" id="mcps1.2.5.1.2"><p id="p1710139915556"><a name="p1710139915556"></a><a name="p1710139915556"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="21.43%" id="mcps1.1.5.1.3"><p id="p4303610815556"><a name="p4303610815556"></a><a name="p4303610815556"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="21.43%" id="mcps1.2.5.1.3"><p id="p4303610815556"><a name="p4303610815556"></a><a name="p4303610815556"></a>参数类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="47.18%" id="mcps1.1.5.1.4"><p id="p6337274615556"><a name="p6337274615556"></a><a name="p6337274615556"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="47.18%" id="mcps1.2.5.1.4"><p id="p6337274615556"><a name="p6337274615556"></a><a name="p6337274615556"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row3291877615556"><td class="cellrowborder" valign="top" width="15.409999999999998%" headers="mcps1.1.5.1.1 "><p id="p4917516615556"><a name="p4917516615556"></a><a name="p4917516615556"></a>bandwidth</p>
+    <tbody><tr id="row3291877615556"><td class="cellrowborder" valign="top" width="15.409999999999998%" headers="mcps1.2.5.1.1 "><p id="p4917516615556"><a name="p4917516615556"></a><a name="p4917516615556"></a>bandwidth</p>
     </td>
-    <td class="cellrowborder" valign="top" width="15.98%" headers="mcps1.1.5.1.2 "><p id="p2376550915556"><a name="p2376550915556"></a><a name="p2376550915556"></a>是</p>
+    <td class="cellrowborder" valign="top" width="15.98%" headers="mcps1.2.5.1.2 "><p id="p2376550915556"><a name="p2376550915556"></a><a name="p2376550915556"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="21.43%" headers="mcps1.1.5.1.3 "><p id="p4595806815556"><a name="p4595806815556"></a><a name="p4595806815556"></a>字典数据结构</p>
+    <td class="cellrowborder" valign="top" width="21.43%" headers="mcps1.2.5.1.3 "><p id="p4595806815556"><a name="p4595806815556"></a><a name="p4595806815556"></a>Object</p>
     </td>
-    <td class="cellrowborder" valign="top" width="47.18%" headers="mcps1.1.5.1.4 "><p id="p1610901815556"><a name="p1610901815556"></a><a name="p1610901815556"></a>带宽对象</p>
+    <td class="cellrowborder" valign="top" width="47.18%" headers="mcps1.2.5.1.4 "><p id="p1610901815556"><a name="p1610901815556"></a><a name="p1610901815556"></a>带宽对象，请参见<a href="#table31854691">表3</a>。</p>
     </td>
     </tr>
     </tbody>
     </table>
 
-    **表 2**  bandwidth字段说明
+    **表 3**  bandwidth字段说明
 
     <a name="table31854691"></a>
     <table><thead align="left"><tr id="row6882862"><th class="cellrowborder" valign="top" width="13.350000000000001%" id="mcps1.2.5.1.1"><p id="p20640979"><a name="p20640979"></a><a name="p20640979"></a>名称</p>
@@ -80,9 +84,9 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
     </td>
     <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.2 "><p id="p24722347"><a name="p24722347"></a><a name="p24722347"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.3 "><p id="p18599757172316"><a name="p18599757172316"></a><a name="p18599757172316"></a>字典数据结构</p>
+    <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.3 "><p id="p18599757172316"><a name="p18599757172316"></a><a name="p18599757172316"></a>Array of <a href="#table30936422">publicip_info</a> objects</p>
     </td>
-    <td class="cellrowborder" valign="top" width="58.830000000000005%" headers="mcps1.2.5.1.4 "><a name="ul290995117818"></a><a name="ul290995117818"></a><ul id="ul290995117818"><li>功能说明：要从共享带宽中移除的弹性公网IP信息</li><li>约束：WHOLE类型的带宽支持多个弹性公网IP，跟租户的配额相关，默认一个共享带宽可以放置20个弹性公网IP</li></ul>
+    <td class="cellrowborder" valign="top" width="58.830000000000005%" headers="mcps1.2.5.1.4 "><a name="ul290995117818"></a><a name="ul290995117818"></a><ul id="ul290995117818"><li>功能说明：要从共享带宽中移除的弹性公网IP信息，请参见<a href="#table30936422">表4</a>。</li><li>约束：WHOLE类型的带宽支持多个弹性公网IP，跟租户的配额相关，默认一个共享带宽的配额为20。</li></ul>
     </td>
     </tr>
     <tr id="row193703372412"><td class="cellrowborder" valign="top" width="13.350000000000001%" headers="mcps1.2.5.1.1 "><p id="p183711037154117"><a name="p183711037154117"></a><a name="p183711037154117"></a>charge_mode</p>
@@ -100,7 +104,7 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
     </td>
     <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.2 "><p id="p1525210418416"><a name="p1525210418416"></a><a name="p1525210418416"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.3 "><p id="p7252164114118"><a name="p7252164114118"></a><a name="p7252164114118"></a>int</p>
+    <td class="cellrowborder" valign="top" width="13.91%" headers="mcps1.2.5.1.3 "><p id="p7252164114118"><a name="p7252164114118"></a><a name="p7252164114118"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="58.830000000000005%" headers="mcps1.2.5.1.4 "><p id="p42481825142019"><a name="p42481825142019"></a><a name="p42481825142019"></a>弹性公网IP从共享带宽移除后，会为此弹性公网IP创建独占带宽进行计费。</p>
     <p id="p16249725152011"><a name="p16249725152011"></a><a name="p16249725152011"></a>此参数表示弹性公网IP从共享带宽移除后，使用的独占带宽的带宽大小。（M）</p>
@@ -110,22 +114,26 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
     </tbody>
     </table>
 
-    **表 3**  publicip\_info对象
+    **表 4**  publicip\_info对象
 
     <a name="table30936422"></a>
-    <table><thead align="left"><tr id="row17161430"><th class="cellrowborder" valign="top" width="25.740000000000002%" id="mcps1.2.4.1.1"><p id="p47898561"><a name="p47898561"></a><a name="p47898561"></a>名称</p>
+    <table><thead align="left"><tr id="row17161430"><th class="cellrowborder" valign="top" width="13.3%" id="mcps1.2.5.1.1"><p id="p47898561"><a name="p47898561"></a><a name="p47898561"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="20.5%" id="mcps1.2.4.1.2"><p id="p2828296517154"><a name="p2828296517154"></a><a name="p2828296517154"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="18.02%" id="mcps1.2.5.1.2"><p id="p157089251981"><a name="p157089251981"></a><a name="p157089251981"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="53.76%" id="mcps1.2.4.1.3"><p id="p58761073"><a name="p58761073"></a><a name="p58761073"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="18.96%" id="mcps1.2.5.1.3"><p id="p2828296517154"><a name="p2828296517154"></a><a name="p2828296517154"></a>参数类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="49.72%" id="mcps1.2.5.1.4"><p id="p58761073"><a name="p58761073"></a><a name="p58761073"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row62026502"><td class="cellrowborder" valign="top" width="25.740000000000002%" headers="mcps1.2.4.1.1 "><p id="p58090788"><a name="p58090788"></a><a name="p58090788"></a>publicip_id</p>
+    <tbody><tr id="row62026502"><td class="cellrowborder" valign="top" width="13.3%" headers="mcps1.2.5.1.1 "><p id="p58090788"><a name="p58090788"></a><a name="p58090788"></a>publicip_id</p>
     </td>
-    <td class="cellrowborder" valign="top" width="20.5%" headers="mcps1.2.4.1.2 "><p id="p921881117154"><a name="p921881117154"></a><a name="p921881117154"></a>String</p>
+    <td class="cellrowborder" valign="top" width="18.02%" headers="mcps1.2.5.1.2 "><p id="p10708102514810"><a name="p10708102514810"></a><a name="p10708102514810"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="53.76%" headers="mcps1.2.4.1.3 "><p id="p476380"><a name="p476380"></a><a name="p476380"></a>带宽对应的弹性公网IP的唯一标识</p>
+    <td class="cellrowborder" valign="top" width="18.96%" headers="mcps1.2.5.1.3 "><p id="p921881117154"><a name="p921881117154"></a><a name="p921881117154"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="49.72%" headers="mcps1.2.5.1.4 "><p id="p476380"><a name="p476380"></a><a name="p476380"></a>带宽对应的弹性公网IP的唯一标识</p>
     </td>
     </tr>
     </tbody>
@@ -135,11 +143,14 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
 -   请求样例
 
     ```
+    POST https://{Endpoint}/v2.0/{project_id}/bandwidths/{bandwidth_id}/remove
+    
     {
         "bandwidth": {
             "publicip_info": [
                 {
                     "publicip_id": "d91b0028-6f6b-4478-808a-297b75b6812a"
+     
                 },
                 {
                     "publicip_id": "1d184b2c-4ec9-49b5-a3f9-27600a76ba3f"

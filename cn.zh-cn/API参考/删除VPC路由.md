@@ -1,4 +1,4 @@
-# 删除VPC路由<a name="ZH-CN_TOPIC_0075677495"></a>
+# 删除VPC路由<a name="ZH-CN_TOPIC_0201534266"></a>
 
 ## 功能介绍<a name="section15434138101319"></a>
 
@@ -7,6 +7,8 @@
 ## URI<a name="section1043510881320"></a>
 
 DELETE /v2.0/vpc/routes/\{route\_id\}
+
+参数说明请参见[表1](#table18880184689)。
 
 **表 1**  参数说明
 
@@ -43,7 +45,7 @@ DELETE /v2.0/vpc/routes/\{route\_id\}
 -   请求样例
 
     ```
-    DELETE /v2.0/vpc/routes/60c809cb-6731-45d0-ace8-3bf5626421a9
+    DELETE https://{Endpoint}/v2.0/vpc/routes/60c809cb-6731-45d0-ace8-3bf5626421a9
     ```
 
 
@@ -62,4 +64,8 @@ DELETE /v2.0/vpc/routes/\{route\_id\}
 ## 状态码<a name="section31981619"></a>
 
 请参见[状态码](状态码.md)。
+
+## 错误码<a name="section85821649202813"></a>
+
+请参考[错误码](错误码.md)。
 

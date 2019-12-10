@@ -1,4 +1,4 @@
-# 删除私有IP<a name="ZH-CN_TOPIC_0020090613"></a>
+# 删除私有IP<a name="ZH-CN_TOPIC_0201534084"></a>
 
 ## 功能介绍<a name="section1933992"></a>
 
@@ -7,6 +7,8 @@
 ## URI<a name="section17405935"></a>
 
 DELETE /v1/\{project\_id\}/privateips/\{privateip\_id\}
+
+参数说明请参见[表1](#table24633528)。
 
 **表 1**  参数说明
 
@@ -23,7 +25,7 @@ DELETE /v1/\{project\_id\}/privateips/\{privateip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p16988543"><a name="p16988543"></a><a name="p16988543"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p33894731"><a name="p33894731"></a><a name="p33894731"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row36617123"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p13196948"><a name="p13196948"></a><a name="p13196948"></a>privateip_id</p>
@@ -44,7 +46,9 @@ DELETE /v1/\{project\_id\}/privateips/\{privateip\_id\}
 
 -   请求样例
 
-    无
+    ```
+    DELETE https://{Endpoint}/v1/{project_id}/privateips/4779ab1c-7c1a-44b1-a02e-93dfc361b32d
+    ```
 
 
 ## 响应消息<a name="section594640"></a>
@@ -63,4 +67,8 @@ DELETE /v1/\{project\_id\}/privateips/\{privateip\_id\}
 ## 状态码<a name="section31981619"></a>
 
 请参见[状态码](状态码.md)。
+
+## 错误码<a name="section85821649202813"></a>
+
+请参考[错误码](错误码.md)。
 

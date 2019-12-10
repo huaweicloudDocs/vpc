@@ -1,4 +1,4 @@
-# 删除安全组规则<a name="ZH-CN_TOPIC_0060595559"></a>
+# 删除安全组规则<a name="ZH-CN_TOPIC_0201534135"></a>
 
 ## 功能介绍<a name="section3752875416336"></a>
 
@@ -21,7 +21,7 @@ DELETE /v2.0/security-group-rules/\{security\_groups\_rules\_id\}
 请求样例
 
 ```
-DELETE /v2.0/security-group-rules/07adc044-3f21-4eeb-bd57-5e5eb6024b7f
+DELETE https://{Endpoint}/v2.0/security-group-rules/07adc044-3f21-4eeb-bd57-5e5eb6024b7f
 ```
 
 响应样例
@@ -31,4 +31,8 @@ DELETE /v2.0/security-group-rules/07adc044-3f21-4eeb-bd57-5e5eb6024b7f
 ## 状态码<a name="section10470352390"></a>
 
 请参见[状态码](状态码.md)。
+
+## 错误码<a name="section85821649202813"></a>
+
+请参见[错误码](错误码.md)。
 
