@@ -1,18 +1,25 @@
-# API参考
+# 虚拟私有云接口参考-在用
 
--   [使用前必读](使用前必读.md)
--   [接口简介](接口简介.md)
--   [环境准备]
-    -   [获取请求认证](获取请求认证.md)
-    -   [获取项目ID](获取项目ID.md)
+-   [使用前必读]
+    -   [概述](概述.md)
+    -   [调用说明](调用说明.md)
+    -   [终端节点](终端节点.md)
+    -   [约束限制](约束限制.md)
+    -   [基本概念](基本概念.md)
+    -   [API版本选择建议](API版本选择建议.md)
 
--   [接口使用方法]
-    -   [REST API介绍](REST-API介绍.md)
-    -   [示例](示例.md)
+-   [API概览]
+-   [如何调用API]
+    -   [构造请求](构造请求.md)
+    -   [认证鉴权](认证鉴权.md)
+    -   [返回结果](返回结果.md)
+
+-   [快速入门]
+    -   [创建VPC](创建VPC.md)
 
 -   [API]
     -   [VPC]
-        -   [创建VPC](创建VPC.md)
+        -   [创建VPC](vpc-创建VPC.md)
         -   [查询VPC](查询VPC.md)
         -   [查询VPC列表](查询VPC列表.md)
         -   [更新VPC](更新VPC.md)
@@ -44,6 +51,7 @@
         -   [删除共享带宽](删除共享带宽.md)
         -   [共享带宽插入弹性公网IP](共享带宽插入弹性公网IP.md)
         -   [共享带宽移除弹性公网IP](共享带宽移除弹性公网IP.md)
+        -   [更新包周期带宽](更新包周期带宽.md)
 
     -   [配额]
         -   [查询配额](查询配额.md)
@@ -64,6 +72,13 @@
         -   [查询安全组规则列表](查询安全组规则列表.md)
         -   [删除安全组规则](删除安全组规则.md)
 
+    -   [端口（废弃）]
+        -   [创建端口（废弃）](创建端口（废弃）.md)
+        -   [查询端口（废弃）](查询端口（废弃）.md)
+        -   [查询端口列表（废弃）](查询端口列表（废弃）.md)
+        -   [更新端口（废弃）](更新端口（废弃）.md)
+        -   [删除端口（废弃）](删除端口（废弃）.md)
+
     -   [端口]
         -   [创建端口](创建端口.md)
         -   [查询端口](查询端口.md)
@@ -72,7 +87,6 @@
         -   [删除端口](删除端口.md)
 
     -   [对等连接]
-        -   [对等连接API简介](对等连接API简介.md)
         -   [查询对等连接列表](查询对等连接列表.md)
         -   [查询对等连接](查询对等连接.md)
         -   [创建对等连接](创建对等连接.md)
@@ -82,11 +96,22 @@
         -   [删除对等连接](删除对等连接.md)
 
     -   [VPC路由]
-        -   [VPC路由API简介](VPC路由API简介.md)
         -   [查询VPC路由列表](查询VPC路由列表.md)
         -   [查询VPC路由](查询VPC路由.md)
         -   [创建VPC路由](创建VPC路由.md)
         -   [删除VPC路由](删除VPC路由.md)
+
+    -   [查询网络IP使用情况]
+        -   [查询网络IP使用情况](6-查询网络IP使用情况.md)
+
+    -   [虚拟IP接口操作指导]
+        -   [虚拟IP简介](虚拟IP简介.md)
+        -   [云服务器绑定虚拟IP](云服务器绑定虚拟IP.md)
+        -   [弹性公网IP访问虚拟IP](弹性公网IP访问虚拟IP.md)
+        -   [通过VPN访问虚拟IP](通过VPN访问虚拟IP.md)
+        -   [通过云专线访问虚拟IP](通过云专线访问虚拟IP.md)
+        -   [通过对等连接访问虚拟IP](通过对等连接访问虚拟IP.md)
+        -   [关闭源和目的检查（适用于高可用负载均衡集群场景）](关闭源和目的检查（适用于高可用负载均衡集群场景）.md)
 
 
 -   [OpenStack Neutron API]
@@ -95,76 +120,69 @@
         -   [分页查询](分页查询.md)
 
     -   [端口]
-        -   [端口API简介](端口API简介-OpenStack.md)
-        -   [查询端口列表](查询端口列表-OpenStack.md)
-        -   [查询端口](查询端口-OpenStack.md)
-        -   [创建端口](创建端口-OpenStack.md)
-        -   [更新端口](更新端口-OpenStack.md)
-        -   [删除端口](删除端口-OpenStack.md)
+        -   [查询端口列表](查询端口列表-openstack.md)
+        -   [查询端口](查询端口-openstack.md)
+        -   [创建端口](创建端口-openstack.md)
+        -   [更新端口](更新端口-openstack.md)
+        -   [删除端口](删除端口-openstack.md)
 
     -   [网络]
-        -   [网络API简介](网络API简介-OpenStack.md)
-        -   [查询网络列表](查询网络列表-OpenStack.md)
-        -   [查询网络](查询网络-OpenStack.md)
-        -   [创建网络](创建网络-OpenStack.md)
-        -   [更新网络](更新网络-OpenStack.md)
-        -   [删除网络](删除网络-OpenStack.md)
+        -   [查询网络列表](查询网络列表.md)
+        -   [查询网络](查询网络.md)
+        -   [创建网络](创建网络.md)
+        -   [更新网络](更新网络.md)
+        -   [删除网络](删除网络.md)
 
     -   [子网]
-        -   [子网API简介](子网API简介-OpenStack.md)
-        -   [查询子网列表](查询子网列表-OpenStack.md)
-        -   [查询子网](查询子网-OpenStack.md)
-        -   [创建子网](创建子网-OpenStack.md)
-        -   [更新子网](更新子网-OpenStack.md)
-        -   [删除子网](删除子网-OpenStack.md)
+        -   [查询子网列表](查询子网列表-openstack.md)
+        -   [查询子网](查询子网-openstack.md)
+        -   [创建子网](创建子网-openstack.md)
+        -   [更新子网](更新子网-openstack.md)
+        -   [删除子网](删除子网-openstack.md)
 
     -   [路由器]
-        -   [路由器API简介](路由器API简介-OpenStack.md)
-        -   [查询路由器列表](查询路由器列表-OpenStack.md)
-        -   [查询路由器](查询路由器-OpenStack.md)
-        -   [创建路由器](创建路由器-OpenStack.md)
-        -   [更新路由器](更新路由器-OpenStack.md)
-        -   [删除路由器](删除路由器-OpenStack.md)
-        -   [路由器添加接口](路由器添加接口-OpenStack.md)
-        -   [路由器删除接口](路由器删除接口-OpenStack.md)
+        -   [查询路由器列表](查询路由器列表.md)
+        -   [查询路由器](查询路由器.md)
+        -   [创建路由器](创建路由器.md)
+        -   [更新路由器](更新路由器.md)
+        -   [删除路由器](删除路由器.md)
+        -   [路由器添加接口](路由器添加接口.md)
+        -   [路由器删除接口](路由器删除接口.md)
 
     -   [浮动IP]
-        -   [浮动IP API简介](浮动IP-API简介-OpenStack.md)
-        -   [查询浮动IP列表](查询浮动IP列表-OpenStack.md)
-        -   [查询浮动IP](查询浮动IP-OpenStack.md)
-        -   [创建浮动IP](创建浮动IP-OpenStack.md)
-        -   [更新浮动IP](更新浮动IP-OpenStack.md)
-        -   [删除浮动IP](删除浮动IP-OpenStack.md)
+        -   [查询浮动IP列表](查询浮动IP列表.md)
+        -   [查询浮动IP](查询浮动IP.md)
+        -   [创建浮动IP](创建浮动IP.md)
+        -   [更新浮动IP](更新浮动IP.md)
+        -   [删除浮动IP](删除浮动IP.md)
 
     -   [网络ACL]
-        -   [网络ACLAPI简介](网络ACL简介-OpenStack.md)
-        -   [查询所有网络ACL规则](查询所有网络ACL规则-OpenStack.md)
-        -   [查询特定网络ACL规则](查询特定网络ACL规则-OpenStack.md)
-        -   [创建网络ACL规则](创建网络ACL规则-OpenStack.md)
-        -   [更新网络ACL规则](更新网络ACL规则-OpenStack.md)
-        -   [删除网络ACL规则](删除网络ACL规则-OpenStack.md)
-        -   [查询所有网络ACL策略](查询所有网络ACL策略-OpenStack.md)
-        -   [查询特定网络ACL策略详情](查询特定网络ACL策略详情-OpenStack.md)
-        -   [创建网络ACL策略](创建网络ACL策略-OpenStack.md)
-        -   [更新网络ACL策略](更新网络ACL策略-OpenStack.md)
-        -   [删除网络ACL策略](删除网络ACL策略-OpenStack.md)
-        -   [插入网络ACL规则](插入网络ACL规则-OpenStack.md)
-        -   [移除网络ACL规则](移除网络ACL规则-OpenStack.md)
-        -   [查询所有网络ACL组](查询所有网络ACL组-OpenStack.md)
-        -   [查询特定网络ACL组详情](查询特定网络ACL组-OpenStack.md)
-        -   [创建网络ACL组](创建网络ACL组-OpenStack.md)
-        -   [更新网络ACL组](更新网络ACL组-OpenStack.md)
-        -   [删除网络ACL组](删除网络ACL组-OpenStack.md)
+        -   [查询所有网络ACL规则](查询所有网络ACL规则.md)
+        -   [查询特定网络ACL规则](查询特定网络ACL规则.md)
+        -   [创建网络ACL规则](创建网络ACL规则.md)
+        -   [更新网络ACL规则](更新网络ACL规则.md)
+        -   [删除网络ACL规则](删除网络ACL规则.md)
+        -   [查询所有网络ACL策略](查询所有网络ACL策略.md)
+        -   [查询特定网络ACL策略详情](查询特定网络ACL策略详情.md)
+        -   [创建网络ACL策略](创建网络ACL策略.md)
+        -   [更新网络ACL策略](更新网络ACL策略.md)
+        -   [删除网络ACL策略](删除网络ACL策略.md)
+        -   [插入网络ACL规则](插入网络ACL规则.md)
+        -   [移除网络ACL规则](移除网络ACL规则.md)
+        -   [查询所有网络ACL组](查询所有网络ACL组.md)
+        -   [查询特定网络ACL组详情](查询特定网络ACL组详情.md)
+        -   [创建网络ACL组](创建网络ACL组.md)
+        -   [更新网络ACL组](更新网络ACL组.md)
+        -   [删除网络ACL组](删除网络ACL组.md)
 
     -   [安全组]
-        -   [安全组API简介](安全组API简介-OpenStack.md)
         -   [查询安全组](查询安全组-OpenStack.md)
-        -   [查询安全组详情](查询安全组详情-OpenStack.md)
+        -   [查询安全组详情](查询安全组详情.md)
         -   [创建安全组](创建安全组-OpenStack.md)
-        -   [更新安全组](更新安全组-OpenStack.md)
+        -   [更新安全组](更新安全组.md)
         -   [删除安全组](删除安全组-OpenStack.md)
         -   [查询安全组规则](查询安全组规则-OpenStack.md)
-        -   [查询安全组规则详情](查询安全组规则详情-OpenStack.md)
+        -   [查询安全组规则详情](查询安全组规则详情.md)
         -   [创建安全组规则](创建安全组规则-OpenStack.md)
         -   [删除安全组规则](删除安全组规则-OpenStack.md)
 
@@ -173,28 +191,32 @@
     -   [状态码](状态码.md)
     -   [错误码](错误码.md)
 
+-   [常见问题]
+    -   [VPC子网接口与OpenStack Neutron子网接口的区别是什么？](VPC子网接口与OpenStack-Neutron子网接口的区别是什么.md)
+
 -   [附录]
     -   [安全组规则icmp协议名称对应关系表](安全组规则icmp协议名称对应关系表.md)
     -   [虚拟私有云监控指标说明](虚拟私有云监控指标说明.md)
-    -   [API授权项列表]
-        -   [VPC](VPC-授权项.md)
-        -   [子网](子网-授权项.md)
-        -   [弹性公网IP](弹性公网IP-授权项.md)
-        -   [带宽](带宽-授权项.md)
-        -   [带宽（V2.0）](带宽（V2-0）-授权项.md)
-        -   [对等连接](对等连接-授权项.md)
-        -   [配额](配额-授权项.md)
-        -   [私有IP](私有IP-授权项.md)
-        -   [安全组](安全组-授权项.md)
-        -   [安全组规则](安全组规则-授权项.md)
-        -   [端口（Openstack Neutron API）](端口(原生Openstack接口)-授权项.md)
-        -   [网络（Openstack Neutron API）](网络(原生Openstack接口)-授权项.md)
-        -   [子网（Openstack Neutron API）](子网(原生Openstack接口)-授权项.md)
-        -   [路由器（Openstack Neutron API）](路由器(原生Openstack接口)-授权项.md)
-        -   [浮动IP（Openstack Neutron API）](浮动IP(原生Openstack接口)-授权项.md)
-        -   [网络ACL（Openstack Neutron API）](网络ACL（原生Openstack接口）-授权项.md)
-        -   [安全组（Openstack Neutron API）](安全组(原生Openstack接口)-授权项.md)
+    -   [获取项目ID](获取项目ID.md)
+    -   [权限策略和授权项]
+        -   [策略及授权项说明](策略及授权项说明.md)
+        -   [VPC](vpc-permission.md)
+        -   [子网](子网-permission.md)
+        -   [弹性公网IP](弹性公网IP-permission.md)
+        -   [带宽](带宽-permission.md)
+        -   [带宽（V2.0）](带宽2-0-permission.md)
+        -   [端口](端口-permission.md)
+        -   [对等连接](对等连接-permission.md)
+        -   [配额](配额-permission.md)
+        -   [私有IP](私有IP-permission.md)
+        -   [安全组](安全组-permission.md)
+        -   [安全组规则](安全组规则.md)
+        -   [端口（Openstack Neutron API）](端口（Openstack-Neutron-API）.md)
+        -   [网络（Openstack Neutron API）](网络（Openstack-Neutron-API）.md)
+        -   [子网（Openstack Neutron API）](子网（Openstack-Neutron-API）.md)
+        -   [路由器（Openstack Neutron API）](路由器（Openstack-Neutron-API）.md)
+        -   [浮动IP（Openstack Neutron API）](浮动IP（Openstack-Neutron-API）.md)
+        -   [网络ACL（Openstack Neutron API）](网络ACL（Openstack-Neutron-API）.md)
+        -   [安全组（Openstack Neutron API）](安全组（Openstack-Neutron-API）.md)
         -   [API授权项注意事项](API授权项注意事项.md)
-
-
 

@@ -1,4 +1,4 @@
-# 查询API版本信息列表<a name="ZH-CN_TOPIC_0100582600"></a>
+# 查询API版本信息列表<a name="ZH-CN_TOPIC_0201534229"></a>
 
 ## 功能介绍<a name="section47928120"></a>
 
@@ -17,7 +17,7 @@ GET
 请求样例
 
 ```
-GET /
+GET https://{Endpoint}/
 ```
 
 ## 响应消息<a name="section51369953"></a>
@@ -37,44 +37,73 @@ GET /
 </thead>
 <tbody><tr id="row46706151"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p25101909"><a name="p25101909"></a><a name="p25101909"></a>versions</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p19988723"><a name="p19988723"></a><a name="p19988723"></a>List</p>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p1668082023018"><a name="p1668082023018"></a><a name="p1668082023018"></a>Array of <a href="#table7472653181512">version</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p15291872"><a name="p15291872"></a><a name="p15291872"></a>API版本列表</p>
-</td>
-</tr>
-<tr id="row152771610135510"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p3277310205517"><a name="p3277310205517"></a><a name="p3277310205517"></a>status</p>
-</td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p9277101075514"><a name="p9277101075514"></a><a name="p9277101075514"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p20277121025515"><a name="p20277121025515"></a><a name="p20277121025515"></a>API版本的状态，值可为CURRENT，STABLE，DEPRECATED</p>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p15291872"><a name="p15291872"></a><a name="p15291872"></a>API版本列表，请参见<a href="#table7472653181512">表2</a>。</p>
 </td>
 </tr>
-<tr id="row95031021115715"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p15503122135718"><a name="p15503122135718"></a><a name="p15503122135718"></a>id</p>
+</tbody>
+</table>
+
+**表 2**  version对象
+
+<a name="table7472653181512"></a>
+<table><thead align="left"><tr id="row24721153191511"><th class="cellrowborder" valign="top" width="23.122312231223123%" id="mcps1.2.4.1.1"><p id="p7472853151518"><a name="p7472853151518"></a><a name="p7472853151518"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="25.552555255525554%" id="mcps1.2.4.1.2"><p id="p1647210534155"><a name="p1647210534155"></a><a name="p1647210534155"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="51.325132513251326%" id="mcps1.2.4.1.3"><p id="p11472185317150"><a name="p11472185317150"></a><a name="p11472185317150"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row18472155310158"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p147217533154"><a name="p147217533154"></a><a name="p147217533154"></a>status</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p850322175720"><a name="p850322175720"></a><a name="p850322175720"></a>String</p>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p947255320159"><a name="p947255320159"></a><a name="p947255320159"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p75032217576"><a name="p75032217576"></a><a name="p75032217576"></a>API版本</p>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p47752014191"><a name="p47752014191"></a><a name="p47752014191"></a>API版本的状态：</p>
+<a name="ul1053872581218"></a><a name="ul1053872581218"></a><ul id="ul1053872581218"><li>CURRENT（当前版本）</li><li>STABLE（稳定版本）</li><li>DEPRECATED（废弃版本）</li></ul>
 </td>
 </tr>
-<tr id="row87148285575"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p471522845712"><a name="p471522845712"></a><a name="p471522845712"></a>links</p>
+<tr id="row747215312152"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p10472115381512"><a name="p10472115381512"></a><a name="p10472115381512"></a>id</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p18715192814578"><a name="p18715192814578"></a><a name="p18715192814578"></a>List</p>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p9472115313158"><a name="p9472115313158"></a><a name="p9472115313158"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p14715728195710"><a name="p14715728195710"></a><a name="p14715728195710"></a>链接列表</p>
-</td>
-</tr>
-<tr id="row6401103475719"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p340123410573"><a name="p340123410573"></a><a name="p340123410573"></a>href</p>
-</td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p840113418575"><a name="p840113418575"></a><a name="p840113418575"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p184011834135714"><a name="p184011834135714"></a><a name="p184011834135714"></a>API链接</p>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p647375331518"><a name="p647375331518"></a><a name="p647375331518"></a>API版本</p>
 </td>
 </tr>
-<tr id="row064116391574"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p1164173965718"><a name="p1164173965718"></a><a name="p1164173965718"></a>rel</p>
+<tr id="row174734534159"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p18473105321516"><a name="p18473105321516"></a><a name="p18473105321516"></a>links</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p06411739165717"><a name="p06411739165717"></a><a name="p06411739165717"></a>String</p>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p984011365304"><a name="p984011365304"></a><a name="p984011365304"></a>Array of <a href="#table62331111162">link</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p46416393575"><a name="p46416393575"></a><a name="p46416393575"></a>API链接与该API版本的关系</p>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p164731253181513"><a name="p164731253181513"></a><a name="p164731253181513"></a>链接列表，请参见<a href="#table62331111162">表3</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 3**  link对象
+
+<a name="table62331111162"></a>
+<table><thead align="left"><tr id="row1823611191619"><th class="cellrowborder" valign="top" width="23.122312231223123%" id="mcps1.2.4.1.1"><p id="p19231111161619"><a name="p19231111161619"></a><a name="p19231111161619"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="25.552555255525554%" id="mcps1.2.4.1.2"><p id="p112301121618"><a name="p112301121618"></a><a name="p112301121618"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="51.325132513251326%" id="mcps1.2.4.1.3"><p id="p1323611171617"><a name="p1323611171617"></a><a name="p1323611171617"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row15260111169"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p192851171616"><a name="p192851171616"></a><a name="p192851171616"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p122815111167"><a name="p122815111167"></a><a name="p122815111167"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p12813117167"><a name="p12813117167"></a><a name="p12813117167"></a>API链接</p>
+</td>
+</tr>
+<tr id="row132891118162"><td class="cellrowborder" valign="top" width="23.122312231223123%" headers="mcps1.2.4.1.1 "><p id="p1728171118161"><a name="p1728171118161"></a><a name="p1728171118161"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="25.552555255525554%" headers="mcps1.2.4.1.2 "><p id="p42820114167"><a name="p42820114167"></a><a name="p42820114167"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="51.325132513251326%" headers="mcps1.2.4.1.3 "><p id="p5289119162"><a name="p5289119162"></a><a name="p5289119162"></a>API链接与该API版本的关系</p>
 </td>
 </tr>
 </tbody>
@@ -102,4 +131,8 @@ GET /
 ## 状态码<a name="section10470352390"></a>
 
 请参见[状态码](状态码.md)。
+
+## 错误码<a name="section85821649202813"></a>
+
+请参见[错误码](错误码.md)。
 

@@ -1,4 +1,4 @@
-# 查询VPC列表<a name="ZH-CN_TOPIC_0020090625"></a>
+# 查询VPC列表<a name="ZH-CN_TOPIC_0201534109"></a>
 
 ## 功能介绍<a name="section14477792"></a>
 
@@ -11,8 +11,10 @@ GET /v1/\{project\_id\}/vpcs
 样例：
 
 ```
-/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b956-536f674975c0
+GET https://{Endpoint}/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b956-536f674975c0
 ```
+
+参数说明请参见[表1](#table39337169)。
 
 **表 1**  参数说明
 
@@ -33,7 +35,7 @@ GET /v1/\{project\_id\}/vpcs
 </td>
 <td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p56492018174356"><a name="p56492018174356"></a><a name="p56492018174356"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><p id="p55363057"><a name="p55363057"></a><a name="p55363057"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row28505468"><td class="cellrowborder" valign="top" width="15.6%" headers="mcps1.2.5.1.1 "><p id="p27241609"><a name="p27241609"></a><a name="p27241609"></a>marker</p>
@@ -49,7 +51,7 @@ GET /v1/\{project\_id\}/vpcs
 </td>
 <td class="cellrowborder" valign="top" width="15.98%" headers="mcps1.2.5.1.2 "><p id="p61461766"><a name="p61461766"></a><a name="p61461766"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p1878236174356"><a name="p1878236174356"></a><a name="p1878236174356"></a>int</p>
+<td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p1878236174356"><a name="p1878236174356"></a><a name="p1878236174356"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul15798159502"></a><a name="ul15798159502"></a><ul id="ul15798159502"><li>功能说明：每页返回的个数</li><li>取值范围：0~intmax</li></ul>
 </td>
@@ -60,8 +62,8 @@ GET /v1/\{project\_id\}/vpcs
 </td>
 <td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p165291857925"><a name="p165291857925"></a><a name="p165291857925"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul152391731105011"></a><a name="ul152391731105011"></a><ul id="ul152391731105011"><li>功能说明：企业项目ID。可以使用该字段过滤某个企业项目下的虚拟私有云。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。</li></ul>
-<div class="note" id="note104812057325"><a name="note104812057325"></a><a name="note104812057325"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p13531165719211"><a name="p13531165719211"></a><a name="p13531165719211"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见《企业资源服务用户指南》。</p>
+<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul152391731105011"></a><a name="ul152391731105011"></a><ul id="ul152391731105011"><li>功能说明：企业项目ID。可以使用该字段过滤某个企业项目下的虚拟私有云。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b1618205893315"><a name="b1618205893315"></a><a name="b1618205893315"></a>all_granted_eps</strong>。</li></ul>
+<div class="note" id="note104812057325"><a name="note104812057325"></a><a name="note104812057325"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1915862704914"><a name="p1915862704914"></a><a name="p1915862704914"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
 </div></div>
 </td>
 </tr>
@@ -76,7 +78,9 @@ GET /v1/\{project\_id\}/vpcs
 
 -   请求样例
 
-    无
+    ```
+    GET https://{Endpoint}/v1/{project_id}/vpcs
+    ```
 
 
 ## 响应消息<a name="section18218892"></a>
@@ -96,9 +100,9 @@ GET /v1/\{project\_id\}/vpcs
     </thead>
     <tbody><tr id="row4279228915519"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p4362334815519"><a name="p4362334815519"></a><a name="p4362334815519"></a>vpcs</p>
     </td>
-    <td class="cellrowborder" valign="top" width="27.97%" headers="mcps1.2.4.1.2 "><p id="p6059639815519"><a name="p6059639815519"></a><a name="p6059639815519"></a><em id="i1588689015618"><a name="i1588689015618"></a><a name="i1588689015618"></a>列表数据结构</em></p>
+    <td class="cellrowborder" valign="top" width="27.97%" headers="mcps1.2.4.1.2 "><p id="p26395826172022"><a name="p26395826172022"></a><a name="p26395826172022"></a>Array of <a href="#table65129753">vpcs</a> objects</p>
     </td>
-    <td class="cellrowborder" valign="top" width="53.690000000000005%" headers="mcps1.2.4.1.3 "><p id="p1714182515519"><a name="p1714182515519"></a><a name="p1714182515519"></a>vpc列表对象</p>
+    <td class="cellrowborder" valign="top" width="53.690000000000005%" headers="mcps1.2.4.1.3 "><p id="p1714182515519"><a name="p1714182515519"></a><a name="p1714182515519"></a>vpc对象</p>
     </td>
     </tr>
     </tbody>
@@ -107,62 +111,69 @@ GET /v1/\{project\_id\}/vpcs
     **表 3**  vpcs字段说明
 
     <a name="table65129753"></a>
-    <table><thead align="left"><tr id="row16647026"><th class="cellrowborder" valign="top" width="15.78%" id="mcps1.2.4.1.1"><p id="p6231886"><a name="p6231886"></a><a name="p6231886"></a>名称</p>
+    <table><thead align="left"><tr id="row16647026"><th class="cellrowborder" valign="top" width="15.870000000000001%" id="mcps1.2.4.1.1"><p id="p6231886"><a name="p6231886"></a><a name="p6231886"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="22%" id="mcps1.2.4.1.2"><p id="p25347041174441"><a name="p25347041174441"></a><a name="p25347041174441"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="21.91%" id="mcps1.2.4.1.2"><p id="p25347041174441"><a name="p25347041174441"></a><a name="p25347041174441"></a>参数类型</p>
     </th>
     <th class="cellrowborder" valign="top" width="62.22%" id="mcps1.2.4.1.3"><p id="p18111828"><a name="p18111828"></a><a name="p18111828"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row57771982"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p49018956"><a name="p49018956"></a><a name="p49018956"></a>id</p>
+    <tbody><tr id="row57771982"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p49018956"><a name="p49018956"></a><a name="p49018956"></a>id</p>
     </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p39844479174441"><a name="p39844479174441"></a><a name="p39844479174441"></a>String</p>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p39844479174441"><a name="p39844479174441"></a><a name="p39844479174441"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><p id="p27697526"><a name="p27697526"></a><a name="p27697526"></a>uuid形式的一个资源标识。</p>
     </td>
     </tr>
-    <tr id="row47951145"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p58837506"><a name="p58837506"></a><a name="p58837506"></a>name</p>
+    <tr id="row47951145"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p58837506"><a name="p58837506"></a><a name="p58837506"></a>name</p>
     </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p6177377174441"><a name="p6177377174441"></a><a name="p6177377174441"></a>String</p>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p6177377174441"><a name="p6177377174441"></a><a name="p6177377174441"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><p id="p28235388174625"><a name="p28235388174625"></a><a name="p28235388174625"></a>虚拟私有云名称</p>
-    </td>
-    </tr>
-    <tr id="row2894687"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p33143133"><a name="p33143133"></a><a name="p33143133"></a>cidr</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p30605552174441"><a name="p30605552174441"></a><a name="p30605552174441"></a>String</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><p id="p48285594174625"><a name="p48285594174625"></a><a name="p48285594174625"></a>虚拟私有云下可用子网的范围</p>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul951112614463"></a><a name="ul951112614463"></a><ul id="ul951112614463"><li>功能说明：虚拟私有云名称</li><li>取值范围：0-64个字符，支持数字、字母、中文、_(下划线)、-（中划线）、.（点）</li><li>约束：如果名称不为空，则同一个租户下的名称不能重复</li></ul>
     </td>
     </tr>
-    <tr id="row40205569"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p35425694"><a name="p35425694"></a><a name="p35425694"></a>status</p>
+    <tr id="row18577115091311"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p174994533139"><a name="p174994533139"></a><a name="p174994533139"></a>description</p>
     </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p63130643174441"><a name="p63130643174441"></a><a name="p63130643174441"></a>String</p>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p349935312131"><a name="p349935312131"></a><a name="p349935312131"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul99478214515"></a><a name="ul99478214515"></a><ul id="ul99478214515"><li>功能说明：虚拟私有云的状态</li><li>取值范围：创建中CREATING，创建成功OK</li></ul>
-    </td>
-    </tr>
-    <tr id="row1340951516517"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p28181711511"><a name="p28181711511"></a><a name="p28181711511"></a>enterprise_project_id</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p488171056"><a name="p488171056"></a><a name="p488171056"></a>String</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul10874181418512"></a><a name="ul10874181418512"></a><ul id="ul10874181418512"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。</li></ul>
-    <div class="note" id="note49651516259"><a name="note49651516259"></a><a name="note49651516259"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p011171718514"><a name="p011171718514"></a><a name="p011171718514"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见《企业资源服务用户指南》。</p>
-    </div></div>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul16499115318137"></a><a name="ul16499115318137"></a><ul id="ul16499115318137"><li>功能说明：虚拟私有云描述</li><li>取值范围：0-255个字符，不能包含“&lt;”和“&gt;”。</li></ul>
     </td>
     </tr>
-    <tr id="row56256918135346"><td class="cellrowborder" valign="top" width="15.78%" headers="mcps1.2.4.1.1 "><p id="p60516514135346"><a name="p60516514135346"></a><a name="p60516514135346"></a>routes</p>
+    <tr id="row2894687"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p33143133"><a name="p33143133"></a><a name="p33143133"></a>cidr</p>
     </td>
-    <td class="cellrowborder" valign="top" width="22%" headers="mcps1.2.4.1.2 "><p id="p32811915135346"><a name="p32811915135346"></a><a name="p32811915135346"></a>List</p>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p30605552174441"><a name="p30605552174441"></a><a name="p30605552174441"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul93249349513"></a><a name="ul93249349513"></a><ul id="ul93249349513"><li>功能说明：路由信息列表</li><li>约束：详情参见route对象</li></ul>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul10389173917465"></a><a name="ul10389173917465"></a><ul id="ul10389173917465"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="ul53161626155413"></a><a name="ul53161626155413"></a><ul id="ul53161626155413"><li>10.0.0.0/8~10.255.255.240/28</li><li>172.16.0.0/12 ~ 172.31.255.240/28</li><li>192.168.0.0/16 ~ 192.168.255.240/28</li></ul>
+    </li><li>不指定cidr时，默认值为空</li><li>约束：必须是cidr格式，例如:192.168.0.0/16</li></ul>
+    </td>
+    </tr>
+    <tr id="row40205569"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p35425694"><a name="p35425694"></a><a name="p35425694"></a>status</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p63130643174441"><a name="p63130643174441"></a><a name="p63130643174441"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul74552213513"></a><a name="ul74552213513"></a><ul id="ul74552213513"><li>功能说明：虚拟私有云的状态。</li><li>取值范围：<a name="ul5890854165417"></a><a name="ul5890854165417"></a><ul id="ul5890854165417"><li>CREATING：创建中</li><li>OK：创建成功</li></ul>
+    </li></ul>
+    </td>
+    </tr>
+    <tr id="row1340951516517"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p28181711511"><a name="p28181711511"></a><a name="p28181711511"></a>enterprise_project_id</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p488171056"><a name="p488171056"></a><a name="p488171056"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul10874181418512"></a><a name="ul10874181418512"></a><ul id="ul10874181418512"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b188073518203"><a name="b188073518203"></a><a name="b188073518203"></a>all_granted_eps</strong>。</li></ul>
+    </td>
+    </tr>
+    <tr id="row56256918135346"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p60516514135346"><a name="p60516514135346"></a><a name="p60516514135346"></a>routes</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p32811915135346"><a name="p32811915135346"></a><a name="p32811915135346"></a>Array&nbsp;of&nbsp;<a href="#table3576833291556">route</a> objects</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul93249349513"></a><a name="ul93249349513"></a><ul id="ul93249349513"><li>功能说明：路由信息列表</li><li>约束：详情参见<a href="#table3576833291556">表4</a>。</li></ul>
     </td>
     </tr>
     </tbody>
     </table>
 
-    **表 4**  route字段说明
+    **表 4**  route对象
 
     <a name="table3576833291556"></a>
     <table><thead align="left"><tr id="row921218691556"><th class="cellrowborder" valign="top" width="18.34%" id="mcps1.2.4.1.1"><p id="p798956991556"><a name="p798956991556"></a><a name="p798956991556"></a>名称</p>
@@ -199,26 +210,29 @@ GET /v1/\{project\_id\}/vpcs
             {
                 "id": "13551d6b-755d-4757-b956-536f674975c0",
                 "name": "default",
+                "description": "test",
                 "cidr": "172.16.0.0/16",
                 "status": "OK",
-                "enterprise_project_id": "0" 
-                "routes": null,
+                "enterprise_project_id": "0",
+                "routes": []
             },
             {
                 "id": "3ec3b33f-ac1c-4630-ad1c-7dba1ed79d85",
                 "name": "222",
+                "description": "test",
                 "cidr": "192.168.0.0/16",
                 "status": "OK",
-                "enterprise_project_id": "0635d733-c12d-4308-ba5a-4dc27ec21038"
-                "routes": null,
+                "enterprise_project_id": "0635d733-c12d-4308-ba5a-4dc27ec21038",
+                "routes": []
             },
             {
                 "id": "99d9d709-8478-4b46-9f3f-2206b1023fd3",
                 "name": "vpc",
+                "description": "test",
                 "cidr": "192.168.0.0/16",
                 "status": "OK",
-                "enterprise_project_id": "0"
-                "routes": null,
+                "enterprise_project_id": "0",
+                "routes": []
             }
         ]
     }

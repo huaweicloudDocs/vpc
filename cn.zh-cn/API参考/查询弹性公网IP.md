@@ -1,12 +1,14 @@
-# 查询弹性公网IP<a name="ZH-CN_TOPIC_0020090597"></a>
+# 查询弹性公网IP<a name="ZH-CN_TOPIC_0201534285"></a>
 
 ## 功能介绍<a name="section40040492"></a>
 
-查询弹性公网IP。
+查询指定弹性公网IP。
 
 ## URI<a name="section24820109"></a>
 
 GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
+
+参数说明请参见[表1](#table57982344)。
 
 **表 1**  参数说明
 
@@ -23,7 +25,7 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p6421510"><a name="p6421510"></a><a name="p6421510"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p50380316"><a name="p50380316"></a><a name="p50380316"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row50769665"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p18702178"><a name="p18702178"></a><a name="p18702178"></a>publicip_id</p>
@@ -64,9 +66,9 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </thead>
     <tbody><tr id="row32711048152123"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p32349241152123"><a name="p32349241152123"></a><a name="p32349241152123"></a>publicip</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p45145628152123"><a name="p45145628152123"></a><a name="p45145628152123"></a><em id="i3657475152123"><a name="i3657475152123"></a><a name="i3657475152123"></a>字典数据结构</em></p>
+    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p45145628152123"><a name="p45145628152123"></a><a name="p45145628152123"></a>Object</p>
     </td>
-    <td class="cellrowborder" valign="top" width="56.15%" headers="mcps1.2.4.1.3 "><p id="p27820057152123"><a name="p27820057152123"></a><a name="p27820057152123"></a>弹性公网IP对象</p>
+    <td class="cellrowborder" valign="top" width="56.15%" headers="mcps1.2.4.1.3 "><p id="p27820057152123"><a name="p27820057152123"></a><a name="p27820057152123"></a>弹性公网IP对象，请参见<a href="#table3035698">表3</a>。</p>
     </td>
     </tr>
     </tbody>
@@ -94,30 +96,25 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p5325729418523"><a name="p5325729418523"></a><a name="p5325729418523"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><a name="ul1945793192"></a><a name="ul1945793192"></a><ul id="ul1945793192"><li>功能说明：弹性公网IP的状态</li><li>取值范围：<a name="ul4678228115815"></a><a name="ul4678228115815"></a><ul id="ul4678228115815"><li>冻结FREEZED</li><li>绑定失败BIND_ERROR</li><li>绑定中BINDING</li><li>释放中PENDING_DELETE</li><li>创建中PENDING_CREATE</li><li>创建中NOTIFYING</li><li>释放中NOTIFY_DELETE</li><li>更新中PENDING_UPDATE</li><li>未绑定DOWN</li><li>绑定ACTIVE</li><li>绑定ELB</li><li>失败ERROR</li></ul>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><a name="ul1945793192"></a><a name="ul1945793192"></a><ul id="ul1945793192"><li>功能说明：弹性公网IP的状态</li><li>取值范围：<a name="ul4678228115815"></a><a name="ul4678228115815"></a><ul id="ul4678228115815"><li>FREEZED：冻结</li><li>BIND_ERROR：绑定失败</li><li>BINDING：绑定中</li><li>PENDING_DELETE：释放中</li><li>PENDING_CREATE：创建中</li><li>PENDING_UPDATE：更新中</li><li>DOWN：未绑定</li><li>ACTIVE：绑定</li><li>ELB：绑定ELB</li><li>ERROR：异常失败</li></ul>
     </li></ul>
     </td>
     </tr>
     <tr id="row17803202152320"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p09743162419"><a name="p09743162419"></a><a name="p09743162419"></a>profile</p>
     </td>
-    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p12971231132410"><a name="p12971231132410"></a><a name="p12971231132410"></a>Dict</p>
+    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p12971231132410"><a name="p12971231132410"></a><a name="p12971231132410"></a>Object</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p169773114242"><a name="p169773114242"></a><a name="p169773114242"></a>额外参数，包括订单id、产品id等信息</p>
-    <p id="p156320510335"><a name="p156320510335"></a><a name="p156320510335"></a>如果profile不为空，说明是包周期的弹性公网IP</p>
-    </td>
-    </tr>
-    <tr id="row39756633"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p66170694"><a name="p66170694"></a><a name="p66170694"></a>type</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p1887355918523"><a name="p1887355918523"></a><a name="p1887355918523"></a>String</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p2477223118557"><a name="p2477223118557"></a><a name="p2477223118557"></a>弹性公网IP的类型</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p169773114242"><a name="p169773114242"></a><a name="p169773114242"></a>功能说明：额外参数，包括订单id、产品id等信息，详情请参见<a href="#table66651219193417">表4</a>。</p>
+    <p id="p156320510335"><a name="p156320510335"></a><a name="p156320510335"></a>约束：如果profile不为空，说明是包周期的弹性公网IP</p>
     </td>
     </tr>
-    <tr id="row1722212174296"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p59108624"><a name="p59108624"></a><a name="p59108624"></a>public_ip_address</p>
+    <tr id="row1722212174296"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p15848707"><a name="p15848707"></a><a name="p15848707"></a>type</p>
     </td>
-    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p904808818330"><a name="p904808818330"></a><a name="p904808818330"></a>String</p>
+    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p3408038918330"><a name="p3408038918330"></a><a name="p3408038918330"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p40237373"><a name="p40237373"></a><a name="p40237373"></a>IPv4时是申请到的弹性公网IP地址，IPv6时是IPv6地址对应的IPv4地址</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><a name="ul7176216121014"></a><a name="ul7176216121014"></a><ul id="ul7176216121014"><li>功能说明：弹性公网IP的类型</li><li>取值范围：<em id="i16850184017499"><a name="i16850184017499"></a><a name="i16850184017499"></a>5_telcom（电信），5_union（联通），5_bgp（全动态BGP），5_sbgp（静态BGP）</em><a name="ul585004064911"></a><a name="ul585004064911"></a><ul id="ul585004064911"><li>东北-大连：5_telcom、5_union</li><li>华南-广州：5_bgp、5_sbgp</li><li>华东-上海二：5_bgp、5_sbgp</li><li>华北-北京一：5_bgp、5_sbgp</li><li>亚太-香港：5_bgp</li><li>亚太-曼谷：5_bgp</li><li>亚太-新加坡：5_bgp</li><li>非洲-约翰内斯堡：5_bgp</li><li>西南-贵阳一：5_sbgp</li><li>华北-北京四：5_bgp、5_sbgp</li></ul>
+    </li><li>约束：<a name="ul9738153015499"></a><a name="ul9738153015499"></a><ul id="ul9738153015499"><li>必须是系统具体支持的类型</li><li>publicip_id为IPv4端口，所以"publicip_type"字段未给定时，默认为5_bgp。</li></ul>
+    </li></ul>
     </td>
     </tr>
     <tr id="row16458145723915"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p175119718406"><a name="p175119718406"></a><a name="p175119718406"></a>public_ipv6_address</p>
@@ -129,9 +126,10 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </tr>
     <tr id="row180110932914"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p171101456172118"><a name="p171101456172118"></a><a name="p171101456172118"></a>ip_version</p>
     </td>
-    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p1811012569218"><a name="p1811012569218"></a><a name="p1811012569218"></a>int</p>
+    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p1811012569218"><a name="p1811012569218"></a><a name="p1811012569218"></a>Integer</p>
     </td>
     <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p1211011564217"><a name="p1211011564217"></a><a name="p1211011564217"></a>IP版本信息，取值范围是4和6</p>
+    <a name="ul13987110227"></a><a name="ul13987110227"></a><ul id="ul13987110227"><li>4：表示IPv4</li><li>6：表示IPv6</li></ul>
     </td>
     </tr>
     <tr id="row66070243"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p50089467"><a name="p50089467"></a><a name="p50089467"></a>private_ip_address</p>
@@ -152,14 +150,14 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p6334526618523"><a name="p6334526618523"></a><a name="p6334526618523"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p50905282"><a name="p50905282"></a><a name="p50905282"></a>项目ID</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p25354291121"><a name="p25354291121"></a><a name="p25354291121"></a>项目ID</p>
     </td>
     </tr>
     <tr id="row55494360"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p65858198"><a name="p65858198"></a><a name="p65858198"></a>create_time</p>
     </td>
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p3069292618523"><a name="p3069292618523"></a><a name="p3069292618523"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p36292894"><a name="p36292894"></a><a name="p36292894"></a>弹性公网IP申请时间（UTC时间）</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p36292894"><a name="p36292894"></a><a name="p36292894"></a>弹性公网IP申请时间（UTC）</p>
     </td>
     </tr>
     <tr id="row58200593"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p16627584"><a name="p16627584"></a><a name="p16627584"></a>bandwidth_id</p>
@@ -171,23 +169,25 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </tr>
     <tr id="row51415138"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p3876622"><a name="p3876622"></a><a name="p3876622"></a>bandwidth_size</p>
     </td>
-    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p4969847118523"><a name="p4969847118523"></a><a name="p4969847118523"></a>int</p>
+    <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p4969847118523"><a name="p4969847118523"></a><a name="p4969847118523"></a>Integer</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p2365466"><a name="p2365466"></a><a name="p2365466"></a>带宽大小</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p2365466"><a name="p2365466"></a><a name="p2365466"></a>带宽大小，单位为Mbit/s。</p>
     </td>
     </tr>
     <tr id="row21289199"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p46703582"><a name="p46703582"></a><a name="p46703582"></a>bandwidth_share_type</p>
     </td>
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p6615323718523"><a name="p6615323718523"></a><a name="p6615323718523"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p28182251"><a name="p28182251"></a><a name="p28182251"></a>表示共享带宽或者独享带宽</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><a name="ul2255712095"></a><a name="ul2255712095"></a><ul id="ul2255712095"><li>功能说明：弹性公网IP的带宽类型</li><li>取值范围：PER，WHOLE。<a name="ul729412507220"></a><a name="ul729412507220"></a><ul id="ul729412507220"><li>PER：独享带宽</li><li>WHOLE：共享带宽</li></ul>
+    </li></ul>
+    <a name="ul1369035014203"></a><a name="ul1369035014203"></a><ul id="ul1369035014203"><li>约束：其中IPv6暂不支持WHOLE类型带宽。</li></ul>
     </td>
     </tr>
     <tr id="row5951536918414"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p6587627918414"><a name="p6587627918414"></a><a name="p6587627918414"></a>bandwidth_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p3318647218414"><a name="p3318647218414"></a><a name="p3318647218414"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p374970718414"><a name="p374970718414"></a><a name="p374970718414"></a>带宽名称</p>
+    <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><p id="p374970718414"><a name="p374970718414"></a><a name="p374970718414"></a>带宽名称。</p>
     </td>
     </tr>
     <tr id="row1066119511342"><td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.1 "><p id="p19564181313543"><a name="p19564181313543"></a><a name="p19564181313543"></a>enterprise_project_id</p>
@@ -195,14 +195,12 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     <td class="cellrowborder" valign="top" width="27.90720927907209%" headers="mcps1.2.4.1.2 "><p id="p13564413185412"><a name="p13564413185412"></a><a name="p13564413185412"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="36.046395360463954%" headers="mcps1.2.4.1.3 "><a name="ul184004104214"></a><a name="ul184004104214"></a><ul id="ul184004104214"><li>企业项目ID。最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。</li><li>创建弹性公网IP时，给弹性公网IP绑定企业项目ID。</li></ul>
-    <div class="note" id="note1617278101315"><a name="note1617278101315"></a><a name="note1617278101315"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1817788121313"><a name="p1817788121313"></a><a name="p1817788121313"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见《企业资源服务用户指南》。</p>
-    </div></div>
     </td>
     </tr>
     </tbody>
     </table>
 
-    **表 4**  profile字段说明：
+    **表 4**  profile字段说明
 
     <a name="table66651219193417"></a>
     <table><thead align="left"><tr id="row167319197349"><th class="cellrowborder" valign="top" width="37.35%" id="mcps1.2.4.1.1"><p id="p206761195347"><a name="p206761195347"></a><a name="p206761195347"></a>名称</p>
@@ -238,7 +236,7 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="25.3%" headers="mcps1.2.4.1.2 "><p id="p9735141923418"><a name="p9735141923418"></a><a name="p9735141923418"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="37.35%" headers="mcps1.2.4.1.3 "><p id="p27381919173415"><a name="p27381919173415"></a><a name="p27381919173415"></a>用户的id</p>
+    <td class="cellrowborder" valign="top" width="37.35%" headers="mcps1.2.4.1.3 "><p id="p09931918183013"><a name="p09931918183013"></a><a name="p09931918183013"></a>用户的id</p>
     </td>
     </tr>
     </tbody>
@@ -257,7 +255,7 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
               "product_id": "00301-48027-0--0",
               "region_id": "xxx",
               "order_id": "xxxxxxxxx"
-            }
+            },
             "type": "5_bgp",
             "public_ip_address": "161.xx.xx.12",
             "tenant_id": "8b7e35ad379141fc9df3e178bd64f55c",
@@ -265,7 +263,7 @@ GET /v1/\{project\_id\}/publicips/\{publicip\_id\}
             "create_time": "2015-07-16 04:32:50",
             "bandwidth_id": "49c8825b-bed9-46ff-9416-704b96d876a2",
             "bandwidth_share_type": "PER",
-            "bandwidth_size": 10,
+            "bandwidth_size": 10,    //EIP的带宽大小为10Mbit/s
             "bandwidth_name": "bandwidth-test",
             "enterprise_project_id":"b261ac1f-2489-4bc7-b31b-c33c3346a439",
             "ip_version": 4

@@ -1,4 +1,4 @@
-# 安全组规则icmp协议名称对应关系表<a name="ZH-CN_TOPIC_0024109590"></a>
+# 安全组规则icmp协议名称对应关系表<a name="ZH-CN_TOPIC_0201534233"></a>
 
 <a name="table18596620185153"></a>
 <table><thead align="left"><tr id="row18636828185153"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.1.4.1.1"><p id="p33188071185153"><a name="p33188071185153"></a><a name="p33188071185153"></a><strong id="b8388901185743"><a name="b8388901185743"></a><a name="b8388901185743"></a>icmp type</strong></p>

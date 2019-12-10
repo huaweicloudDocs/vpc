@@ -1,4 +1,4 @@
-# 查询私有IP<a name="ZH-CN_TOPIC_0020090611"></a>
+# 查询私有IP<a name="ZH-CN_TOPIC_0201534217"></a>
 
 ## 功能介绍<a name="section9185002"></a>
 
@@ -7,6 +7,8 @@
 ## URI<a name="section15556157"></a>
 
 GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
+
+参数说明请参见[表1](#table4378562)。
 
 **表 1**  参数说明
 
@@ -23,7 +25,7 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p41105728"><a name="p41105728"></a><a name="p41105728"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p41229700"><a name="p41229700"></a><a name="p41229700"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
 <tr id="row35522984"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p58789457"><a name="p58789457"></a><a name="p58789457"></a>privateip_id</p>
@@ -44,7 +46,9 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
 
 -   请求样例
 
-    无
+    ```
+    GET https://{Endpoint}/v1/{project_id}/privateips/d600542a-b231-45ed-af05-e9930cb14f78
+    ```
 
 
 ## 响应<a name="section52089174"></a>
@@ -64,9 +68,9 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
     </thead>
     <tbody><tr id="row22732275155923"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p29374982155923"><a name="p29374982155923"></a><a name="p29374982155923"></a>privateip</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p59712266155923"><a name="p59712266155923"></a><a name="p59712266155923"></a><em id="i36937690155934"><a name="i36937690155934"></a><a name="i36937690155934"></a>字典数据结构</em></p>
+    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p59712266155923"><a name="p59712266155923"></a><a name="p59712266155923"></a>Object</p>
     </td>
-    <td class="cellrowborder" valign="top" width="56.15%" headers="mcps1.2.4.1.3 "><p id="p43698339155923"><a name="p43698339155923"></a><a name="p43698339155923"></a>私有IP对象</p>
+    <td class="cellrowborder" valign="top" width="56.15%" headers="mcps1.2.4.1.3 "><p id="p43698339155923"><a name="p43698339155923"></a><a name="p43698339155923"></a>私有IP对象，请参见<a href="#table23250319">表3</a>。</p>
     </td>
     </tr>
     </tbody>
@@ -87,36 +91,36 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p14610233173058"><a name="p14610233173058"></a><a name="p14610233173058"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p168123114340"><a name="p168123114340"></a><a name="p168123114340"></a>功能说明：私有IP的状态</p>
-    <p id="p3939144"><a name="p3939144"></a><a name="p3939144"></a>取值范围：ACTIVE ,DOWN</p>
+    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><a name="ul13978236183119"></a><a name="ul13978236183119"></a><ul id="ul13978236183119"><li>功能说明：私有IP的状态</li><li>取值范围：<a name="ul948092312377"></a><a name="ul948092312377"></a><ul id="ul948092312377"><li>ACTIVE：活动的</li><li>DOWN：不可用</li></ul>
+    </li></ul>
     </td>
     </tr>
     <tr id="row53064224"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p3234911"><a name="p3234911"></a><a name="p3234911"></a>id</p>
     </td>
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p42578245173058"><a name="p42578245173058"></a><a name="p42578245173058"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p26458644"><a name="p26458644"></a><a name="p26458644"></a>私有IP标识</p>
+    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p47453675"><a name="p47453675"></a><a name="p47453675"></a>私有IP标识</p>
     </td>
     </tr>
     <tr id="row36801206"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p28107703"><a name="p28107703"></a><a name="p28107703"></a>subnet_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p26285854173058"><a name="p26285854173058"></a><a name="p26285854173058"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p62442668"><a name="p62442668"></a><a name="p62442668"></a>分配IP的子网标识</p>
+    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p26383427"><a name="p26383427"></a><a name="p26383427"></a>分配IP的子网标识</p>
     </td>
     </tr>
     <tr id="row54031349181512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p4774073181513"><a name="p4774073181513"></a><a name="p4774073181513"></a>tenant_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p49967057181513"><a name="p49967057181513"></a><a name="p49967057181513"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p20799820181513"><a name="p20799820181513"></a><a name="p20799820181513"></a>项目ID</p>
+    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p167315119118"><a name="p167315119118"></a><a name="p167315119118"></a>项目ID</p>
     </td>
     </tr>
     <tr id="row25113108"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p20895830"><a name="p20895830"></a><a name="p20895830"></a>device_owner</p>
     </td>
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p48779435173058"><a name="p48779435173058"></a><a name="p48779435173058"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><a name="ul081193816346"></a><a name="ul081193816346"></a><ul id="ul081193816346"><li>功能说明：私有IP的使用者，空表示未使用</li><li>取值范围：network:dhcp，network:router_interface_distributed，compute:xxx(xxx对应具体的az名称，例如compute:aa-bb-cc表示是被aa-bb-cc上的虚拟机使用)，neutron:VIP_PORT</li><li>约束：此处的取值范围只是本服务支持的类型，其他类型未做标注</li></ul>
+    <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><a name="ul1878734133215"></a><a name="ul1878734133215"></a><ul id="ul1878734133215"><li>功能说明：私有IP的使用者，空表示未使用</li><li>取值范围：network:dhcp，network:router_interface_distributed，compute:xxx(xxx对应具体的可用区名称，例如compute:aa-bb-cc表示是被可用区aa-bb-cc上的ECS使用)，neutron:VIP_PORT</li><li>约束：此处的取值范围只是本服务支持的类型，其他类型未做标注</li></ul>
     </td>
     </tr>
     <tr id="row46793790"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p32200631"><a name="p32200631"></a><a name="p32200631"></a>ip_address</p>
@@ -149,4 +153,8 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
 ## 状态码<a name="section31981619"></a>
 
 请参见[状态码](状态码.md)。
+
+## 错误码<a name="section85821649202813"></a>
+
+请参考[错误码](错误码.md)。
 
