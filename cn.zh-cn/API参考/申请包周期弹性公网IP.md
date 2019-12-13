@@ -337,13 +337,6 @@ POST /v2.0/\{project\_id\}/publicips
     </div></div>
     </td>
     </tr>
-    <tr id="row341910754414"><td class="cellrowborder" valign="top" width="18.08%" headers="mcps1.1.4.1.1 "><p id="p05181714414"><a name="p05181714414"></a><a name="p05181714414"></a>publicip_id</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25.3%" headers="mcps1.1.4.1.2 "><p id="p175181794417"><a name="p175181794417"></a><a name="p175181794417"></a>String</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="56.620000000000005%" headers="mcps1.1.4.1.3 "><p id="p25191774418"><a name="p25191774418"></a><a name="p25191774418"></a>弹性公网IP的ID</p>
-    </td>
-    </tr>
     </tbody>
     </table>
 
@@ -435,8 +428,7 @@ POST /v2.0/\{project\_id\}/publicips
 
     ```
     {
-        "order_id": "CS1802081410IMDRN",
-        "publicip_id": "f588ccfa-8750-4d7c-bf5d-2ede24414706"
+        "order_id": "CS1802081410IMDRN"
     }
     ```
 
