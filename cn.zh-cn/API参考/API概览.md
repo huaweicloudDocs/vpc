@@ -94,6 +94,14 @@
 <td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p732941010260"><a name="p732941010260"></a><a name="p732941010260"></a>VPC路由查询、创建、删除等接口。</p>
 </td>
 </tr>
+<tr id="r80fc7a1aace64381b9567ab0906aed71"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p1941615657"><a name="p1941615657"></a><a name="p1941615657"></a>VPC接口</p>
+</td>
+<td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p11888313467"><a name="p11888313467"></a><a name="p11888313467"></a>标签管理</p>
+</td>
+<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><a name="ul20558104818291"></a><a name="ul20558104818291"></a><ul id="ul20558104818291"><li>VPC资源标签的创建、查询、删除等接口。</li><li>子网资源标签的创建、查询、删除等接口。</li><li>弹性公网IP的创建、查询、删除等接口。</li></ul>
+<p id="p10341154735217"><a name="p10341154735217"></a><a name="p10341154735217"></a>该类型接口目前仅在“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”区域开放。</p>
+</td>
+</tr>
 <tr id="rccad5501787d4e4f81d9f8dbd1e47c20"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="a774fff5f4ccd40c4b3c74cc2ab894056"><a name="a774fff5f4ccd40c4b3c74cc2ab894056"></a><a name="a774fff5f4ccd40c4b3c74cc2ab894056"></a>OpenStack Neutron接口</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p386430466"><a name="p386430466"></a><a name="p386430466"></a>端口</p>
