@@ -1,4 +1,4 @@
-# 删除网络ACL规则<a name="zh-cn_topic_0051746704"></a>
+# 删除网络ACL规则<a name="vpc_acl_0007"></a>
 
 ## 操作场景<a name="section66699152161428"></a>
 

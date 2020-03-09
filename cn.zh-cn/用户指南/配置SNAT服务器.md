@@ -1,4 +1,4 @@
-# 配置SNAT服务器<a name="zh-cn_topic_0038764344"></a>
+# 配置SNAT服务器<a name="vpc_route_0004"></a>
 
 ## 操作场景<a name="section46985825185725"></a>
 

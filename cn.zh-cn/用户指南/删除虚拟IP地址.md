@@ -1,4 +1,4 @@
-# 删除虚拟IP地址<a name="zh-cn_topic_0063770285"></a>
+# 删除虚拟IP地址<a name="vpc_vip_0009"></a>
 
 ## 操作场景<a name="s82ad41fd6a5740a4b4bfef1650e82610"></a>
 
