@@ -6,7 +6,7 @@
 
 ## URI<a name="section28699899"></a>
 
-GET
+GET /
 
 ## 请求消息<a name="section42990474"></a>
 

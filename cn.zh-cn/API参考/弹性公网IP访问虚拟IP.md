@@ -29,7 +29,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p227814526319"><a name="p227814526319"></a><a name="p227814526319"></a>/v3/auth/tokens</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p7278352113111"><a name="p7278352113111"></a><a name="p7278352113111"></a>获取Token</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p7278352113111"><a name="p7278352113111"></a><a name="p7278352113111"></a>获取Token，参见<a href="https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html" target="_blank" rel="noopener noreferrer">获取用户Token</a></p>
 </td>
 </tr>
 <tr id="row527895243115"><td class="cellrowborder" valign="top" width="11.551155115511552%" headers="mcps1.1.5.1.1 "><p id="p72781552183112"><a name="p72781552183112"></a><a name="p72781552183112"></a>2</p>
@@ -38,7 +38,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p52781952103115"><a name="p52781952103115"></a><a name="p52781952103115"></a>/v2.0/floatingips</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p5278952173117"><a name="p5278952173117"></a><a name="p5278952173117"></a>创建弹性公网IP</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p5278952173117"><a name="p5278952173117"></a><a name="p5278952173117"></a>创建弹性公网IP，参见<a href="创建浮动IP.md">创建浮动IP</a></p>
 </td>
 </tr>
 </tbody>

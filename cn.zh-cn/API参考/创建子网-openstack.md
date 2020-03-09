@@ -138,6 +138,7 @@ POST /v2.0/subnets
 <p id="p26509468181443"><a name="p26509468181443"></a><a name="p26509468181443"></a>【使用说明】</p>
 <p id="p2924364410577"><a name="p2924364410577"></a><a name="p2924364410577"></a>例如："dns_nameservers": ["8.xx.xx.8","8.xx.xx.4"]</p>
 <p id="p8200621151510"><a name="p8200621151510"></a><a name="p8200621151510"></a>最大为5个</p>
+<p id="p4732746123620"><a name="p4732746123620"></a><a name="p4732746123620"></a>内网DNS地址请参见<a href="https://support.huaweicloud.com/dns_faq/dns_faq_002.html" target="_blank" rel="noopener noreferrer">华为云提供的内网DNS地址是多少？</a></p>
 </td>
 </tr>
 <tr id="row17847900105653"><td class="cellrowborder" valign="top" width="24.93%" headers="mcps1.2.5.1.1 "><p id="p4510693110577"><a name="p4510693110577"></a><a name="p4510693110577"></a>host_routes</p>

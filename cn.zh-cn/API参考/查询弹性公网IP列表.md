@@ -319,7 +319,8 @@ GET https://{Endpoint}/v1/{project_id}/publicips?limit={limit}&marker={marker}
             },
             {
                 "id": "80d5b82e-43b9-4f82-809a-37bec5793bd4",
-                "status": "DOWN",              "user_id": null,            "type": "5_bgp",
+                "status": "DOWN",
+                  "user_id": null,            "type": "5_bgp",
                 "public_ip_address": "161.xx.xx.10",
                 "private_ip_address": "192.168.10.6",
                 "tenant_id": "8b7e35ad379141fc9df3e178bd64f55c",
