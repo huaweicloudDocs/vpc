@@ -101,7 +101,7 @@ POST /v1/\{project\_id\}/publicips
     </td>
     <td class="cellrowborder" valign="top" width="20.9%" headers="mcps1.2.5.1.3 "><p id="p70444218129"><a name="p70444218129"></a><a name="p70444218129"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="31.1%" headers="mcps1.2.5.1.4 "><a name="ul29589093174724"></a><a name="ul29589093174724"></a><ul id="ul29589093174724"><li>功能说明：弹性公网IP的类型</li><li>取值范围：<em id="i16850184017499"><a name="i16850184017499"></a><a name="i16850184017499"></a>5_telcom（电信），5_union（联通），5_bgp（全动态BGP），5_sbgp（静态BGP）</em><a name="ul585004064911"></a><a name="ul585004064911"></a><ul id="ul585004064911"><li>东北-大连：5_telcom、5_union</li><li>华南-广州：5_bgp、5_sbgp</li><li>华东-上海二：5_bgp、5_sbgp</li><li>华北-北京一：5_bgp、5_sbgp</li><li>亚太-香港：5_bgp</li><li>亚太-曼谷：5_bgp</li><li>亚太-新加坡：5_bgp</li><li>非洲-约翰内斯堡：5_bgp</li><li>西南-贵阳一：5_sbgp</li><li>华北-北京四：5_bgp、5_sbgp</li></ul>
+    <td class="cellrowborder" valign="top" width="31.1%" headers="mcps1.2.5.1.4 "><a name="ul29589093174724"></a><a name="ul29589093174724"></a><ul id="ul29589093174724"><li>功能说明：弹性公网IP的类型</li><li>取值范围：<em id="i16850184017499"><a name="i16850184017499"></a><a name="i16850184017499"></a>5_telcom（电信），5_union（联通），5_bgp（全动态BGP），5_sbgp（静态BGP）</em><a name="ul585004064911"></a><a name="ul585004064911"></a><ul id="ul585004064911"><li>东北-大连：5_telcom、5_union</li><li>华南-广州：5_bgp、5_sbgp</li><li>华东-上海一：<em id="i541911467911"><a name="i541911467911"></a><a name="i541911467911"></a>5_bgp</em></li><li>华东-上海二：5_bgp、5_sbgp</li><li>华北-北京一：5_bgp、5_sbgp</li><li>亚太-香港：5_bgp</li><li>亚太-曼谷：5_bgp</li><li>亚太-新加坡：5_bgp</li><li>非洲-约翰内斯堡：5_bgp</li><li>西南-贵阳一：5_sbgp</li><li>华北-北京四：5_bgp、5_sbgp</li></ul>
     </li><li>约束：<a name="ul9738153015499"></a><a name="ul9738153015499"></a><ul id="ul9738153015499"><li>必须是系统具体支持的类型</li><li>publicip_id为IPv4端口，所以"publicip_type"字段未给定时，默认为5_bgp。</li></ul>
     </li></ul>
     </td>
@@ -176,7 +176,7 @@ POST /v1/\{project\_id\}/publicips
     <td class="cellrowborder" valign="top" width="21.17788221177882%" headers="mcps1.2.5.1.3 "><p id="p2656447218155"><a name="p2656447218155"></a><a name="p2656447218155"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="30.886911308869113%" headers="mcps1.2.5.1.4 "><a name="ul2255712095"></a><a name="ul2255712095"></a><ul id="ul2255712095"><li>功能说明：带宽类型</li><li>取值范围：<a name="ul143257017559"></a><a name="ul143257017559"></a><ul id="ul143257017559"><li>PER：独享带宽</li><li>WHOLE：共享带宽</li></ul>
-    </li></ul>
+    </li><li>约束：该字段为WHOLE时，必须指定带宽ID</li></ul>
     </td>
     </tr>
     <tr id="row17737188172319"><td class="cellrowborder" valign="top" width="30.826917308269174%" headers="mcps1.2.5.1.1 "><p id="p27426113172319"><a name="p27426113172319"></a><a name="p27426113172319"></a>charge_mode</p>

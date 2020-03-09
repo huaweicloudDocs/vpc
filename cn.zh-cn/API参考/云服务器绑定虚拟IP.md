@@ -1,4 +1,4 @@
-# 云服务器绑定虚拟IP<a name="ZH-CN_TOPIC_0201534141"></a>
+# 云服务器绑定虚拟IP<a name="vpc_vip_0002"></a>
 
 ## 使用工具<a name="section84221635191520"></a>
 
@@ -25,7 +25,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p109441639171611"><a name="p109441639171611"></a><a name="p109441639171611"></a>/v3/auth/tokens</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p6944139131611"><a name="p6944139131611"></a><a name="p6944139131611"></a>获取Token</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p17145201412357"><a name="p17145201412357"></a><a name="p17145201412357"></a>获取Token，参见<a href="https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html" target="_blank" rel="noopener noreferrer">获取用户Token</a></p>
 </td>
 </tr>
 <tr id="row119449396168"><td class="cellrowborder" valign="top" width="11.551155115511552%" headers="mcps1.1.5.1.1 "><p id="p1694413961611"><a name="p1694413961611"></a><a name="p1694413961611"></a>2</p>
@@ -34,7 +34,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p1394413916168"><a name="p1394413916168"></a><a name="p1394413916168"></a>/v2.0/ports</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p7944739111619"><a name="p7944739111619"></a><a name="p7944739111619"></a>创建VIP Port</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p1043655243511"><a name="p1043655243511"></a><a name="p1043655243511"></a>创建VIP Port，参见<a href="创建端口-openstack.md">创建端口</a></p>
 </td>
 </tr>
 <tr id="row109441939121617"><td class="cellrowborder" valign="top" width="11.551155115511552%" headers="mcps1.1.5.1.1 "><p id="p8944339151619"><a name="p8944339151619"></a><a name="p8944339151619"></a>3</p>
@@ -43,7 +43,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p189448392169"><a name="p189448392169"></a><a name="p189448392169"></a>/v2.0/ports/{port_id}</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p1794453901617"><a name="p1794453901617"></a><a name="p1794453901617"></a>将云服务器与虚拟IP绑定</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p1794453901617"><a name="p1794453901617"></a><a name="p1794453901617"></a>将云服务器与虚拟IP绑定，参见<a href="更新端口-openstack.md">更新端口</a></p>
 </td>
 </tr>
 <tr id="row1594423941613"><td class="cellrowborder" valign="top" width="11.551155115511552%" headers="mcps1.1.5.1.1 "><p id="p79441139181620"><a name="p79441139181620"></a><a name="p79441139181620"></a>4</p>
@@ -52,7 +52,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p179441439101616"><a name="p179441439101616"></a><a name="p179441439101616"></a>/v2/{project_id}/servers/{server_id}/os-interface</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p139447393169"><a name="p139447393169"></a><a name="p139447393169"></a>配置绑定了虚拟IP的云服务器网卡的allowed-address-pairs</p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p139447393169"><a name="p139447393169"></a><a name="p139447393169"></a>配置绑定了虚拟IP的云服务器网卡的allowed-address-pairs，</p>
 </td>
 </tr>
 </tbody>
