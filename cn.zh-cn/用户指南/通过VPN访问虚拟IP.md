@@ -1,4 +1,4 @@
-# 通过VPN访问虚拟IP<a name="zh-cn_topic_0097599260"></a>
+# 通过VPN访问虚拟IP<a name="vpc_vip_0004"></a>
 
 ## 操作步骤<a name="section18255124583417"></a>
 

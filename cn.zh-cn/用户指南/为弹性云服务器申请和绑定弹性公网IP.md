@@ -8,10 +8,9 @@
 
 1.  登录管理控制台。
 2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
-3.  在系统首页，选择“网络 \> 虚拟私有云”。
-4.  在左侧导航树，选择“弹性公网IP和带宽 \> 弹性公网IP”。
-5.  在“弹性公网IP”界面，单击“购买弹性公网IP”。
-6.  根据界面提示配置参数。
+3.  在系统首页，选择“网络 \> 弹性公网IP”。
+4.  在“弹性公网IP”界面，单击“购买弹性公网IP”。
+5.  根据界面提示配置参数。
 
     **表 1**  参数说明
 
@@ -53,12 +52,12 @@
     <a name="ul2039802123533"></a><a name="ul2039802123533"></a><ul id="ul2039802123533"><li>独享：带宽只能被一个弹性公网IP地址使用。</li><li>共享：带宽可以加入多个弹性公网IP，带宽被多个弹性公网IP地址共用。</li></ul>
     <p id="p122215811232"><a name="p122215811232"></a><a name="p122215811232"></a>仅在按需计费时可以选择共享带宽类型。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><p id="p46834114114647"><a name="p46834114114647"></a><a name="p46834114114647"></a>独享。</p>
+    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><p id="p46834114114647"><a name="p46834114114647"></a><a name="p46834114114647"></a>独享</p>
     </td>
     </tr>
     <tr id="row1961101617517"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p44298631124245"><a name="p44298631124245"></a><a name="p44298631124245"></a>计费方式</p>
     </td>
-    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p2244102212432"><a name="p2244102212432"></a><a name="p2244102212432"></a>按带宽计费或按流量计费</p>
+    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p2244102212432"><a name="p2244102212432"></a><a name="p2244102212432"></a>按带宽计费或按流量计费。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><p id="p61941702124245"><a name="p61941702124245"></a><a name="p61941702124245"></a>按带宽计费</p>
     </td>
@@ -146,7 +145,7 @@
     >    -   将弹性公网IP添加到共享带宽，则弹性公网IP使用共享带宽。  
     >    -   将弹性公网IP移出共享带宽，则弹性公网IP使用独享带宽。  
 
-7.  单击“立即购买”。
+6.  单击“立即购买”。
 
 ## 绑定弹性公网IP<a name="section6234163111911"></a>
 

@@ -1,4 +1,4 @@
-# 通过对等连接访问虚拟IP<a name="zh-cn_topic_0097599262"></a>
+# 通过对等连接访问虚拟IP<a name="vpc_vip_0006"></a>
 
 ## 操作步骤<a name="section18255124583417"></a>
 
