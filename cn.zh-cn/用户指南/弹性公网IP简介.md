@@ -40,3 +40,6 @@
 -   对于长期闲置的EIP资源配额，华为云将降低配额至默认值，如需提升配额，您可通过工单提交申请。
 -   如您违反适用法律法规的要求使用华为云EIP资源，华为云有权收回EIP资源，并暂停向您提供服务。
 
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>工单提交请参见[提交工单](https://support.huaweicloud.com/usermanual-ticket/zh-cn_topic_0127038618.html)。  
+
