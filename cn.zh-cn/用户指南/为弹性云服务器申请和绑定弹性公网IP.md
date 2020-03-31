@@ -93,7 +93,7 @@
     </tr>
     <tr id="row2882753155310"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p48192945195617"><a name="p48192945195617"></a><a name="p48192945195617"></a>标签</p>
     </td>
-    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p11314500195617"><a name="p11314500195617"></a><a name="p11314500195617"></a>用于标示弹性公网IP地址。包括键和值。</p>
+    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p11314500195617"><a name="p11314500195617"></a><a name="p11314500195617"></a>用于标识弹性公网IP地址。包括键和值。</p>
     <p id="p60989264195617"><a name="p60989264195617"></a><a name="p60989264195617"></a>标签的命名规则请参考<a href="#table36606052153313">表2</a>。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><a name="ul35105694195617"></a><a name="ul35105694195617"></a><ul id="ul35105694195617"><li>键：Ipv4_key1</li><li>值：192.168.12.10</li></ul>
