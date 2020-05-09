@@ -1,4 +1,4 @@
-# 申请私有IP<a name="zh-cn_topic_0020090610"></a>
+# 申请私有IP<a name="vpc_privateip_0001"></a>
 
 ## 功能介绍<a name="section31644779"></a>
 
@@ -25,7 +25,7 @@ POST /v1/\{project\_id\}/privateips
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4179666"><a name="p4179666"></a><a name="p4179666"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 </tbody>

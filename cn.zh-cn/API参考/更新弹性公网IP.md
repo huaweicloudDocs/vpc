@@ -1,4 +1,4 @@
-# 更新弹性公网IP<a name="zh-cn_topic_0020090600"></a>
+# 更新弹性公网IP<a name="vpc_eip_0004"></a>
 
 ## 功能介绍<a name="section43589445"></a>
 
@@ -25,7 +25,7 @@ PUT /v1/\{project\_id\}/publicips/\{publicip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p44117540"><a name="p44117540"></a><a name="p44117540"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row16540805"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p64736823"><a name="p64736823"></a><a name="p64736823"></a>publicip_id</p>

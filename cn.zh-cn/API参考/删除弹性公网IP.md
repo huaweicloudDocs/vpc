@@ -1,4 +1,4 @@
-# 删除弹性公网IP<a name="zh-cn_topic_0020090601"></a>
+# 删除弹性公网IP<a name="vpc_eip_0005"></a>
 
 ## 功能介绍<a name="section21768161"></a>
 
@@ -25,7 +25,7 @@ DELETE /v1/\{project\_id\}/publicips/\{publicip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p46769243"><a name="p46769243"></a><a name="p46769243"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row3475817"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p13105749"><a name="p13105749"></a><a name="p13105749"></a>publicip_id</p>

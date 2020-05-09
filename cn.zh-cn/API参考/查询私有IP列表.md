@@ -1,4 +1,4 @@
-# 查询私有IP列表<a name="zh-cn_topic_0020090612"></a>
+# 查询私有IP列表<a name="vpc_privateip_0003"></a>
 
 ## 功能介绍<a name="section54434571"></a>
 
@@ -35,7 +35,7 @@ GET https://{Endpoint}/v1/{project_id}/subnets/{subnet_id}/privateips?limit=10&m
 </td>
 <td class="cellrowborder" valign="top" width="18.61%" headers="mcps1.2.5.1.3 "><p id="p51145882173211"><a name="p51145882173211"></a><a name="p51145882173211"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row32261252"><td class="cellrowborder" valign="top" width="16.73%" headers="mcps1.2.5.1.1 "><p id="p63024590"><a name="p63024590"></a><a name="p63024590"></a>subnet_id</p>

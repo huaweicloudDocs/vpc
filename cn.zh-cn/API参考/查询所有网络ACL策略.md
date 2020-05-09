@@ -14,13 +14,85 @@ GET /v2.0/fwaas/firewall\_policies
 GET https://{Endpoint}/v2.0/fwaas/firewall_policies?limit=2&marker=6b70e321-0c21-4b83-bb8a-a886d1414a5f&page_reverse=False
 ```
 
+参数说明请参见[表1](#table2168229184411)
+
+**表 1**  参数说明
+
+<a name="table2168229184411"></a>
+<table><thead align="left"><tr id="row62731129194416"><th class="cellrowborder" valign="top" width="22.222222222222225%" id="mcps1.2.5.1.1"><p id="p202731029194414"><a name="p202731029194414"></a><a name="p202731029194414"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14141414141414%" id="mcps1.2.5.1.2"><p id="p827332934419"><a name="p827332934419"></a><a name="p827332934419"></a>是否必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="27.27272727272727%" id="mcps1.2.5.1.3"><p id="p3273829124411"><a name="p3273829124411"></a><a name="p3273829124411"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="36.36363636363636%" id="mcps1.2.5.1.4"><p id="p18273529184418"><a name="p18273529184418"></a><a name="p18273529184418"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row2027311294446"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p227317292447"><a name="p227317292447"></a><a name="p227317292447"></a>id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1273192914419"><a name="p1273192914419"></a><a name="p1273192914419"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p192737290449"><a name="p192737290449"></a><a name="p192737290449"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p172735292445"><a name="p172735292445"></a><a name="p172735292445"></a>按照网络ACL策略对应的ID过滤查询</p>
+</td>
+</tr>
+<tr id="row1327314298444"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p18273102911445"><a name="p18273102911445"></a><a name="p18273102911445"></a>name</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1327342914412"><a name="p1327342914412"></a><a name="p1327342914412"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p1273112954414"><a name="p1273112954414"></a><a name="p1273112954414"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p1627318299444"><a name="p1627318299444"></a><a name="p1627318299444"></a>按照网络ACL策略的名称过滤查询</p>
+</td>
+</tr>
+<tr id="row227382915449"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1627342919446"><a name="p1627342919446"></a><a name="p1627342919446"></a>description</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p02741429174411"><a name="p02741429174411"></a><a name="p02741429174411"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p1727442911446"><a name="p1727442911446"></a><a name="p1727442911446"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p16274429204415"><a name="p16274429204415"></a><a name="p16274429204415"></a>按照网络ACL策略的描述过滤查询</p>
+</td>
+</tr>
+<tr id="row22741329104419"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p52741929134414"><a name="p52741929134414"></a><a name="p52741929134414"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1227415292446"><a name="p1227415292446"></a><a name="p1227415292446"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p18274429154412"><a name="p18274429154412"></a><a name="p18274429154412"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p1227413297440"><a name="p1227413297440"></a><a name="p1227413297440"></a>按照网络ACL策略所属的项目ID过滤查询</p>
+</td>
+</tr>
+<tr id="row192740294443"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p192741229104418"><a name="p192741229104418"></a><a name="p192741229104418"></a>marker</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p152741298443"><a name="p152741298443"></a><a name="p152741298443"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p13274229194419"><a name="p13274229194419"></a><a name="p13274229194419"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p2027415296449"><a name="p2027415296449"></a><a name="p2027415296449"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+</td>
+</tr>
+<tr id="row112741929134413"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p727492918445"><a name="p727492918445"></a><a name="p727492918445"></a>limit</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p72746298445"><a name="p72746298445"></a><a name="p72746298445"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p327413298441"><a name="p327413298441"></a><a name="p327413298441"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p8274329174411"><a name="p8274329174411"></a><a name="p8274329174411"></a>每页返回的个数，取值范围：0~intmax</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 请求消息<a name="section49464339132340"></a>
 
 无。
 
 ## 响应消息<a name="section60203718132340"></a>
 
-**表 1**  响应参数
+**表 2**  响应参数
 
 <a name="table9250393132340"></a>
 <table><thead align="left"><tr id="row50269734132340"><th class="cellrowborder" valign="top" width="23.330000000000002%" id="mcps1.2.4.1.1"><p id="p65065932132340"><a name="p65065932132340"></a><a name="p65065932132340"></a>参数名称</p>
@@ -35,13 +107,13 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_policies?limit=2&marker=6b70e321-0c21
 </td>
 <td class="cellrowborder" valign="top" width="17.78%" headers="mcps1.2.4.1.2 "><p id="p39042021132340"><a name="p39042021132340"></a><a name="p39042021132340"></a>Object</p>
 </td>
-<td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p50197883132340"><a name="p50197883132340"></a><a name="p50197883132340"></a>firewall policy对象。请参见<a href="#table17002720121127">表2</a>。</p>
+<td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p50197883132340"><a name="p50197883132340"></a><a name="p50197883132340"></a>firewall policy对象。请参见<a href="#table17002720121127">表3</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 2**  Firewall Policy对象
+**表 3**  Firewall Policy对象
 
 <a name="table17002720121127"></a>
 <table><thead align="left"><tr id="row16929792121127"><th class="cellrowborder" valign="top" width="32.083208320832085%" id="mcps1.2.4.1.1"><p id="p18873879121127"><a name="p18873879121127"></a><a name="p18873879121127"></a>属性</p>
@@ -105,7 +177,7 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_policies?limit=2&marker=6b70e321-0c21
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p17700201411911"><a name="p17700201411911"></a><a name="p17700201411911"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p763154142816"><a name="p763154142816"></a><a name="p763154142816"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p763154142816"><a name="p763154142816"></a><a name="p763154142816"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 </tbody>

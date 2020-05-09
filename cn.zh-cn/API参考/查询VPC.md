@@ -1,4 +1,4 @@
-# 查询VPC<a name="zh-cn_topic_0020090618"></a>
+# 查询VPC<a name="vpc_api01_0002"></a>
 
 ## 功能介绍<a name="section48604061"></a>
 
@@ -25,7 +25,7 @@ GET /v1/\{project\_id\}/vpcs/\{vpc\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p65079903"><a name="p65079903"></a><a name="p65079903"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row64391817"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p48354649"><a name="p48354649"></a><a name="p48354649"></a>vpc_id</p>

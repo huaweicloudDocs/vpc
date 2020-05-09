@@ -1,4 +1,4 @@
-# 创建安全组规则<a name="zh-cn_topic_0060595558"></a>
+# 创建安全组规则<a name="vpc_sg02_0008"></a>
 
 ## 功能介绍<a name="section5958580616319"></a>
 
@@ -260,7 +260,7 @@ POST /v2.0/security-group-rules
 </td>
 <td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="p69311132153317"><a name="p69311132153317"></a><a name="p69311132153317"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p103844191312"><a name="p103844191312"></a><a name="p103844191312"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p103844191312"><a name="p103844191312"></a><a name="p103844191312"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row10903153923318"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="p6634195714335"><a name="p6634195714335"></a><a name="p6634195714335"></a>created_at</p>

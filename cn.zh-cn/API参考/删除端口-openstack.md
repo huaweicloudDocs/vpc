@@ -1,4 +1,4 @@
-# 删除端口<a name="zh-cn_topic_0062207810"></a>
+# 删除端口<a name="vpc_port02_0005"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0062207359_section45238241"></a>
 
@@ -12,6 +12,29 @@
 ## URI<a name="zh-cn_topic_0062207359_section4490990"></a>
 
 DELETE /v2.0/ports/\{port\_id\}
+
+参数说明请参见[表1](#table1855162528)。
+
+**表 1**  参数说明
+
+<a name="table1855162528"></a>
+<table><thead align="left"><tr id="vpc_port02_0002_row1394617591304"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.1"><p id="vpc_port02_0002_p159467591307"><a name="vpc_port02_0002_p159467591307"></a><a name="vpc_port02_0002_p159467591307"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.2"><p id="vpc_port02_0002_p1094612597019"><a name="vpc_port02_0002_p1094612597019"></a><a name="vpc_port02_0002_p1094612597019"></a>是否必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.3"><p id="vpc_port02_0002_p29466591203"><a name="vpc_port02_0002_p29466591203"></a><a name="vpc_port02_0002_p29466591203"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="vpc_port02_0002_row1494695918012"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="vpc_port02_0002_p9946159600"><a name="vpc_port02_0002_p9946159600"></a><a name="vpc_port02_0002_p9946159600"></a>port_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="vpc_port02_0002_p09465594017"><a name="vpc_port02_0002_p09465594017"></a><a name="vpc_port02_0002_p09465594017"></a>是</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="vpc_port02_0002_p394618591401"><a name="vpc_port02_0002_p394618591401"></a><a name="vpc_port02_0002_p394618591401"></a>端口唯一标识</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 请求消息<a name="zh-cn_topic_0062207359_section52706911"></a>
 

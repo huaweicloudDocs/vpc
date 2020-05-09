@@ -34,7 +34,24 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row20536131455815"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p175361814165817"><a name="p175361814165817"></a><a name="p175361814165817"></a>入方向</p>
+<tbody><tr id="row12341947141113"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p173271575112"><a name="p173271575112"></a><a name="p173271575112"></a>入方向</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p09375481311"><a name="p09375481311"></a><a name="p09375481311"></a>允许</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p234294719114"><a name="p234294719114"></a><a name="p234294719114"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="8.93%" headers="mcps1.2.9.1.4 "><p id="p441232491318"><a name="p441232491318"></a><a name="p441232491318"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="13.950000000000001%" headers="mcps1.2.9.1.5 "><p id="p14135242137"><a name="p14135242137"></a><a name="p14135242137"></a>1-65535</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.75%" headers="mcps1.2.9.1.6 "><p id="p13413152415134"><a name="p13413152415134"></a><a name="p13413152415134"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.06%" headers="mcps1.2.9.1.7 "><p id="p434204741117"><a name="p434204741117"></a><a name="p434204741117"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p153421247191118"><a name="p153421247191118"></a><a name="p153421247191118"></a>放通所有入站流量</p>
+</td>
+</tr>
+<tr id="row20536131455815"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p175361814165817"><a name="p175361814165817"></a><a name="p175361814165817"></a>入方向</p>
 </td>
 <td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p1053616146583"><a name="p1053616146583"></a><a name="p1053616146583"></a>拒绝</p>
 </td>
@@ -53,6 +70,9 @@
 </tr>
 </tbody>
 </table>
+
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>网络ACL默认拒绝所有入站流量，需先放通所有入站流量。  
 
 ## 允许某些协议端口的访问<a name="section61291659102216"></a>
 

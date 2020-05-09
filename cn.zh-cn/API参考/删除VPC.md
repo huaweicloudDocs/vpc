@@ -1,4 +1,4 @@
-# 删除VPC<a name="zh-cn_topic_0020090627"></a>
+# 删除VPC<a name="vpc_api01_0005"></a>
 
 ## 功能介绍<a name="section15422169"></a>
 
@@ -25,7 +25,7 @@ DELETE /v1/\{project\_id\}/vpcs/\{vpc\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p4700647"><a name="p4700647"></a><a name="p4700647"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row4220283"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p6298672"><a name="p6298672"></a><a name="p6298672"></a>vpc_id</p>

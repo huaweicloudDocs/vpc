@@ -1,4 +1,4 @@
-# 查询弹性公网IP列表<a name="zh-cn_topic_0020090598"></a>
+# 查询弹性公网IP列表<a name="vpc_eip_0003"></a>
 
 ## 功能介绍<a name="section52618256"></a>
 
@@ -35,7 +35,7 @@ GET https://{Endpoint}/v1/{project_id}/publicips?limit={limit}&marker={marker}
 </td>
 <td class="cellrowborder" valign="top" width="15.16848315168483%" headers="mcps1.2.5.1.3 "><p id="p3248766718724"><a name="p3248766718724"></a><a name="p3248766718724"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.474952504749524%" headers="mcps1.2.5.1.4 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="50.474952504749524%" headers="mcps1.2.5.1.4 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row8409368"><td class="cellrowborder" valign="top" width="22.757724227577242%" headers="mcps1.2.5.1.1 "><p id="p10070188"><a name="p10070188"></a><a name="p10070188"></a>marker</p>

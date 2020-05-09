@@ -1,4 +1,4 @@
-# 查询子网<a name="zh-cn_topic_0062160179"></a>
+# 查询子网<a name="vpc_subnet02_0002"></a>
 
 ## 功能介绍<a name="section17487184"></a>
 
@@ -152,7 +152,7 @@ GET /v2.0/subnets/\{subnet\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="28.332833283328334%" headers="mcps1.2.4.1.2 "><p id="p45641422124917"><a name="p45641422124917"></a><a name="p45641422124917"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.33433343334334%" headers="mcps1.2.4.1.3 "><p id="p8670162382514"><a name="p8670162382514"></a><a name="p8670162382514"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="43.33433343334334%" headers="mcps1.2.4.1.3 "><p id="p8670162382514"><a name="p8670162382514"></a><a name="p8670162382514"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row126291040191211"><td class="cellrowborder" valign="top" width="28.332833283328334%" headers="mcps1.2.4.1.1 "><p id="p1953114119914"><a name="p1953114119914"></a><a name="p1953114119914"></a>created_at</p>

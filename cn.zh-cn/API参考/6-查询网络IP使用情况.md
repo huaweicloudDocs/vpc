@@ -72,7 +72,7 @@ GET /v2.0/network-ip-availabilities/\{network\_id\}
     </thead>
     <tbody><tr id="row1166619314334"><td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.1 "><p id="p176661383319"><a name="p176661383319"></a><a name="p176661383319"></a>network_ip_availability</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p12666439333"><a name="p12666439333"></a><a name="p12666439333"></a>String</p>
+    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p58982550406"><a name="p58982550406"></a><a name="p58982550406"></a>Object</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.3 "><p id="p666612311331"><a name="p666612311331"></a><a name="p666612311331"></a>network_ip_avalability对象，请参见<a href="#table4952133061113">表3</a>。</p>
     </td>
@@ -128,7 +128,7 @@ GET /v2.0/network-ip-availabilities/\{network\_id\}
     </tr>
     <tr id="row6955830121114"><td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.1 "><p id="p19955103061116"><a name="p19955103061116"></a><a name="p19955103061116"></a>subnet_ip_availability</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p89556306114"><a name="p89556306114"></a><a name="p89556306114"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p1239241812243"><a name="p1239241812243"></a><a name="p1239241812243"></a>Array of <a href="#table110015141519">subnet_ip_availability</a> objects</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.3 "><p id="p1395513031116"><a name="p1395513031116"></a><a name="p1395513031116"></a>子网IP使用情况的对象，参见<a href="#table110015141519">表4</a>。</p>
     </td>

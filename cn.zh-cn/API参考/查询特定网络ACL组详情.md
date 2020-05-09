@@ -147,7 +147,7 @@ GET /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="21.57%" headers="mcps1.2.4.1.2 "><p id="p1731011220498"><a name="p1731011220498"></a><a name="p1731011220498"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p66091240132915"><a name="p66091240132915"></a><a name="p66091240132915"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p66091240132915"><a name="p66091240132915"></a><a name="p66091240132915"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 </tbody>

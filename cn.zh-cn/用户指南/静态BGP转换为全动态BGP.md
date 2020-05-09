@@ -46,5 +46,5 @@
 
 ## 相关操作<a name="section1382601019345"></a>
 
-[静态BGP与全动态BGP有何区别？](https://support.huaweicloud.com/vpc_faq/faq_bandwidth_0008.html)
+[静态BGP与全动态BGP有何区别？](https://support.huaweicloud.com/eip_faq/faq_bandwidth_0013.html)
 

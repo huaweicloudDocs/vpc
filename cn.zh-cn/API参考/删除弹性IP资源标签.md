@@ -25,7 +25,7 @@ DELETE /v2.0/\{project\_id\}/publicips/\{publicip\_id\}/tags/\{key\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p15678685"><a name="p15678685"></a><a name="p15678685"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row21254748"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p43913021"><a name="p43913021"></a><a name="p43913021"></a>publicip_id</p>
@@ -47,25 +47,27 @@ DELETE /v2.0/\{project\_id\}/publicips/\{publicip\_id\}/tags/\{key\}
 
 ## 请求消息<a name="section6649132102410"></a>
 
-请求参数
+-   请求参数
 
-无
+    无
 
-请求样例
+-   请求样例
 
-```
-DELETE https://{Endpoint}/v2.0/{project_id}/publicips/{publicip_id}/tags/{key}
-```
+    ```
+    DELETE https://{Endpoint}/v2.0/{project_id}/publicips/{publicip_id}/tags/{key}
+    ```
+
 
 ## 响应消息<a name="section76491632142420"></a>
 
-响应参数
+-   响应参数
 
-无
+    无
 
-响应样例
+-   响应样例
 
-无
+    无
+
 
 ## 状态码<a name="section31981619"></a>
 

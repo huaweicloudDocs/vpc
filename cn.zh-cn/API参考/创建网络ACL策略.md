@@ -177,7 +177,7 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p17700201411911"><a name="p17700201411911"></a><a name="p17700201411911"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p1582585392819"><a name="p1582585392819"></a><a name="p1582585392819"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p1582585392819"><a name="p1582585392819"></a><a name="p1582585392819"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 </tbody>

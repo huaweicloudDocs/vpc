@@ -1,4 +1,4 @@
-# 查询私有IP<a name="zh-cn_topic_0020090611"></a>
+# 查询私有IP<a name="vpc_privateip_0002"></a>
 
 ## 功能介绍<a name="section9185002"></a>
 
@@ -25,7 +25,7 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p41105728"><a name="p41105728"></a><a name="p41105728"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row35522984"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p58789457"><a name="p58789457"></a><a name="p58789457"></a>privateip_id</p>

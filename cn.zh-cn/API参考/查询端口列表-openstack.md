@@ -1,4 +1,4 @@
-# 查询端口列表<a name="zh-cn_topic_0062207806"></a>
+# 查询端口列表<a name="vpc_port02_0001"></a>
 
 ## 功能介绍<a name="zh-cn_topic_0062207386_section66569185"></a>
 
@@ -20,13 +20,142 @@ GET https://{Endpoint}/v2.0/ports?id={port_id}&name={port_name}&admin_state_up={
 GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b06af08&page_reverse=False
 ```
 
+参数说明请参见[表1](#table534412611487)。
+
+**表 1**  参数说明
+
+<a name="table534412611487"></a>
+<table><thead align="left"><tr id="row448492674817"><th class="cellrowborder" valign="top" width="22.222222222222225%" id="mcps1.2.5.1.1"><p id="p24841926154819"><a name="p24841926154819"></a><a name="p24841926154819"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14141414141414%" id="mcps1.2.5.1.2"><p id="p1648432615489"><a name="p1648432615489"></a><a name="p1648432615489"></a>是否必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="15.151515151515152%" id="mcps1.2.5.1.3"><p id="p144841026144810"><a name="p144841026144810"></a><a name="p144841026144810"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="48.484848484848484%" id="mcps1.2.5.1.4"><p id="p2484112664814"><a name="p2484112664814"></a><a name="p2484112664814"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row948482644816"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p18484826154812"><a name="p18484826154812"></a><a name="p18484826154812"></a>id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1848410267488"><a name="p1848410267488"></a><a name="p1848410267488"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p104842262481"><a name="p104842262481"></a><a name="p104842262481"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p94841626104816"><a name="p94841626104816"></a><a name="p94841626104816"></a>按照端口的ID过滤查询</p>
+</td>
+</tr>
+<tr id="row8484226114819"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p7484202694817"><a name="p7484202694817"></a><a name="p7484202694817"></a>name</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p9484162664814"><a name="p9484162664814"></a><a name="p9484162664814"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p1548412269482"><a name="p1548412269482"></a><a name="p1548412269482"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p8485172674817"><a name="p8485172674817"></a><a name="p8485172674817"></a>按照端口的名称过滤查询</p>
+</td>
+</tr>
+<tr id="row1448518262483"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p124851326114815"><a name="p124851326114815"></a><a name="p124851326114815"></a>admin_state_up</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p18485112614488"><a name="p18485112614488"></a><a name="p18485112614488"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p13485162694818"><a name="p13485162694818"></a><a name="p13485162694818"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p132122181612"><a name="p132122181612"></a><a name="p132122181612"></a>按照端口的管理状态过滤查询</p>
+<p id="p9485122611486"><a name="p9485122611486"></a><a name="p9485122611486"></a>取值范围：true or false</p>
+</td>
+</tr>
+<tr id="row848522612484"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1448516264489"><a name="p1448516264489"></a><a name="p1448516264489"></a>network_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p154852026124815"><a name="p154852026124815"></a><a name="p154852026124815"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p1048592684818"><a name="p1048592684818"></a><a name="p1048592684818"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p10485132664815"><a name="p10485132664815"></a><a name="p10485132664815"></a>按照端口所属的网络ID过滤查询</p>
+</td>
+</tr>
+<tr id="row1948562624813"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p154851626134817"><a name="p154851626134817"></a><a name="p154851626134817"></a>mac_address</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p5485726104812"><a name="p5485726104812"></a><a name="p5485726104812"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p11485132644813"><a name="p11485132644813"></a><a name="p11485132644813"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p114851326144819"><a name="p114851326144819"></a><a name="p114851326144819"></a>按照端口的mac地址过滤查询</p>
+</td>
+</tr>
+<tr id="row1348552617486"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p4485926194812"><a name="p4485926194812"></a><a name="p4485926194812"></a>device_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p448522624814"><a name="p448522624814"></a><a name="p448522624814"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p648511262487"><a name="p648511262487"></a><a name="p648511262487"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p1548518263489"><a name="p1548518263489"></a><a name="p1548518263489"></a>按照端口的设备ID过滤查询</p>
+</td>
+</tr>
+<tr id="row16485122614487"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p13485192616487"><a name="p13485192616487"></a><a name="p13485192616487"></a>device_owner</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p3485152619489"><a name="p3485152619489"></a><a name="p3485152619489"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p8485102620484"><a name="p8485102620484"></a><a name="p8485102620484"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p64851126204810"><a name="p64851126204810"></a><a name="p64851126204810"></a>按照端口的设备所属过滤查询</p>
+</td>
+</tr>
+<tr id="row0485142618484"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p15485172619482"><a name="p15485172619482"></a><a name="p15485172619482"></a>status</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p5485172612482"><a name="p5485172612482"></a><a name="p5485172612482"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p2048519261484"><a name="p2048519261484"></a><a name="p2048519261484"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p47831820460"><a name="p47831820460"></a><a name="p47831820460"></a>按照端口状态过滤查询</p>
+<p id="p348516264489"><a name="p348516264489"></a><a name="p348516264489"></a>取值范围：ACTIVE、BUILD、DOWN</p>
+</td>
+</tr>
+<tr id="row154851626164815"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p10485926164819"><a name="p10485926164819"></a><a name="p10485926164819"></a>fixed_ips</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p15485826194811"><a name="p15485826194811"></a><a name="p15485826194811"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p11485026164810"><a name="p11485026164810"></a><a name="p11485026164810"></a>Array of strings</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p9486526174813"><a name="p9486526174813"></a><a name="p9486526174813"></a>按照端口的IP地址过滤查询，fixed_ips=ip_address或者fixed_ips=subnet_id过滤查询</p>
+</td>
+</tr>
+<tr id="row84861626204816"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1448672614484"><a name="p1448672614484"></a><a name="p1448672614484"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p13486626114819"><a name="p13486626114819"></a><a name="p13486626114819"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p194861626124817"><a name="p194861626124817"></a><a name="p194861626124817"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p114861226174812"><a name="p114861226174812"></a><a name="p114861226174812"></a>按照端口所属的项目ID过滤查询</p>
+</td>
+</tr>
+<tr id="row748682684814"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1148672694815"><a name="p1148672694815"></a><a name="p1148672694815"></a>marker</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p154862263482"><a name="p154862263482"></a><a name="p154862263482"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p11486926134819"><a name="p11486926134819"></a><a name="p11486926134819"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p948692684817"><a name="p948692684817"></a><a name="p948692684817"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+</td>
+</tr>
+<tr id="row1048632694819"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p164861626154814"><a name="p164861626154814"></a><a name="p164861626154814"></a>limit</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1948619268488"><a name="p1948619268488"></a><a name="p1948619268488"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p2486142612485"><a name="p2486142612485"></a><a name="p2486142612485"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p01471215164915"><a name="p01471215164915"></a><a name="p01471215164915"></a>每页返回的个数</p>
+<p id="p24869261488"><a name="p24869261488"></a><a name="p24869261488"></a>取值范围：0~intmax</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 请求消息<a name="zh-cn_topic_0062207386_section15938858"></a>
 
 无
 
 ## 响应参数<a name="zh-cn_topic_0062207386_section9232000"></a>
 
-**表 1**  响应参数
+**表 2**  响应参数
 
 <a name="zh-cn_topic_0062207386_table48620262"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0062207386_row18332862"><th class="cellrowborder" valign="top" width="22.32%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0062207386_p8566882"><a name="zh-cn_topic_0062207386_p8566882"></a><a name="zh-cn_topic_0062207386_p8566882"></a>参数名称</p>
@@ -41,13 +170,13 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="24.67%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0062207386_p1173742"><a name="zh-cn_topic_0062207386_p1173742"></a><a name="zh-cn_topic_0062207386_p1173742"></a>Array of <a href="#table15919752145624">port</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0062207386_p50516929"><a name="zh-cn_topic_0062207386_p50516929"></a><a name="zh-cn_topic_0062207386_p50516929"></a>port对象列表，参见<a href="#table15919752145624">表2</a>。</p>
+<td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0062207386_p50516929"><a name="zh-cn_topic_0062207386_p50516929"></a><a name="zh-cn_topic_0062207386_p50516929"></a>port对象列表，参见<a href="#table15919752145624">表3</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 2**  port对象
+**表 3**  port对象
 
 <a name="table15919752145624"></a>
 <table><thead align="left"><tr id="row28529169145624"><th class="cellrowborder" valign="top" width="28.499999999999996%" id="mcps1.2.4.1.1"><p id="p42540009145658"><a name="p42540009145658"></a><a name="p42540009145658"></a>属性</p>
@@ -100,7 +229,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p35745048145658"><a name="p35745048145658"></a><a name="p35745048145658"></a>Array of <a href="#table4290920914597">fixed_ip</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p48560910145658"><a name="p48560910145658"></a><a name="p48560910145658"></a>端口IP，参见<a href="#table4290920914597">表3</a>。例如："fixed_ips": [{"subnet_id": "4dc70db6-cb7f-4200-9790-a6a910776bba", "ip_address": "192.169.25.79"}]</p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p48560910145658"><a name="p48560910145658"></a><a name="p48560910145658"></a>端口IP，参见<a href="#table4290920914597">表4</a>。例如："fixed_ips": [{"subnet_id": "4dc70db6-cb7f-4200-9790-a6a910776bba", "ip_address": "192.169.25.79"}]</p>
 </td>
 </tr>
 <tr id="row52336547145624"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p42357933145658"><a name="p42357933145658"></a><a name="p42357933145658"></a>device_id</p>
@@ -147,7 +276,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p13529152643712"><a name="p13529152643712"></a><a name="p13529152643712"></a>Array of <a href="#zh-cn_topic_0062207355_table57914257">allow_address_pair</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p30975735145658"><a name="p30975735145658"></a><a name="p30975735145658"></a>扩展属性：IP/Mac对列表，allow_address_pair参见<a href="#zh-cn_topic_0062207355_table57914257">表4</a></p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p30975735145658"><a name="p30975735145658"></a><a name="p30975735145658"></a>扩展属性：IP/Mac对列表，allow_address_pair参见<a href="#zh-cn_topic_0062207355_table57914257">表5</a></p>
 <p id="p7136530194312"><a name="p7136530194312"></a><a name="p7136530194312"></a>【使用说明】</p>
 <a name="ul18386852174311"></a><a name="ul18386852174311"></a><ul id="ul18386852174311"><li>IP地址不允许为 “0.0.0.0”</li><li>如果allowed_address_pairs配置地址池较大的CIDR（掩码小于24位），建议为该port配置一个单独的安全组</li><li>硬件SDN环境不支持ip_address属性配置为CIDR格式</li><li>为虚拟IP配置后端ECS场景，allowed_address_pairs中配置的IP地址，必须为ECS网卡已有的IP地址，否则可能会导致虚拟IP通信异常。</li></ul>
 </td>
@@ -156,7 +285,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p440115378365"><a name="p440115378365"></a><a name="p440115378365"></a>Array of <a href="#table5056075615524">extra_dhcp_opt</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p45787521145658"><a name="p45787521145658"></a><a name="p45787521145658"></a>扩展属性：DHCP的扩展Option，参见<a href="#table5056075615524">表5</a></p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p45787521145658"><a name="p45787521145658"></a><a name="p45787521145658"></a>扩展属性：DHCP的扩展Option，参见<a href="#table5056075615524">表6</a></p>
 </td>
 </tr>
 <tr id="row46629855145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p62371645145658"><a name="p62371645145658"></a><a name="p62371645145658"></a>binding:vif_details</p>
@@ -198,7 +327,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tr>
 <tr id="row167271926144411"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p117281926144417"><a name="p117281926144417"></a><a name="p117281926144417"></a>dns_assignment</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p341674712514"><a name="p341674712514"></a><a name="p341674712514"></a>Array of strings</p>
+<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534165_p737862619493"><a name="zh-cn_topic_0201534165_p737862619493"></a><a name="zh-cn_topic_0201534165_p737862619493"></a>Array of <a href="#table1960316535179">dns_assignment</a> objects</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p1472919269447"><a name="p1472919269447"></a><a name="p1472919269447"></a>扩展属性：主网卡默认内网域名信息</p>
 <p id="p1834325274510"><a name="p1834325274510"></a><a name="p1834325274510"></a>【使用说明】不支持设置和更新，由系统自动维护</p>
@@ -217,7 +346,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p759775317217"><a name="p759775317217"></a><a name="p759775317217"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p1675142052312"><a name="p1675142052312"></a><a name="p1675142052312"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p1675142052312"><a name="p1675142052312"></a><a name="p1675142052312"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row19797526919"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p1953114119914"><a name="p1953114119914"></a><a name="p1953114119914"></a>created_at</p>
@@ -239,7 +368,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tbody>
 </table>
 
-**表 3**  fixed\_ip对象
+**表 4**  fixed\_ip对象
 
 <a name="table4290920914597"></a>
 <table><thead align="left"><tr id="row3523499914597"><th class="cellrowborder" valign="top" width="25.95259525952595%" id="mcps1.2.4.1.1"><p id="p6174509115118"><a name="p6174509115118"></a><a name="p6174509115118"></a>属性</p>
@@ -269,7 +398,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tbody>
 </table>
 
-**表 4**  allow\_address\_pair对象
+**表 5**  allow\_address\_pair对象
 
 <a name="zh-cn_topic_0062207355_table57914257"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0062207355_row41852331"><th class="cellrowborder" valign="top" width="25.89%" id="mcps1.2.4.1.1"><p id="zh-cn_topic_0062207355_p34595685"><a name="zh-cn_topic_0062207355_p34595685"></a><a name="zh-cn_topic_0062207355_p34595685"></a>属性</p>
@@ -298,7 +427,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tbody>
 </table>
 
-**表 5**  extra\_dhcp\_opt对象
+**表 6**  extra\_dhcp\_opt对象
 
 <a name="table5056075615524"></a>
 <table><thead align="left"><tr id="row739480215524"><th class="cellrowborder" valign="top" width="25.722572257225725%" id="mcps1.2.4.1.1"><p id="p3368663215532"><a name="p3368663215532"></a><a name="p3368663215532"></a>属性</p>
@@ -321,6 +450,41 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 <td class="cellrowborder" valign="top" width="26.422642264226422%" headers="mcps1.2.4.1.2 "><p id="p4493762615532"><a name="p4493762615532"></a><a name="p4493762615532"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="47.85478547854785%" headers="mcps1.2.4.1.3 "><p id="p5057146315532"><a name="p5057146315532"></a><a name="p5057146315532"></a>Option值</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 7**  dns\_assignment对象
+
+<a name="table1960316535179"></a>
+<table><thead align="left"><tr id="vpc_port01_0006_row860475311718"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.1"><p id="vpc_port01_0006_p85811122186"><a name="vpc_port01_0006_p85811122186"></a><a name="vpc_port01_0006_p85811122186"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.2"><p id="vpc_port01_0006_p145819129183"><a name="vpc_port01_0006_p145819129183"></a><a name="vpc_port01_0006_p145819129183"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.3"><p id="vpc_port01_0006_p95841215189"><a name="vpc_port01_0006_p95841215189"></a><a name="vpc_port01_0006_p95841215189"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="vpc_port01_0006_row126042530175"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="vpc_port01_0006_p5604753181710"><a name="vpc_port01_0006_p5604753181710"></a><a name="vpc_port01_0006_p5604753181710"></a>hostname</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="vpc_port01_0006_p1160475381714"><a name="vpc_port01_0006_p1160475381714"></a><a name="vpc_port01_0006_p1160475381714"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="vpc_port01_0006_p5604185321716"><a name="vpc_port01_0006_p5604185321716"></a><a name="vpc_port01_0006_p5604185321716"></a>端口hostname</p>
+</td>
+</tr>
+<tr id="vpc_port01_0006_row12604185316171"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="vpc_port01_0006_p12604185301714"><a name="vpc_port01_0006_p12604185301714"></a><a name="vpc_port01_0006_p12604185301714"></a>ip_address</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="vpc_port01_0006_p12604125311719"><a name="vpc_port01_0006_p12604125311719"></a><a name="vpc_port01_0006_p12604125311719"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="vpc_port01_0006_p1060417536175"><a name="vpc_port01_0006_p1060417536175"></a><a name="vpc_port01_0006_p1060417536175"></a>端口IP地址</p>
+</td>
+</tr>
+<tr id="vpc_port01_0006_row1860435321719"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="vpc_port01_0006_p760425311178"><a name="vpc_port01_0006_p760425311178"></a><a name="vpc_port01_0006_p760425311178"></a>fqdn</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="vpc_port01_0006_p1960465391715"><a name="vpc_port01_0006_p1960465391715"></a><a name="vpc_port01_0006_p1960465391715"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="vpc_port01_0006_p1860485318172"><a name="vpc_port01_0006_p1860485318172"></a><a name="vpc_port01_0006_p1860485318172"></a>端口内网fqdn</p>
 </td>
 </tr>
 </tbody>

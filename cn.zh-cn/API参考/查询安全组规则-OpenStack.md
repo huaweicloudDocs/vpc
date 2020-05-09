@@ -1,4 +1,4 @@
-# 查询安全组规则<a name="zh-cn_topic_0060595556"></a>
+# 查询安全组规则<a name="vpc_sg02_0006"></a>
 
 ## 功能介绍<a name="section6306987516218"></a>
 
@@ -20,13 +20,149 @@ GET https://{Endpoint}/v2.0/security-group-rules?security_group_id={security_gro
 GET https://{Endpoint}/v2.0/networks?limit=2&marker=07adc044-3f21-4eeb-bd57-5e5eb6024b7f&page_reverse=False
 ```
 
+参数说明请参见[表1](#table15294154210275)
+
+**表 1**  参数说明
+
+<a name="table15294154210275"></a>
+<table><thead align="left"><tr id="row8451124252717"><th class="cellrowborder" valign="top" width="22.222222222222225%" id="mcps1.2.5.1.1"><p id="p645120423277"><a name="p645120423277"></a><a name="p645120423277"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14141414141414%" id="mcps1.2.5.1.2"><p id="p24511142152710"><a name="p24511142152710"></a><a name="p24511142152710"></a>是否必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="27.27272727272727%" id="mcps1.2.5.1.3"><p id="p17451442102719"><a name="p17451442102719"></a><a name="p17451442102719"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="36.36363636363636%" id="mcps1.2.5.1.4"><p id="p1645112424279"><a name="p1645112424279"></a><a name="p1645112424279"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row10451154219278"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p13451144214279"><a name="p13451144214279"></a><a name="p13451144214279"></a>id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p2451642122711"><a name="p2451642122711"></a><a name="p2451642122711"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p4451194272719"><a name="p4451194272719"></a><a name="p4451194272719"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p114511842142710"><a name="p114511842142710"></a><a name="p114511842142710"></a>按照安全组规则对应的id过滤查询结果</p>
+</td>
+</tr>
+<tr id="row3451142122716"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p194511542112719"><a name="p194511542112719"></a><a name="p194511542112719"></a>description</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p15451154292711"><a name="p15451154292711"></a><a name="p15451154292711"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p204510428279"><a name="p204510428279"></a><a name="p204510428279"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p645194262717"><a name="p645194262717"></a><a name="p645194262717"></a>按照description过滤查询结果</p>
+</td>
+</tr>
+<tr id="row164511942132715"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p54511242122712"><a name="p54511242122712"></a><a name="p54511242122712"></a>remote_group_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p74516424272"><a name="p74516424272"></a><a name="p74516424272"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p17451142132717"><a name="p17451142132717"></a><a name="p17451142132717"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p16451942152711"><a name="p16451942152711"></a><a name="p16451942152711"></a>按照与此安全组规则关联的远端安全组ID过滤查询结果</p>
+</td>
+</tr>
+<tr id="row745164215276"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p11451104232718"><a name="p11451104232718"></a><a name="p11451104232718"></a>security_group_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p17451124262716"><a name="p17451124262716"></a><a name="p17451124262716"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p194511142102719"><a name="p194511142102719"></a><a name="p194511142102719"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p2451942182719"><a name="p2451942182719"></a><a name="p2451942182719"></a>按照与此安全组规则所属的安全组ID过滤查询结果</p>
+</td>
+</tr>
+<tr id="row1045124217278"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p645124222713"><a name="p645124222713"></a><a name="p645124222713"></a>direction</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p14451042142711"><a name="p14451042142711"></a><a name="p14451042142711"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p19451942192716"><a name="p19451942192716"></a><a name="p19451942192716"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p14511542162714"><a name="p14511542162714"></a><a name="p14511542162714"></a>按照安全组规则的方向过滤查询结果，支持ingress和egress进行过滤</p>
+</td>
+</tr>
+<tr id="row24511342152711"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p194511142102720"><a name="p194511142102720"></a><a name="p194511142102720"></a>protocol</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p15451542172719"><a name="p15451542172719"></a><a name="p15451542172719"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p184512042132717"><a name="p184512042132717"></a><a name="p184512042132717"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p18451124213275"><a name="p18451124213275"></a><a name="p18451124213275"></a>按照安全组规则的IP协议过滤查询结果</p>
+</td>
+</tr>
+<tr id="row1745294262718"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p104526429271"><a name="p104526429271"></a><a name="p104526429271"></a>remote_ip_prefix</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p104521042112718"><a name="p104521042112718"></a><a name="p104521042112718"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p1545213425276"><a name="p1545213425276"></a><a name="p1545213425276"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p16452154210273"><a name="p16452154210273"></a><a name="p16452154210273"></a>按照与此安全组规则匹配的远端IP网段过滤查询结果</p>
+</td>
+</tr>
+<tr id="row104521742152718"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p11452142112719"><a name="p11452142112719"></a><a name="p11452142112719"></a>ethertype</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p845215426274"><a name="p845215426274"></a><a name="p845215426274"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p2045214222711"><a name="p2045214222711"></a><a name="p2045214222711"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p1845264217271"><a name="p1845264217271"></a><a name="p1845264217271"></a>按照网络类型过滤查询结果</p>
+</td>
+</tr>
+<tr id="row1452174213279"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p4452642162710"><a name="p4452642162710"></a><a name="p4452642162710"></a>port_range_max</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1445217422279"><a name="p1445217422279"></a><a name="p1445217422279"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p14452154218270"><a name="p14452154218270"></a><a name="p14452154218270"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p64521942122711"><a name="p64521942122711"></a><a name="p64521942122711"></a>按照最大端口过滤查询结果</p>
+</td>
+</tr>
+<tr id="row445219429276"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p10452144292710"><a name="p10452144292710"></a><a name="p10452144292710"></a>port_range_min</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p045224232717"><a name="p045224232717"></a><a name="p045224232717"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p445210420271"><a name="p445210420271"></a><a name="p445210420271"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p9452184219278"><a name="p9452184219278"></a><a name="p9452184219278"></a>按照最小端口过滤查询结果</p>
+</td>
+</tr>
+<tr id="row645284216274"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p54521142172719"><a name="p54521142172719"></a><a name="p54521142172719"></a>tenant_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1445254242711"><a name="p1445254242711"></a><a name="p1445254242711"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p1945216424276"><a name="p1945216424276"></a><a name="p1945216424276"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p1445210424277"><a name="p1445210424277"></a><a name="p1445210424277"></a>按照项目ID过滤查询结果</p>
+</td>
+</tr>
+<tr id="row24521342112710"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p04521942152711"><a name="p04521942152711"></a><a name="p04521942152711"></a>marker</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1945224214277"><a name="p1945224214277"></a><a name="p1945224214277"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p845210426276"><a name="p845210426276"></a><a name="p845210426276"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p9452742192714"><a name="p9452742192714"></a><a name="p9452742192714"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+</td>
+</tr>
+<tr id="row845214252719"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p0452144232714"><a name="p0452144232714"></a><a name="p0452144232714"></a>limit</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p7452154218275"><a name="p7452154218275"></a><a name="p7452154218275"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p154521142182717"><a name="p154521142182717"></a><a name="p154521142182717"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p117111183010"><a name="p117111183010"></a><a name="p117111183010"></a>每页返回的个数</p>
+<p id="p545211424271"><a name="p545211424271"></a><a name="p545211424271"></a>取值范围：0~intmax</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 请求消息<a name="section4004032316218"></a>
 
 无。
 
 ## 响应消息<a name="section4154959916218"></a>
 
-**表 1**  响应参数
+**表 2**  响应参数
 
 <a name="table5126909016218"></a>
 <table><thead align="left"><tr id="row4406312316218"><th class="cellrowborder" valign="top" width="23.169999999999998%" id="mcps1.2.4.1.1"><p id="p130340816218"><a name="p130340816218"></a><a name="p130340816218"></a>参数名称</p>
@@ -41,13 +177,13 @@ GET https://{Endpoint}/v2.0/networks?limit=2&marker=07adc044-3f21-4eeb-bd57-5e5e
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p263715271607"><a name="p263715271607"></a><a name="p263715271607"></a>Array of <a href="#table655457801607">Security Group Rule</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p732393116218"><a name="p732393116218"></a><a name="p732393116218"></a>security group rule对象列表。请参见<a href="#table655457801607">表2</a>。</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p732393116218"><a name="p732393116218"></a><a name="p732393116218"></a>security group rule对象列表。请参见<a href="#table655457801607">表3</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 2**  Security Group Rule对象
+**表 3**  Security Group Rule对象
 
 <a name="table655457801607"></a>
 <table><thead align="left"><tr id="row54478641607"><th class="cellrowborder" valign="top" width="26.669999999999998%" id="mcps1.2.4.1.1"><p id="p389969021607"><a name="p389969021607"></a><a name="p389969021607"></a>属性</p>
@@ -143,7 +279,7 @@ GET https://{Endpoint}/v2.0/networks?limit=2&marker=07adc044-3f21-4eeb-bd57-5e5e
 </td>
 <td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.2 "><p id="p69311132153317"><a name="p69311132153317"></a><a name="p69311132153317"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p13646103310"><a name="p13646103310"></a><a name="p13646103310"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p13646103310"><a name="p13646103310"></a><a name="p13646103310"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row10903153923318"><td class="cellrowborder" valign="top" width="26.669999999999998%" headers="mcps1.2.4.1.1 "><p id="p6634195714335"><a name="p6634195714335"></a><a name="p6634195714335"></a>created_at</p>

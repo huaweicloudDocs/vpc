@@ -29,6 +29,7 @@
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >-   弹性云服务器多网卡时，建议绑定主网卡。  
     >-   一个弹性云服务器的网卡可以绑定多个虚拟IP。  
+    >-   IPv6的虚拟IP仅支持绑定一个网卡（双栈网卡），如需进行服务器的主备切换，请通过调用API方式。具体请参考[云服务器绑定虚拟IP](https://support.huaweicloud.com/api-vpc/vpc_vip_0002.html)。  
 
 9.  单击“确定”。
 

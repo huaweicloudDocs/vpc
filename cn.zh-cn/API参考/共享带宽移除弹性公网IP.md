@@ -1,4 +1,4 @@
-# 共享带宽移除弹性公网IP<a name="zh-cn_topic_0106971322"></a>
+# 共享带宽移除弹性公网IP<a name="vpc_sharebandwidth_0005"></a>
 
 ## 功能介绍<a name="section16581154"></a>
 
@@ -25,7 +25,7 @@ POST /v2.0/\{project\_id\}/bandwidths/\{bandwidth\_id\}/remove
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="p18100201"><a name="p18100201"></a><a name="p18100201"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+<td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID，获取项目ID请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
 <tr id="row41709209"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.1 "><p id="p23002745"><a name="p23002745"></a><a name="p23002745"></a>bandwidth_id</p>
