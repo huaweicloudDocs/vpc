@@ -105,15 +105,22 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_policies?limit=2&marker=6b70e321-0c21
 </thead>
 <tbody><tr id="row66469484132340"><td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.1 "><p id="p23038389132340"><a name="p23038389132340"></a><a name="p23038389132340"></a>firewall_policies</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.78%" headers="mcps1.2.4.1.2 "><p id="p39042021132340"><a name="p39042021132340"></a><a name="p39042021132340"></a>Object</p>
+<td class="cellrowborder" valign="top" width="17.78%" headers="mcps1.2.4.1.2 "><p id="p128475406537"><a name="p128475406537"></a><a name="p128475406537"></a>Array of <a href="#table17002720121127">firewall Policy</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p50197883132340"><a name="p50197883132340"></a><a name="p50197883132340"></a>firewall policy对象。请参见<a href="#table17002720121127">表3</a>。</p>
+</td>
+</tr>
+<tr id="row14916144011474"><td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.1 "><p id="p12902184724718"><a name="p12902184724718"></a><a name="p12902184724718"></a>firewall_policies_links</p>
+</td>
+<td class="cellrowborder" valign="top" width="17.78%" headers="mcps1.2.4.1.2 "><p id="p0902164713477"><a name="p0902164713477"></a><a name="p0902164713477"></a>Array of <a href="#table25150247450">firewall_policies_link</a> object</p>
+</td>
+<td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p149028478475"><a name="p149028478475"></a><a name="p149028478475"></a>firewall_policies_link对象。请参见<a href="#table25150247450">表4</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 3**  Firewall Policy对象
+**表 3**  firewall\_Policy对象
 
 <a name="table17002720121127"></a>
 <table><thead align="left"><tr id="row16929792121127"><th class="cellrowborder" valign="top" width="32.083208320832085%" id="mcps1.2.4.1.1"><p id="p18873879121127"><a name="p18873879121127"></a><a name="p18873879121127"></a>属性</p>
@@ -178,6 +185,34 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_policies?limit=2&marker=6b70e321-0c21
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p17700201411911"><a name="p17700201411911"></a><a name="p17700201411911"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p763154142816"><a name="p763154142816"></a><a name="p763154142816"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 4**  firewall\_policies\_link对象
+
+<a name="table25150247450"></a>
+<table><thead align="left"><tr id="row10561424184513"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p15562102474514"><a name="p15562102474514"></a><a name="p15562102474514"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.2"><p id="p656212464511"><a name="p656212464511"></a><a name="p656212464511"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="71.72%" id="mcps1.2.4.1.3"><p id="p856220242456"><a name="p856220242456"></a><a name="p856220242456"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row3562132464511"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p13562224194510"><a name="p13562224194510"></a><a name="p13562224194510"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p556214245453"><a name="p556214245453"></a><a name="p556214245453"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p145623247454"><a name="p145623247454"></a><a name="p145623247454"></a>API链接</p>
+</td>
+</tr>
+<tr id="row656292454519"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p1756252484511"><a name="p1756252484511"></a><a name="p1756252484511"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p056210247459"><a name="p056210247459"></a><a name="p056210247459"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p75621724194516"><a name="p75621724194516"></a><a name="p75621724194516"></a>API链接与该API版本的关系</p>
 </td>
 </tr>
 </tbody>

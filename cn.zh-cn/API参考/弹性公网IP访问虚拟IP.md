@@ -38,7 +38,7 @@ Postman或者JMeter。
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.1.5.1.3 "><p id="p52781952103115"><a name="p52781952103115"></a><a name="p52781952103115"></a>/v2.0/floatingips</p>
 </td>
-<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p5278952173117"><a name="p5278952173117"></a><a name="p5278952173117"></a>创建弹性公网IP，参见<a href="创建浮动IP.md">创建浮动IP</a></p>
+<td class="cellrowborder" valign="top" width="37.503750375037505%" headers="mcps1.1.5.1.4 "><p id="p5278952173117"><a name="p5278952173117"></a><a name="p5278952173117"></a>创建弹性公网IP，参见<a href="https://support.huaweicloud.com/api-eip/eip_openstackapi_0008.html" target="_blank" rel="noopener noreferrer">创建浮动IP</a></p>
 </td>
 </tr>
 </tbody>

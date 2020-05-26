@@ -121,6 +121,13 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_groups?limit=2&marker=cd600d47-0045-4
 <td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p48871362132652"><a name="p48871362132652"></a><a name="p48871362132652"></a>firewall group对象列表。请参见<a href="#table31629250121127">表3</a>。</p>
 </td>
 </tr>
+<tr id="row181281218503"><td class="cellrowborder" valign="top" width="23.330000000000002%" headers="mcps1.2.4.1.1 "><p id="p34892305509"><a name="p34892305509"></a><a name="p34892305509"></a>firewall_groups_links</p>
+</td>
+<td class="cellrowborder" valign="top" width="17.78%" headers="mcps1.2.4.1.2 "><p id="p1349010306504"><a name="p1349010306504"></a><a name="p1349010306504"></a>Array of <a href="#table25150247450">firewall_groups_link</a> objects</p>
+</td>
+<td class="cellrowborder" valign="top" width="58.89%" headers="mcps1.2.4.1.3 "><p id="p64901730145018"><a name="p64901730145018"></a><a name="p64901730145018"></a>firewall_groups_link对象列表。请参见<a href="#table25150247450">表4</a>。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -212,6 +219,50 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_groups?limit=2&marker=cd600d47-0045-4
 <td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p2078552513296"><a name="p2078552513296"></a><a name="p2078552513296"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
+<tr id="row0701184416559"><td class="cellrowborder" valign="top" width="35.3%" headers="mcps1.2.4.1.1 "><p id="p1953114119914"><a name="p1953114119914"></a><a name="p1953114119914"></a>created_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.57%" headers="mcps1.2.4.1.2 "><p id="p595318416919"><a name="p595318416919"></a><a name="p595318416919"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p1395374115919"><a name="p1395374115919"></a><a name="p1395374115919"></a>资源创建时间，UTC时间</p>
+<p id="p65980291419"><a name="p65980291419"></a><a name="p65980291419"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
+<tr id="row889903765614"><td class="cellrowborder" valign="top" width="35.3%" headers="mcps1.2.4.1.1 "><p id="p139719548912"><a name="p139719548912"></a><a name="p139719548912"></a>updated_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.57%" headers="mcps1.2.4.1.2 "><p id="p53971154594"><a name="p53971154594"></a><a name="p53971154594"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p1339713549918"><a name="p1339713549918"></a><a name="p1339713549918"></a>资源更新时间，UTC时间</p>
+<p id="p15297192516128"><a name="p15297192516128"></a><a name="p15297192516128"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 4**  firewall\_groups\_link对象
+
+<a name="table25150247450"></a>
+<table><thead align="left"><tr id="row10561424184513"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p15562102474514"><a name="p15562102474514"></a><a name="p15562102474514"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.2"><p id="p656212464511"><a name="p656212464511"></a><a name="p656212464511"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="71.72%" id="mcps1.2.4.1.3"><p id="p856220242456"><a name="p856220242456"></a><a name="p856220242456"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row3562132464511"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p13562224194510"><a name="p13562224194510"></a><a name="p13562224194510"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p556214245453"><a name="p556214245453"></a><a name="p556214245453"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p145623247454"><a name="p145623247454"></a><a name="p145623247454"></a>API链接</p>
+</td>
+</tr>
+<tr id="row656292454519"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p1756252484511"><a name="p1756252484511"></a><a name="p1756252484511"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p056210247459"><a name="p056210247459"></a><a name="p056210247459"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p75621724194516"><a name="p75621724194516"></a><a name="p75621724194516"></a>API链接与该API版本的关系</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -239,7 +290,9 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_groups
             "id": "cd600d47-0045-483f-87a1-5041ae2f513b", 
             "ingress_firewall_policy_id": null, 
             "description": "",
-            "project_id": "23c8a121505047b6869edf39f3062712"
+            "project_id": "23c8a121505047b6869edf39f3062712",
+            "created_at": "2018-09-12T08:24:14",
+            "updated_at": "2018-09-12T08:24:14"
         }, 
         {
             "status": "INACTIVE", 
@@ -252,8 +305,10 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_groups
             "id": "ca971b45-70ce-4879-9734-b6cac1d00845", 
             "ingress_firewall_policy_id": "d939df29-fe76-4089-90c3-3778e4d53141", 
             "description": "",
-            "project_id": "0af57070695044ea9a70f04779e6aa1f"
-        }
+            "project_id": "0af57070695044ea9a70f04779e6aa1f",
+            "created_at": "2018-09-12T08:24:14",
+            "updated_at": "2018-09-12T08:24:14"
+        } 
     ]
 }
 ```

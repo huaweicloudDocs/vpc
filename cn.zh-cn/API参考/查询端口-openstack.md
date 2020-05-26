@@ -372,6 +372,49 @@ GET /v2.0/ports/\{port\_id\}
 </tbody>
 </table>
 
+**表 8**  binding:profile对象
+
+<a name="table202130399518"></a>
+<table><thead align="left"><tr id="row103163395517"><th class="cellrowborder" valign="top" width="25.36%" id="mcps1.2.4.1.1"><p id="p1731612391457"><a name="p1731612391457"></a><a name="p1731612391457"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="15.9%" id="mcps1.2.4.1.2"><p id="p83163394517"><a name="p83163394517"></a><a name="p83163394517"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="58.74%" id="mcps1.2.4.1.3"><p id="p153161392513"><a name="p153161392513"></a><a name="p153161392513"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row8316173915516"><td class="cellrowborder" valign="top" width="25.36%" headers="mcps1.2.4.1.1 "><p id="p113168391055"><a name="p113168391055"></a><a name="p113168391055"></a>disable_security_groups</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.9%" headers="mcps1.2.4.1.2 "><p id="p1631683910511"><a name="p1631683910511"></a><a name="p1631683910511"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="58.74%" headers="mcps1.2.4.1.3 "><p id="p10891754863"><a name="p10891754863"></a><a name="p10891754863"></a>关闭FWaaS功能</p>
+<p id="p331710396514"><a name="p331710396514"></a><a name="p331710396514"></a>【约束】：高性能通信场景下，允许指定为true。仅支持创建port和读取时指定。当前仅支持指定为true，不支持指定为false。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 9**  binding:vif\_details对象
+
+<a name="table72371439857"></a>
+<table><thead align="left"><tr id="row12317239452"><th class="cellrowborder" valign="top" width="24.267573242675734%" id="mcps1.2.4.1.1"><p id="p63171391658"><a name="p63171391658"></a><a name="p63171391658"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="19.52804719528047%" id="mcps1.2.4.1.2"><p id="p9317839756"><a name="p9317839756"></a><a name="p9317839756"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="56.204379562043805%" id="mcps1.2.4.1.3"><p id="p531716396519"><a name="p531716396519"></a><a name="p531716396519"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row23171239156"><td class="cellrowborder" valign="top" width="24.267573242675734%" headers="mcps1.2.4.1.1 "><p id="p1831793913514"><a name="p1831793913514"></a><a name="p1831793913514"></a>ovs_hybrid_plug</p>
+</td>
+<td class="cellrowborder" valign="top" width="19.52804719528047%" headers="mcps1.2.4.1.2 "><p id="p1431753910515"><a name="p1431753910515"></a><a name="p1431753910515"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="56.204379562043805%" headers="mcps1.2.4.1.3 "><p id="p73173391356"><a name="p73173391356"></a><a name="p73173391356"></a>是否为ovs/bridge混合模式</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 样例<a name="zh-cn_topic_0062207351_section46487516"></a>
 
 请求样例

@@ -72,9 +72,9 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     <a name="table34290771"></a>
     <table><thead align="left"><tr id="row42952388"><th class="cellrowborder" valign="top" width="14.66%" id="mcps1.2.5.1.1"><p id="p56591389"><a name="p56591389"></a><a name="p56591389"></a>名称</p>
     </th>
-    <th class="cellrowborder" valign="top" width="16.16%" id="mcps1.2.5.1.2"><p id="p20499795"><a name="p20499795"></a><a name="p20499795"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="16.35%" id="mcps1.2.5.1.2"><p id="p20499795"><a name="p20499795"></a><a name="p20499795"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="17.849999999999998%" id="mcps1.2.5.1.3"><p id="p17479484174639"><a name="p17479484174639"></a><a name="p17479484174639"></a>参数类型</p>
+    <th class="cellrowborder" valign="top" width="17.66%" id="mcps1.2.5.1.3"><p id="p17479484174639"><a name="p17479484174639"></a><a name="p17479484174639"></a>参数类型</p>
     </th>
     <th class="cellrowborder" valign="top" width="51.33%" id="mcps1.2.5.1.4"><p id="p49870669"><a name="p49870669"></a><a name="p49870669"></a>说明</p>
     </th>
@@ -82,30 +82,73 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </thead>
     <tbody><tr id="row12992371"><td class="cellrowborder" valign="top" width="14.66%" headers="mcps1.2.5.1.1 "><p id="p45749167"><a name="p45749167"></a><a name="p45749167"></a>name</p>
     </td>
-    <td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.5.1.2 "><p id="p14695014"><a name="p14695014"></a><a name="p14695014"></a>否</p>
+    <td class="cellrowborder" valign="top" width="16.35%" headers="mcps1.2.5.1.2 "><p id="p14695014"><a name="p14695014"></a><a name="p14695014"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="17.849999999999998%" headers="mcps1.2.5.1.3 "><p id="p6552131174639"><a name="p6552131174639"></a><a name="p6552131174639"></a>String</p>
+    <td class="cellrowborder" valign="top" width="17.66%" headers="mcps1.2.5.1.3 "><p id="p6552131174639"><a name="p6552131174639"></a><a name="p6552131174639"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="51.33%" headers="mcps1.2.5.1.4 "><a name="ul0576257538"></a><a name="ul0576257538"></a><ul id="ul0576257538"><li>功能说明：虚拟私有云名称</li><li>取值范围：0-64个字符，支持数字、字母、中文、_(下划线)、-（中划线）、.（点）</li><li>约束：如果名称不为空，则同一个租户下的VPC不允许重名。</li></ul>
     </td>
     </tr>
     <tr id="row12304154151511"><td class="cellrowborder" valign="top" width="14.66%" headers="mcps1.2.5.1.1 "><p id="p211618568154"><a name="p211618568154"></a><a name="p211618568154"></a>description</p>
     </td>
-    <td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.5.1.2 "><p id="p1211635651520"><a name="p1211635651520"></a><a name="p1211635651520"></a>否</p>
+    <td class="cellrowborder" valign="top" width="16.35%" headers="mcps1.2.5.1.2 "><p id="p1211635651520"><a name="p1211635651520"></a><a name="p1211635651520"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="17.849999999999998%" headers="mcps1.2.5.1.3 "><p id="p18116165611152"><a name="p18116165611152"></a><a name="p18116165611152"></a>String</p>
+    <td class="cellrowborder" valign="top" width="17.66%" headers="mcps1.2.5.1.3 "><p id="p18116165611152"><a name="p18116165611152"></a><a name="p18116165611152"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="51.33%" headers="mcps1.2.5.1.4 "><a name="ul5116195661518"></a><a name="ul5116195661518"></a><ul id="ul5116195661518"><li>功能说明：虚拟私有云描述</li><li>取值范围：0-255个字符，不能包含“&lt;”和“&gt;”。</li></ul>
     </td>
     </tr>
     <tr id="row7722248"><td class="cellrowborder" valign="top" width="14.66%" headers="mcps1.2.5.1.1 "><p id="p21522370"><a name="p21522370"></a><a name="p21522370"></a>cidr</p>
     </td>
-    <td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.5.1.2 "><p id="p65590400"><a name="p65590400"></a><a name="p65590400"></a>否</p>
+    <td class="cellrowborder" valign="top" width="16.35%" headers="mcps1.2.5.1.2 "><p id="p65590400"><a name="p65590400"></a><a name="p65590400"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="17.849999999999998%" headers="mcps1.2.5.1.3 "><p id="p60960565174639"><a name="p60960565174639"></a><a name="p60960565174639"></a>String</p>
+    <td class="cellrowborder" valign="top" width="17.66%" headers="mcps1.2.5.1.3 "><p id="p60960565174639"><a name="p60960565174639"></a><a name="p60960565174639"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="51.33%" headers="mcps1.2.5.1.4 "><a name="ul161253336536"></a><a name="ul161253336536"></a><ul id="ul161253336536"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="ul53161626155413"></a><a name="ul53161626155413"></a><ul id="ul53161626155413"><li>10.0.0.0/8~10.255.255.240/28</li><li>172.16.0.0/12 ~ 172.31.255.240/28</li><li>192.168.0.0/16 ~ 192.168.255.240/28</li></ul>
     </li><li>不指定cidr时，默认值为空</li><li>约束：必须是cidr格式，例如:192.168.0.0/16</li></ul>
+    </td>
+    </tr>
+    <tr id="row1151401882715"><td class="cellrowborder" valign="top" width="14.66%" headers="mcps1.2.5.1.1 "><p id="p1470522022711"><a name="p1470522022711"></a><a name="p1470522022711"></a>routes</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="16.35%" headers="mcps1.2.5.1.2 "><p id="p770572018273"><a name="p770572018273"></a><a name="p770572018273"></a>否</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="17.66%" headers="mcps1.2.5.1.3 "><p id="p570519208272"><a name="p570519208272"></a><a name="p570519208272"></a>Array of <a href="#table1696324019336">route</a> objects</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="51.33%" headers="mcps1.2.5.1.4 "><a name="ul13320192141811"></a><a name="ul13320192141811"></a><ul id="ul13320192141811"><li>功能说明：路由信息列表，详情参见<a href="#table3576833291556">表7</a>。</li></ul>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 4**  route对象
+
+    <a name="table1696324019336"></a>
+    <table><thead align="left"><tr id="zh-cn_topic_0201534238_row921218691556"><th class="cellrowborder" valign="top" width="15.110000000000001%" id="mcps1.2.5.1.1"><p id="zh-cn_topic_0201534238_p798956991556"><a name="zh-cn_topic_0201534238_p798956991556"></a><a name="zh-cn_topic_0201534238_p798956991556"></a>名称</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="12.85%" id="mcps1.2.5.1.2"><p id="p63244160226"><a name="p63244160226"></a><a name="p63244160226"></a>是否必选</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="13.530000000000001%" id="mcps1.2.5.1.3"><p id="zh-cn_topic_0201534238_p754435891556"><a name="zh-cn_topic_0201534238_p754435891556"></a><a name="zh-cn_topic_0201534238_p754435891556"></a>参数类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="58.51%" id="mcps1.2.5.1.4"><p id="zh-cn_topic_0201534238_p711326791556"><a name="zh-cn_topic_0201534238_p711326791556"></a><a name="zh-cn_topic_0201534238_p711326791556"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="zh-cn_topic_0201534238_row3930377391556"><td class="cellrowborder" valign="top" width="15.110000000000001%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0201534238_p2948903591556"><a name="zh-cn_topic_0201534238_p2948903591556"></a><a name="zh-cn_topic_0201534238_p2948903591556"></a>destination</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="12.85%" headers="mcps1.2.5.1.2 "><p id="p032471662214"><a name="p032471662214"></a><a name="p032471662214"></a>否</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="13.530000000000001%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0201534238_p270722191556"><a name="zh-cn_topic_0201534238_p270722191556"></a><a name="zh-cn_topic_0201534238_p270722191556"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="58.51%" headers="mcps1.2.5.1.4 "><a name="zh-cn_topic_0201534238_ul18181132710558"></a><a name="zh-cn_topic_0201534238_ul18181132710558"></a><ul id="zh-cn_topic_0201534238_ul18181132710558"><li>功能说明：路由目的网段</li><li>约束：必须是cidr格式，且目前只支持0.0.0.0/0</li></ul>
+    </td>
+    </tr>
+    <tr id="zh-cn_topic_0201534238_row6565233911054"><td class="cellrowborder" valign="top" width="15.110000000000001%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0201534238_p1623922311054"><a name="zh-cn_topic_0201534238_p1623922311054"></a><a name="zh-cn_topic_0201534238_p1623922311054"></a>nexthop</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="12.85%" headers="mcps1.2.5.1.2 "><p id="p93241416202213"><a name="p93241416202213"></a><a name="p93241416202213"></a>否</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="13.530000000000001%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0201534238_p4377761311054"><a name="zh-cn_topic_0201534238_p4377761311054"></a><a name="zh-cn_topic_0201534238_p4377761311054"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="58.51%" headers="mcps1.2.5.1.4 "><a name="zh-cn_topic_0201534238_ul17731193025515"></a><a name="zh-cn_topic_0201534238_ul17731193025515"></a><ul id="zh-cn_topic_0201534238_ul17731193025515"><li>功能说明：路由下一跳地址</li><li>约束：必须为IP地址格式，且必须属于本VPC下的子网范围内才能生效</li></ul>
     </td>
     </tr>
     </tbody>
@@ -130,7 +173,7 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
 
 -   响应参数
 
-    **表 4**  响应参数
+    **表 5**  响应参数
 
     <a name="table163236181565"></a>
     <table><thead align="left"><tr id="row361709001565"><th class="cellrowborder" valign="top" width="18.34%" id="mcps1.2.4.1.1"><p id="p441618021565"><a name="p441618021565"></a><a name="p441618021565"></a>名称</p>
@@ -151,7 +194,7 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </tbody>
     </table>
 
-    **表 5**  vpc对象
+    **表 6**  vpc对象
 
     <a name="table22527411"></a>
     <table><thead align="left"><tr id="row37318421"><th class="cellrowborder" valign="top" width="17.59175917591759%" id="mcps1.2.4.1.1"><p id="p2893298"><a name="p2893298"></a><a name="p2893298"></a>名称</p>
@@ -216,7 +259,7 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </tbody>
     </table>
 
-    **表 6**  route对象
+    **表 7**  route对象
 
     <a name="table3576833291556"></a>
     <table><thead align="left"><tr id="row921218691556"><th class="cellrowborder" valign="top" width="18.34%" id="mcps1.2.4.1.1"><p id="p798956991556"><a name="p798956991556"></a><a name="p798956991556"></a>名称</p>

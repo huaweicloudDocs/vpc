@@ -32,27 +32,6 @@
         -   [更新子网](更新子网.md)
         -   [删除子网](删除子网.md)
 
-    -   [弹性公网IP]
-        -   [申请弹性公网IP](申请弹性公网IP.md)
-        -   [查询弹性公网IP](查询弹性公网IP.md)
-        -   [查询弹性公网IP列表](查询弹性公网IP列表.md)
-        -   [更新弹性公网IP](更新弹性公网IP.md)
-        -   [删除弹性公网IP](删除弹性公网IP.md)
-        -   [申请包周期弹性公网IP](申请包周期弹性公网IP.md)
-
-    -   [带宽]
-        -   [查询带宽](查询带宽.md)
-        -   [查询带宽列表](查询带宽列表.md)
-        -   [更新带宽](更新带宽.md)
-
-    -   [带宽（V2.0）]
-        -   [创建共享带宽](创建共享带宽.md)
-        -   [批量创建共享带宽](批量创建共享带宽.md)
-        -   [删除共享带宽](删除共享带宽.md)
-        -   [共享带宽插入弹性公网IP](共享带宽插入弹性公网IP.md)
-        -   [共享带宽移除弹性公网IP](共享带宽移除弹性公网IP.md)
-        -   [更新包周期带宽](更新包周期带宽.md)
-
     -   [配额]
         -   [查询配额](查询配额.md)
 
@@ -117,14 +96,6 @@
         -   [查询子网资源实例](查询子网资源实例.md)
         -   [查询子网项目标签](查询子网项目标签.md)
 
-    -   [弹性IP资源标签管理]
-        -   [创建弹性IP资源标签](创建弹性IP资源标签.md)
-        -   [查询弹性IP资源标签](查询弹性IP资源标签.md)
-        -   [删除弹性IP资源标签](删除弹性IP资源标签.md)
-        -   [批量创建和删除弹性IP资源标签](批量创建和删除弹性IP资源标签.md)
-        -   [查询弹性IP资源实例](查询弹性IP资源实例.md)
-        -   [查询弹性IP项目标签](查询弹性IP项目标签.md)
-
     -   [查询网络IP使用情况]
         -   [查询网络IP使用情况](6-查询网络IP使用情况.md)
 
@@ -173,13 +144,6 @@
         -   [路由器添加接口](路由器添加接口.md)
         -   [路由器删除接口](路由器删除接口.md)
 
-    -   [浮动IP]
-        -   [查询浮动IP列表](查询浮动IP列表.md)
-        -   [查询浮动IP](查询浮动IP.md)
-        -   [创建浮动IP](创建浮动IP.md)
-        -   [更新浮动IP](更新浮动IP.md)
-        -   [删除浮动IP](删除浮动IP.md)
-
     -   [网络ACL]
         -   [查询所有网络ACL规则](查询所有网络ACL规则.md)
         -   [查询特定网络ACL规则](查询特定网络ACL规则.md)
@@ -211,6 +175,26 @@
         -   [删除安全组规则](删除安全组规则-OpenStack.md)
 
 
+-   [权限策略和授权项]
+    -   [策略及授权项说明](策略及授权项说明.md)
+    -   [VPC](vpc-permission.md)
+    -   [子网](子网-permission.md)
+    -   [端口](端口-permission.md)
+    -   [对等连接](对等连接-permission.md)
+    -   [配额](配额-permission.md)
+    -   [私有IP](私有IP-permission.md)
+    -   [安全组](安全组-permission.md)
+    -   [安全组规则](安全组规则.md)
+    -   [VPC标签](VPC标签.md)
+    -   [子网标签](子网标签.md)
+    -   [端口（Openstack Neutron API）](端口（Openstack-Neutron-API）.md)
+    -   [网络（Openstack Neutron API）](网络（Openstack-Neutron-API）.md)
+    -   [子网（Openstack Neutron API）](子网（Openstack-Neutron-API）.md)
+    -   [路由器（Openstack Neutron API）](路由器（Openstack-Neutron-API）.md)
+    -   [网络ACL（Openstack Neutron API）](网络ACL（Openstack-Neutron-API）.md)
+    -   [安全组（Openstack Neutron API）](安全组（Openstack-Neutron-API）.md)
+    -   [API授权项注意事项](API授权项注意事项.md)
+
 -   [公共参数]
     -   [状态码](状态码.md)
     -   [错误码](错误码.md)
@@ -222,28 +206,5 @@
     -   [安全组规则icmp协议名称对应关系表](安全组规则icmp协议名称对应关系表.md)
     -   [虚拟私有云监控指标说明](虚拟私有云监控指标说明.md)
     -   [获取项目ID](获取项目ID.md)
-    -   [权限策略和授权项]
-        -   [策略及授权项说明](策略及授权项说明.md)
-        -   [VPC](vpc-permission.md)
-        -   [子网](子网-permission.md)
-        -   [弹性公网IP](弹性公网IP-permission.md)
-        -   [带宽](带宽-permission.md)
-        -   [带宽（V2.0）](带宽2-0-permission.md)
-        -   [端口](端口-permission.md)
-        -   [对等连接](对等连接-permission.md)
-        -   [配额](配额-permission.md)
-        -   [私有IP](私有IP-permission.md)
-        -   [安全组](安全组-permission.md)
-        -   [安全组规则](安全组规则.md)
-        -   [VPC标签](VPC标签.md)
-        -   [子网标签](子网标签.md)
-        -   [弹性公网IP标签](弹性公网IP标签.md)
-        -   [端口（Openstack Neutron API）](端口（Openstack-Neutron-API）.md)
-        -   [网络（Openstack Neutron API）](网络（Openstack-Neutron-API）.md)
-        -   [子网（Openstack Neutron API）](子网（Openstack-Neutron-API）.md)
-        -   [路由器（Openstack Neutron API）](路由器（Openstack-Neutron-API）.md)
-        -   [浮动IP（Openstack Neutron API）](浮动IP（Openstack-Neutron-API）.md)
-        -   [网络ACL（Openstack Neutron API）](网络ACL（Openstack-Neutron-API）.md)
-        -   [安全组（Openstack Neutron API）](安全组（Openstack-Neutron-API）.md)
-        -   [API授权项注意事项](API授权项注意事项.md)
+
 

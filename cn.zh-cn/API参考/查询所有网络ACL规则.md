@@ -144,13 +144,48 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_rules?limit=2&marker=2a193015-4a88-4a
 </td>
 <td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p125656569422"><a name="p125656569422"></a><a name="p125656569422"></a>Array of <a href="#table38646929121127">Firewall Rule</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="59.540000000000006%" headers="mcps1.2.4.1.3 "><p id="p24293772122541"><a name="p24293772122541"></a><a name="p24293772122541"></a>firewall rule对象列表，参见<a href="#table38646929121127">表3</a>。单次查询最多返回2000条数据，超过2000后会返回分页标记，分页查询请参见<a href="分页查询.md">分页查询</a>。</p>
+<td class="cellrowborder" valign="top" width="59.540000000000006%" headers="mcps1.2.4.1.3 "><p id="p24293772122541"><a name="p24293772122541"></a><a name="p24293772122541"></a>firewall rule对象列表，参见<a href="#table38646929121127">表4</a>。单次查询最多返回2000条数据，超过2000后会返回分页标记，分页查询请参见<a href="分页查询.md">分页查询</a>。</p>
+</td>
+</tr>
+<tr id="row431543194812"><td class="cellrowborder" valign="top" width="21.349999999999998%" headers="mcps1.2.4.1.1 "><p id="p121201423154911"><a name="p121201423154911"></a><a name="p121201423154911"></a>firewall_rules_links</p>
+</td>
+<td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p1412092384917"><a name="p1412092384917"></a><a name="p1412092384917"></a>Array of <a href="#table2049004519490">firewall_rules_link</a> Object</p>
+</td>
+<td class="cellrowborder" valign="top" width="59.540000000000006%" headers="mcps1.2.4.1.3 "><p id="p16120623194914"><a name="p16120623194914"></a><a name="p16120623194914"></a>分页信息，参见<a href="#table2049004519490">表3</a> 。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-**表 3**  Firewall Rule对象
+**表 3**  firewall\_rules\_link对象
+
+<a name="table2049004519490"></a>
+<table><thead align="left"><tr id="row13534124514917"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p753404514915"><a name="p753404514915"></a><a name="p753404514915"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.2"><p id="p25341945124920"><a name="p25341945124920"></a><a name="p25341945124920"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="71.72%" id="mcps1.2.4.1.3"><p id="p7534194512494"><a name="p7534194512494"></a><a name="p7534194512494"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row13534164554911"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p1534184524920"><a name="p1534184524920"></a><a name="p1534184524920"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p753415454494"><a name="p753415454494"></a><a name="p753415454494"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p125340459499"><a name="p125340459499"></a><a name="p125340459499"></a>API链接</p>
+</td>
+</tr>
+<tr id="row8534104512493"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p10534745114919"><a name="p10534745114919"></a><a name="p10534745114919"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p13534164534911"><a name="p13534164534911"></a><a name="p13534164534911"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p16534164584910"><a name="p16534164584910"></a><a name="p16534164584910"></a>API链接与该API版本的关系</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 4**  Firewall Rule对象
 
 <a name="table38646929121127"></a>
 <table><thead align="left"><tr id="row18263398121127"><th class="cellrowborder" valign="top" width="32.76%" id="mcps1.2.4.1.1"><p id="p2027461121127"><a name="p2027461121127"></a><a name="p2027461121127"></a>属性</p>

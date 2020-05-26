@@ -220,6 +220,22 @@ POST /v2.0/fwaas/firewall\_groups
 <td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p555515419297"><a name="p555515419297"></a><a name="p555515419297"></a>项目ID，请参见<a href="获取项目ID.md">获取项目ID</a>。</p>
 </td>
 </tr>
+<tr id="row1933393255913"><td class="cellrowborder" valign="top" width="35.3%" headers="mcps1.2.4.1.1 "><p id="p1953114119914"><a name="p1953114119914"></a><a name="p1953114119914"></a>created_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.57%" headers="mcps1.2.4.1.2 "><p id="p595318416919"><a name="p595318416919"></a><a name="p595318416919"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p1395374115919"><a name="p1395374115919"></a><a name="p1395374115919"></a>资源创建时间，UTC时间</p>
+<p id="p65980291419"><a name="p65980291419"></a><a name="p65980291419"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
+<tr id="row62318369590"><td class="cellrowborder" valign="top" width="35.3%" headers="mcps1.2.4.1.1 "><p id="p139719548912"><a name="p139719548912"></a><a name="p139719548912"></a>updated_at</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.57%" headers="mcps1.2.4.1.2 "><p id="p53971154594"><a name="p53971154594"></a><a name="p53971154594"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="43.13%" headers="mcps1.2.4.1.3 "><p id="p1339713549918"><a name="p1339713549918"></a><a name="p1339713549918"></a>资源更新时间，UTC时间</p>
+<p id="p15297192516128"><a name="p15297192516128"></a><a name="p15297192516128"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -257,7 +273,9 @@ POST https://{Endpoint}/v2.0/fwaas/firewall_groups
         "id": "0415f554-26ed-44e7-a881-bdf4e6216e38", 
         "ingress_firewall_policy_id": "afc52ce9-5305-4ec9-9feb-44feb8330341", 
         "description": "",
-        "project_id": "23c8a121505047b6869edf39f3062712"
+        "project_id": "23c8a121505047b6869edf39f3062712",
+        "created_at": "2018-09-12T08:24:14",
+        "updated_at": "2018-09-12T08:24:14"
     }
 }
 ```

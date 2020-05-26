@@ -6,7 +6,7 @@
 
 ## URI<a name="section5166852716336"></a>
 
-DELETE /v2.0/security-group-rules/\{security\_groups\_rules\_id\}
+DELETE /v2.0/security-group-rules/\{security\_group\_rule\_id\}
 
 ## 请求消息<a name="section5557462116336"></a>
 

@@ -97,6 +97,13 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/remove\_rule
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
 </td>
 </tr>
+<tr id="row9718201825319"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p12424739135216"><a name="p12424739135216"></a><a name="p12424739135216"></a>project_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p1433100105317"><a name="p1433100105317"></a><a name="p1433100105317"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p83360145317"><a name="p83360145317"></a><a name="p83360145317"></a>项目ID</p>
+</td>
+</tr>
 </tbody>
 </table>
 

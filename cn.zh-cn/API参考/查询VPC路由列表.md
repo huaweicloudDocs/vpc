@@ -132,6 +132,13 @@ GET https://{Endpoint}/v2.0/vpc/routes?id={id}&vpc_id={vpc_id}&tenant_id={tenant
     <td class="cellrowborder" valign="top" width="56.47%" headers="mcps1.2.4.1.3 "><p id="p16438204318114"><a name="p16438204318114"></a><a name="p16438204318114"></a>route对象列表，参见<a href="#table05001250111">表3</a>。</p>
     </td>
     </tr>
+    <tr id="row61512449419"><td class="cellrowborder" valign="top" width="18.82%" headers="mcps1.2.4.1.1 "><p id="p7152194417414"><a name="p7152194417414"></a><a name="p7152194417414"></a>routes_links</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="24.709999999999997%" headers="mcps1.2.4.1.2 "><p id="p14152154444113"><a name="p14152154444113"></a><a name="p14152154444113"></a>Array of <a href="#table25150247450">routes_link</a> objects</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="56.47%" headers="mcps1.2.4.1.3 "><p id="p44238379436"><a name="p44238379436"></a><a name="p44238379436"></a>routes_link对象列表，参见<a href="#table25150247450">表4</a>。</p>
+    </td>
+    </tr>
     </tbody>
     </table>
 
@@ -186,6 +193,34 @@ GET https://{Endpoint}/v2.0/vpc/routes?id={id}&vpc_id={vpc_id}&tenant_id={tenant
     <td class="cellrowborder" valign="top" width="24.172417241724172%" headers="mcps1.2.4.1.2 "><p id="p10606182591115"><a name="p10606182591115"></a><a name="p10606182591115"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="56.5056505650565%" headers="mcps1.2.4.1.3 "><p id="p10487112"><a name="p10487112"></a><a name="p10487112"></a>项目ID</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+    **表 4**  routes\_link对象
+
+    <a name="table25150247450"></a>
+    <table><thead align="left"><tr id="row10561424184513"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p15562102474514"><a name="p15562102474514"></a><a name="p15562102474514"></a>名称</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.2"><p id="p656212464511"><a name="p656212464511"></a><a name="p656212464511"></a>参数类型</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="71.72%" id="mcps1.2.4.1.3"><p id="p856220242456"><a name="p856220242456"></a><a name="p856220242456"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row3562132464511"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p13562224194510"><a name="p13562224194510"></a><a name="p13562224194510"></a>href</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p556214245453"><a name="p556214245453"></a><a name="p556214245453"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p145623247454"><a name="p145623247454"></a><a name="p145623247454"></a>API链接</p>
+    </td>
+    </tr>
+    <tr id="row656292454519"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p1756252484511"><a name="p1756252484511"></a><a name="p1756252484511"></a>rel</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p056210247459"><a name="p056210247459"></a><a name="p056210247459"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p75621724194516"><a name="p75621724194516"></a><a name="p75621724194516"></a>API链接与该API版本的关系</p>
     </td>
     </tr>
     </tbody>

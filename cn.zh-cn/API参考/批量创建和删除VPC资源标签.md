@@ -12,6 +12,8 @@
 
 删除时，如果删除的标签不存在，默认处理成功，删除时不对标签字符集范围做校验。删除时tags结构体不能缺失，key不能为空，或者空字符串。
 
+该类型接口目前仅在“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”区域开放。
+
 ## URI<a name="section14718205991814"></a>
 
 POST /v2.0/\{project\_id\}/vpcs/\{vpc\_id\}/tags/action
@@ -111,7 +113,7 @@ POST /v2.0/\{project\_id\}/vpcs/\{vpc\_id\}/tags/action
 </td>
 <td class="cellrowborder" valign="top" width="18.060000000000002%" headers="mcps1.2.5.1.2 "><p id="p104515514598"><a name="p104515514598"></a><a name="p104515514598"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="12.24%" headers="mcps1.2.5.1.3 "><p id="p209805915417"><a name="p209805915417"></a><a name="p209805915417"></a>action为create时：是；action为delete时：否</p>
+<td class="cellrowborder" valign="top" width="12.24%" headers="mcps1.2.5.1.3 "><p id="p209805915417"><a name="p209805915417"></a><a name="p209805915417"></a>是</p>
 </td>
 <td class="cellrowborder" valign="top" width="56.699999999999996%" headers="mcps1.2.5.1.4 "><a name="ul0451105165914"></a><a name="ul0451105165914"></a><ul id="ul0451105165914"><li>标签值</li><li>长度不超过43个字符。</li><li>由英文字母、数字、下划线、点、中划线、中文字符组成。</li></ul>
 </td>

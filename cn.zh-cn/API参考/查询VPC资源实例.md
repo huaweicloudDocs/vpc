@@ -4,6 +4,8 @@
 
 使用标签过滤实例。
 
+该类型接口目前仅在“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”区域开放。
+
 ## URI<a name="section204655230197"></a>
 
 POST /v2.0/\{project\_id\}/vpcs/resource\_instances/action
@@ -136,9 +138,9 @@ POST /v2.0/\{project\_id\}/vpcs/resource\_instances/action
 <a name="table104959232192"></a>
 <table><thead align="left"><tr id="row208541423191917"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.5.1.1"><p id="p1385417236194"><a name="p1385417236194"></a><a name="p1385417236194"></a>名称</p>
 </th>
-<th class="cellrowborder" valign="top" width="13.13131313131313%" id="mcps1.2.5.1.2"><p id="p1485442313195"><a name="p1485442313195"></a><a name="p1485442313195"></a>是否必选</p>
+<th class="cellrowborder" valign="top" width="13.18131813181318%" id="mcps1.2.5.1.2"><p id="p1485442313195"><a name="p1485442313195"></a><a name="p1485442313195"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="14.14141414141414%" id="mcps1.2.5.1.3"><p id="p4854182361910"><a name="p4854182361910"></a><a name="p4854182361910"></a>参数类型</p>
+<th class="cellrowborder" valign="top" width="14.091409140914092%" id="mcps1.2.5.1.3"><p id="p4854182361910"><a name="p4854182361910"></a><a name="p4854182361910"></a>参数类型</p>
 </th>
 <th class="cellrowborder" valign="top" width="39.39393939393939%" id="mcps1.2.5.1.4"><p id="p685472317197"><a name="p685472317197"></a><a name="p685472317197"></a>说明</p>
 </th>
@@ -146,18 +148,18 @@ POST /v2.0/\{project\_id\}/vpcs/resource\_instances/action
 </thead>
 <tbody><tr id="row12854323201911"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.5.1.1 "><p id="p285482316198"><a name="p285482316198"></a><a name="p285482316198"></a>key</p>
 </td>
-<td class="cellrowborder" valign="top" width="13.13131313131313%" headers="mcps1.2.5.1.2 "><p id="p4854723121918"><a name="p4854723121918"></a><a name="p4854723121918"></a>是</p>
+<td class="cellrowborder" valign="top" width="13.18131813181318%" headers="mcps1.2.5.1.2 "><p id="p4854723121918"><a name="p4854723121918"></a><a name="p4854723121918"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.3 "><p id="p385422301919"><a name="p385422301919"></a><a name="p385422301919"></a>String</p>
+<td class="cellrowborder" valign="top" width="14.091409140914092%" headers="mcps1.2.5.1.3 "><p id="p385422301919"><a name="p385422301919"></a><a name="p385422301919"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.2.5.1.4 "><p id="p185514232197"><a name="p185514232197"></a><a name="p185514232197"></a>键。当前仅限定为resource_name</p>
 </td>
 </tr>
 <tr id="row28552023131919"><td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.5.1.1 "><p id="p485514231195"><a name="p485514231195"></a><a name="p485514231195"></a>value</p>
 </td>
-<td class="cellrowborder" valign="top" width="13.13131313131313%" headers="mcps1.2.5.1.2 "><p id="p58551523191914"><a name="p58551523191914"></a><a name="p58551523191914"></a>是</p>
+<td class="cellrowborder" valign="top" width="13.18131813181318%" headers="mcps1.2.5.1.2 "><p id="p58551523191914"><a name="p58551523191914"></a><a name="p58551523191914"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.3 "><p id="p128551235194"><a name="p128551235194"></a><a name="p128551235194"></a>String</p>
+<td class="cellrowborder" valign="top" width="14.091409140914092%" headers="mcps1.2.5.1.3 "><p id="p128551235194"><a name="p128551235194"></a><a name="p128551235194"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.39393939393939%" headers="mcps1.2.5.1.4 "><p id="p128551023151916"><a name="p128551023151916"></a><a name="p128551023151916"></a>值。每个值最大长度255个unicode字符。</p>
 </td>
@@ -320,11 +322,11 @@ POST https://{Endpoint}/v2.0/{project_id}/vpcs/resource_instances/action
 <td class="cellrowborder" valign="top" width="39.7960203979602%" headers="mcps1.2.5.1.4 "><p id="p4536105010277"><a name="p4536105010277"></a><a name="p4536105010277"></a>键。最大长度127个unicode字符。 key不能为空。(搜索时不对此参数做校验)</p>
 </td>
 </tr>
-<tr id="row11536165042716"><td class="cellrowborder" valign="top" width="31.626837316268368%" headers="mcps1.2.5.1.1 "><p id="p175361650142718"><a name="p175361650142718"></a><a name="p175361650142718"></a>values</p>
+<tr id="row11536165042716"><td class="cellrowborder" valign="top" width="31.626837316268368%" headers="mcps1.2.5.1.1 "><p id="p880915521108"><a name="p880915521108"></a><a name="p880915521108"></a>value</p>
 </td>
 <td class="cellrowborder" valign="top" width="14.288571142885708%" headers="mcps1.2.5.1.2 "><p id="p9536175042714"><a name="p9536175042714"></a><a name="p9536175042714"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="14.288571142885708%" headers="mcps1.2.5.1.3 "><p id="p13536155052713"><a name="p13536155052713"></a><a name="p13536155052713"></a>Array of strings</p>
+<td class="cellrowborder" valign="top" width="14.288571142885708%" headers="mcps1.2.5.1.3 "><p id="p17331617174215"><a name="p17331617174215"></a><a name="p17331617174215"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.7960203979602%" headers="mcps1.2.5.1.4 "><p id="p153645062719"><a name="p153645062719"></a><a name="p153645062719"></a>值列表。每个值最大长度255个unicode字符，如果values为空列表，则表示any_value。value之间为或的关系。</p>
 </td>

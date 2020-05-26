@@ -31,27 +31,6 @@
 <td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p1345191072617"><a name="p1345191072617"></a><a name="p1345191072617"></a>子网的创建、查询、更新、删除等接口。</p>
 </td>
 </tr>
-<tr id="r17ca8f0b934b457db191fe04fbf3af42"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p14725635135317"><a name="p14725635135317"></a><a name="p14725635135317"></a>VPC接口</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p156231184496"><a name="p156231184496"></a><a name="p156231184496"></a>弹性公网IP</p>
-</td>
-<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p18104638134916"><a name="p18104638134916"></a><a name="p18104638134916"></a>弹性公网IP的申请、查询、更新、删除等接口。</p>
-</td>
-</tr>
-<tr id="rdb0b6d1fb04c4ba891d163308b28fdde"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p12904162035316"><a name="p12904162035316"></a><a name="p12904162035316"></a>VPC接口</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p11657401016"><a name="p11657401016"></a><a name="p11657401016"></a>带宽</p>
-</td>
-<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p96141701010"><a name="p96141701010"></a><a name="p96141701010"></a>带宽的查询、更新等接口。</p>
-</td>
-</tr>
-<tr id="row13156184812615"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p12904162075319"><a name="p12904162075319"></a><a name="p12904162075319"></a>VPC接口</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p1109722204210"><a name="p1109722204210"></a><a name="p1109722204210"></a>带宽（V2.0）</p>
-</td>
-<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><a name="ul74921813024"></a><a name="ul74921813024"></a><ul id="ul74921813024"><li>共享带宽的创建、删除等接口。</li><li>共享带宽插入/移出弹性公网IP操作。</li></ul>
-</td>
-</tr>
 <tr id="row81561948102618"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p199041120105315"><a name="p199041120105315"></a><a name="p199041120105315"></a>VPC接口</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p7106132215425"><a name="p7106132215425"></a><a name="p7106132215425"></a>配额</p>
@@ -98,7 +77,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p11888313467"><a name="p11888313467"></a><a name="p11888313467"></a>标签管理</p>
 </td>
-<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><a name="ul20558104818291"></a><a name="ul20558104818291"></a><ul id="ul20558104818291"><li>VPC资源标签的创建、查询、删除等接口。</li><li>子网资源标签的创建、查询、删除等接口。</li><li>弹性公网IP标签的创建、查询、删除等接口。</li></ul>
+<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><a name="ul20558104818291"></a><a name="ul20558104818291"></a><ul id="ul20558104818291"><li>VPC资源标签的创建、查询、删除等接口。</li><li>子网资源标签的创建、查询、删除等接口。</li></ul>
 <p id="p10341154735217"><a name="p10341154735217"></a><a name="p10341154735217"></a>该类型接口目前仅在“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”区域开放。</p>
 </td>
 </tr>
@@ -128,13 +107,6 @@
 <td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p6824312469"><a name="p6824312469"></a><a name="p6824312469"></a>路由器</p>
 </td>
 <td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p205741012183413"><a name="p205741012183413"></a><a name="p205741012183413"></a>路由器的查询、创建、更新、删除等接口。</p>
-</td>
-</tr>
-<tr id="row857418479278"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p207591550183610"><a name="p207591550183610"></a><a name="p207591550183610"></a>OpenStack Neutron接口</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.82%" headers="mcps1.2.4.1.2 "><p id="p1480933469"><a name="p1480933469"></a><a name="p1480933469"></a>浮动IP</p>
-</td>
-<td class="cellrowborder" valign="top" width="64%" headers="mcps1.2.4.1.3 "><p id="p8573612133411"><a name="p8573612133411"></a><a name="p8573612133411"></a>浮动IP的查询、创建、更新、删除等接口。</p>
 </td>
 </tr>
 <tr id="row4735122842911"><td class="cellrowborder" valign="top" width="19.18%" headers="mcps1.2.4.1.1 "><p id="p1314417262396"><a name="p1314417262396"></a><a name="p1314417262396"></a>OpenStack Neutron接口</p>

@@ -173,6 +173,13 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 <td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0062207386_p50516929"><a name="zh-cn_topic_0062207386_p50516929"></a><a name="zh-cn_topic_0062207386_p50516929"></a>port对象列表，参见<a href="#table15919752145624">表3</a>。</p>
 </td>
 </tr>
+<tr id="row10838426109"><td class="cellrowborder" valign="top" width="22.32%" headers="mcps1.2.4.1.1 "><p id="p97911291701"><a name="p97911291701"></a><a name="p97911291701"></a>ports_links</p>
+</td>
+<td class="cellrowborder" valign="top" width="24.67%" headers="mcps1.2.4.1.2 "><p id="p779329805"><a name="p779329805"></a><a name="p779329805"></a>Array of <a href="#table109221759807">ports_link</a> objects</p>
+</td>
+<td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="p97972919015"><a name="p97972919015"></a><a name="p97972919015"></a>分页信息，参见<a href="#table109221759807">表8</a>。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -485,6 +492,34 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.2 "><p id="vpc_port01_0006_p1960465391715"><a name="vpc_port01_0006_p1960465391715"></a><a name="vpc_port01_0006_p1960465391715"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.33333333333333%" headers="mcps1.2.4.1.3 "><p id="vpc_port01_0006_p1860485318172"><a name="vpc_port01_0006_p1860485318172"></a><a name="vpc_port01_0006_p1860485318172"></a>端口内网fqdn</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 8**  ports\_link对象
+
+<a name="table109221759807"></a>
+<table><thead align="left"><tr id="row17420713"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p1941101019"><a name="p1941101019"></a><a name="p1941101019"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.2"><p id="p641904118"><a name="p641904118"></a><a name="p641904118"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="71.72%" id="mcps1.2.4.1.3"><p id="p194180011"><a name="p194180011"></a><a name="p194180011"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row84506114"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p154170311"><a name="p154170311"></a><a name="p154170311"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p240019116"><a name="p240019116"></a><a name="p240019116"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p1842011117"><a name="p1842011117"></a><a name="p1842011117"></a>API链接</p>
+</td>
+</tr>
+<tr id="row1740010112"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.1 "><p id="p341401111"><a name="p341401111"></a><a name="p341401111"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.4.1.2 "><p id="p641901218"><a name="p641901218"></a><a name="p641901218"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="71.72%" headers="mcps1.2.4.1.3 "><p id="p1942002019"><a name="p1942002019"></a><a name="p1942002019"></a>API链接与该API版本的关系</p>
 </td>
 </tr>
 </tbody>
