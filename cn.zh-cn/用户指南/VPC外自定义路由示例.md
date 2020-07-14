@@ -59,8 +59,8 @@ VPC外自定义路由，用于将VPC外部发起的流量，路由到VPC内的�
     </tbody>
     </table>
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >其中pc-01为对等连接的ID，自动生成，不可配置。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >其中pc-01为对等连接的ID，自动生成，不可配置。
 
 
 1.  自定义路由配置，如[表3](#table19161511762)所示。
@@ -82,9 +82,9 @@ VPC外自定义路由，用于将VPC外部发起的流量，路由到VPC内的�
     </tbody>
     </table>
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   通过自定义路由访问Internet网络时，目的地址配置为默认0.0.0.0/0，不能配置为具体的公网网段。  
-    >-   如果下一跳地址是虚拟IP，则虚拟IP必须绑定弹性公网IP，否则无法通过虚拟IP访问Internet网络。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >-   通过自定义路由访问Internet网络时，目的地址配置为默认0.0.0.0/0，不能配置为具体的公网网段。
+    >-   如果下一跳地址是虚拟IP，则虚拟IP必须绑定弹性公网IP，否则无法通过虚拟IP访问Internet网络。
 
 2.  参考[配置SNAT服务器](配置SNAT服务器.md)为下一跳ECS配置SNAT服务器。
 

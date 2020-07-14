@@ -71,8 +71,8 @@
 </tbody>
 </table>
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->网络ACL默认拒绝所有入站流量，需先放通所有入站流量。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
 
 ## 允许某些协议端口的访问<a name="section61291659102216"></a>
 

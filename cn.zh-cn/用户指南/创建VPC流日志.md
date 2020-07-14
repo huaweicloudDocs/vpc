@@ -88,8 +88,8 @@
     </tbody>
     </table>
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >同一个资源在同一个日志组的同一个日志主题下，只能有两个不同采集类型的VPC流日志。不能重复创建相同的VPC流日志。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >同一个资源在同一个日志组的同一个日志主题下，只能有两个不同采集类型的VPC流日志。不能重复创建相同的VPC流日志。
 
 6.  单击“确定”。
 

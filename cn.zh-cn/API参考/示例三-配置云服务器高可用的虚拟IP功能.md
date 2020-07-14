@@ -12,8 +12,8 @@
 -   已创建弹性云服务器，具体请参见[创建ECS](https://support.huaweicloud.com/qs-ecs/ecs_02_0009.html)。
 -   当您使用Token认证方式完成认证鉴权时，需要获取用户Token并在调用接口时增加“X-Auth-Token”到业务接口请求消息头中。Token认证，具体操作请参考[认证鉴权](认证鉴权.md)。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->通过IAM服务获取到的Token有效期为24小时，需要使用同一个Token鉴权时，可以先将Token缓存，避免频繁调用。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>通过IAM服务获取到的Token有效期为24小时，需要使用同一个Token鉴权时，可以先将Token缓存，避免频繁调用。
 
 ## 操作步骤<a name="section7856948"></a>
 

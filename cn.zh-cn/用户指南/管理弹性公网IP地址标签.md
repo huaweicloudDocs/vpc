@@ -19,7 +19,7 @@
 </thead>
 <tbody><tr id="r95612b479088487b99e620f90b71f798"><td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.1 "><p id="a7694a48138124d1daf3804556a27bfd6"><a name="a7694a48138124d1daf3804556a27bfd6"></a><a name="a7694a48138124d1daf3804556a27bfd6"></a>键</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.39%" headers="mcps1.2.4.1.2 "><a name="uac40e19ce4ac49d0913d48b334564c45"></a><a name="uac40e19ce4ac49d0913d48b334564c45"></a><ul id="uac40e19ce4ac49d0913d48b334564c45"><li>不能为空。</li><li>对于同一弹性公网IP地址键值唯一。</li><li>长度不超过36个字符。</li><li>由英文字母、数字、下划线、中划线、中文字符组成。</li></ul>
+<td class="cellrowborder" valign="top" width="53.39%" headers="mcps1.2.4.1.2 "><a name="uac40e19ce4ac49d0913d48b334564c45"></a><a name="uac40e19ce4ac49d0913d48b334564c45"></a><ul id="uac40e19ce4ac49d0913d48b334564c45"><li>不能为空。</li><li>对于同一<span id="text1327415505320"><a name="text1327415505320"></a><a name="text1327415505320"></a></span><span id="text72759513533"><a name="text72759513533"></a><a name="text72759513533"></a>弹性公网IP</span>地址键值唯一。</li><li>长度不超过36个字符。</li><li>由英文字母、数字、下划线、中划线、中文字符组成。</li></ul>
 </td>
 <td class="cellrowborder" valign="top" width="28.07%" headers="mcps1.2.4.1.3 "><p id="a1a10de6d67c04555a3508a8cdc3500e7"><a name="a1a10de6d67c04555a3508a8cdc3500e7"></a><a name="a1a10de6d67c04555a3508a8cdc3500e7"></a>Ipv4_key1</p>
 </td>
@@ -36,7 +36,7 @@
 
 ## 操作步骤<a name="section4374728222113"></a>
 
-**在弹性公网IP列表页，按标签的键或值搜索目标弹性公网IP地址。**
+**在**弹性公网IP**列表页，按标签的键或值搜索目标弹性公网IP地址。**
 
 1.  登录管理控制台。
 2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
@@ -55,7 +55,7 @@
     系统根据标签的键和值搜索目标弹性公网IP地址。
 
 
-**在弹性公网IP地址的标签页，执行标签的增、删、改、查操作。**
+**在**弹性公网IP**地址的标签页，执行标签的增、删、改、查操作。**
 
 1.  登录管理控制台。
 2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。

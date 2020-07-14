@@ -189,7 +189,12 @@ GET /v2.0/ports/\{port\_id\}
 <p id="p40400544145658"><a name="p40400544145658"></a><a name="p40400544145658"></a>{"disable_security_groups"：true }，</p>
 <p id="p28060583145658"><a name="p28060583145658"></a><a name="p28060583145658"></a>当前仅支持指定为true，不支持指定为false，指定为true时，FWaaS功能不生效。</p>
 </li></ul>
-<a name="ul51218659145658"></a><a name="ul51218659145658"></a>
+<a name="ul51218659145658"></a><a name="ul51218659145658"></a><ul id="ul51218659145658"><li>仅对于“华北-北京二”：udp_srvports和tcp_srvports，字段，字符串类型，默认不设置udp_srvports和tcp_srvports字段。允许指定udp_srvports和tcp_srvports字段为端口号，表示这些端口的tcp报文和udp报文可支持高并发连接，但是此类报文不受ACL和安全组规则的限制。udp_srvports和tcp_srvports字段同时支持更新操作。<a name="vpc_port02_0001_ul119701359152919"></a><a name="vpc_port02_0001_ul119701359152919"></a><ul id="vpc_port02_0001_ul119701359152919"><li>格式：<p id="vpc_port02_0001_p7108830192916"><a name="vpc_port02_0001_p7108830192916"></a><a name="vpc_port02_0001_p7108830192916"></a>{"tcp_srvports": "port1 port2 port3", "udp_srvports": "port1 port2 port3"}</p>
+<p id="vpc_port02_0001_p47335481297"><a name="vpc_port02_0001_p47335481297"></a><a name="vpc_port02_0001_p47335481297"></a>端口号之间以空格间隔，最多允许指定的端口号总共为15个，端口号范围是1到65535。</p>
+</li><li>示例：<p id="vpc_port02_0001_p10852165018293"><a name="vpc_port02_0001_p10852165018293"></a><a name="vpc_port02_0001_p10852165018293"></a>{"tcp_srvports": "80 443", "udp_srvports": "53"}</p>
+<p id="vpc_port02_0001_p78371519293"><a name="vpc_port02_0001_p78371519293"></a><a name="vpc_port02_0001_p78371519293"></a>示例表示入方向目的端口为80或者443，出方向源端口为80或者443的tcp报文可支持高并发连接。入方向目的端口为53，出方向源端口为53的udp报文可支持高并发连接。但是此类报文不受ACL和安全组规则的限制。</p>
+</li></ul>
+</li></ul>
 </td>
 </tr>
 <tr id="row63233200145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p4700493145658"><a name="p4700493145658"></a><a name="p4700493145658"></a>binding:vnic_type</p>

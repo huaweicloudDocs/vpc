@@ -6,12 +6,12 @@
 
 当用户需要在操作系统中编译NAT64 TOA内核模块时，可参考本文档进行配置。本操作当前仅支持华北-北京四区域。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->-   TOA不支持UDP协议。  
->-   TOA模块在以下操作系统中验证可以正常工作，其他内核版本安装方法类似。  
->    -   CentOS 7/7.2 \(Kernel version 3.10.0\)  
->    -   Ubuntu 14.04.3\(Kernel version 3.12.0\)  
->    -   Ubuntu 16.04.3 \(Kernel version 4.4.0\)  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>-   TOA不支持UDP协议。
+>-   TOA模块在以下操作系统中验证可以正常工作，其他内核版本安装方法类似。
+>    -   CentOS 7/7.2 \(Kernel version 3.10.0\)
+>    -   Ubuntu 14.04.3\(Kernel version 3.12.0\)
+>    -   Ubuntu 16.04.3 \(Kernel version 4.4.0\)
 
 ## 前提条件<a name="section730623513357"></a>
 
@@ -27,8 +27,8 @@
 
 1.  准备编译环境。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >安装内核模块开发包的过程中，如果源里面找不到对应内核版本的安装包，需要自行去网上下载需要的安装包。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >安装内核模块开发包的过程中，如果源里面找不到对应内核版本的安装包，需要自行去网上下载需要的安装包。
 
     以下是不同Linux发行版本的操作说明，请根据环境选择对应的方案。
 
@@ -45,11 +45,11 @@
 
             **sudo yum install kernel-devel-\`uname -r\`**
 
-            >![](public_sys-resources/icon-note.gif) **说明：**   
-            >如果自带源里没有对应的内核开发包，可以到如下地址中去下载对应的rpm包。  
-            >地址：https://mirror.netcologne.de/oracle-linux-repos/ol7\_latest/getPackage/  
-            >以3.10.0-693.11.1.el7.x86\_64为例，下载后执行以下命令安装：  
-            >**rpm -ivh**  kernel-devel-3.10.0-693.11.1.el7.x86\_64.rpm。  
+            >![](public_sys-resources/icon-note.gif) **说明：** 
+            >如果自带源里没有对应的内核开发包，可以到如下地址中去下载对应的rpm包。
+            >地址：https://mirror.netcologne.de/oracle-linux-repos/ol7\_latest/getPackage/
+            >以3.10.0-693.11.1.el7.x86\_64为例，下载后执行以下命令安装：
+            >**rpm -ivh**  kernel-devel-3.10.0-693.11.1.el7.x86\_64.rpm。
 
 
     -   Ubuntu、Debian环境下的操作步骤。
@@ -93,9 +93,9 @@
 
         **git checkout IPv6**
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >如果未安装git工具，请进入以下链接下载TOA模块源代码。  
-        >[https://github.com/huaweicloud/elb-toa/tree/IPv6](https://github.com/huaweicloud/elb-toa/tree/IPv6)  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >如果未安装git工具，请进入以下链接下载TOA模块源代码。
+        >[https://github.com/huaweicloud/elb-toa/tree/IPv6](https://github.com/huaweicloud/elb-toa/tree/IPv6)
 
     2.  执行如下命令，进入源码目录，编译模块。
 
@@ -116,8 +116,8 @@
 
         若提示信息包含“TOA: toa loaded”，说明内核模块加载成功。
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >CoreOS在容器中编译完内核模块后，需要将内核模块复制到宿主系统，然后在宿主系统中加载内核模块。由于编译内核模块的容器和宿主系统共享/lib/modules目录，可以在容器中将内核模块复制到该目录下，以供宿主系统使用。  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >CoreOS在容器中编译完内核模块后，需要将内核模块复制到宿主系统，然后在宿主系统中加载内核模块。由于编译内核模块的容器和宿主系统共享/lib/modules目录，可以在容器中将内核模块复制到该目录下，以供宿主系统使用。
 
 
 4.  自动加载内核模块。
@@ -148,8 +148,8 @@
 
             **sudo** **chmod +x /etc/sysconfig/modules/toa.modules**
 
-            >![](public_sys-resources/icon-note.gif) **说明：**   
-            >客户升级内核后，会导致现有TOA内核模块不匹配，因此需要重新编译TOA内核模块。  
+            >![](public_sys-resources/icon-note.gif) **说明：** 
+            >客户升级内核后，会导致现有TOA内核模块不匹配，因此需要重新编译TOA内核模块。
 
 
 5.  安装多节点。
@@ -158,8 +158,8 @@
 
     内核模块加载成功以后，应用程序可以正常获取访问者的真实源IPv6地址。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >节点的操作系统发行版与内核版本必须相同。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >节点的操作系统发行版与内核版本必须相同。
 
 
 **后端服务器适配**

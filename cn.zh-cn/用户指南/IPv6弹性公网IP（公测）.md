@@ -18,8 +18,8 @@
 
 该功能目前正在公测中，目前只支持以下区域：华南-广州、华北-北京一、华北-北京四、华东-上海二、华东-上海一。您可以在管理控制台选择“网络 \> 弹性公网IP”，单击“IPv6 EIP”进入公测申请页面。了解更多关于IPv6知识或申请公测请参考：[IPv6解决方案](https://www.huaweicloud.com/solution/ipv6/)。申请通过后，就可以开始体验IPv6弹性公网IP。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->安全组和NAT网关暂时不支持IPv6地址的弹性公网IP。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>安全组和NAT网关暂时不支持IPv6地址的弹性公网IP。
 
 ## 申请IPv6弹性公网IP<a name="section011625114590"></a>
 

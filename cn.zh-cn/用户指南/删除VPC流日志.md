@@ -4,8 +4,8 @@
 
 删除不用的VPC流日志。删除VPC流日志不会删除云日志服务中的流日志记录。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->如果VPC流日志关联的网卡已删除，则对应的VPC流日志会自动删除。但不会删除流日志记录。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>如果VPC流日志关联的网卡已删除，则对应的VPC流日志会自动删除。但不会删除流日志记录。
 
 ## 操作步骤<a name="section7359352124511"></a>
 

@@ -49,7 +49,7 @@
     <tr id="row1919105895410"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p33495085114647"><a name="p33495085114647"></a><a name="p33495085114647"></a>带宽类型</p>
     </td>
     <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p6450524511474"><a name="p6450524511474"></a><a name="p6450524511474"></a>带宽类型分为以下两种：</p>
-    <a name="ul2039802123533"></a><a name="ul2039802123533"></a><ul id="ul2039802123533"><li>独享：带宽只能被一个弹性公网IP地址使用。</li><li>共享：带宽可以加入多个弹性公网IP，带宽被多个弹性公网IP地址共用。</li></ul>
+    <a name="ul2039802123533"></a><a name="ul2039802123533"></a><ul id="ul2039802123533"><li>独享：带宽只能被一个<span id="text21511154194511"><a name="text21511154194511"></a><a name="text21511154194511"></a></span><span id="text91510540453"><a name="text91510540453"></a><a name="text91510540453"></a>弹性公网IP</span>地址使用。</li><li>共享：带宽可以加入多个<span id="text1084012112461"><a name="text1084012112461"></a><a name="text1084012112461"></a></span><span id="text168401717461"><a name="text168401717461"></a><a name="text168401717461"></a>弹性公网IP</span>，带宽被多个<span id="text1332348124610"><a name="text1332348124610"></a><a name="text1332348124610"></a></span><span id="text1332410814619"><a name="text1332410814619"></a><a name="text1332410814619"></a>弹性公网IP</span>地址共用。</li></ul>
     <p id="p122215811232"><a name="p122215811232"></a><a name="p122215811232"></a>仅在按需计费时可以选择共享带宽类型。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><p id="p46834114114647"><a name="p46834114114647"></a><a name="p46834114114647"></a>独享</p>
@@ -85,15 +85,15 @@
     </tr>
     <tr id="row42527768111658"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p14351203105414"><a name="p14351203105414"></a><a name="p14351203105414"></a>购买量</p>
     </td>
-    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p53139340111658"><a name="p53139340111658"></a><a name="p53139340111658"></a>弹性公网IP数量。</p>
-    <p id="p61082105123730"><a name="p61082105123730"></a><a name="p61082105123730"></a>仅在按需计费时可以选择弹性公网IP数量。</p>
+    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p53139340111658"><a name="p53139340111658"></a><a name="p53139340111658"></a><span id="text0559123820468"><a name="text0559123820468"></a><a name="text0559123820468"></a></span><span id="text20559338144612"><a name="text20559338144612"></a><a name="text20559338144612"></a>弹性公网IP</span>数量。</p>
+    <p id="p61082105123730"><a name="p61082105123730"></a><a name="p61082105123730"></a>仅在按需计费时可以选择<span id="text0882446104613"><a name="text0882446104613"></a><a name="text0882446104613"></a></span><span id="text1788274610466"><a name="text1788274610466"></a><a name="text1788274610466"></a>弹性公网IP</span>数量。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><p id="p9319283111658"><a name="p9319283111658"></a><a name="p9319283111658"></a>1</p>
     </td>
     </tr>
     <tr id="row2882753155310"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p48192945195617"><a name="p48192945195617"></a><a name="p48192945195617"></a>标签</p>
     </td>
-    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p11314500195617"><a name="p11314500195617"></a><a name="p11314500195617"></a>用于标识弹性公网IP地址。包括键和值。</p>
+    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p11314500195617"><a name="p11314500195617"></a><a name="p11314500195617"></a>用于标识<span id="text18944142610473"><a name="text18944142610473"></a><a name="text18944142610473"></a></span><span id="text119445261476"><a name="text119445261476"></a><a name="text119445261476"></a>弹性公网IP</span>地址。包括键和值。</p>
     <p id="p60989264195617"><a name="p60989264195617"></a><a name="p60989264195617"></a>标签的命名规则请参考<a href="#table36606052153313">表2</a>。</p>
     </td>
     <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.3 "><a name="ul35105694195617"></a><a name="ul35105694195617"></a><ul id="ul35105694195617"><li>键：Ipv4_key1</li><li>值：192.168.12.10</li></ul>
@@ -101,7 +101,7 @@
     </tr>
     <tr id="row17886175710398"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p128872057193916"><a name="p128872057193916"></a><a name="p128872057193916"></a>企业项目</p>
     </td>
-    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p4358158104112"><a name="p4358158104112"></a><a name="p4358158104112"></a>申请弹性公网IP时，可以将弹性公网IP加入已启用的企业项目。</p>
+    <td class="cellrowborder" valign="top" width="44%" headers="mcps1.2.4.1.2 "><p id="p4358158104112"><a name="p4358158104112"></a><a name="p4358158104112"></a>申请<span id="text197021631104717"><a name="text197021631104717"></a><a name="text197021631104717"></a></span><span id="text27021316479"><a name="text27021316479"></a><a name="text27021316479"></a>弹性公网IP</span>时，可以将<span id="text52965394478"><a name="text52965394478"></a><a name="text52965394478"></a></span><span id="text42965396476"><a name="text42965396476"></a><a name="text42965396476"></a>弹性公网IP</span>加入已启用的企业项目。</p>
     <p id="p335916813413"><a name="p335916813413"></a><a name="p335916813413"></a>企业项目管理提供了一种按企业项目管理云资源的方式，帮助您实现以企业项目为基本单元的资源及人员的统一管理，默认项目为default。</p>
     <p id="p101101523810"><a name="p101101523810"></a><a name="p101101523810"></a>关于创建和管理企业项目的详情，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0131965280.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
     </td>
@@ -124,7 +124,7 @@
     </thead>
     <tbody><tr id="zh-cn_topic_0068145818_r95612b479088487b99e620f90b71f798"><td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0068145818_a7694a48138124d1daf3804556a27bfd6"><a name="zh-cn_topic_0068145818_a7694a48138124d1daf3804556a27bfd6"></a><a name="zh-cn_topic_0068145818_a7694a48138124d1daf3804556a27bfd6"></a>键</p>
     </td>
-    <td class="cellrowborder" valign="top" width="53.39%" headers="mcps1.2.4.1.2 "><a name="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"></a><a name="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"></a><ul id="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"><li>不能为空。</li><li>对于同一弹性公网IP地址键值唯一。</li><li>长度不超过36个字符。</li><li>由英文字母、数字、下划线、中划线、中文字符组成。</li></ul>
+    <td class="cellrowborder" valign="top" width="53.39%" headers="mcps1.2.4.1.2 "><a name="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"></a><a name="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"></a><ul id="zh-cn_topic_0068145818_uac40e19ce4ac49d0913d48b334564c45"><li>不能为空。</li><li>对于同一<span id="zh-cn_topic_0068145818_text1327415505320"><a name="zh-cn_topic_0068145818_text1327415505320"></a><a name="zh-cn_topic_0068145818_text1327415505320"></a></span><span id="zh-cn_topic_0068145818_text72759513533"><a name="zh-cn_topic_0068145818_text72759513533"></a><a name="zh-cn_topic_0068145818_text72759513533"></a>弹性公网IP</span>地址键值唯一。</li><li>长度不超过36个字符。</li><li>由英文字母、数字、下划线、中划线、中文字符组成。</li></ul>
     </td>
     <td class="cellrowborder" valign="top" width="28.07%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0068145818_a1a10de6d67c04555a3508a8cdc3500e7"><a name="zh-cn_topic_0068145818_a1a10de6d67c04555a3508a8cdc3500e7"></a><a name="zh-cn_topic_0068145818_a1a10de6d67c04555a3508a8cdc3500e7"></a>Ipv4_key1</p>
     </td>
@@ -139,11 +139,11 @@
     </tbody>
     </table>
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   对于按需计费的弹性公网IP，当带宽类型选择“共享带宽”时，只能在“带宽名称”的下拉选项中选择已有的共享带宽加入。如果带宽名称不可选，说明您没有可用共享带宽，请先创建。  
-    >-   独享带宽与共享带宽不支持直接互相转换，但针对按需计费的弹性公网IP，您可以购买一个共享带宽，进行如下操作：  
-    >    -   将弹性公网IP添加到共享带宽，则弹性公网IP使用共享带宽。  
-    >    -   将弹性公网IP移出共享带宽，则弹性公网IP使用独享带宽。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >-   对于按需计费的弹性公网IP，当带宽类型选择“共享带宽”时，只能在“带宽名称”的下拉选项中选择已有的共享带宽加入。如果带宽名称不可选，说明您没有可用共享带宽，请先创建。
+    >-   独享带宽与共享带宽不支持直接互相转换，但针对按需计费的弹性公网IP，您可以购买一个共享带宽，进行如下操作：
+    >    -   将弹性公网IP添加到共享带宽，则弹性公网IP使用共享带宽。
+    >    -   将弹性公网IP移出共享带宽，则弹性公网IP使用独享带宽。
 
 6.  单击“立即购买”。
 7.  单击“提交”。

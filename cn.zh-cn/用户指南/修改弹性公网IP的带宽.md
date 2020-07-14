@@ -43,7 +43,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="18.91%" headers="mcps1.2.4.1.2 "><p id="p211817109156"><a name="p211817109156"></a><a name="p211817109156"></a>转包年包月</p>
 </td>
-<td class="cellrowborder" valign="top" width="67.05%" headers="mcps1.2.4.1.3 "><p id="p6118101031516"><a name="p6118101031516"></a><a name="p6118101031516"></a>您可以在弹性公网IP页面或费用中心转包年包月，变更成功后，新的计费模式将立即生效。具体操作请参见<a href="https://support.huaweicloud.com/eip_faq/faq_common_0002.html" target="_blank" rel="noopener noreferrer">如何切换计费模式中的“按需”和“包年包月”？</a>。</p>
+<td class="cellrowborder" valign="top" width="67.05%" headers="mcps1.2.4.1.3 "><p id="p6118101031516"><a name="p6118101031516"></a><a name="p6118101031516"></a>您可以在<span id="text1501148185610"><a name="text1501148185610"></a><a name="text1501148185610"></a></span><span id="text7501487568"><a name="text7501487568"></a><a name="text7501487568"></a>弹性公网IP</span>页面或费用中心转包年包月，变更成功后，新的计费模式将立即生效。具体操作请参见<a href="https://support.huaweicloud.com/eip_faq/faq_common_0002.html" target="_blank" rel="noopener noreferrer">如何切换计费模式中的“按需”和“包年包月”？</a>。</p>
 </td>
 </tr>
 <tr id="row128237518151"><td class="cellrowborder" valign="top" width="14.04%" headers="mcps1.2.4.1.1 "><p id="p682385181517"><a name="p682385181517"></a><a name="p682385181517"></a>包年包月</p>
