@@ -84,3 +84,9 @@ IPv4/IPv6双栈可为您的实例（例如：ECS）提供两个不同版本的IP
 **图 7**  申请虚拟IP地址<a name="fig4553311304"></a>  
 ![](figures/申请虚拟IP地址.png "申请虚拟IP地址")
 
+**动态获取IPv6地址**
+
+购买的IPv6双栈ECS实例后，您可以在ECS详情页查看自动分配的IPv6地址，也可以登录到ECS，通过**ifconfig**查看分配的IPv6地址。
+
+如果自动分配IPv6地址失败，或者您选的其他镜像不支持自动分配IPv6地址，请参考“[动态获取IPv6地址](https://support.huaweicloud.com/usermanual-ecs/ecs_03_0508.html)”手动获取IPv6地址。
+
