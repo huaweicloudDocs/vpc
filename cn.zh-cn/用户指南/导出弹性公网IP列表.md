@@ -9,7 +9,7 @@
 1.  登录管理控制台。
 2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
 3.  选择“网络 \> 弹性公网IP”。
-4.  在弹性公网IP列表页，单击右上角的![](figures/icon-export-1.png)。
+4.  在弹性公网IP列表页，单击右上角的![](figures/icon-export-3.png)。
 
     系统会将您帐号下，当前区域的所有弹性公网IP信息自动导出为Excel文件，并下载至本地。
 

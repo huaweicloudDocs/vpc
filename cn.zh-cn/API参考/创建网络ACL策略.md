@@ -54,7 +54,7 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="20.94%" headers="mcps1.2.5.1.3 "><p id="p6225460121127"><a name="p6225460121127"></a><a name="p6225460121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p40337147121127"><a name="p40337147121127"></a><a name="p40337147121127"></a>网络ACL策略名称。</p>
+<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p40337147121127"><a name="p40337147121127"></a><a name="p40337147121127"></a><span id="text1275012281427"><a name="text1275012281427"></a><a name="text1275012281427"></a>网络ACL</span><span id="text17750142824219"><a name="text17750142824219"></a><a name="text17750142824219"></a></span>策略名称。</p>
 <p id="p078324045715"><a name="p078324045715"></a><a name="p078324045715"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -64,7 +64,7 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="20.94%" headers="mcps1.2.5.1.3 "><p id="p66053143121127"><a name="p66053143121127"></a><a name="p66053143121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p15357220121127"><a name="p15357220121127"></a><a name="p15357220121127"></a>网络ACL策略描述。</p>
+<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p15357220121127"><a name="p15357220121127"></a><a name="p15357220121127"></a><span id="text10937139144212"><a name="text10937139144212"></a><a name="text10937139144212"></a>网络ACL</span><span id="text209371339174210"><a name="text209371339174210"></a><a name="text209371339174210"></a></span>策略描述。</p>
 <p id="p9538853205712"><a name="p9538853205712"></a><a name="p9538853205712"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -74,7 +74,7 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="20.94%" headers="mcps1.2.5.1.3 "><p id="p27024915121127"><a name="p27024915121127"></a><a name="p27024915121127"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p53455884121127"><a name="p53455884121127"></a><a name="p53455884121127"></a>策略引用的网络ACL规则链。</p>
+<td class="cellrowborder" valign="top" width="41.88%" headers="mcps1.2.5.1.4 "><p id="p53455884121127"><a name="p53455884121127"></a><a name="p53455884121127"></a>策略引用的<span id="text7723551104210"><a name="text7723551104210"></a><a name="text7723551104210"></a>网络ACL</span><span id="text187232518425"><a name="text187232518425"></a><a name="text187232518425"></a></span>规则链。</p>
 </td>
 </tr>
 <tr id="row717167121127"><td class="cellrowborder" valign="top" width="20.830000000000002%" headers="mcps1.2.5.1.1 "><p id="p30704110121127"><a name="p30704110121127"></a><a name="p30704110121127"></a>audited</p>
@@ -128,21 +128,21 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p13006089121127"><a name="p13006089121127"></a><a name="p13006089121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p13152683121127"><a name="p13152683121127"></a><a name="p13152683121127"></a>网络ACL策略uuid标识。</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p13152683121127"><a name="p13152683121127"></a><a name="p13152683121127"></a><span id="text132565208432"><a name="text132565208432"></a><a name="text132565208432"></a>网络ACL</span><span id="text9256202014436"><a name="text9256202014436"></a><a name="text9256202014436"></a></span>策略uuid标识。</p>
 </td>
 </tr>
 <tr id="row376464814211"><td class="cellrowborder" valign="top" width="32.083208320832085%" headers="mcps1.2.4.1.1 "><p id="p19764204872112"><a name="p19764204872112"></a><a name="p19764204872112"></a>name</p>
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p2764154815210"><a name="p2764154815210"></a><a name="p2764154815210"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p676474842118"><a name="p676474842118"></a><a name="p676474842118"></a>网络ACL策略名称。</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p676474842118"><a name="p676474842118"></a><a name="p676474842118"></a><span id="text77067234433"><a name="text77067234433"></a><a name="text77067234433"></a>网络ACL</span><span id="text8706182314436"><a name="text8706182314436"></a><a name="text8706182314436"></a></span>策略名称。</p>
 </td>
 </tr>
 <tr id="row5764144892115"><td class="cellrowborder" valign="top" width="32.083208320832085%" headers="mcps1.2.4.1.1 "><p id="p476424842118"><a name="p476424842118"></a><a name="p476424842118"></a>description</p>
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p147654481219"><a name="p147654481219"></a><a name="p147654481219"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p18765204812117"><a name="p18765204812117"></a><a name="p18765204812117"></a>网络ACL策略描述。</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p18765204812117"><a name="p18765204812117"></a><a name="p18765204812117"></a><span id="text8531927114318"><a name="text8531927114318"></a><a name="text8531927114318"></a>网络ACL</span><span id="text125302716431"><a name="text125302716431"></a><a name="text125302716431"></a></span>策略描述。</p>
 </td>
 </tr>
 <tr id="row3765184815214"><td class="cellrowborder" valign="top" width="32.083208320832085%" headers="mcps1.2.4.1.1 "><p id="p11765848162113"><a name="p11765848162113"></a><a name="p11765848162113"></a>tenant_id</p>
@@ -156,7 +156,7 @@ POST /v2.0/fwaas/firewall\_policies
 </td>
 <td class="cellrowborder" valign="top" width="22.632263226322635%" headers="mcps1.2.4.1.2 "><p id="p127661248192113"><a name="p127661248192113"></a><a name="p127661248192113"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p076694811218"><a name="p076694811218"></a><a name="p076694811218"></a>策略引用的网络ACL规则链。</p>
+<td class="cellrowborder" valign="top" width="45.28452845284529%" headers="mcps1.2.4.1.3 "><p id="p076694811218"><a name="p076694811218"></a><a name="p076694811218"></a>策略引用的<span id="text96322308437"><a name="text96322308437"></a><a name="text96322308437"></a>网络ACL</span><span id="text106325300431"><a name="text106325300431"></a><a name="text106325300431"></a></span>规则链。</p>
 </td>
 </tr>
 <tr id="row376664817218"><td class="cellrowborder" valign="top" width="32.083208320832085%" headers="mcps1.2.4.1.1 "><p id="p1376624892119"><a name="p1376624892119"></a><a name="p1376624892119"></a>audited</p>

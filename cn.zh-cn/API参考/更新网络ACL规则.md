@@ -54,7 +54,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p52887833121127"><a name="p52887833121127"></a><a name="p52887833121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p29399172121127"><a name="p29399172121127"></a><a name="p29399172121127"></a>网络ACL规则名称。</p>
+<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p29399172121127"><a name="p29399172121127"></a><a name="p29399172121127"></a><span id="text214885843618"><a name="text214885843618"></a><a name="text214885843618"></a>网络ACL</span><span id="text9148105814365"><a name="text9148105814365"></a><a name="text9148105814365"></a></span>规则名称。</p>
 <p id="p4331339102"><a name="p4331339102"></a><a name="p4331339102"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -64,7 +64,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p30062050121127"><a name="p30062050121127"></a><a name="p30062050121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p64485971121127"><a name="p64485971121127"></a><a name="p64485971121127"></a>网络ACL规则描述。</p>
+<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p64485971121127"><a name="p64485971121127"></a><a name="p64485971121127"></a><span id="text13519161193710"><a name="text13519161193710"></a><a name="text13519161193710"></a>网络ACL</span><span id="text1451941133719"><a name="text1451941133719"></a><a name="text1451941133719"></a></span>规则描述。</p>
 <p id="p7311252002"><a name="p7311252002"></a><a name="p7311252002"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -132,7 +132,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p952780121127"><a name="p952780121127"></a><a name="p952780121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p16135729121127"><a name="p16135729121127"></a><a name="p16135729121127"></a>对通过网络ACL的流量执行的操作。</p>
+<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p16135729121127"><a name="p16135729121127"></a><a name="p16135729121127"></a>对通过<span id="text524188133715"><a name="text524188133715"></a><a name="text524188133715"></a>网络ACL</span><span id="text7246814373"><a name="text7246814373"></a><a name="text7246814373"></a></span>的流量执行的操作。</p>
 <p id="p053482914220"><a name="p053482914220"></a><a name="p053482914220"></a>取值范围：DENY（拒绝）/ALLOW（允许）</p>
 </td>
 </tr>
@@ -142,7 +142,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p46161809121127"><a name="p46161809121127"></a><a name="p46161809121127"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p57324252121127"><a name="p57324252121127"></a><a name="p57324252121127"></a>是否使能网络ACL规则。</p>
+<td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p57324252121127"><a name="p57324252121127"></a><a name="p57324252121127"></a>是否使能<span id="text417211273712"><a name="text417211273712"></a><a name="text417211273712"></a>网络ACL</span><span id="text917291217375"><a name="text917291217375"></a><a name="text917291217375"></a></span>规则。</p>
 <p id="p117941758725"><a name="p117941758725"></a><a name="p117941758725"></a>取值范围：true/false</p>
 </td>
 </tr>
@@ -187,21 +187,21 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20.69%" headers="mcps1.2.4.1.2 "><p id="p53278848121127"><a name="p53278848121127"></a><a name="p53278848121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p13095685121127"><a name="p13095685121127"></a><a name="p13095685121127"></a>网络ACL规则的uuid标识。</p>
+<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p13095685121127"><a name="p13095685121127"></a><a name="p13095685121127"></a><span id="text10888818133713"><a name="text10888818133713"></a><a name="text10888818133713"></a>网络ACL</span><span id="text1888618183719"><a name="text1888618183719"></a><a name="text1888618183719"></a></span>规则的uuid标识。</p>
 </td>
 </tr>
 <tr id="row1870712181518"><td class="cellrowborder" valign="top" width="32.76%" headers="mcps1.2.4.1.1 "><p id="p2070121214156"><a name="p2070121214156"></a><a name="p2070121214156"></a>name</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.69%" headers="mcps1.2.4.1.2 "><p id="p570161218158"><a name="p570161218158"></a><a name="p570161218158"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p2070171271514"><a name="p2070171271514"></a><a name="p2070171271514"></a>网络ACL规则名称。</p>
+<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p2070171271514"><a name="p2070171271514"></a><a name="p2070171271514"></a><span id="text1377872219378"><a name="text1377872219378"></a><a name="text1377872219378"></a>网络ACL</span><span id="text477810221374"><a name="text477810221374"></a><a name="text477810221374"></a></span>规则名称。</p>
 </td>
 </tr>
 <tr id="row47051241512"><td class="cellrowborder" valign="top" width="32.76%" headers="mcps1.2.4.1.1 "><p id="p1970141281520"><a name="p1970141281520"></a><a name="p1970141281520"></a>description</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.69%" headers="mcps1.2.4.1.2 "><p id="p67031271510"><a name="p67031271510"></a><a name="p67031271510"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p1270412111511"><a name="p1270412111511"></a><a name="p1270412111511"></a>网络ACL规则描述。</p>
+<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p1270412111511"><a name="p1270412111511"></a><a name="p1270412111511"></a><span id="text8992826103711"><a name="text8992826103711"></a><a name="text8992826103711"></a>网络ACL</span><span id="text2992626153715"><a name="text2992626153715"></a><a name="text2992626153715"></a></span>规则描述。</p>
 </td>
 </tr>
 <tr id="row39157453121127"><td class="cellrowborder" valign="top" width="32.76%" headers="mcps1.2.4.1.1 "><p id="p40485546121127"><a name="p40485546121127"></a><a name="p40485546121127"></a>tenant_id</p>
@@ -264,14 +264,14 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="20.69%" headers="mcps1.2.4.1.2 "><p id="p871161221515"><a name="p871161221515"></a><a name="p871161221515"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p87131291511"><a name="p87131291511"></a><a name="p87131291511"></a>对通过网络ACL的流量执行的操作。</p>
+<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p87131291511"><a name="p87131291511"></a><a name="p87131291511"></a>对通过<span id="text74581329375"><a name="text74581329375"></a><a name="text74581329375"></a>网络ACL</span><span id="text44584322371"><a name="text44584322371"></a><a name="text44584322371"></a></span>的流量执行的操作。</p>
 </td>
 </tr>
 <tr id="row571121210154"><td class="cellrowborder" valign="top" width="32.76%" headers="mcps1.2.4.1.1 "><p id="p1571712101514"><a name="p1571712101514"></a><a name="p1571712101514"></a>enabled</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.69%" headers="mcps1.2.4.1.2 "><p id="p137131218159"><a name="p137131218159"></a><a name="p137131218159"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p167121271512"><a name="p167121271512"></a><a name="p167121271512"></a>是否使能网络ACL规则。</p>
+<td class="cellrowborder" valign="top" width="46.550000000000004%" headers="mcps1.2.4.1.3 "><p id="p167121271512"><a name="p167121271512"></a><a name="p167121271512"></a>是否使能<span id="text136992361379"><a name="text136992361379"></a><a name="text136992361379"></a>网络ACL</span><span id="text569917362379"><a name="text569917362379"></a><a name="text569917362379"></a></span>规则。</p>
 </td>
 </tr>
 <tr id="row1574912215580"><td class="cellrowborder" valign="top" width="32.76%" headers="mcps1.2.4.1.1 "><p id="p1312116475819"><a name="p1312116475819"></a><a name="p1312116475819"></a>project_id</p>

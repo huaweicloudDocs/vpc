@@ -29,7 +29,7 @@ DELETE /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p19701411813"><a name="p19701411813"></a><a name="p19701411813"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p109701641488"><a name="p109701641488"></a><a name="p109701641488"></a>网络ACL规则唯一标识</p>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p109701641488"><a name="p109701641488"></a><a name="p109701641488"></a><span id="text5599193917389"><a name="text5599193917389"></a><a name="text5599193917389"></a>网络ACL</span><span id="text35991239193814"><a name="text35991239193814"></a><a name="text35991239193814"></a></span>规则唯一标识</p>
 </td>
 </tr>
 </tbody>

@@ -54,7 +54,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p166891720192810"><a name="p166891720192810"></a><a name="p166891720192810"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p56891120112816"><a name="p56891120112816"></a><a name="p56891120112816"></a>网络ACL组名称。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p56891120112816"><a name="p56891120112816"></a><a name="p56891120112816"></a><span id="text17291155195211"><a name="text17291155195211"></a><a name="text17291155195211"></a>网络ACL</span><span id="text1429219558528"><a name="text1429219558528"></a><a name="text1429219558528"></a></span>组名称。</p>
 <p id="p3706202115111"><a name="p3706202115111"></a><a name="p3706202115111"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -64,7 +64,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p1368912072817"><a name="p1368912072817"></a><a name="p1368912072817"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1669114206286"><a name="p1669114206286"></a><a name="p1669114206286"></a>网络ACL组描述。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1669114206286"><a name="p1669114206286"></a><a name="p1669114206286"></a><span id="text539325916524"><a name="text539325916524"></a><a name="text539325916524"></a>网络ACL</span><span id="text10393959195214"><a name="text10393959195214"></a><a name="text10393959195214"></a></span>组描述。</p>
 <p id="p131697242517"><a name="p131697242517"></a><a name="p131697242517"></a>使用说明：最长255个字符</p>
 </td>
 </tr>
@@ -74,7 +74,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p769112032811"><a name="p769112032811"></a><a name="p769112032811"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p669112205283"><a name="p669112205283"></a><a name="p669112205283"></a>入方向网络ACL策略。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p669112205283"><a name="p669112205283"></a><a name="p669112205283"></a>入方向<span id="text1589743145318"><a name="text1589743145318"></a><a name="text1589743145318"></a>网络ACL</span><span id="text9897836532"><a name="text9897836532"></a><a name="text9897836532"></a></span>策略。</p>
 </td>
 </tr>
 <tr id="row1169132062820"><td class="cellrowborder" valign="top" width="27.73722627737226%" headers="mcps1.2.5.1.1 "><p id="p156911820172819"><a name="p156911820172819"></a><a name="p156911820172819"></a>egress_firewall_policy_id</p>
@@ -83,7 +83,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p5691192062810"><a name="p5691192062810"></a><a name="p5691192062810"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1769102016284"><a name="p1769102016284"></a><a name="p1769102016284"></a>出方向网络ACL策略。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1769102016284"><a name="p1769102016284"></a><a name="p1769102016284"></a>出方向<span id="text4891578536"><a name="text4891578536"></a><a name="text4891578536"></a>网络ACL</span><span id="text18911777536"><a name="text18911777536"></a><a name="text18911777536"></a></span>策略。</p>
 </td>
 </tr>
 <tr id="row176921220182811"><td class="cellrowborder" valign="top" width="27.73722627737226%" headers="mcps1.2.5.1.1 "><p id="p869212018285"><a name="p869212018285"></a><a name="p869212018285"></a>ports</p>
@@ -92,7 +92,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p5515105824112"><a name="p5515105824112"></a><a name="p5515105824112"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p669242018288"><a name="p669242018288"></a><a name="p669242018288"></a>网络ACL组绑定的端口列表。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p669242018288"><a name="p669242018288"></a><a name="p669242018288"></a><span id="text64192116537"><a name="text64192116537"></a><a name="text64192116537"></a>网络ACL</span><span id="text7420811195310"><a name="text7420811195310"></a><a name="text7420811195310"></a></span>组绑定的端口列表。</p>
 <p id="p10668102685116"><a name="p10668102685116"></a><a name="p10668102685116"></a>使用说明：必须为分布式router端口的id</p>
 </td>
 </tr>
@@ -102,7 +102,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.5.1.3 "><p id="p669362014284"><a name="p669362014284"></a><a name="p669362014284"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1269311209285"><a name="p1269311209285"></a><a name="p1269311209285"></a>网络ACL是否受管理员控制。</p>
+<td class="cellrowborder" valign="top" width="39.88601139886011%" headers="mcps1.2.5.1.4 "><p id="p1269311209285"><a name="p1269311209285"></a><a name="p1269311209285"></a><span id="text8892171795318"><a name="text8892171795318"></a><a name="text8892171795318"></a>网络ACL</span><span id="text12892171755317"><a name="text12892171755317"></a><a name="text12892171755317"></a></span>是否受管理员控制。</p>
 <p id="p76011638135114"><a name="p76011638135114"></a><a name="p76011638135114"></a>取值范围：true/false</p>
 </td>
 </tr>
@@ -147,21 +147,21 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p47513116121127"><a name="p47513116121127"></a><a name="p47513116121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p62072725121127"><a name="p62072725121127"></a><a name="p62072725121127"></a>网络ACL组的uuid标识。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p62072725121127"><a name="p62072725121127"></a><a name="p62072725121127"></a><span id="text9275726185312"><a name="text9275726185312"></a><a name="text9275726185312"></a>网络ACL</span><span id="text182752026175314"><a name="text182752026175314"></a><a name="text182752026175314"></a></span>组的uuid标识。</p>
 </td>
 </tr>
 <tr id="row34896104121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p52608071121127"><a name="p52608071121127"></a><a name="p52608071121127"></a>name</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p59846605121127"><a name="p59846605121127"></a><a name="p59846605121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p28604909121127"><a name="p28604909121127"></a><a name="p28604909121127"></a>网络ACL组名称。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p28604909121127"><a name="p28604909121127"></a><a name="p28604909121127"></a><span id="text75741429195316"><a name="text75741429195316"></a><a name="text75741429195316"></a>网络ACL</span><span id="text357402975312"><a name="text357402975312"></a><a name="text357402975312"></a></span>组名称。</p>
 </td>
 </tr>
 <tr id="row11129246121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p39887063121127"><a name="p39887063121127"></a><a name="p39887063121127"></a>description</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p28745735121127"><a name="p28745735121127"></a><a name="p28745735121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p35639020121127"><a name="p35639020121127"></a><a name="p35639020121127"></a>网络ACL组描述。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p35639020121127"><a name="p35639020121127"></a><a name="p35639020121127"></a><span id="text14933133210539"><a name="text14933133210539"></a><a name="text14933133210539"></a>网络ACL</span><span id="text993343265319"><a name="text993343265319"></a><a name="text993343265319"></a></span>组描述。</p>
 </td>
 </tr>
 <tr id="row677472121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p60717947121127"><a name="p60717947121127"></a><a name="p60717947121127"></a>tenant_id</p>
@@ -175,21 +175,21 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p49995809121127"><a name="p49995809121127"></a><a name="p49995809121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p56499442121127"><a name="p56499442121127"></a><a name="p56499442121127"></a>入方向网络ACL策略。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p56499442121127"><a name="p56499442121127"></a><a name="p56499442121127"></a>入方向<span id="text529110408531"><a name="text529110408531"></a><a name="text529110408531"></a>网络ACL</span><span id="text229144010533"><a name="text229144010533"></a><a name="text229144010533"></a></span>策略。</p>
 </td>
 </tr>
 <tr id="row9094936121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p34911245121127"><a name="p34911245121127"></a><a name="p34911245121127"></a>egress_firewall_policy_id</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p44624490121127"><a name="p44624490121127"></a><a name="p44624490121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p37100641121127"><a name="p37100641121127"></a><a name="p37100641121127"></a>出方向网络ACL策略。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p37100641121127"><a name="p37100641121127"></a><a name="p37100641121127"></a>出方向<span id="text16960134325310"><a name="text16960134325310"></a><a name="text16960134325310"></a>网络ACL</span><span id="text1960174318535"><a name="text1960174318535"></a><a name="text1960174318535"></a></span>策略。</p>
 </td>
 </tr>
 <tr id="row31622902121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p65911012121127"><a name="p65911012121127"></a><a name="p65911012121127"></a>ports</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p5459978121127"><a name="p5459978121127"></a><a name="p5459978121127"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p61002567121127"><a name="p61002567121127"></a><a name="p61002567121127"></a>网络ACL组绑定的端口列表。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p61002567121127"><a name="p61002567121127"></a><a name="p61002567121127"></a><span id="text9286349175312"><a name="text9286349175312"></a><a name="text9286349175312"></a>网络ACL</span><span id="text2286849155312"><a name="text2286849155312"></a><a name="text2286849155312"></a></span>组绑定的端口列表。</p>
 </td>
 </tr>
 <tr id="row48186031121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p33368479121127"><a name="p33368479121127"></a><a name="p33368479121127"></a>public</p>
@@ -203,14 +203,14 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p7141533121127"><a name="p7141533121127"></a><a name="p7141533121127"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p6468335121127"><a name="p6468335121127"></a><a name="p6468335121127"></a>网络ACL策略的状态。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p6468335121127"><a name="p6468335121127"></a><a name="p6468335121127"></a><span id="text9675155325314"><a name="text9675155325314"></a><a name="text9675155325314"></a>网络ACL</span><span id="text14675175335316"><a name="text14675175335316"></a><a name="text14675175335316"></a></span>策略的状态。</p>
 </td>
 </tr>
 <tr id="row59833296121127"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p44051842121127"><a name="p44051842121127"></a><a name="p44051842121127"></a>admin_state_up</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.55%" headers="mcps1.2.4.1.2 "><p id="p58587899121127"><a name="p58587899121127"></a><a name="p58587899121127"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p3428646121127"><a name="p3428646121127"></a><a name="p3428646121127"></a>网络ACL是否受管理员控制。</p>
+<td class="cellrowborder" valign="top" width="51.01%" headers="mcps1.2.4.1.3 "><p id="p3428646121127"><a name="p3428646121127"></a><a name="p3428646121127"></a><span id="text17434205815538"><a name="text17434205815538"></a><a name="text17434205815538"></a>网络ACL</span><span id="text11437195816533"><a name="text11437195816533"></a><a name="text11437195816533"></a></span>是否受管理员控制。</p>
 </td>
 </tr>
 <tr id="row7228115213486"><td class="cellrowborder" valign="top" width="23.44%" headers="mcps1.2.4.1.1 "><p id="p53071912134918"><a name="p53071912134918"></a><a name="p53071912134918"></a>project_id</p>

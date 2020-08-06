@@ -29,7 +29,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/remove\_rule
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p36656390132633"><a name="p36656390132633"></a><a name="p36656390132633"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.85571442855714%" headers="mcps1.2.5.1.4 "><p id="p48236351132633"><a name="p48236351132633"></a><a name="p48236351132633"></a>网络ACL规则唯一标识</p>
+<td class="cellrowborder" valign="top" width="42.85571442855714%" headers="mcps1.2.5.1.4 "><p id="p48236351132633"><a name="p48236351132633"></a><a name="p48236351132633"></a><span id="text1243515538481"><a name="text1243515538481"></a><a name="text1243515538481"></a>网络ACL</span><span id="text6435105344819"><a name="text6435105344819"></a><a name="text6435105344819"></a></span>规则唯一标识</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/remove\_rule
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p21782173132633"><a name="p21782173132633"></a><a name="p21782173132633"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p9188558132633"><a name="p9188558132633"></a><a name="p9188558132633"></a>如果为True, 该policy对于其他项目网络ACL策略可见， 默认不可见</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p9188558132633"><a name="p9188558132633"></a><a name="p9188558132633"></a>如果为True, 该policy对于其他项目<span id="text983811810491"><a name="text983811810491"></a><a name="text983811810491"></a>网络ACL</span><span id="text783878124916"><a name="text783878124916"></a><a name="text783878124916"></a></span>策略可见， 默认不可见</p>
 </td>
 </tr>
 <tr id="row31674173132633"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p49506560132633"><a name="p49506560132633"></a><a name="p49506560132633"></a>tenant_id</p>

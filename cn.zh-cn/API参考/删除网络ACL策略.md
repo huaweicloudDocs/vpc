@@ -29,7 +29,7 @@ DELETE /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p19701411813"><a name="p19701411813"></a><a name="p19701411813"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p109701641488"><a name="p109701641488"></a><a name="p109701641488"></a>网络ACL策略唯一标识</p>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p109701641488"><a name="p109701641488"></a><a name="p109701641488"></a><span id="text084952910464"><a name="text084952910464"></a><a name="text084952910464"></a>网络ACL</span><span id="text6849112913464"><a name="text6849112913464"></a><a name="text6849112913464"></a></span>策略唯一标识</p>
 </td>
 </tr>
 </tbody>
