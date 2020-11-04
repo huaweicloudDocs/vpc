@@ -4,6 +4,7 @@
 
 -   [拒绝特定端口访问](#section11312173319432)
 -   [允许某些协议端口的访问](#section61291659102216)
+-   [拒绝某IP地址的访问](#section179011223818)
 
 ## 拒绝特定端口访问<a name="section11312173319432"></a>
 
@@ -213,4 +214,73 @@
 </table>
 
 网络ACL相当于一个额外的保护层，就算不小心配置了比较宽松的安全组规则，网络ACL规则也仅允许HTTP 80和HTTPS 443的访问，拒绝其他的入站访问流量。
+
+## 拒绝某IP地址的访问<a name="section179011223818"></a>
+
+在本示例中，假设要禁止一些异常IP的访问，例如：192.168.1.102，您可以在子网层级添加网络ACL拒绝规则，拒绝192.168.1.102的入站访问。
+
+**网络ACL配置**
+
+需要添加的入方向规则如[表4](#table149047552812)所示。
+
+**表 4**  网络ACL规则
+
+<a name="table149047552812"></a>
+<table><thead align="left"><tr id="row199059550814"><th class="cellrowborder" valign="top" width="7.26%" id="mcps1.2.9.1.1"><p id="p7905455383"><a name="p7905455383"></a><a name="p7905455383"></a>方向</p>
+</th>
+<th class="cellrowborder" valign="top" width="5.779999999999999%" id="mcps1.2.9.1.2"><p id="p89059556814"><a name="p89059556814"></a><a name="p89059556814"></a>动作</p>
+</th>
+<th class="cellrowborder" valign="top" width="6.859999999999999%" id="mcps1.2.9.1.3"><p id="p1090565514817"><a name="p1090565514817"></a><a name="p1090565514817"></a>协议</p>
+</th>
+<th class="cellrowborder" valign="top" width="12.7%" id="mcps1.2.9.1.4"><p id="p7905655884"><a name="p7905655884"></a><a name="p7905655884"></a>源地址</p>
+</th>
+<th class="cellrowborder" valign="top" width="16.1%" id="mcps1.2.9.1.5"><p id="p190585510818"><a name="p190585510818"></a><a name="p190585510818"></a>源端口范围</p>
+</th>
+<th class="cellrowborder" valign="top" width="12.879999999999999%" id="mcps1.2.9.1.6"><p id="p2905255085"><a name="p2905255085"></a><a name="p2905255085"></a>目的地址</p>
+</th>
+<th class="cellrowborder" valign="top" width="11.01%" id="mcps1.2.9.1.7"><p id="p1905155519819"><a name="p1905155519819"></a><a name="p1905155519819"></a>目的端口范围</p>
+</th>
+<th class="cellrowborder" valign="top" width="27.41%" id="mcps1.2.9.1.8"><p id="p99059551483"><a name="p99059551483"></a><a name="p99059551483"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row1905105516811"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p1590525510815"><a name="p1590525510815"></a><a name="p1590525510815"></a>入方向</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p199051555081"><a name="p199051555081"></a><a name="p199051555081"></a>允许</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p13905655689"><a name="p13905655689"></a><a name="p13905655689"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.7%" headers="mcps1.2.9.1.4 "><p id="p1290515554815"><a name="p1290515554815"></a><a name="p1290515554815"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="16.1%" headers="mcps1.2.9.1.5 "><p id="p090613551684"><a name="p090613551684"></a><a name="p090613551684"></a>1-65535</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.879999999999999%" headers="mcps1.2.9.1.6 "><p id="p1290635518814"><a name="p1290635518814"></a><a name="p1290635518814"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.01%" headers="mcps1.2.9.1.7 "><p id="p11906185511819"><a name="p11906185511819"></a><a name="p11906185511819"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p1690635517813"><a name="p1690635517813"></a><a name="p1690635517813"></a>放通所有入站流量</p>
+</td>
+</tr>
+<tr id="row19063552819"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p15906955284"><a name="p15906955284"></a><a name="p15906955284"></a>入方向</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p139063556818"><a name="p139063556818"></a><a name="p139063556818"></a>拒绝</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p1690675517819"><a name="p1690675517819"></a><a name="p1690675517819"></a>TCP</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.7%" headers="mcps1.2.9.1.4 "><p id="p890618551489"><a name="p890618551489"></a><a name="p890618551489"></a>192.168.1.102/32</p>
+</td>
+<td class="cellrowborder" valign="top" width="16.1%" headers="mcps1.2.9.1.5 "><p id="p190785516815"><a name="p190785516815"></a><a name="p190785516815"></a>1-65535</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.879999999999999%" headers="mcps1.2.9.1.6 "><p id="p6907755783"><a name="p6907755783"></a><a name="p6907755783"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.01%" headers="mcps1.2.9.1.7 "><p id="p1590719559810"><a name="p1590719559810"></a><a name="p1590719559810"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p39070552819"><a name="p39070552819"></a><a name="p39070552819"></a>拒绝192.168.1.102对子网的访问</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
 

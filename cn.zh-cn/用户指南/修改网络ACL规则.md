@@ -28,7 +28,7 @@
     <tbody><tr id="zh-cn_topic_0051746702_row19441848446"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p144213414415"><a name="zh-cn_topic_0051746702_p144213414415"></a><a name="zh-cn_topic_0051746702_p144213414415"></a>类型</p>
     </td>
     <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p13864733105816"><a name="zh-cn_topic_0051746702_p13864733105816"></a><a name="zh-cn_topic_0051746702_p13864733105816"></a>开通IPv6功能后可见。</p>
-    <p id="zh-cn_topic_0051746702_p535711174917"><a name="zh-cn_topic_0051746702_p535711174917"></a><a name="zh-cn_topic_0051746702_p535711174917"></a>网络ACL类型。必选项，单击下拉按钮可选择。</p>
+    <p id="zh-cn_topic_0051746702_p535711174917"><a name="zh-cn_topic_0051746702_p535711174917"></a><a name="zh-cn_topic_0051746702_p535711174917"></a>网络ACL类型。必选项，单击下拉按钮可选择。目前支持“IPv4”和“IPv6”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p1844284194413"><a name="zh-cn_topic_0051746702_p1844284194413"></a><a name="zh-cn_topic_0051746702_p1844284194413"></a>IPv4</p>
     </td>
@@ -49,12 +49,10 @@
     </tr>
     <tr id="zh-cn_topic_0051746702_row7466248203412"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p1546611481340"><a name="zh-cn_topic_0051746702_p1546611481340"></a><a name="zh-cn_topic_0051746702_p1546611481340"></a>源地址</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p1446616487341"><a name="zh-cn_topic_0051746702_p1446616487341"></a><a name="zh-cn_topic_0051746702_p1446616487341"></a>此方向允许的源地址。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p1446616487341"><a name="zh-cn_topic_0051746702_p1446616487341"></a><a name="zh-cn_topic_0051746702_p1446616487341"></a>此方向允许的源地址。可以是IP地址、IP地址段。</p>
     <p id="zh-cn_topic_0051746702_p144661848153418"><a name="zh-cn_topic_0051746702_p144661848153418"></a><a name="zh-cn_topic_0051746702_p144661848153418"></a>默认值为0.0.0.0/0，代表支持所有的IP地址。</p>
     <p id="zh-cn_topic_0051746702_p64667482345"><a name="zh-cn_topic_0051746702_p64667482345"></a><a name="zh-cn_topic_0051746702_p64667482345"></a>例如：</p>
-    <p id="zh-cn_topic_0051746702_p1646613483344"><a name="zh-cn_topic_0051746702_p1646613483344"></a><a name="zh-cn_topic_0051746702_p1646613483344"></a>xxx.xxx.xxx.xxx/32（IP地址）</p>
-    <p id="zh-cn_topic_0051746702_p2466154823416"><a name="zh-cn_topic_0051746702_p2466154823416"></a><a name="zh-cn_topic_0051746702_p2466154823416"></a>xxx.xxx.xxx.0/24（子网）</p>
-    <p id="zh-cn_topic_0051746702_p4466194820347"><a name="zh-cn_topic_0051746702_p4466194820347"></a><a name="zh-cn_topic_0051746702_p4466194820347"></a>0.0.0.0/0（任意地址）</p>
+    <a name="zh-cn_topic_0051746702_ul2087319185119"></a><a name="zh-cn_topic_0051746702_ul2087319185119"></a><ul id="zh-cn_topic_0051746702_ul2087319185119"><li>xxx.xxx.xxx.xxx/32（IP地址）</li><li>xxx.xxx.xxx.0/24（子网）</li><li>0.0.0.0/0（任意地址）</li></ul>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p12466164823419"><a name="zh-cn_topic_0051746702_p12466164823419"></a><a name="zh-cn_topic_0051746702_p12466164823419"></a>0.0.0.0/0</p>
     </td>
@@ -69,12 +67,10 @@
     </tr>
     <tr id="zh-cn_topic_0051746702_row346764883414"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p046719484349"><a name="zh-cn_topic_0051746702_p046719484349"></a><a name="zh-cn_topic_0051746702_p046719484349"></a>目的地址</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p046712485344"><a name="zh-cn_topic_0051746702_p046712485344"></a><a name="zh-cn_topic_0051746702_p046712485344"></a>此方向允许的目的地址。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p046712485344"><a name="zh-cn_topic_0051746702_p046712485344"></a><a name="zh-cn_topic_0051746702_p046712485344"></a>此方向允许的目的地址。可以是IP地址、IP地址段。</p>
     <p id="zh-cn_topic_0051746702_p10467174817345"><a name="zh-cn_topic_0051746702_p10467174817345"></a><a name="zh-cn_topic_0051746702_p10467174817345"></a>默认值为0.0.0.0/0，代表支持所有的IP地址。</p>
     <p id="zh-cn_topic_0051746702_p3467104893419"><a name="zh-cn_topic_0051746702_p3467104893419"></a><a name="zh-cn_topic_0051746702_p3467104893419"></a>例如：</p>
-    <p id="zh-cn_topic_0051746702_p64671748143413"><a name="zh-cn_topic_0051746702_p64671748143413"></a><a name="zh-cn_topic_0051746702_p64671748143413"></a>xxx.xxx.xxx.xxx/32（IP地址）</p>
-    <p id="zh-cn_topic_0051746702_p124671648113415"><a name="zh-cn_topic_0051746702_p124671648113415"></a><a name="zh-cn_topic_0051746702_p124671648113415"></a>xxx.xxx.xxx.0/24（子网）</p>
-    <p id="zh-cn_topic_0051746702_p94671448203411"><a name="zh-cn_topic_0051746702_p94671448203411"></a><a name="zh-cn_topic_0051746702_p94671448203411"></a>0.0.0.0/0（任意地址）</p>
+    <a name="zh-cn_topic_0051746702_ul184132717549"></a><a name="zh-cn_topic_0051746702_ul184132717549"></a><ul id="zh-cn_topic_0051746702_ul184132717549"><li>xxx.xxx.xxx.xxx/32（IP地址）</li><li>xxx.xxx.xxx.0/24（网段）</li><li>0.0.0.0/0（任意地址）</li></ul>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p104679481342"><a name="zh-cn_topic_0051746702_p104679481342"></a><a name="zh-cn_topic_0051746702_p104679481342"></a>0.0.0.0/0</p>
     </td>

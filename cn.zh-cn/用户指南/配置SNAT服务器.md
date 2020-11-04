@@ -85,14 +85,15 @@ NAT网关（NAT Gateway）能够为虚拟私有云内的云主机（弹性云服
     ![](figures/配置SNAT.png "配置SNAT")
 
     >![](public_sys-resources/icon-note.gif) **说明：** 
-    >如需实现重启后规则不丢失，则需把规则写在/etc/rc.local文件中。
-    >1.  执行以下命令进入/etc/rc.local文件。
-    >    **vi /etc/rc.local**
-    >2.  执行[14](#li2168883919851)配置SNAT
-    >3.  执行以下命令保存并退出。
-    >    **:wq**
-    >4.  执行以下命令添加rc.local文件的执行权限。
-    >    **\# chmod +x /etc/rc.local**
+    >-   如需实现重启后规则不丢失，则需把规则写在/etc/rc.local文件中。
+    >    1.  执行以下命令进入/etc/rc.local文件。
+    >        **vi /etc/rc.local**
+    >    2.  执行[14](#li2168883919851)配置SNAT
+    >    3.  执行以下命令保存并退出。
+    >        **:wq**
+    >    4.  执行以下命令添加rc.local文件的执行权限。
+    >        **\# chmod +x /etc/rc.local**
+    >-   为保证配置正常生效，请执行**iptables -L**命令查看已配置的规则是否有冲突。
 
 14. 执行如下命令，查看是否配置成功。如[图2](#fig8358771201535)所示，则表示配置成功（例如：192.168.1.0/24）。
 
