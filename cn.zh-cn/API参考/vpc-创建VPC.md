@@ -97,7 +97,7 @@ POST /v1/\{project\_id\}/vpcs
     </td>
     <td class="cellrowborder" valign="top" width="16.73%" headers="mcps1.2.5.1.3 "><p id="p1122484216557"><a name="p1122484216557"></a><a name="p1122484216557"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="51.88%" headers="mcps1.2.5.1.4 "><a name="ul10389173917465"></a><a name="ul10389173917465"></a><ul id="ul10389173917465"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="ul53161626155413"></a><a name="ul53161626155413"></a><ul id="ul53161626155413"><li>10.0.0.0/8~10.255.255.240/28</li><li>172.16.0.0/12 ~ 172.31.255.240/28</li><li>192.168.0.0/16 ~ 192.168.255.240/28</li></ul>
+    <td class="cellrowborder" valign="top" width="51.88%" headers="mcps1.2.5.1.4 "><a name="ul10389173917465"></a><a name="ul10389173917465"></a><ul id="ul10389173917465"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="ul53161626155413"></a><a name="ul53161626155413"></a><ul id="ul53161626155413"><li>10.0.0.0/8~24</li><li>172.16.0.0/12~24</li><li>192.168.0.0/16~24</li></ul>
     </li><li>不指定cidr时，默认值为空</li><li>约束：必须是cidr格式，例如:192.168.0.0/16</li></ul>
     </td>
     </tr>
@@ -193,7 +193,7 @@ POST /v1/\{project\_id\}/vpcs
     </td>
     <td class="cellrowborder" valign="top" width="23%" headers="mcps1.2.4.1.2 "><p id="p61634143165612"><a name="p61634143165612"></a><a name="p61634143165612"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><a name="ul62941023970"></a><a name="ul62941023970"></a><ul id="ul62941023970"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="ul162941223376"></a><a name="ul162941223376"></a><ul id="ul162941223376"><li>10.0.0.0/8~10.255.255.240/28</li><li>172.16.0.0/12 ~ 172.31.255.240/28</li><li>192.168.0.0/16 ~ 192.168.255.240/28</li></ul>
+    <td class="cellrowborder" valign="top" width="60%" headers="mcps1.2.4.1.3 "><a name="ul62941023970"></a><a name="ul62941023970"></a><ul id="ul62941023970"><li>功能说明：虚拟私有云下可用子网的范围</li><li>取值范围：<a name="vpc_api01_0001_ul53161626155413"></a><a name="vpc_api01_0001_ul53161626155413"></a><ul id="vpc_api01_0001_ul53161626155413"><li>10.0.0.0/8~24</li><li>172.16.0.0/12~24</li><li>192.168.0.0/16~24</li></ul>
     </li><li>不指定cidr时，默认值为空</li><li>约束：必须是cidr格式，例如:192.168.0.0/16</li></ul>
     </td>
     </tr>

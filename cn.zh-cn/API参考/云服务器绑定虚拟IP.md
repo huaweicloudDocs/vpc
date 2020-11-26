@@ -6,7 +6,7 @@ Postman或者JMeter。
 
 ## 涉及接口<a name="section1186811971613"></a>
 
-涉及5个API接口的调用，具体如下：
+涉及4个API接口的调用，具体如下：
 
 <a name="table168745398162"></a>
 <table><thead align="left"><tr id="row19436398160"><th class="cellrowborder" valign="top" width="11.551155115511552%" id="mcps1.1.5.1.1"><p id="p179435399163"><a name="p179435399163"></a><a name="p179435399163"></a>序号</p>
@@ -174,7 +174,7 @@ Postman或者JMeter。
     </table>
 
 4.  配置绑定了虚拟IP的云服务器网卡的allowed-address-pairs。
-    1.  获取绑定了虚拟IP的云服务器网卡信息。
+    1.  <a name="li175662055132414"></a>获取绑定了虚拟IP的云服务器网卡信息port\_id。
 
         <a name="table541261532510"></a>
         <table><thead align="left"><tr id="row12447191512252"><th class="cellrowborder" valign="top" width="30.53%" id="mcps1.1.3.1.1"><p id="p74471415122518"><a name="p74471415122518"></a><a name="p74471415122518"></a>方法</p>
@@ -228,7 +228,7 @@ Postman或者JMeter。
         </tr>
         <tr id="row929054311259"><td class="cellrowborder" valign="top" width="30.53%" headers="mcps1.1.3.1.1 "><p id="p14290154362517"><a name="p14290154362517"></a><a name="p14290154362517"></a>说明</p>
         </td>
-        <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="p72901143142512"><a name="p72901143142512"></a><a name="p72901143142512"></a>url中{port_id}是绑定了虚拟IP的云服务器网卡的ID</p>
+        <td class="cellrowborder" valign="top" width="69.47%" headers="mcps1.1.3.1.2 "><p id="p72901143142512"><a name="p72901143142512"></a><a name="p72901143142512"></a>url中{port_id}是绑定了虚拟IP的云服务器网卡的ID，可由<a href="#li175662055132414">a</a>中获取。</p>
         </td>
         </tr>
         </tbody>
