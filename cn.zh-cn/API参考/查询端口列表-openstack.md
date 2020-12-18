@@ -339,7 +339,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tr>
 <tr id="row167271926144411"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p117281926144417"><a name="p117281926144417"></a><a name="p117281926144417"></a>dns_assignment</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0201534165_p737862619493"><a name="zh-cn_topic_0201534165_p737862619493"></a><a name="zh-cn_topic_0201534165_p737862619493"></a>Array of <a href="#table1960316535179">dns_assignment</a> objects</p>
+<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="vpc_port01_0006_p737862619493"><a name="vpc_port01_0006_p737862619493"></a><a name="vpc_port01_0006_p737862619493"></a>Array of <a href="#table1960316535179">dns_assignment</a> objects</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p1472919269447"><a name="p1472919269447"></a><a name="p1472919269447"></a>扩展属性：主网卡默认内网域名信息</p>
 <p id="p1834325274510"><a name="p1834325274510"></a><a name="p1834325274510"></a>【使用说明】不支持设置和更新，由系统自动维护</p>

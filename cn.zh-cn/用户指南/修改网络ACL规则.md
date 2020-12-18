@@ -28,21 +28,21 @@
     <tbody><tr id="zh-cn_topic_0051746702_row19441848446"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p144213414415"><a name="zh-cn_topic_0051746702_p144213414415"></a><a name="zh-cn_topic_0051746702_p144213414415"></a>类型</p>
     </td>
     <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p13864733105816"><a name="zh-cn_topic_0051746702_p13864733105816"></a><a name="zh-cn_topic_0051746702_p13864733105816"></a>开通IPv6功能后可见。</p>
-    <p id="zh-cn_topic_0051746702_p535711174917"><a name="zh-cn_topic_0051746702_p535711174917"></a><a name="zh-cn_topic_0051746702_p535711174917"></a>网络ACL类型。必选项，单击下拉按钮可选择。目前支持“IPv4”和“IPv6”。</p>
+    <p id="zh-cn_topic_0051746702_p535711174917"><a name="zh-cn_topic_0051746702_p535711174917"></a><a name="zh-cn_topic_0051746702_p535711174917"></a><span id="zh-cn_topic_0051746702_text8363112322016"><a name="zh-cn_topic_0051746702_text8363112322016"></a><a name="zh-cn_topic_0051746702_text8363112322016"></a></span><span id="zh-cn_topic_0051746702_text1436342302019"><a name="zh-cn_topic_0051746702_text1436342302019"></a><a name="zh-cn_topic_0051746702_text1436342302019"></a>网络ACL</span>类型。必选项，单击下拉按钮可选择。目前支持“IPv4”和“IPv6”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p1844284194413"><a name="zh-cn_topic_0051746702_p1844284194413"></a><a name="zh-cn_topic_0051746702_p1844284194413"></a>IPv4</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0051746702_row184641148133419"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p6457134819341"><a name="zh-cn_topic_0051746702_p6457134819341"></a><a name="zh-cn_topic_0051746702_p6457134819341"></a>策略</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p20487105491017"><a name="zh-cn_topic_0051746702_p20487105491017"></a><a name="zh-cn_topic_0051746702_p20487105491017"></a>网络ACL策略。必选项，单击下拉按钮可选择。目前支持“允许”和“拒绝”。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p20487105491017"><a name="zh-cn_topic_0051746702_p20487105491017"></a><a name="zh-cn_topic_0051746702_p20487105491017"></a><span id="zh-cn_topic_0051746702_text139841625122019"><a name="zh-cn_topic_0051746702_text139841625122019"></a><a name="zh-cn_topic_0051746702_text139841625122019"></a></span><span id="zh-cn_topic_0051746702_text998452592018"><a name="zh-cn_topic_0051746702_text998452592018"></a><a name="zh-cn_topic_0051746702_text998452592018"></a>网络ACL</span>策略。必选项，单击下拉按钮可选择。目前支持“允许”和“拒绝”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p1446404843410"><a name="zh-cn_topic_0051746702_p1446404843410"></a><a name="zh-cn_topic_0051746702_p1446404843410"></a>允许</p>
     </td>
     </tr>
     <tr id="zh-cn_topic_0051746702_row0466148153411"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p246464863416"><a name="zh-cn_topic_0051746702_p246464863416"></a><a name="zh-cn_topic_0051746702_p246464863416"></a>协议</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p124661748163411"><a name="zh-cn_topic_0051746702_p124661748163411"></a><a name="zh-cn_topic_0051746702_p124661748163411"></a>网络ACL支持的协议。必选项，单击下拉按钮可选择。目前只支持选择TCP、UDP、全部、ICMP协议，当选择全部或者ICMP时，端口信息不可填写。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p124661748163411"><a name="zh-cn_topic_0051746702_p124661748163411"></a><a name="zh-cn_topic_0051746702_p124661748163411"></a><span id="zh-cn_topic_0051746702_text7569431172011"><a name="zh-cn_topic_0051746702_text7569431172011"></a><a name="zh-cn_topic_0051746702_text7569431172011"></a></span><span id="zh-cn_topic_0051746702_text125691631132020"><a name="zh-cn_topic_0051746702_text125691631132020"></a><a name="zh-cn_topic_0051746702_text125691631132020"></a>网络ACL</span>支持的协议。必选项，单击下拉按钮可选择。目前只支持选择TCP、UDP、全部、ICMP协议，当选择全部或者ICMP时，端口信息不可填写。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p114661548163415"><a name="zh-cn_topic_0051746702_p114661548163415"></a><a name="zh-cn_topic_0051746702_p114661548163415"></a>TCP</p>
     </td>
@@ -85,7 +85,7 @@
     </tr>
     <tr id="zh-cn_topic_0051746702_row2641164215415"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0051746702_p2641134254111"><a name="zh-cn_topic_0051746702_p2641134254111"></a><a name="zh-cn_topic_0051746702_p2641134254111"></a>描述</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p55384117316"><a name="zh-cn_topic_0051746702_p55384117316"></a><a name="zh-cn_topic_0051746702_p55384117316"></a>网络ACL规则的描述信息，非必填项。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0051746702_p55384117316"><a name="zh-cn_topic_0051746702_p55384117316"></a><a name="zh-cn_topic_0051746702_p55384117316"></a><span id="zh-cn_topic_0051746702_text06561944142015"><a name="zh-cn_topic_0051746702_text06561944142015"></a><a name="zh-cn_topic_0051746702_text06561944142015"></a></span><span id="zh-cn_topic_0051746702_text765619447206"><a name="zh-cn_topic_0051746702_text765619447206"></a><a name="zh-cn_topic_0051746702_text765619447206"></a>网络ACL</span>规则的描述信息，非必填项。</p>
     <p id="zh-cn_topic_0051746702_p185324110315"><a name="zh-cn_topic_0051746702_p185324110315"></a><a name="zh-cn_topic_0051746702_p185324110315"></a>描述信息内容不能超过255个字符，且不能包含&lt;、&gt;符号。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0051746702_p1364284284110"><a name="zh-cn_topic_0051746702_p1364284284110"></a><a name="zh-cn_topic_0051746702_p1364284284110"></a>-</p>

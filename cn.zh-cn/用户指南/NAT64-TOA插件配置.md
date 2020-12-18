@@ -57,13 +57,16 @@
 
             **sudo apt-get install gcc**
 
+
         1.  执行如下命令，安装make工具。
 
             **sudo apt-get install make**
 
+
         1.  执行如下命令，安装内核模块开发包，开发包头文件与库的版本需要与内核版本一致。
 
             **sudo apt-get install linux-headers-\`uname -r\`**
+
 
     -   SUSE环境下的操作步骤。
         1.  执行如下命令，安装gcc编译器。
@@ -78,6 +81,7 @@
 
             **sudo zypper install enel-default-devel**
 
+
     -   CoreOS环境下的操作步骤。
 
         CoreOS环境下在容器内进行内核模块的编译时，需要先启动一个用于内核模块开发的容器，然后再进行编译。
@@ -85,6 +89,7 @@
         详细过程参见CoreOS官方文档，获取方式如下链接所示。
 
         <u>[https://coreos.com/os/docs/latest/kernel-modules.html](https://coreos.com/os/docs/latest/kernel-modules.html)</u>
+
 
 2.  编译内核模块。
     1.  使用git工具，执行如下命令，下载TOA内核模块源代码。
@@ -104,6 +109,7 @@
         **make**
 
         编译过程未提示warning或者error，说明编译成功，检查当前目录下是否已经生成toa.ko文件。
+
 
 3.  <a name="li84761520171217"></a>加载内核模块。
     1.  执行如下命令，加载内核模块。
@@ -150,6 +156,7 @@
 
             >![](public_sys-resources/icon-note.gif) **说明：** 
             >客户升级内核后，会导致现有TOA内核模块不匹配，因此需要重新编译TOA内核模块。
+
 
 
 5.  安装多节点。

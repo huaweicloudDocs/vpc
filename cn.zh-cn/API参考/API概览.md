@@ -68,11 +68,6 @@
 <td class="cellrowborder" valign="top" width="79.19%" headers="mcps1.2.3.1.2 "><p id="p103651958184513"><a name="p103651958184513"></a><a name="p103651958184513"></a>查询一个指定网络中的IP地址使用情况，包括网络中的IP总数以及已用IP总数。</p>
 </td>
 </tr>
-<tr id="row9365658104517"><td class="cellrowborder" valign="top" width="20.810000000000002%" headers="mcps1.2.3.1.1 "><p id="p20365145864520"><a name="p20365145864520"></a><a name="p20365145864520"></a><a href="https://support.huaweicloud.com/api-vpc/vpc_vip_0000.html" target="_blank" rel="noopener noreferrer">虚拟IP</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="79.19%" headers="mcps1.2.3.1.2 "><p id="p1936519581457"><a name="p1936519581457"></a><a name="p1936519581457"></a>虚拟IP的绑定、访问等接口。</p>
-</td>
-</tr>
 </tbody>
 </table>
 

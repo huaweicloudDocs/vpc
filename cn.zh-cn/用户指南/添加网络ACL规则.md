@@ -30,21 +30,21 @@
     <tbody><tr id="row19441848446"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="p144213414415"><a name="p144213414415"></a><a name="p144213414415"></a>类型</p>
     </td>
     <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p13864733105816"><a name="p13864733105816"></a><a name="p13864733105816"></a>开通IPv6功能后可见。</p>
-    <p id="p535711174917"><a name="p535711174917"></a><a name="p535711174917"></a>网络ACL类型。必选项，单击下拉按钮可选择。目前支持“IPv4”和“IPv6”。</p>
+    <p id="p535711174917"><a name="p535711174917"></a><a name="p535711174917"></a><span id="text8363112322016"><a name="text8363112322016"></a><a name="text8363112322016"></a></span><span id="text1436342302019"><a name="text1436342302019"></a><a name="text1436342302019"></a>网络ACL</span>类型。必选项，单击下拉按钮可选择。目前支持“IPv4”和“IPv6”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="p1844284194413"><a name="p1844284194413"></a><a name="p1844284194413"></a>IPv4</p>
     </td>
     </tr>
     <tr id="row184641148133419"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="p6457134819341"><a name="p6457134819341"></a><a name="p6457134819341"></a>策略</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p20487105491017"><a name="p20487105491017"></a><a name="p20487105491017"></a>网络ACL策略。必选项，单击下拉按钮可选择。目前支持“允许”和“拒绝”。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p20487105491017"><a name="p20487105491017"></a><a name="p20487105491017"></a><span id="text139841625122019"><a name="text139841625122019"></a><a name="text139841625122019"></a></span><span id="text998452592018"><a name="text998452592018"></a><a name="text998452592018"></a>网络ACL</span>策略。必选项，单击下拉按钮可选择。目前支持“允许”和“拒绝”。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="p1446404843410"><a name="p1446404843410"></a><a name="p1446404843410"></a>允许</p>
     </td>
     </tr>
     <tr id="row0466148153411"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="p246464863416"><a name="p246464863416"></a><a name="p246464863416"></a>协议</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p124661748163411"><a name="p124661748163411"></a><a name="p124661748163411"></a>网络ACL支持的协议。必选项，单击下拉按钮可选择。目前只支持选择TCP、UDP、全部、ICMP协议，当选择全部或者ICMP时，端口信息不可填写。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p124661748163411"><a name="p124661748163411"></a><a name="p124661748163411"></a><span id="text7569431172011"><a name="text7569431172011"></a><a name="text7569431172011"></a></span><span id="text125691631132020"><a name="text125691631132020"></a><a name="text125691631132020"></a>网络ACL</span>支持的协议。必选项，单击下拉按钮可选择。目前只支持选择TCP、UDP、全部、ICMP协议，当选择全部或者ICMP时，端口信息不可填写。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="p114661548163415"><a name="p114661548163415"></a><a name="p114661548163415"></a>TCP</p>
     </td>
@@ -87,7 +87,7 @@
     </tr>
     <tr id="row2641164215415"><td class="cellrowborder" valign="top" width="19.89%" headers="mcps1.2.4.1.1 "><p id="p2641134254111"><a name="p2641134254111"></a><a name="p2641134254111"></a>描述</p>
     </td>
-    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p55384117316"><a name="p55384117316"></a><a name="p55384117316"></a>网络ACL规则的描述信息，非必填项。</p>
+    <td class="cellrowborder" valign="top" width="57.730000000000004%" headers="mcps1.2.4.1.2 "><p id="p55384117316"><a name="p55384117316"></a><a name="p55384117316"></a><span id="text06561944142015"><a name="text06561944142015"></a><a name="text06561944142015"></a></span><span id="text765619447206"><a name="text765619447206"></a><a name="text765619447206"></a>网络ACL</span>规则的描述信息，非必填项。</p>
     <p id="p185324110315"><a name="p185324110315"></a><a name="p185324110315"></a>描述信息内容不能超过255个字符，且不能包含&lt;、&gt;符号。</p>
     </td>
     <td class="cellrowborder" valign="top" width="22.38%" headers="mcps1.2.4.1.3 "><p id="p1364284284110"><a name="p1364284284110"></a><a name="p1364284284110"></a>-</p>

@@ -4,6 +4,9 @@
 
 创建VPC流日志，记录虚拟私有云中的流量信息。
 
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>VPC流日志功能目前仅在“亚太-新加坡”、“华南-广州”、“亚太-曼谷”开放，且还在公测期间，请申请公测权限后使用。
+
 ## 前提条件<a name="section48811154114711"></a>
 
 在创建VPC流日志前，请确保您在云日志服务完成了如下配置：
@@ -67,14 +70,14 @@
     </td>
     <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><p id="p16347111715218"><a name="p16347111715218"></a><a name="p16347111715218"></a>选择在云日志服务中创建的日志组。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0151016581_p634714176216"><a name="zh-cn_topic_0151016581_p634714176216"></a><a name="zh-cn_topic_0151016581_p634714176216"></a>lts-group-wule</p>
+    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="FlowLog_0003_p634714176216"><a name="FlowLog_0003_p634714176216"></a><a name="FlowLog_0003_p634714176216"></a>lts-group-wule</p>
     </td>
     </tr>
     <tr id="row63479171326"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p133476171224"><a name="p133476171224"></a><a name="p133476171224"></a>日志主题</p>
     </td>
     <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><p id="p2347101712216"><a name="p2347101712216"></a><a name="p2347101712216"></a>选择在云日志服务中创建的日志主题。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0151016581_p43470173218"><a name="zh-cn_topic_0151016581_p43470173218"></a><a name="zh-cn_topic_0151016581_p43470173218"></a>LogTopic1</p>
+    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="FlowLog_0003_p43470173218"><a name="FlowLog_0003_p43470173218"></a><a name="FlowLog_0003_p43470173218"></a>LogTopic1</p>
     </td>
     </tr>
     <tr id="row1834761720219"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p113471171229"><a name="p113471171229"></a><a name="p113471171229"></a>描述</p>

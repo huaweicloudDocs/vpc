@@ -35,24 +35,7 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row12341947141113"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p173271575112"><a name="p173271575112"></a><a name="p173271575112"></a>入方向</p>
-</td>
-<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p09375481311"><a name="p09375481311"></a><a name="p09375481311"></a>允许</p>
-</td>
-<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p234294719114"><a name="p234294719114"></a><a name="p234294719114"></a>全部</p>
-</td>
-<td class="cellrowborder" valign="top" width="8.93%" headers="mcps1.2.9.1.4 "><p id="p441232491318"><a name="p441232491318"></a><a name="p441232491318"></a>0.0.0.0/0</p>
-</td>
-<td class="cellrowborder" valign="top" width="13.950000000000001%" headers="mcps1.2.9.1.5 "><p id="p14135242137"><a name="p14135242137"></a><a name="p14135242137"></a>1-65535</p>
-</td>
-<td class="cellrowborder" valign="top" width="15.75%" headers="mcps1.2.9.1.6 "><p id="p13413152415134"><a name="p13413152415134"></a><a name="p13413152415134"></a>0.0.0.0/0</p>
-</td>
-<td class="cellrowborder" valign="top" width="14.06%" headers="mcps1.2.9.1.7 "><p id="p434204741117"><a name="p434204741117"></a><a name="p434204741117"></a>全部</p>
-</td>
-<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p153421247191118"><a name="p153421247191118"></a><a name="p153421247191118"></a>放通所有入站流量</p>
-</td>
-</tr>
-<tr id="row20536131455815"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p175361814165817"><a name="p175361814165817"></a><a name="p175361814165817"></a>入方向</p>
+<tbody><tr id="row20536131455815"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p175361814165817"><a name="p175361814165817"></a><a name="p175361814165817"></a>入方向</p>
 </td>
 <td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p1053616146583"><a name="p1053616146583"></a><a name="p1053616146583"></a>拒绝</p>
 </td>
@@ -69,11 +52,29 @@
 <td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p13536614155813"><a name="p13536614155813"></a><a name="p13536614155813"></a>拒绝所有IP地址通过TCP 445端口入站访问</p>
 </td>
 </tr>
+<tr id="row183317402455"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p173271575112"><a name="p173271575112"></a><a name="p173271575112"></a>入方向</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p09375481311"><a name="p09375481311"></a><a name="p09375481311"></a>允许</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p234294719114"><a name="p234294719114"></a><a name="p234294719114"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="8.93%" headers="mcps1.2.9.1.4 "><p id="p441232491318"><a name="p441232491318"></a><a name="p441232491318"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="13.950000000000001%" headers="mcps1.2.9.1.5 "><p id="p14135242137"><a name="p14135242137"></a><a name="p14135242137"></a>1-65535</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.75%" headers="mcps1.2.9.1.6 "><p id="p13413152415134"><a name="p13413152415134"></a><a name="p13413152415134"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.06%" headers="mcps1.2.9.1.7 "><p id="p434204741117"><a name="p434204741117"></a><a name="p434204741117"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p153421247191118"><a name="p153421247191118"></a><a name="p153421247191118"></a>放通所有入站流量</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 >![](public_sys-resources/icon-note.gif) **说明：** 
->网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
+>-   网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
+>-   当添加了拒绝的规则，并且希望拒绝规则优先匹配时，需要将拒绝的规则放到允许规则的前面，匹配到拒绝规则的流量将会生效。具体操作请参见[修改网络ACL规则生效顺序](修改网络ACL规则生效顺序.md)。
 
 ## 允许某些协议端口的访问<a name="section61291659102216"></a>
 
@@ -244,24 +245,7 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1905105516811"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p1590525510815"><a name="p1590525510815"></a><a name="p1590525510815"></a>入方向</p>
-</td>
-<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p199051555081"><a name="p199051555081"></a><a name="p199051555081"></a>允许</p>
-</td>
-<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p13905655689"><a name="p13905655689"></a><a name="p13905655689"></a>全部</p>
-</td>
-<td class="cellrowborder" valign="top" width="12.7%" headers="mcps1.2.9.1.4 "><p id="p1290515554815"><a name="p1290515554815"></a><a name="p1290515554815"></a>0.0.0.0/0</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.1%" headers="mcps1.2.9.1.5 "><p id="p090613551684"><a name="p090613551684"></a><a name="p090613551684"></a>1-65535</p>
-</td>
-<td class="cellrowborder" valign="top" width="12.879999999999999%" headers="mcps1.2.9.1.6 "><p id="p1290635518814"><a name="p1290635518814"></a><a name="p1290635518814"></a>0.0.0.0/0</p>
-</td>
-<td class="cellrowborder" valign="top" width="11.01%" headers="mcps1.2.9.1.7 "><p id="p11906185511819"><a name="p11906185511819"></a><a name="p11906185511819"></a>全部</p>
-</td>
-<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p1690635517813"><a name="p1690635517813"></a><a name="p1690635517813"></a>放通所有入站流量</p>
-</td>
-</tr>
-<tr id="row19063552819"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p15906955284"><a name="p15906955284"></a><a name="p15906955284"></a>入方向</p>
+<tbody><tr id="row19063552819"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p15906955284"><a name="p15906955284"></a><a name="p15906955284"></a>入方向</p>
 </td>
 <td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p139063556818"><a name="p139063556818"></a><a name="p139063556818"></a>拒绝</p>
 </td>
@@ -278,9 +262,27 @@
 <td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p39070552819"><a name="p39070552819"></a><a name="p39070552819"></a>拒绝192.168.1.102对子网的访问</p>
 </td>
 </tr>
+<tr id="row179331948185313"><td class="cellrowborder" valign="top" width="7.26%" headers="mcps1.2.9.1.1 "><p id="p5241115075313"><a name="p5241115075313"></a><a name="p5241115075313"></a>入方向</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.779999999999999%" headers="mcps1.2.9.1.2 "><p id="p16241115012539"><a name="p16241115012539"></a><a name="p16241115012539"></a>允许</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.859999999999999%" headers="mcps1.2.9.1.3 "><p id="p17241115045311"><a name="p17241115045311"></a><a name="p17241115045311"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.7%" headers="mcps1.2.9.1.4 "><p id="p1324135055312"><a name="p1324135055312"></a><a name="p1324135055312"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="16.1%" headers="mcps1.2.9.1.5 "><p id="p42411505537"><a name="p42411505537"></a><a name="p42411505537"></a>1-65535</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.879999999999999%" headers="mcps1.2.9.1.6 "><p id="p162411350155319"><a name="p162411350155319"></a><a name="p162411350155319"></a>0.0.0.0/0</p>
+</td>
+<td class="cellrowborder" valign="top" width="11.01%" headers="mcps1.2.9.1.7 "><p id="p3242850165319"><a name="p3242850165319"></a><a name="p3242850165319"></a>全部</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.41%" headers="mcps1.2.9.1.8 "><p id="p1024255016533"><a name="p1024255016533"></a><a name="p1024255016533"></a>放通所有入站流量</p>
+</td>
+</tr>
 </tbody>
 </table>
 
 >![](public_sys-resources/icon-note.gif) **说明：** 
->网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
+>-   网络ACL默认拒绝所有入站流量，需先放通所有入站流量。
+>-   当添加了拒绝的规则，并且希望拒绝规则优先匹配时，需要将拒绝的规则放到允许规则的前面，匹配到拒绝规则的流量将会生效。具体操作请参见[修改网络ACL规则生效顺序](修改网络ACL规则生效顺序.md)。
 

@@ -30,15 +30,15 @@
     </thead>
     <tbody><tr id="row2053541033"><td class="cellrowborder" valign="top" width="14.85%" headers="mcps1.2.4.1.1 "><p id="p155314118320"><a name="p155314118320"></a><a name="p155314118320"></a>名称</p>
     </td>
-    <td class="cellrowborder" valign="top" width="51.32%" headers="mcps1.2.4.1.2 "><p id="p105334113312"><a name="p105334113312"></a><a name="p105334113312"></a>网络ACL的名称，必填项。</p>
-    <p id="p453441837"><a name="p453441837"></a><a name="p453441837"></a>网络ACL的名称只能由中文、英文字母、数字、下划线、中划线组成，且不能有空格，长度不能大于64个字符。</p>
+    <td class="cellrowborder" valign="top" width="51.32%" headers="mcps1.2.4.1.2 "><p id="p105334113312"><a name="p105334113312"></a><a name="p105334113312"></a><span id="text15395122720190"><a name="text15395122720190"></a><a name="text15395122720190"></a></span><span id="text239502712195"><a name="text239502712195"></a><a name="text239502712195"></a>网络ACL</span>的名称，必填项。</p>
+    <p id="p453441837"><a name="p453441837"></a><a name="p453441837"></a><span id="text9313103171914"><a name="text9313103171914"></a><a name="text9313103171914"></a></span><span id="text831363141911"><a name="text831363141911"></a><a name="text831363141911"></a>网络ACL</span>的名称只能由中文、英文字母、数字、下划线、中划线组成，且不能有空格，长度不能大于64个字符。</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.83%" headers="mcps1.2.4.1.3 "><p id="p15319411234"><a name="p15319411234"></a><a name="p15319411234"></a>fw-92d3</p>
     </td>
     </tr>
     <tr id="row1753541637"><td class="cellrowborder" valign="top" width="14.85%" headers="mcps1.2.4.1.1 "><p id="p16535411332"><a name="p16535411332"></a><a name="p16535411332"></a>描述</p>
     </td>
-    <td class="cellrowborder" valign="top" width="51.32%" headers="mcps1.2.4.1.2 "><p id="p55384117316"><a name="p55384117316"></a><a name="p55384117316"></a>网络ACL的描述信息，非必填项。</p>
+    <td class="cellrowborder" valign="top" width="51.32%" headers="mcps1.2.4.1.2 "><p id="p55384117316"><a name="p55384117316"></a><a name="p55384117316"></a><span id="text10738123511193"><a name="text10738123511193"></a><a name="text10738123511193"></a></span><span id="text177380354197"><a name="text177380354197"></a><a name="text177380354197"></a>网络ACL</span>的描述信息，非必填项。</p>
     <p id="p185324110315"><a name="p185324110315"></a><a name="p185324110315"></a>描述信息内容不能超过255个字符，且不能包含&lt;、&gt;符号。</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.83%" headers="mcps1.2.4.1.3 "><p id="p95315415313"><a name="p95315415313"></a><a name="p95315415313"></a>-</p>
