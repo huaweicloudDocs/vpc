@@ -4,6 +4,10 @@
 
 创建端口。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreatePort)中直接运行调试该接口。
+
 ## URI<a name="zh-cn_topic_0062207340_section8314568"></a>
 
 POST /v2.0/ports
@@ -25,7 +29,7 @@ POST /v2.0/ports
 </thead>
 <tbody><tr id="zh-cn_topic_0062207340_row24598620"><td class="cellrowborder" valign="top" width="14.29%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0062207340_p46331171"><a name="zh-cn_topic_0062207340_p46331171"></a><a name="zh-cn_topic_0062207340_p46331171"></a>port</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.2%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0062207340_p61837391"><a name="zh-cn_topic_0062207340_p61837391"></a><a name="zh-cn_topic_0062207340_p61837391"></a>Object</p>
+<td class="cellrowborder" valign="top" width="10.2%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0062207340_p61837391"><a name="zh-cn_topic_0062207340_p61837391"></a><a name="zh-cn_topic_0062207340_p61837391"></a><a href="#table15919752145624">port</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.16%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0062207340_p42772808"><a name="zh-cn_topic_0062207340_p42772808"></a><a name="zh-cn_topic_0062207340_p42772808"></a>是</p>
 </td>
@@ -81,7 +85,7 @@ POST /v2.0/ports
 </td>
 <td class="cellrowborder" valign="top" width="22.617738226177384%" headers="mcps1.2.5.1.3 "><p id="p3184354145658"><a name="p3184354145658"></a><a name="p3184354145658"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.52604739526047%" headers="mcps1.2.5.1.4 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID,例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
+<td class="cellrowborder" valign="top" width="39.52604739526047%" headers="mcps1.2.5.1.4 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID，例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
 <p id="p103001912487"><a name="p103001912487"></a><a name="p103001912487"></a>【使用说明】不支持更新为空。</p>
 </td>
 </tr>
@@ -279,7 +283,7 @@ POST /v2.0/ports
 </thead>
 <tbody><tr id="zh-cn_topic_0062207340_row54050919"><td class="cellrowborder" valign="top" width="15.559999999999999%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0062207340_p16048282"><a name="zh-cn_topic_0062207340_p16048282"></a><a name="zh-cn_topic_0062207340_p16048282"></a>port</p>
 </td>
-<td class="cellrowborder" valign="top" width="11.110000000000001%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0062207340_p24842503"><a name="zh-cn_topic_0062207340_p24842503"></a><a name="zh-cn_topic_0062207340_p24842503"></a>Object</p>
+<td class="cellrowborder" valign="top" width="11.110000000000001%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0062207340_p24842503"><a name="zh-cn_topic_0062207340_p24842503"></a><a name="zh-cn_topic_0062207340_p24842503"></a><a href="#table923516594178">port</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="73.33%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0062207340_p51342761"><a name="zh-cn_topic_0062207340_p51342761"></a><a name="zh-cn_topic_0062207340_p51342761"></a>ports信息，参见<a href="#table923516594178">表7</a>。</p>
 </td>
@@ -379,7 +383,7 @@ POST /v2.0/ports
 </td>
 <td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p02377596178"><a name="p02377596178"></a><a name="p02377596178"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p162375598174"><a name="p162375598174"></a><a name="p162375598174"></a>扩展属性：安全组的UUID,例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
+<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p162375598174"><a name="p162375598174"></a><a name="p162375598174"></a>扩展属性：安全组的UUID，例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
 <p id="p1723714597175"><a name="p1723714597175"></a><a name="p1723714597175"></a>【使用说明】不支持更新为空。</p>
 </td>
 </tr>
@@ -401,9 +405,9 @@ POST /v2.0/ports
 </tr>
 <tr id="row923835951719"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p1123810593174"><a name="p1123810593174"></a><a name="p1123810593174"></a>binding:vif_details</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p14238159171719"><a name="p14238159171719"></a><a name="p14238159171719"></a>Object</p>
+<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p14238159171719"><a name="p14238159171719"></a><a name="p14238159171719"></a><a href="#table72371439857">binding:vif_details</a> object</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p7238155916178"><a name="p7238155916178"></a><a name="p7238155916178"></a>vif的详细信息， "ovs_hybrid_plug": 是否为ovs/bridge混合模式</p>
+<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p7238155916178"><a name="p7238155916178"></a><a name="p7238155916178"></a>vif的详细信息，参见<a href="#table72371439857">表11</a></p>
 </td>
 </tr>
 <tr id="row1423875901713"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p182381859111716"><a name="p182381859111716"></a><a name="p182381859111716"></a>binding:profile</p>
@@ -455,7 +459,7 @@ POST /v2.0/ports
 <td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p139852519498"><a name="p139852519498"></a><a name="p139852519498"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p098555164915"><a name="p098555164915"></a><a name="p098555164915"></a>扩展属性：主网卡默认内网DNS名称</p>
-<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护,访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
+<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护，访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
 </td>
 </tr>
 <tr id="row8784124710810"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p870051413911"><a name="p870051413911"></a><a name="p870051413911"></a>project_id</p>
@@ -571,7 +575,28 @@ POST /v2.0/ports
 </tbody>
 </table>
 
-**表 11**  dns\_assignment对象
+**表 11**  binding:vif\_details对象
+
+<a name="table72371439857"></a>
+<table><thead align="left"><tr id="vpc_port02_0002_row12317239452"><th class="cellrowborder" valign="top" width="24.267573242675734%" id="mcps1.2.4.1.1"><p id="vpc_port02_0002_p63171391658"><a name="vpc_port02_0002_p63171391658"></a><a name="vpc_port02_0002_p63171391658"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="19.52804719528047%" id="mcps1.2.4.1.2"><p id="vpc_port02_0002_p9317839756"><a name="vpc_port02_0002_p9317839756"></a><a name="vpc_port02_0002_p9317839756"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="56.204379562043805%" id="mcps1.2.4.1.3"><p id="vpc_port02_0002_p531716396519"><a name="vpc_port02_0002_p531716396519"></a><a name="vpc_port02_0002_p531716396519"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="vpc_port02_0002_row23171239156"><td class="cellrowborder" valign="top" width="24.267573242675734%" headers="mcps1.2.4.1.1 "><p id="vpc_port02_0002_p1831793913514"><a name="vpc_port02_0002_p1831793913514"></a><a name="vpc_port02_0002_p1831793913514"></a>primary_interface</p>
+</td>
+<td class="cellrowborder" valign="top" width="19.52804719528047%" headers="mcps1.2.4.1.2 "><p id="vpc_port02_0002_p1431753910515"><a name="vpc_port02_0002_p1431753910515"></a><a name="vpc_port02_0002_p1431753910515"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="56.204379562043805%" headers="mcps1.2.4.1.3 "><p id="vpc_port02_0002_p15138343119"><a name="vpc_port02_0002_p15138343119"></a><a name="vpc_port02_0002_p15138343119"></a>取值为true，表示是虚拟机的主网卡。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 12**  dns\_assignment对象
 
 <a name="table1960316535179"></a>
 <table><thead align="left"><tr id="vpc_port01_0006_row860475311718"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.1"><p id="vpc_port01_0006_p85811122186"><a name="vpc_port01_0006_p85811122186"></a><a name="vpc_port01_0006_p85811122186"></a>名称</p>

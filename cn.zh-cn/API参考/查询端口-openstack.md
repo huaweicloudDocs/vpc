@@ -4,6 +4,10 @@
 
 查询端口详情。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronShowPort)中直接运行调试该接口。
+
 ## URI<a name="zh-cn_topic_0062207351_section33781949"></a>
 
 GET /v2.0/ports/\{port\_id\}
@@ -50,7 +54,7 @@ GET /v2.0/ports/\{port\_id\}
 </thead>
 <tbody><tr id="zh-cn_topic_0062207351_row15008249"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="zh-cn_topic_0062207351_p7708685"><a name="zh-cn_topic_0062207351_p7708685"></a><a name="zh-cn_topic_0062207351_p7708685"></a>port</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0062207351_p20423749"><a name="zh-cn_topic_0062207351_p20423749"></a><a name="zh-cn_topic_0062207351_p20423749"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="zh-cn_topic_0062207351_p20423749"><a name="zh-cn_topic_0062207351_p20423749"></a><a name="zh-cn_topic_0062207351_p20423749"></a><a href="#table15919752145624">port</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0062207351_p50928963"><a name="zh-cn_topic_0062207351_p50928963"></a><a name="zh-cn_topic_0062207351_p50928963"></a>port对象列表，参见<a href="#table15919752145624">表3</a>。</p>
 </td>
@@ -150,7 +154,7 @@ GET /v2.0/ports/\{port\_id\}
 </td>
 <td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p3184354145658"><a name="p3184354145658"></a><a name="p3184354145658"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID,例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
+<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID，例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
 <p id="p103001912487"><a name="p103001912487"></a><a name="p103001912487"></a>【使用说明】不支持更新为空。</p>
 </td>
 </tr>
@@ -172,14 +176,14 @@ GET /v2.0/ports/\{port\_id\}
 </tr>
 <tr id="row46629855145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p62371645145658"><a name="p62371645145658"></a><a name="p62371645145658"></a>binding:vif_details</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p18938488145658"><a name="p18938488145658"></a><a name="p18938488145658"></a>Object</p>
+<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p18938488145658"><a name="p18938488145658"></a><a name="p18938488145658"></a><a href="#table72371439857">binding:vif_details</a> object</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p62312767145658"><a name="p62312767145658"></a><a name="p62312767145658"></a>vif的详细信息， "ovs_hybrid_plug": 是否为ovs/bridge混合模式</p>
+<td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p62312767145658"><a name="p62312767145658"></a><a name="p62312767145658"></a>vif的详细信息， 参见<a href="#table72371439857">表9</a></p>
 </td>
 </tr>
 <tr id="row35771758145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p7522524145658"><a name="p7522524145658"></a><a name="p7522524145658"></a>binding:profile</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p5344685145658"><a name="p5344685145658"></a><a name="p5344685145658"></a>Object</p>
+<td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p5344685145658"><a name="p5344685145658"></a><a name="p5344685145658"></a><a href="#table202130399518">binding:profile</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p4278449145658"><a name="p4278449145658"></a><a name="p4278449145658"></a>扩展属性：提供用户设置自定义信息</p>
 <p id="p38506045145658"><a name="p38506045145658"></a><a name="p38506045145658"></a>【使用说明】</p>
@@ -226,7 +230,7 @@ GET /v2.0/ports/\{port\_id\}
 <td class="cellrowborder" valign="top" width="28.76%" headers="mcps1.2.4.1.2 "><p id="p139852519498"><a name="p139852519498"></a><a name="p139852519498"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.74%" headers="mcps1.2.4.1.3 "><p id="p098555164915"><a name="p098555164915"></a><a name="p098555164915"></a>扩展属性：主网卡默认内网DNS名称</p>
-<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护,访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
+<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护，访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
 </td>
 </tr>
 <tr id="row8784124710810"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p870051413911"><a name="p870051413911"></a><a name="p870051413911"></a>project_id</p>
@@ -410,11 +414,11 @@ GET /v2.0/ports/\{port\_id\}
 </th>
 </tr>
 </thead>
-<tbody><tr id="row23171239156"><td class="cellrowborder" valign="top" width="24.267573242675734%" headers="mcps1.2.4.1.1 "><p id="p1831793913514"><a name="p1831793913514"></a><a name="p1831793913514"></a>ovs_hybrid_plug</p>
+<tbody><tr id="row23171239156"><td class="cellrowborder" valign="top" width="24.267573242675734%" headers="mcps1.2.4.1.1 "><p id="p1831793913514"><a name="p1831793913514"></a><a name="p1831793913514"></a>primary_interface</p>
 </td>
 <td class="cellrowborder" valign="top" width="19.52804719528047%" headers="mcps1.2.4.1.2 "><p id="p1431753910515"><a name="p1431753910515"></a><a name="p1431753910515"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="56.204379562043805%" headers="mcps1.2.4.1.3 "><p id="p73173391356"><a name="p73173391356"></a><a name="p73173391356"></a>是否为ovs/bridge混合模式</p>
+<td class="cellrowborder" valign="top" width="56.204379562043805%" headers="mcps1.2.4.1.3 "><p id="p15138343119"><a name="p15138343119"></a><a name="p15138343119"></a>取值为true，表示是虚拟机的主网卡。</p>
 </td>
 </tr>
 </tbody>

@@ -74,7 +74,6 @@
 
         -   请求异常时，错误码请参见[错误码](错误码.md)。
 
-
 2.  <a name="li293133115119"></a>通过云服务器的ID查询网卡信息，fixed\_ips中存在IPv4地址和IPv6地址。
     1.  发送“GET  https://VPC的Endpoint/v2.0/ports?device\_id=\{ecs\_id\}&network\_id=\{network\_id\}”
     2.  在Request Header中增加“X-Auth-Token”。
@@ -131,7 +130,6 @@
 
         -   请求异常时，错误码请参见[错误码](错误码.md)。
 
-
 3.  将云服务器与虚拟IP绑定。
     1.  发送“PUT  https://VPC的Endpoint/v2.0/ports/\{port\_id\}”。port\_id为上面创建的IPv6虚拟IP对应的port\_id。
     2.  在Request Header中增加“X-Auth-Token”。
@@ -185,7 +183,6 @@
             ```
 
         -   请求异常时，错误码请参见[错误码](错误码.md)。
-
 
 4.  关闭云服务器网卡的源/目的检查。
     1.  发送“PUT  https://VPC的Endpoint/v2.0/ports/\{port\_id\}”。port\_id为[2](#li293133115119)查询到的网卡ID。

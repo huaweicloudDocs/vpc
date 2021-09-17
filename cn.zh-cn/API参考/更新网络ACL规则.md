@@ -4,6 +4,10 @@
 
 更新网络ACL规则。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronUpdateFirewallRule)中直接运行调试该接口。
+
 ## URI<a name="section40985924123249"></a>
 
 PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
@@ -25,7 +29,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </thead>
 <tbody><tr id="row57358099123249"><td class="cellrowborder" valign="top" width="19.388061193880613%" headers="mcps1.2.5.1.1 "><p id="p46539485123249"><a name="p46539485123249"></a><a name="p46539485123249"></a>firewall_rule</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p13703023123249"><a name="p13703023123249"></a><a name="p13703023123249"></a>Object</p>
+<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p13703023123249"><a name="p13703023123249"></a><a name="p13703023123249"></a><a href="#table38646929121127">firewall_rule </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p21092839123249"><a name="p21092839123249"></a><a name="p21092839123249"></a>是</p>
 </td>
@@ -75,7 +79,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p50019959121127"><a name="p50019959121127"></a><a name="p50019959121127"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p36897817121127"><a name="p36897817121127"></a><a name="p36897817121127"></a>IP协议。</p>
-<p id="p1094663315110"><a name="p1094663315110"></a><a name="p1094663315110"></a>取值范围：支持TCP,UDP,ICMP, 或者0-255</p>
+<p id="p1094663315110"><a name="p1094663315110"></a><a name="p1094663315110"></a>取值范围：支持TCP，UDP，ICMP， 或者0-255</p>
 </td>
 </tr>
 <tr id="row8703753121127"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p5943474121127"><a name="p5943474121127"></a><a name="p5943474121127"></a>source_port</p>
@@ -105,7 +109,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p15064211121127"><a name="p15064211121127"></a><a name="p15064211121127"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p10402054121127"><a name="p10402054121127"></a><a name="p10402054121127"></a>IP协议版本。</p>
-<p id="p650618131322"><a name="p650618131322"></a><a name="p650618131322"></a>取值范围：IPv4/IPv6</p>
+<p id="p650618131322"><a name="p650618131322"></a><a name="p650618131322"></a>取值范围：4、6，分别表示创建ipv4和ipv6。</p>
 </td>
 </tr>
 <tr id="row34581454121127"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p61377852121127"><a name="p61377852121127"></a><a name="p61377852121127"></a>source_ip_address</p>
@@ -133,7 +137,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 <td class="cellrowborder" valign="top" width="18.63%" headers="mcps1.2.5.1.3 "><p id="p952780121127"><a name="p952780121127"></a><a name="p952780121127"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="41.91%" headers="mcps1.2.5.1.4 "><p id="p16135729121127"><a name="p16135729121127"></a><a name="p16135729121127"></a>对通过<span id="text524188133715"><a name="text524188133715"></a><a name="text524188133715"></a>网络ACL</span><span id="text7246814373"><a name="text7246814373"></a><a name="text7246814373"></a></span>的流量执行的操作。</p>
-<p id="p053482914220"><a name="p053482914220"></a><a name="p053482914220"></a>取值范围：DENY（拒绝）/ALLOW（允许）</p>
+<p id="p053482914220"><a name="p053482914220"></a><a name="p053482914220"></a>取值范围：deny（拒绝）/allow（允许）</p>
 </td>
 </tr>
 <tr id="row11398101121127"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p50347088121127"><a name="p50347088121127"></a><a name="p50347088121127"></a>enabled</p>
@@ -164,7 +168,7 @@ PUT /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}
 </thead>
 <tbody><tr id="row47557263123249"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p57698555123249"><a name="p57698555123249"></a><a name="p57698555123249"></a>firewall_rule</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p31745790123249"><a name="p31745790123249"></a><a name="p31745790123249"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p31745790123249"><a name="p31745790123249"></a><a name="p31745790123249"></a><a href="#table96821221510">firewall_rule </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p35727944123249"><a name="p35727944123249"></a><a name="p35727944123249"></a>firewall rule对象。请参见<a href="#table96821221510">表4</a>。</p>
 </td>

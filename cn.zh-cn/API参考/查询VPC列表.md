@@ -4,6 +4,10 @@
 
 查询虚拟私有云列表。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&api=ListVpcs&version=v2)中直接运行调试该接口。
+
 ## URI<a name="section63191266"></a>
 
 GET /v1/\{project\_id\}/vpcs
@@ -44,7 +48,9 @@ GET https://{Endpoint}/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b
 </td>
 <td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p12450755174356"><a name="p12450755174356"></a><a name="p12450755174356"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><p id="p24297067174412"><a name="p24297067174412"></a><a name="p24297067174412"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><p id="p578753420475"><a name="p578753420475"></a><a name="p578753420475"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p5486141973418"><a name="p5486141973418"></a><a name="p5486141973418"></a>marker需要和limit配合使用：</p>
+<a name="ul8767912103412"></a><a name="ul8767912103412"></a><ul id="ul8767912103412"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row21315230"><td class="cellrowborder" valign="top" width="15.6%" headers="mcps1.2.5.1.1 "><p id="p48812047"><a name="p48812047"></a><a name="p48812047"></a>limit</p>
@@ -53,7 +59,8 @@ GET https://{Endpoint}/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b
 </td>
 <td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p1878236174356"><a name="p1878236174356"></a><a name="p1878236174356"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul15798159502"></a><a name="ul15798159502"></a><ul id="ul15798159502"><li>功能说明：每页返回的个数</li><li>取值范围：0~intmax</li></ul>
+<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><p id="p108618598123"><a name="p108618598123"></a><a name="p108618598123"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p536916131933"><a name="p536916131933"></a><a name="p536916131933"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 <tr id="row1068512542210"><td class="cellrowborder" valign="top" width="15.6%" headers="mcps1.2.5.1.1 "><p id="p55289571029"><a name="p55289571029"></a><a name="p55289571029"></a>enterprise_project_id</p>
@@ -62,9 +69,9 @@ GET https://{Endpoint}/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b
 </td>
 <td class="cellrowborder" valign="top" width="17.48%" headers="mcps1.2.5.1.3 "><p id="p165291857925"><a name="p165291857925"></a><a name="p165291857925"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul152391731105011"></a><a name="ul152391731105011"></a><ul id="ul152391731105011"><li>功能说明：企业项目ID。可以使用该字段过滤某个企业项目下的虚拟私有云。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b1618205893315"><a name="b1618205893315"></a><a name="b1618205893315"></a>all_granted_eps</strong>。</li></ul>
-<div class="note" id="note104812057325"><a name="note104812057325"></a><a name="note104812057325"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p1915862704914"><a name="p1915862704914"></a><a name="p1915862704914"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
+<td class="cellrowborder" valign="top" width="50.94%" headers="mcps1.2.5.1.4 "><a name="ul152391731105011"></a><a name="ul152391731105011"></a><ul id="ul152391731105011"><li>功能说明：企业项目ID。可以使用该字段过滤某个企业项目下的虚拟私有云。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b1618205893315"><a name="b1618205893315"></a><a name="b1618205893315"></a>all_granted_eps</strong>。<div class="note" id="note19041412125118"><a name="note19041412125118"></a><a name="note19041412125118"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="vpc_api01_0001_p1915862704914"><a name="vpc_api01_0001_p1915862704914"></a><a name="vpc_api01_0001_p1915862704914"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
 </div></div>
+</li></ul>
 </td>
 </tr>
 </tbody>
@@ -160,7 +167,9 @@ GET https://{Endpoint}/v1/{project_id}/vpcs?limit=10&marker=13551d6b-755d-4757-b
     </td>
     <td class="cellrowborder" valign="top" width="21.91%" headers="mcps1.2.4.1.2 "><p id="p488171056"><a name="p488171056"></a><a name="p488171056"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul10874181418512"></a><a name="ul10874181418512"></a><ul id="ul10874181418512"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b188073518203"><a name="b188073518203"></a><a name="b188073518203"></a>all_granted_eps</strong>。</li></ul>
+    <td class="cellrowborder" valign="top" width="62.22%" headers="mcps1.2.4.1.3 "><a name="ul10874181418512"></a><a name="ul10874181418512"></a><ul id="ul10874181418512"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。若需要查询当前用户所有企业项目绑定的虚拟私有云，请传参<strong id="b188073518203"><a name="b188073518203"></a><a name="b188073518203"></a>all_granted_eps</strong>。<div class="note" id="note3331815145415"><a name="note3331815145415"></a><a name="note3331815145415"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="vpc_api01_0001_p1915862704914_1"><a name="vpc_api01_0001_p1915862704914_1"></a><a name="vpc_api01_0001_p1915862704914_1"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
+    </div></div>
+    </li></ul>
     </td>
     </tr>
     <tr id="row56256918135346"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p60516514135346"><a name="p60516514135346"></a><a name="p60516514135346"></a>routes</p>

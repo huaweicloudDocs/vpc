@@ -4,6 +4,10 @@
 
 申请私有IP。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=CreatePrivateip)中直接运行调试该接口。
+
 ## URI<a name="section16367560"></a>
 
 POST /v1/\{project\_id\}/privateips
@@ -80,6 +84,7 @@ POST /v1/\{project\_id\}/privateips
     <td class="cellrowborder" valign="top" width="18.04819518048195%" headers="mcps1.2.5.1.3 "><p id="p3658359317298"><a name="p3658359317298"></a><a name="p3658359317298"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="47.55524447555245%" headers="mcps1.2.5.1.4 "><p id="p41347315"><a name="p41347315"></a><a name="p41347315"></a>分配IP的子网标识</p>
+    <p id="p05153542421"><a name="p05153542421"></a><a name="p05153542421"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
     </td>
     </tr>
     <tr id="row36581520"><td class="cellrowborder" valign="top" width="16.91830816918308%" headers="mcps1.2.5.1.1 "><p id="p10313144"><a name="p10313144"></a><a name="p10313144"></a>ip_address</p>
@@ -170,6 +175,7 @@ POST /v1/\{project\_id\}/privateips
     <td class="cellrowborder" valign="top" width="28.132813281328133%" headers="mcps1.2.4.1.2 "><p id="p12049092172955"><a name="p12049092172955"></a><a name="p12049092172955"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="49.644964496449646%" headers="mcps1.2.4.1.3 "><p id="p26383427"><a name="p26383427"></a><a name="p26383427"></a>分配IP的子网标识</p>
+    <p id="p104566479452"><a name="p104566479452"></a><a name="p104566479452"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
     </td>
     </tr>
     <tr id="row1899134118131"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.4.1.1 "><p id="p6190364318131"><a name="p6190364318131"></a><a name="p6190364318131"></a>tenant_id</p>

@@ -4,6 +4,10 @@
 
 更新虚拟私有云。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=UpdateVpc)中直接运行调试该接口。
+
 ## URI<a name="section5607849"></a>
 
 PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
@@ -59,7 +63,7 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="15.980000000000002%" headers="mcps1.2.5.1.2 "><p id="p1172592715545"><a name="p1172592715545"></a><a name="p1172592715545"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="22.930000000000003%" headers="mcps1.2.5.1.3 "><p id="p1027601915545"><a name="p1027601915545"></a><a name="p1027601915545"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="22.930000000000003%" headers="mcps1.2.5.1.3 "><p id="p1027601915545"><a name="p1027601915545"></a><a name="p1027601915545"></a><a href="#table34290771">vpc</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="45.68000000000001%" headers="mcps1.2.5.1.4 "><p id="p4213394815545"><a name="p4213394815545"></a><a name="p4213394815545"></a><a href="#table34290771">vpc对象</a>。</p>
     </td>
@@ -186,7 +190,7 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </thead>
     <tbody><tr id="row195974151565"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p438867591565"><a name="p438867591565"></a><a name="p438867591565"></a>vpc</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.729999999999997%" headers="mcps1.2.4.1.2 "><p id="p440032491565"><a name="p440032491565"></a><a name="p440032491565"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="25.729999999999997%" headers="mcps1.2.4.1.2 "><p id="p440032491565"><a name="p440032491565"></a><a name="p440032491565"></a><a href="#table22527411">vpc</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="55.93%" headers="mcps1.2.4.1.3 "><p id="p3322021565"><a name="p3322021565"></a><a name="p3322021565"></a><a href="#table22527411">vpc对象</a></p>
     </td>
@@ -247,6 +251,8 @@ PUT /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     <td class="cellrowborder" valign="top" width="21.822182218221823%" headers="mcps1.2.4.1.2 "><p id="p119917421894"><a name="p119917421894"></a><a name="p119917421894"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="60.58605860586058%" headers="mcps1.2.4.1.3 "><a name="ul04621553135413"></a><a name="ul04621553135413"></a><ul id="ul04621553135413"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。</li></ul>
+    <div class="note" id="note19041412125118"><a name="note19041412125118"></a><a name="note19041412125118"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="vpc_api01_0001_p1915862704914"><a name="vpc_api01_0001_p1915862704914"></a><a name="vpc_api01_0001_p1915862704914"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
+    </div></div>
     </td>
     </tr>
     <tr id="row6192167813568"><td class="cellrowborder" valign="top" width="17.59175917591759%" headers="mcps1.2.4.1.1 "><p id="p4960003413568"><a name="p4960003413568"></a><a name="p4960003413568"></a>routes</p>

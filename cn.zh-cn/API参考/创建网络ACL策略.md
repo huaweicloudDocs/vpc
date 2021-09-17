@@ -4,6 +4,10 @@
 
 创建网络ACL策略。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreateFirewallPolicy)中直接运行调试该接口。
+
 ## URI<a name="section6172185713250"></a>
 
 POST /v2.0/fwaas/firewall\_policies
@@ -25,7 +29,7 @@ POST /v2.0/fwaas/firewall\_policies
 </thead>
 <tbody><tr id="row4731925913250"><td class="cellrowborder" valign="top" width="19.388061193880613%" headers="mcps1.2.5.1.1 "><p id="p3852256313250"><a name="p3852256313250"></a><a name="p3852256313250"></a>firewall_policy</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p5375326713250"><a name="p5375326713250"></a><a name="p5375326713250"></a>Object</p>
+<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p5375326713250"><a name="p5375326713250"></a><a name="p5375326713250"></a><a href="#table17002720121127">firewall_policy </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p5311559313250"><a name="p5311559313250"></a><a name="p5311559313250"></a>是</p>
 </td>
@@ -105,7 +109,7 @@ POST /v2.0/fwaas/firewall\_policies
 </thead>
 <tbody><tr id="row2328883413250"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p1575454013250"><a name="p1575454013250"></a><a name="p1575454013250"></a>firewall_policy</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p4446263713250"><a name="p4446263713250"></a><a name="p4446263713250"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p4446263713250"><a name="p4446263713250"></a><a name="p4446263713250"></a><a href="#table6763048152111">firewall_policy </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p4558033913250"><a name="p4558033913250"></a><a name="p4558033913250"></a>firewall policy对象列表。请参见<a href="#table6763048152111">表4</a>。</p>
 </td>

@@ -4,6 +4,10 @@
 
 更新网络ACL组。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronUpdateFirewallGroup)中直接运行调试该接口。
+
 ## URI<a name="section27354345132813"></a>
 
 PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
@@ -25,7 +29,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </thead>
 <tbody><tr id="row37137198132813"><td class="cellrowborder" valign="top" width="19.388061193880613%" headers="mcps1.2.5.1.1 "><p id="p13657217132813"><a name="p13657217132813"></a><a name="p13657217132813"></a>firewall_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p40187772132813"><a name="p40187772132813"></a><a name="p40187772132813"></a>Object</p>
+<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p40187772132813"><a name="p40187772132813"></a><a name="p40187772132813"></a><a href="#table1368812022812">firewall_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p43289917132813"><a name="p43289917132813"></a><a name="p43289917132813"></a>是</p>
 </td>
@@ -124,7 +128,7 @@ PUT /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </thead>
 <tbody><tr id="row6198481132813"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p27058422132813"><a name="p27058422132813"></a><a name="p27058422132813"></a>firewall_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p32561041132813"><a name="p32561041132813"></a><a name="p32561041132813"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p32561041132813"><a name="p32561041132813"></a><a name="p32561041132813"></a><a href="#table31629250121127">firewall_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p2612398132813"><a name="p2612398132813"></a><a name="p2612398132813"></a>firewall group对象列表。请参见<a href="#table31629250121127">表4</a>。</p>
 </td>

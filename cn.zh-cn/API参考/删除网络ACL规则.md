@@ -4,6 +4,13 @@
 
 删除网络ACL规则。
 
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>在删除前，您需要先通过[移除网络ACL规则](移除网络ACL规则.md)将网络ACL规则从对应的网络ACL策略移除，否则无法删除网络ACL规则。
+
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteFirewallRule)中直接运行调试该接口。
+
 ## URI<a name="section10707065132312"></a>
 
 DELETE /v2.0/fwaas/firewall\_rules/\{firewall\_rule\_id\}

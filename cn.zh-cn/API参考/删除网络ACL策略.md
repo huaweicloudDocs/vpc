@@ -4,6 +4,10 @@
 
 删除网络ACL策略。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteFirewallPolicy)中直接运行调试该接口。
+
 ## URI<a name="section2168718132549"></a>
 
 DELETE /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}

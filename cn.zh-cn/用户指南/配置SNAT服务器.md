@@ -45,7 +45,7 @@ NAT网关（NAT Gateway）能够为虚拟私有云内的云主机（弹性云服
 9.  执行如下命令，检测弹性云服务器是否可以正常连接Internet。
 
     >![](public_sys-resources/icon-note.gif) **说明：** 
-    >执行如下命令前，关闭SNAT服务器上响应的IPtables 规则，开放安全组规则。
+    >执行如下命令前，关闭SNAT服务器上响应的IPtables规则，开放安全组规则。
 
     **ping www.huawei.com**
 

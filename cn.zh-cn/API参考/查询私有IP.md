@@ -4,6 +4,10 @@
 
 指定IP的ID查询私有IP。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ShowPrivateip)中直接运行调试该接口。
+
 ## URI<a name="section15556157"></a>
 
 GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
@@ -68,7 +72,7 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
     </thead>
     <tbody><tr id="row22732275155923"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p29374982155923"><a name="p29374982155923"></a><a name="p29374982155923"></a>privateip</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p59712266155923"><a name="p59712266155923"></a><a name="p59712266155923"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="25.509999999999998%" headers="mcps1.2.4.1.2 "><p id="p59712266155923"><a name="p59712266155923"></a><a name="p59712266155923"></a><a href="#table23250319">privateip</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="56.15%" headers="mcps1.2.4.1.3 "><p id="p43698339155923"><a name="p43698339155923"></a><a name="p43698339155923"></a>私有IP对象，请参见<a href="#table23250319">表3</a>。</p>
     </td>
@@ -107,6 +111,7 @@ GET /v1/\{project\_id\}/privateips/\{privateip\_id\}
     <td class="cellrowborder" valign="top" width="21%" headers="mcps1.2.4.1.2 "><p id="p26285854173058"><a name="p26285854173058"></a><a name="p26285854173058"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="54%" headers="mcps1.2.4.1.3 "><p id="p26383427"><a name="p26383427"></a><a name="p26383427"></a>分配IP的子网标识</p>
+    <p id="p9590171394616"><a name="p9590171394616"></a><a name="p9590171394616"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
     </td>
     </tr>
     <tr id="row54031349181512"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.4.1.1 "><p id="p4774073181513"><a name="p4774073181513"></a><a name="p4774073181513"></a>tenant_id</p>

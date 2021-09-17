@@ -4,6 +4,10 @@
 
 删除私有IP。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=DeletePrivateip)中直接运行调试该接口。
+
 ## URI<a name="section17405935"></a>
 
 DELETE /v1/\{project\_id\}/privateips/\{privateip\_id\}

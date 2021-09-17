@@ -4,6 +4,10 @@
 
 返回当前API所有可用的版本（仅针对OpenStack原生接口）。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ListApiVersion)中直接运行调试该接口。
+
 ## URI<a name="section28699899"></a>
 
 GET /

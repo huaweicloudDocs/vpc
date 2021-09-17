@@ -4,6 +4,10 @@
 
 更新网络ACL策略。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronUpdateFirewallPolicy)中直接运行调试该接口。
+
 ## URI<a name="section46147480132522"></a>
 
 PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
@@ -25,7 +29,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
 </thead>
 <tbody><tr id="row64881628132522"><td class="cellrowborder" valign="top" width="19.388061193880613%" headers="mcps1.2.5.1.1 "><p id="p14588437132522"><a name="p14588437132522"></a><a name="p14588437132522"></a>firewall_policy</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p52664630132522"><a name="p52664630132522"></a><a name="p52664630132522"></a>Object</p>
+<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p52664630132522"><a name="p52664630132522"></a><a name="p52664630132522"></a><a href="#table17002720121127">firewall_policy </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p43844189132522"><a name="p43844189132522"></a><a name="p43844189132522"></a>是</p>
 </td>
@@ -105,7 +109,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
 </thead>
 <tbody><tr id="row43204254132522"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p40260041132522"><a name="p40260041132522"></a><a name="p40260041132522"></a>firewall_policy</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p26565290132522"><a name="p26565290132522"></a><a name="p26565290132522"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p26565290132522"><a name="p26565290132522"></a><a name="p26565290132522"></a><a href="#table6763048152111">firewall_policy </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p59164179132522"><a name="p59164179132522"></a><a name="p59164179132522"></a>firewall policy对象。请参见<a href="#table6763048152111">表4</a>。</p>
 </td>

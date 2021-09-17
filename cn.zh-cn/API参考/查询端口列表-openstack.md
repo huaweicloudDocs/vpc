@@ -4,6 +4,10 @@
 
 查询提交请求的租户的所有端口，单次查询最多返回2000条数据，超过2000后会返回分页标记。分页查询请参考[分页查询](分页查询.md)。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronListPorts)中直接运行调试该接口。
+
 ## URI<a name="zh-cn_topic_0062207386_section62251757"></a>
 
 GET /v2.0/ports
@@ -133,7 +137,9 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p11486926134819"><a name="p11486926134819"></a><a name="p11486926134819"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p948692684817"><a name="p948692684817"></a><a name="p948692684817"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row1048632694819"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p164861626154814"><a name="p164861626154814"></a><a name="p164861626154814"></a>limit</p>
@@ -142,8 +148,8 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="15.151515151515152%" headers="mcps1.2.5.1.3 "><p id="p2486142612485"><a name="p2486142612485"></a><a name="p2486142612485"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p01471215164915"><a name="p01471215164915"></a><a name="p01471215164915"></a>每页返回的个数</p>
-<p id="p24869261488"><a name="p24869261488"></a><a name="p24869261488"></a>取值范围：0~intmax</p>
+<td class="cellrowborder" valign="top" width="48.484848484848484%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 </tbody>
@@ -177,7 +183,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="24.67%" headers="mcps1.2.4.1.2 "><p id="p779329805"><a name="p779329805"></a><a name="p779329805"></a>Array of <a href="#table109221759807">ports_link</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="p97972919015"><a name="p97972919015"></a><a name="p97972919015"></a>分页信息，参见<a href="#table109221759807">表8</a>。</p>
+<td class="cellrowborder" valign="top" width="53.010000000000005%" headers="mcps1.2.4.1.3 "><p id="p97972919015"><a name="p97972919015"></a><a name="p97972919015"></a>分页信息，参见<a href="#table109221759807">表9</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -275,7 +281,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </td>
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p646712486358"><a name="p646712486358"></a><a name="p646712486358"></a>Array of strings</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID,例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p4527282145658"><a name="p4527282145658"></a><a name="p4527282145658"></a>扩展属性：安全组的UUID，例如："security_groups": ["a0608cbf-d047-4f54-8b28-cd7b59853fff"]</p>
 <p id="p103001912487"><a name="p103001912487"></a><a name="p103001912487"></a>【使用说明】不支持更新为空。</p>
 </td>
 </tr>
@@ -297,9 +303,9 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tr>
 <tr id="row46629855145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p62371645145658"><a name="p62371645145658"></a><a name="p62371645145658"></a>binding:vif_details</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p18938488145658"><a name="p18938488145658"></a><a name="p18938488145658"></a>Object</p>
+<td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p18938488145658"><a name="p18938488145658"></a><a name="p18938488145658"></a><a href="#table72371439857">binding:vif_details</a> object</p>
 </td>
-<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p62312767145658"><a name="p62312767145658"></a><a name="p62312767145658"></a>vif的详细信息， "ovs_hybrid_plug": 是否为ovs/bridge混合模式</p>
+<td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p62312767145658"><a name="p62312767145658"></a><a name="p62312767145658"></a>vif的详细信息，参见<a href="#table72371439857">表7</a></p>
 </td>
 </tr>
 <tr id="row35771758145636"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p7522524145658"><a name="p7522524145658"></a><a name="p7522524145658"></a>binding:profile</p>
@@ -351,7 +357,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 <td class="cellrowborder" valign="top" width="28.749999999999996%" headers="mcps1.2.4.1.2 "><p id="p139852519498"><a name="p139852519498"></a><a name="p139852519498"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.75%" headers="mcps1.2.4.1.3 "><p id="p098555164915"><a name="p098555164915"></a><a name="p098555164915"></a>扩展属性：主网卡默认内网DNS名称</p>
-<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护,访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
+<p id="p11538191913508"><a name="p11538191913508"></a><a name="p11538191913508"></a>【使用说明】不支持设置和更新，由系统自动维护，访问该默认内网域名前，请确保子网使用当前系统提供的DNS</p>
 </td>
 </tr>
 <tr id="row8784124710810"><td class="cellrowborder" valign="top" width="28.499999999999996%" headers="mcps1.2.4.1.1 "><p id="p870051413911"><a name="p870051413911"></a><a name="p870051413911"></a>project_id</p>
@@ -467,7 +473,28 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tbody>
 </table>
 
-**表 7**  dns\_assignment对象
+**表 7**  binding:vif\_details对象
+
+<a name="table72371439857"></a>
+<table><thead align="left"><tr id="vpc_port02_0002_row12317239452"><th class="cellrowborder" valign="top" width="24.267573242675734%" id="mcps1.2.4.1.1"><p id="vpc_port02_0002_p63171391658"><a name="vpc_port02_0002_p63171391658"></a><a name="vpc_port02_0002_p63171391658"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="19.52804719528047%" id="mcps1.2.4.1.2"><p id="vpc_port02_0002_p9317839756"><a name="vpc_port02_0002_p9317839756"></a><a name="vpc_port02_0002_p9317839756"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="56.204379562043805%" id="mcps1.2.4.1.3"><p id="vpc_port02_0002_p531716396519"><a name="vpc_port02_0002_p531716396519"></a><a name="vpc_port02_0002_p531716396519"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="vpc_port02_0002_row23171239156"><td class="cellrowborder" valign="top" width="24.267573242675734%" headers="mcps1.2.4.1.1 "><p id="vpc_port02_0002_p1831793913514"><a name="vpc_port02_0002_p1831793913514"></a><a name="vpc_port02_0002_p1831793913514"></a>primary_interface</p>
+</td>
+<td class="cellrowborder" valign="top" width="19.52804719528047%" headers="mcps1.2.4.1.2 "><p id="vpc_port02_0002_p1431753910515"><a name="vpc_port02_0002_p1431753910515"></a><a name="vpc_port02_0002_p1431753910515"></a>Boolean</p>
+</td>
+<td class="cellrowborder" valign="top" width="56.204379562043805%" headers="mcps1.2.4.1.3 "><p id="vpc_port02_0002_p15138343119"><a name="vpc_port02_0002_p15138343119"></a><a name="vpc_port02_0002_p15138343119"></a>取值为true，表示是虚拟机的主网卡。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 8**  dns\_assignment对象
 
 <a name="table1960316535179"></a>
 <table><thead align="left"><tr id="vpc_port01_0006_row860475311718"><th class="cellrowborder" valign="top" width="33.33333333333333%" id="mcps1.2.4.1.1"><p id="vpc_port01_0006_p85811122186"><a name="vpc_port01_0006_p85811122186"></a><a name="vpc_port01_0006_p85811122186"></a>名称</p>
@@ -502,7 +529,7 @@ GET https://{Endpoint}/v2.0/ports?limit=2&marker=791870bd-36a7-4d9b-b015-a78e9b0
 </tbody>
 </table>
 
-**表 8**  ports\_link对象
+**表 9**  ports\_link对象
 
 <a name="table109221759807"></a>
 <table><thead align="left"><tr id="row17420713"><th class="cellrowborder" valign="top" width="14.14%" id="mcps1.2.4.1.1"><p id="p1941101019"><a name="p1941101019"></a><a name="p1941101019"></a>名称</p>

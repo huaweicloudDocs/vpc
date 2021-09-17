@@ -4,6 +4,10 @@
 
 查询特定网络ACL策略详情。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronShowFirewallPolicy)中直接运行调试该接口。
+
 ## URI<a name="section2518841213242"></a>
 
 GET /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
@@ -54,7 +58,7 @@ GET /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}
 </thead>
 <tbody><tr id="row4115792613242"><td class="cellrowborder" valign="top" width="21.349999999999998%" headers="mcps1.2.4.1.1 "><p id="p1605288813242"><a name="p1605288813242"></a><a name="p1605288813242"></a>firewall_policy</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p2885681613242"><a name="p2885681613242"></a><a name="p2885681613242"></a>Object</p>
+<td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p2885681613242"><a name="p2885681613242"></a><a name="p2885681613242"></a><a href="#table17002720121127">firewall_policy</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="59.540000000000006%" headers="mcps1.2.4.1.3 "><p id="p6121237313242"><a name="p6121237313242"></a><a name="p6121237313242"></a>firewall policy对象列表。请参见<a href="#table17002720121127">表3</a>。</p>
 </td>

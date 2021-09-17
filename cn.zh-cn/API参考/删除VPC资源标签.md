@@ -4,7 +4,9 @@
 
 删除指定VPC资源实例的标签信息。
 
-该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“亚太-香港”区域开放。
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=DeleteVpcTag)中直接运行调试该接口。
 
 ## URI<a name="section14354143910188"></a>
 

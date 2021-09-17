@@ -4,12 +4,16 @@
 
 显示一个指定网络中的IP地址使用情况。
 
-包括此网络中的IP总数以及已用IP总数，以及网络下每一个子网的IP地址总数和可用IP地址总数
+包括此网络中的IP总数以及已用IP总数，以及网络下每一个子网的IP地址总数和已用IP地址总数。
 
 >![](public_sys-resources/icon-notice.gif) **须知：** 
 >-   系统预留地址指的是子网的第1个以及最后4个地址，一般用于网关、DHCP等服务。
 >-   这里以及下文描述的IP地址总数、已用IP地址总数不包含系统预留地址。
 >-   在分配IP时，用户可以指定系统预留的IP地址。但是不论IP是如何分配的，只要是处于系统预留IP地址段的IP均不会被统计到已用IP地址数目和IP地址总数中。
+
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ShowNetworkIpAvailabilities)中直接运行调试该接口。
 
 ## URI<a name="section5633932181719"></a>
 
@@ -37,6 +41,9 @@ GET /v2.0/network-ip-availabilities/\{network\_id\}
 <td class="cellrowborder" valign="top" width="14.288571142885711%" headers="mcps1.2.5.1.3 "><p id="p44048571"><a name="p44048571"></a><a name="p44048571"></a>是</p>
 </td>
 <td class="cellrowborder" valign="top" width="45.91540845915409%" headers="mcps1.2.5.1.4 "><p id="p11164516"><a name="p11164516"></a><a name="p11164516"></a>网络的ID</p>
+<div class="note" id="note1627715018489"><a name="note1627715018489"></a><a name="note1627715018489"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p18394827144819"><a name="p18394827144819"></a><a name="p18394827144819"></a>network_id指调用VPC子网接口时，使用的子网ID。</p>
+<p id="p022213016569"><a name="p022213016569"></a><a name="p022213016569"></a>更多信息请参见<a href="VPC子网接口与OpenStack-Neutron子网接口的区别是什么.md">VPC子网接口与OpenStack Neutron子网接口的区别是什么？</a>。</p>
+</div></div>
 </td>
 </tr>
 </tbody>
@@ -72,7 +79,7 @@ GET /v2.0/network-ip-availabilities/\{network\_id\}
     </thead>
     <tbody><tr id="row1166619314334"><td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.1 "><p id="p176661383319"><a name="p176661383319"></a><a name="p176661383319"></a>network_ip_availability</p>
     </td>
-    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p58982550406"><a name="p58982550406"></a><a name="p58982550406"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.2 "><p id="p58982550406"><a name="p58982550406"></a><a name="p58982550406"></a><a href="#table4952133061113">network_ip_availability</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.333333333333336%" headers="mcps1.2.4.1.3 "><p id="p666612311331"><a name="p666612311331"></a><a name="p666612311331"></a>network_ip_avalability对象，请参见<a href="#table4952133061113">表3</a>。</p>
     </td>
@@ -159,6 +166,7 @@ GET /v2.0/network-ip-availabilities/\{network\_id\}
     <td class="cellrowborder" valign="top" width="33.33%" headers="mcps1.2.4.1.2 "><p id="p4968175511716"><a name="p4968175511716"></a><a name="p4968175511716"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="33.339999999999996%" headers="mcps1.2.4.1.3 "><p id="p17968175591718"><a name="p17968175591718"></a><a name="p17968175591718"></a>子网ID</p>
+    <p id="p82911057135216"><a name="p82911057135216"></a><a name="p82911057135216"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
     </td>
     </tr>
     <tr id="row172761838198"><td class="cellrowborder" valign="top" width="33.33%" headers="mcps1.2.4.1.1 "><p id="p42761137197"><a name="p42761137197"></a><a name="p42761137197"></a>subnet_name</p>

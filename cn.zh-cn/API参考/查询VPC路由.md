@@ -4,6 +4,10 @@
 
 查询路由详情。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ShowVpcRoute)中直接运行调试该接口。
+
 ## URI<a name="section3547821101219"></a>
 
 GET /v2.0/vpc/routes/\{route\_id\}
@@ -66,7 +70,7 @@ GET /v2.0/vpc/routes/\{route\_id\}
     </thead>
     <tbody><tr id="row2068712111129"><td class="cellrowborder" valign="top" width="21.349999999999998%" headers="mcps1.2.4.1.1 "><p id="p176872021121212"><a name="p176872021121212"></a><a name="p176872021121212"></a>route</p>
     </td>
-    <td class="cellrowborder" valign="top" width="13.48%" headers="mcps1.2.4.1.2 "><p id="p1368732191211"><a name="p1368732191211"></a><a name="p1368732191211"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="13.48%" headers="mcps1.2.4.1.2 "><p id="p1368732191211"><a name="p1368732191211"></a><a name="p1368732191211"></a><a href="查询VPC路由.md">route</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="65.16999999999999%" headers="mcps1.2.4.1.3 "><p id="p16438204318114"><a name="p16438204318114"></a><a name="p16438204318114"></a>route对象列表，参见<a href="#table05001250111">表3</a>。</p>
     </td>

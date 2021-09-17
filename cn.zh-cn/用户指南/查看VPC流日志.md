@@ -7,16 +7,19 @@
 捕获窗口大约为10分钟，即每10分钟输出一次流日志记录。所以流日志创建完成后，您需要等待大约10分钟，才能查看流日志记录详情。
 
 >![](public_sys-resources/icon-note.gif) **说明：** 
->-   VPC流日志功能目前仅在“亚太-新加坡”、“华南-广州”、“亚太-曼谷”开放，且还在公测期间，请申请公测权限后使用。
+>-   VPC流日志功能目前仅在“华东-上海一”、“亚太-新加坡”、“华南-广州”、“亚太-曼谷”开放，且还在公测期间，请申请公测权限后使用。
 >-   弹性云服务器关机状态下，不显示流日志记录。
 
 ## 操作步骤<a name="section7359352124511"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
-3.  在系统首页，选择“网络 \> 虚拟私有云”。
-4.  在左侧导航栏，选择“VPC流日志”。
-5.  找到需要查看的流日志，单击操作列的“查看日志”，在云日志服务中查看流日志记录。
+
+
+1.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
+
+1.  在系统首页，选择“网络 \> 虚拟私有云”。
+2.  在左侧导航栏，选择“VPC流日志”。
+3.  找到需要查看的流日志，单击操作列的“查看日志”，在云日志服务中查看流日志记录。
 
     流日志格式：
 
@@ -108,7 +111,7 @@
     </tr>
     <tr id="row121381117112313"><td class="cellrowborder" valign="top" width="21.25%" headers="mcps1.2.4.1.1 "><p id="p1213861710233"><a name="p1213861710233"></a><a name="p1213861710233"></a>protocol</p>
     </td>
-    <td class="cellrowborder" valign="top" width="38.29%" headers="mcps1.2.4.1.2 "><p id="p1513831742314"><a name="p1513831742314"></a><a name="p1513831742314"></a>IANA协议编号。有关更多信息，请参阅<a href="http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml" target="_blank" rel="noopener noreferrer">Internet 协议编号</a>。</p>
+    <td class="cellrowborder" valign="top" width="38.29%" headers="mcps1.2.4.1.2 "><p id="p1513831742314"><a name="p1513831742314"></a><a name="p1513831742314"></a>IANA协议编号。有关更多信息，请参阅<a href="http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml" target="_blank" rel="noopener noreferrer">Internet协议编号</a>。</p>
     </td>
     <td class="cellrowborder" valign="top" width="40.46%" headers="mcps1.2.4.1.3 "><p id="p3138171792310"><a name="p3138171792310"></a><a name="p3138171792310"></a>17</p>
     </td>
@@ -144,7 +147,7 @@
     <tr id="row11383177238"><td class="cellrowborder" valign="top" width="21.25%" headers="mcps1.2.4.1.1 "><p id="p1138517132310"><a name="p1138517132310"></a><a name="p1138517132310"></a>action</p>
     </td>
     <td class="cellrowborder" valign="top" width="38.29%" headers="mcps1.2.4.1.2 "><p id="p19138171732318"><a name="p19138171732318"></a><a name="p19138171732318"></a>与流量关联的操作：</p>
-    <a name="ul151381717152318"></a><a name="ul151381717152318"></a><ul id="ul151381717152318"><li>ACCEPT：安全组或网络ACL允许记录的流量。</li><li>REJECT：网络ACL拒绝记录的流量。</li></ul>
+    <a name="ul151381717152318"></a><a name="ul151381717152318"></a><ul id="ul151381717152318"><li>ACCEPT：安全组或<span id="text11248715171311"><a name="text11248715171311"></a><a name="text11248715171311"></a></span><span id="text45551720134"><a name="text45551720134"></a><a name="text45551720134"></a>网络ACL</span>允许记录的流量。</li><li>REJECT：<span id="text19632232191316"><a name="text19632232191316"></a><a name="text19632232191316"></a></span><span id="text7632113215134"><a name="text7632113215134"></a><a name="text7632113215134"></a>网络ACL</span>拒绝记录的流量。</li></ul>
     </td>
     <td class="cellrowborder" valign="top" width="40.46%" headers="mcps1.2.4.1.3 "><p id="p8138617162312"><a name="p8138617162312"></a><a name="p8138617162312"></a>ACCEPT</p>
     </td>
@@ -163,5 +166,5 @@
     </table>
 
 
-同时，您也可以在云日志服务的日志主题详情页面，在搜索框中通过关键字搜索日志。
+同时，您也可以在云日志服务的日志流详情页面，在搜索框中通过关键字搜索日志。
 

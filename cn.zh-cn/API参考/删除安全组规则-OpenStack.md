@@ -4,6 +4,10 @@
 
 删除安全组规则。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteSecurityGroupRule)中直接运行调试该接口。
+
 ## URI<a name="section5166852716336"></a>
 
 DELETE /v2.0/security-group-rules/\{security\_group\_rule\_id\}

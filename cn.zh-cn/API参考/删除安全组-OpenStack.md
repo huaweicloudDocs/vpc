@@ -4,6 +4,10 @@
 
 删除安全组。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteSecurityGroup)中直接运行调试该接口。
+
 ## URI<a name="section6260451316158"></a>
 
 DELETE /v2.0/security-groups/\{security\_group\_id\}

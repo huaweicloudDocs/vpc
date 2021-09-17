@@ -4,6 +4,10 @@
 
 创建网络ACL组。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreateFirewallGroup)中直接运行调试该接口。
+
 ## URI<a name="section55587849132753"></a>
 
 POST /v2.0/fwaas/firewall\_groups
@@ -25,7 +29,7 @@ POST /v2.0/fwaas/firewall\_groups
 </thead>
 <tbody><tr id="row8939225132753"><td class="cellrowborder" valign="top" width="19.388061193880613%" headers="mcps1.2.5.1.1 "><p id="p59896822132753"><a name="p59896822132753"></a><a name="p59896822132753"></a>firewall_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p49917547132753"><a name="p49917547132753"></a><a name="p49917547132753"></a>Object</p>
+<td class="cellrowborder" valign="top" width="21.42785721427857%" headers="mcps1.2.5.1.2 "><p id="p49917547132753"><a name="p49917547132753"></a><a name="p49917547132753"></a><a href="#table31629250121127">firewall_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p64285015132753"><a name="p64285015132753"></a><a name="p64285015132753"></a>是</p>
 </td>
@@ -124,7 +128,7 @@ POST /v2.0/fwaas/firewall\_groups
 </thead>
 <tbody><tr id="row23789310132753"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p30981925132753"><a name="p30981925132753"></a><a name="p30981925132753"></a>firewall_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p1451635132753"><a name="p1451635132753"></a><a name="p1451635132753"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p1451635132753"><a name="p1451635132753"></a><a name="p1451635132753"></a><a href="#table7886851182616">firewall_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p47442693132753"><a name="p47442693132753"></a><a name="p47442693132753"></a>firewall group对象列表。请参见<a href="#table7886851182616">表4</a>。</p>
 </td>

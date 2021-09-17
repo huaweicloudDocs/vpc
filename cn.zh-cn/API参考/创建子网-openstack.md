@@ -4,6 +4,10 @@
 
 创建子网。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreateSubnet)中直接运行调试该接口。
+
 ## URI<a name="section21101319"></a>
 
 POST /v2.0/subnets
@@ -25,7 +29,7 @@ POST /v2.0/subnets
 </thead>
 <tbody><tr id="row1442054"><td class="cellrowborder" valign="top" width="14.430000000000001%" headers="mcps1.2.5.1.1 "><p id="p49697568"><a name="p49697568"></a><a name="p49697568"></a>subnet</p>
 </td>
-<td class="cellrowborder" valign="top" width="8.25%" headers="mcps1.2.5.1.2 "><p id="p66080062"><a name="p66080062"></a><a name="p66080062"></a>Object</p>
+<td class="cellrowborder" valign="top" width="8.25%" headers="mcps1.2.5.1.2 "><p id="p66080062"><a name="p66080062"></a><a name="p66080062"></a><a href="#table12211980105515">subnet</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.25%" headers="mcps1.2.5.1.3 "><p id="p50884809"><a name="p50884809"></a><a name="p50884809"></a>是</p>
 </td>
@@ -138,6 +142,7 @@ POST /v2.0/subnets
 <p id="p26509468181443"><a name="p26509468181443"></a><a name="p26509468181443"></a>【使用说明】</p>
 <p id="p2924364410577"><a name="p2924364410577"></a><a name="p2924364410577"></a>例如："dns_nameservers": ["8.xx.xx.8","8.xx.xx.4"]</p>
 <p id="p8200621151510"><a name="p8200621151510"></a><a name="p8200621151510"></a>最大为5个</p>
+<p id="p17805173462313"><a name="p17805173462313"></a><a name="p17805173462313"></a>不填时，默认为空</p>
 <p id="p4732746123620"><a name="p4732746123620"></a><a name="p4732746123620"></a>内网DNS地址请参见<a href="https://support.huaweicloud.com/dns_faq/dns_faq_002.html" target="_blank" rel="noopener noreferrer">华为云提供的内网DNS地址是多少？</a></p>
 </td>
 </tr>
@@ -247,7 +252,7 @@ POST /v2.0/subnets
 </thead>
 <tbody><tr id="row48327783"><td class="cellrowborder" valign="top" width="15.73%" headers="mcps1.2.4.1.1 "><p id="p22236344"><a name="p22236344"></a><a name="p22236344"></a>subnet</p>
 </td>
-<td class="cellrowborder" valign="top" width="8.99%" headers="mcps1.2.4.1.2 "><p id="p56313405"><a name="p56313405"></a><a name="p56313405"></a>Object</p>
+<td class="cellrowborder" valign="top" width="8.99%" headers="mcps1.2.4.1.2 "><p id="p56313405"><a name="p56313405"></a><a name="p56313405"></a><a href="#table176735992713">subnet</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="75.28%" headers="mcps1.2.4.1.3 "><p id="p37955333"><a name="p37955333"></a><a name="p37955333"></a>subnet对象列表，参见<a href="#table176735992713">表6</a>。</p>
 </td>

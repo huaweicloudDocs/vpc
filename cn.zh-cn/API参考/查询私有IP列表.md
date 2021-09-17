@@ -4,6 +4,13 @@
 
 查询指定子网下的私有IP列表。
 
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>此API无法获取系统保留地址，如DHCP IP，Gateway IP。
+
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ListPrivateips)中直接运行调试该接口。
+
 ## URI<a name="section20149094"></a>
 
 GET /v1/\{project\_id\}/subnets/\{subnet\_id\}/privateips
@@ -45,6 +52,7 @@ GET https://{Endpoint}/v1/{project_id}/subnets/{subnet_id}/privateips?limit=10&m
 <td class="cellrowborder" valign="top" width="18.61%" headers="mcps1.2.5.1.3 "><p id="p49175772173211"><a name="p49175772173211"></a><a name="p49175772173211"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p44471500173244"><a name="p44471500173244"></a><a name="p44471500173244"></a>私有IP所在子网的唯一标识</p>
+<p id="p3938441164618"><a name="p3938441164618"></a><a name="p3938441164618"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
 </td>
 </tr>
 <tr id="row33082261"><td class="cellrowborder" valign="top" width="16.73%" headers="mcps1.2.5.1.1 "><p id="p62417507"><a name="p62417507"></a><a name="p62417507"></a>marker</p>
@@ -53,7 +61,9 @@ GET https://{Endpoint}/v1/{project_id}/subnets/{subnet_id}/privateips?limit=10&m
 </td>
 <td class="cellrowborder" valign="top" width="18.61%" headers="mcps1.2.5.1.3 "><p id="p23814582173211"><a name="p23814582173211"></a><a name="p23814582173211"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p49152270"><a name="p49152270"></a><a name="p49152270"></a>分页查询起始的资源id，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row39717249"><td class="cellrowborder" valign="top" width="16.73%" headers="mcps1.2.5.1.1 "><p id="p62980604"><a name="p62980604"></a><a name="p62980604"></a>limit</p>
@@ -62,7 +72,8 @@ GET https://{Endpoint}/v1/{project_id}/subnets/{subnet_id}/privateips?limit=10&m
 </td>
 <td class="cellrowborder" valign="top" width="18.61%" headers="mcps1.2.5.1.3 "><p id="p49933009173211"><a name="p49933009173211"></a><a name="p49933009173211"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><a name="ul18965173516362"></a><a name="ul18965173516362"></a><ul id="ul18965173516362"><li>功能说明：每页返回的个数</li><li>取值范围：0~intmax</li></ul>
+<td class="cellrowborder" valign="top" width="48.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 </tbody>
@@ -138,6 +149,7 @@ GET https://{Endpoint}/v1/{project_id}/subnets/{subnet_id}/privateips?limit=10&m
     <td class="cellrowborder" valign="top" width="21.477852214778522%" headers="mcps1.2.4.1.2 "><p id="p62514293173254"><a name="p62514293173254"></a><a name="p62514293173254"></a>String</p>
     </td>
     <td class="cellrowborder" valign="top" width="56.34436556344365%" headers="mcps1.2.4.1.3 "><p id="p26383427"><a name="p26383427"></a><a name="p26383427"></a>分配IP的子网标识</p>
+    <p id="p21021525477"><a name="p21021525477"></a><a name="p21021525477"></a>如果您使用管理控制台，此值即为子网详情中的“网络ID”参数值。</p>
     </td>
     </tr>
     <tr id="row8629350181540"><td class="cellrowborder" valign="top" width="22.17778222177782%" headers="mcps1.2.4.1.1 "><p id="p22152840181542"><a name="p22152840181542"></a><a name="p22152840181542"></a>tenant_id</p>

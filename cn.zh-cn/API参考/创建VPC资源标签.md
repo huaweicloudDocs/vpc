@@ -4,7 +4,9 @@
 
 给指定VPC资源实例增加标签信息。
 
-该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“亚太-香港”区域开放。
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=CreateVpcResourceTag)中直接运行调试该接口。
 
 ## URI<a name="section197391227124012"></a>
 
@@ -59,7 +61,7 @@ POST /v2.0/\{project\_id\}/vpcs/\{vpc\_id\}/tags
     </thead>
     <tbody><tr id="row1985711272400"><td class="cellrowborder" valign="top" width="14.000000000000002%" headers="mcps1.2.5.1.1 "><p id="p9857152794012"><a name="p9857152794012"></a><a name="p9857152794012"></a>tag</p>
     </td>
-    <td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.5.1.2 "><p id="p6857172715402"><a name="p6857172715402"></a><a name="p6857172715402"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="17%" headers="mcps1.2.5.1.2 "><p id="p6857172715402"><a name="p6857172715402"></a><a name="p6857172715402"></a><a href="#table13242848193719">tag</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="12%" headers="mcps1.2.5.1.3 "><p id="p198573277400"><a name="p198573277400"></a><a name="p198573277400"></a>是</p>
     </td>

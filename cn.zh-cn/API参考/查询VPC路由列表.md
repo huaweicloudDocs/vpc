@@ -4,6 +4,10 @@
 
 查询提交请求的租户的所有路由列表，并根据过滤条件进行过滤。分页查询响应格式请参考[分页查询](分页查询.md)。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ListVpcRoutes)中直接运行调试该接口。
+
 ## URI<a name="section1828464319118"></a>
 
 GET /v2.0/vpc/routes
@@ -81,7 +85,9 @@ GET https://{Endpoint}/v2.0/vpc/routes?id={id}&vpc_id={vpc_id}&tenant_id={tenant
 </td>
 <td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p15666715171118"><a name="p15666715171118"></a><a name="p15666715171118"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p3666191521119"><a name="p3666191521119"></a><a name="p3666191521119"></a>功能说明：分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row1666661561117"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1666121531117"><a name="p1666121531117"></a><a name="p1666121531117"></a>limit</p>
@@ -90,7 +96,9 @@ GET https://{Endpoint}/v2.0/vpc/routes?id={id}&vpc_id={vpc_id}&tenant_id={tenant
 </td>
 <td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p12666111514118"><a name="p12666111514118"></a><a name="p12666111514118"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><a name="ul79502025143815"></a><a name="ul79502025143815"></a><ul id="ul79502025143815"><li>功能说明：每页返回的个数</li><li>取值范围：0~intmax</li><li>默认值：2000</li></ul>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
+<p id="p11472454669"><a name="p11472454669"></a><a name="p11472454669"></a>默认值为2000。</p>
 </td>
 </tr>
 </tbody>

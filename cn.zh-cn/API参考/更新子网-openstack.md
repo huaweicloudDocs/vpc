@@ -8,6 +8,10 @@
 
 更新allocation\_pools字段时范围不能包含网关和广播地址的所有IP。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronUpdateSubnet)中直接运行调试该接口。
+
 ## URI<a name="section25302698"></a>
 
 PUT /v2.0/subnets/\{subnet\_id\}
@@ -29,7 +33,7 @@ PUT /v2.0/subnets/\{subnet\_id\}
 </thead>
 <tbody><tr id="row4447594"><td class="cellrowborder" valign="top" width="14.29%" headers="mcps1.2.5.1.1 "><p id="p24710800"><a name="p24710800"></a><a name="p24710800"></a>subnet</p>
 </td>
-<td class="cellrowborder" valign="top" width="8.16%" headers="mcps1.2.5.1.2 "><p id="p55417783"><a name="p55417783"></a><a name="p55417783"></a>Object</p>
+<td class="cellrowborder" valign="top" width="8.16%" headers="mcps1.2.5.1.2 "><p id="p55417783"><a name="p55417783"></a><a name="p55417783"></a><a href="#table12211980105515">subnet</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="10.2%" headers="mcps1.2.5.1.3 "><p id="p59655430"><a name="p59655430"></a><a name="p59655430"></a>是</p>
 </td>
@@ -193,7 +197,7 @@ PUT /v2.0/subnets/\{subnet\_id\}
 </thead>
 <tbody><tr id="row17967889"><td class="cellrowborder" valign="top" width="31.7%" headers="mcps1.2.4.1.1 "><p id="p46112886"><a name="p46112886"></a><a name="p46112886"></a>subnet</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.080000000000002%" headers="mcps1.2.4.1.2 "><p id="p44156300"><a name="p44156300"></a><a name="p44156300"></a>Object</p>
+<td class="cellrowborder" valign="top" width="17.080000000000002%" headers="mcps1.2.4.1.2 "><p id="p44156300"><a name="p44156300"></a><a name="p44156300"></a><a href="#table176735992713">subnet</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p522217"><a name="p522217"></a><a name="p522217"></a>subnet对象列表，参见<a href="#table176735992713">表6</a>。</p>
 </td>

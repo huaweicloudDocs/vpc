@@ -4,6 +4,10 @@
 
 删除子网。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteSubnet)中直接运行调试该接口。
+
 ## URI<a name="section23236845"></a>
 
 DELETE /v2.0/subnets/\{subnet\_id\}

@@ -4,6 +4,10 @@
 
 删除网络ACL组。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeleteFirewallGroup)中直接运行调试该接口。
+
 ## URI<a name="section23213218132831"></a>
 
 DELETE /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}

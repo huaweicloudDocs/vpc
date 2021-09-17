@@ -4,6 +4,10 @@
 
 查询虚拟私有云。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&api=ShowVpc&version=v2)中直接运行调试该接口。
+
 ## URI<a name="section34783366"></a>
 
 GET /v1/\{project\_id\}/vpcs/\{vpc\_id\}
@@ -68,7 +72,7 @@ GET /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </thead>
     <tbody><tr id="row327347841556"><td class="cellrowborder" valign="top" width="18.34%" headers="mcps1.2.4.1.1 "><p id="p342718611556"><a name="p342718611556"></a><a name="p342718611556"></a>vpc</p>
     </td>
-    <td class="cellrowborder" valign="top" width="24.16%" headers="mcps1.2.4.1.2 "><p id="p41691159213"><a name="p41691159213"></a><a name="p41691159213"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="24.16%" headers="mcps1.2.4.1.2 "><p id="p41691159213"><a name="p41691159213"></a><a name="p41691159213"></a><a href="#table1945411214515">vpc</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="57.49999999999999%" headers="mcps1.2.4.1.3 "><p id="p652911041556"><a name="p652911041556"></a><a name="p652911041556"></a><a href="#table1945411214515">vpc对象</a></p>
     </td>
@@ -135,7 +139,9 @@ GET /v1/\{project\_id\}/vpcs/\{vpc\_id\}
     </td>
     <td class="cellrowborder" valign="top" width="20.32%" headers="mcps1.2.4.1.2 "><p id="p24567210516"><a name="p24567210516"></a><a name="p24567210516"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="58.02%" headers="mcps1.2.4.1.3 "><a name="ul44565215110"></a><a name="ul44565215110"></a><ul id="ul44565215110"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。</li></ul>
+    <td class="cellrowborder" valign="top" width="58.02%" headers="mcps1.2.4.1.3 "><a name="ul44565215110"></a><a name="ul44565215110"></a><ul id="ul44565215110"><li>功能说明：企业项目ID。</li><li>取值范围：最大长度36字节，带“-”连字符的UUID格式，或者是字符串“0”。“0”表示默认企业项目。<div class="note" id="note19041412125118"><a name="note19041412125118"></a><a name="note19041412125118"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="vpc_api01_0001_p1915862704914"><a name="vpc_api01_0001_p1915862704914"></a><a name="vpc_api01_0001_p1915862704914"></a>关于企业项目ID的获取及企业项目特性的详细信息，请参见<a href="https://support.huaweicloud.com/usermanual-em/zh-cn_topic_0126101490.html" target="_blank" rel="noopener noreferrer">《企业管理用户指南》</a>。</p>
+    </div></div>
+    </li></ul>
     </td>
     </tr>
     </tbody>

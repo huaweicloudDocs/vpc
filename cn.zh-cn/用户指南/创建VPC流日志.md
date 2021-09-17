@@ -5,24 +5,27 @@
 创建VPC流日志，记录虚拟私有云中的流量信息。
 
 >![](public_sys-resources/icon-note.gif) **说明：** 
->VPC流日志功能目前仅在“亚太-新加坡”、“华南-广州”、“亚太-曼谷”开放，且还在公测期间，请申请公测权限后使用。
+>VPC流日志功能目前仅在“华东-上海一”、“亚太-新加坡”、“华南-广州”、“亚太-曼谷”开放，且还在公测期间，请申请公测权限后使用。
 
 ## 前提条件<a name="section48811154114711"></a>
 
 在创建VPC流日志前，请确保您在云日志服务完成了如下配置：
 
 -   创建日志组。
--   创建日志主题。
+-   创建日志流。
 
 云日志服务更多内容请参见[《云日志服务用户指南》](https://support.huaweicloud.com/lts/index.html)。
 
 ## 操作步骤<a name="section7359352124511"></a>
 
 1.  登录管理控制台。
-2.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
-3.  在系统首页，选择“网络 \> 虚拟私有云”。
-4.  在左侧导航栏，选择“VPC流日志”。
-5.  在页面右上角，单击“创建VPC流日志”，按照提示配置参数。
+
+
+1.  在管理控制台左上角单击![](figures/icon-region.png)，选择区域和项目。
+
+1.  在系统首页，选择“网络 \> 虚拟私有云”。
+2.  在左侧导航栏，选择“VPC流日志”。
+3.  在页面右上角，单击“创建VPC流日志”，按照提示配置参数。
 
     **表 1**  参数说明
 
@@ -61,7 +64,7 @@
     </tr>
     <tr id="row734713175216"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p934719178215"><a name="p934719178215"></a><a name="p934719178215"></a>采集类型</p>
     </td>
-    <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><a name="ul1934716177219"></a><a name="ul1934716177219"></a><ul id="ul1934716177219"><li>全部：采集指定资源的全部流量。</li><li>接受：采集指定资源被安全组或网络ACL允许的流量。</li><li>拒绝：采集指定资源被网络ACL拒绝的流量。</li></ul>
+    <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><a name="ul1934716177219"></a><a name="ul1934716177219"></a><ul id="ul1934716177219"><li>全部：采集指定资源的全部流量。</li><li>接受：采集指定资源被安全组或<span id="text11248715171311"><a name="text11248715171311"></a><a name="text11248715171311"></a></span><span id="text45551720134"><a name="text45551720134"></a><a name="text45551720134"></a>网络ACL</span>允许的流量。</li><li>拒绝：采集指定资源被<span id="text770047201316"><a name="text770047201316"></a><a name="text770047201316"></a></span><span id="text167001772131"><a name="text167001772131"></a><a name="text167001772131"></a>网络ACL</span>拒绝的流量。</li></ul>
     </td>
     <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="p93471617626"><a name="p93471617626"></a><a name="p93471617626"></a>全部</p>
     </td>
@@ -73,11 +76,11 @@
     <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="FlowLog_0003_p634714176216"><a name="FlowLog_0003_p634714176216"></a><a name="FlowLog_0003_p634714176216"></a>lts-group-wule</p>
     </td>
     </tr>
-    <tr id="row63479171326"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p133476171224"><a name="p133476171224"></a><a name="p133476171224"></a>日志主题</p>
+    <tr id="row1435820326356"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p1336093217351"><a name="p1336093217351"></a><a name="p1336093217351"></a>日志流</p>
     </td>
-    <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><p id="p2347101712216"><a name="p2347101712216"></a><a name="p2347101712216"></a>选择在云日志服务中创建的日志主题。</p>
+    <td class="cellrowborder" valign="top" width="55.7%" headers="mcps1.2.4.1.2 "><p id="p73611832173519"><a name="p73611832173519"></a><a name="p73611832173519"></a>选择在云日志服务中创建的日志流。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="FlowLog_0003_p43470173218"><a name="FlowLog_0003_p43470173218"></a><a name="FlowLog_0003_p43470173218"></a>LogTopic1</p>
+    <td class="cellrowborder" valign="top" width="25.06%" headers="mcps1.2.4.1.3 "><p id="p8918114703619"><a name="p8918114703619"></a><a name="p8918114703619"></a>lts-topic-wule</p>
     </td>
     </tr>
     <tr id="row1834761720219"><td class="cellrowborder" valign="top" width="19.24%" headers="mcps1.2.4.1.1 "><p id="p113471171229"><a name="p113471171229"></a><a name="p113471171229"></a>描述</p>
@@ -92,7 +95,7 @@
     </table>
 
     >![](public_sys-resources/icon-note.gif) **说明：** 
-    >同一个资源在同一个日志组的同一个日志主题下，只能有两个不同采集类型的VPC流日志。不能重复创建相同的VPC流日志。
+    >同一个资源在同一个日志组的同一个日志流下，只能有两个不同采集类型的VPC流日志。不能重复创建相同的VPC流日志。
 
-6.  单击“确定”。
+4.  单击“确定”。
 

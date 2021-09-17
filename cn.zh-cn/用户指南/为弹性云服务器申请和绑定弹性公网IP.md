@@ -40,10 +40,18 @@
     </tr>
     <tr id="row65243563111847"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p50321163111847"><a name="p50321163111847"></a><a name="p50321163111847"></a>线路</p>
     </td>
-    <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><a name="ul1206270693355"></a><a name="ul1206270693355"></a><ul id="ul1206270693355"><li>全动态BGP：可以根据设定的寻路协议实时自动优化网络结构，以保持客户使用的网络持续稳定、高效。</li><li>静态BGP：网络结构发生变化时，无法实时自动调整网络设置以保障用户体验。</li></ul>
+    <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><a name="ul1206270693355"></a><a name="ul1206270693355"></a><ul id="ul1206270693355"><li>全动态BGP：可以根据设定的寻路协议实时自动优化网络结构，以保持客户使用的网络持续稳定、高效。</li><li>静态BGP：网络结构发生变化时，无法实时自动调整网络设置以保障用户体验。</li><li>公网IP池：计费模式为按需计费时，该项可见。公网IP池是一种批量EIP开通到管理的专属解决方案。公网IP池为EIP分配全动态BGP线路，持续保证网络稳定、高效。公网IP池详细信息请参见<a href="https://support.huaweicloud.com/usermanual-eip/eipPools_0001.html" target="_blank" rel="noopener noreferrer">公网IP池简介</a>。</li></ul>
     <p id="p466726161319"><a name="p466726161319"></a><a name="p466726161319"></a>更多静态BGP与全动态BGP区别信息请参见<a href="https://support.huaweicloud.com/vpc_faq/faq_bandwidth_0008.html" target="_blank" rel="noopener noreferrer">静态BGP与全动态BGP有何区别？</a></p>
     </td>
     <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p48649567111847"><a name="p48649567111847"></a><a name="p48649567111847"></a>全动态BGP</p>
+    </td>
+    </tr>
+    <tr id="row177471237124513"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p1874843744511"><a name="p1874843744511"></a><a name="p1874843744511"></a>公网IP池</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><p id="p57495372458"><a name="p57495372458"></a><a name="p57495372458"></a>选择已购买的公网IP池。</p>
+    <p id="p187028365472"><a name="p187028365472"></a><a name="p187028365472"></a>EIP计费模式为按需计费时，该项可见。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="zh-cn_topic_0013748738_p2430182381611"><a name="zh-cn_topic_0013748738_p2430182381611"></a><a name="zh-cn_topic_0013748738_p2430182381611"></a>eipPool-test</p>
     </td>
     </tr>
     <tr id="row1919105895410"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p33495085114647"><a name="p33495085114647"></a><a name="p33495085114647"></a>公网带宽</p>

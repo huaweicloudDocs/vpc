@@ -4,6 +4,10 @@
 
 查询提交请求的租户的所有子网，单次查询最多返回2000条数据，超过2000后会返回分页标记。分页查询请参考[分页查询](分页查询.md)。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronListSubnets)中直接运行调试该接口。
+
 ## URI<a name="section28699899"></a>
 
 GET /v2.0/subnets
@@ -114,7 +118,9 @@ GET https://{Endpoint}/v2.0/subnets?limit=2&marker=011fc878-5521-4654-a1ad-f5b0b
 </td>
 <td class="cellrowborder" valign="top" width="16.63166316631663%" headers="mcps1.2.5.1.3 "><p id="p1207114117140"><a name="p1207114117140"></a><a name="p1207114117140"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="47.004700470047%" headers="mcps1.2.5.1.4 "><p id="p20207341121416"><a name="p20207341121416"></a><a name="p20207341121416"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="47.004700470047%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row220774110141"><td class="cellrowborder" valign="top" width="17.091709170917092%" headers="mcps1.2.5.1.1 "><p id="p82075416148"><a name="p82075416148"></a><a name="p82075416148"></a>limit</p>
@@ -123,8 +129,8 @@ GET https://{Endpoint}/v2.0/subnets?limit=2&marker=011fc878-5521-4654-a1ad-f5b0b
 </td>
 <td class="cellrowborder" valign="top" width="16.63166316631663%" headers="mcps1.2.5.1.3 "><p id="p1620714117148"><a name="p1620714117148"></a><a name="p1620714117148"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="47.004700470047%" headers="mcps1.2.5.1.4 "><p id="p2518132611514"><a name="p2518132611514"></a><a name="p2518132611514"></a>每页返回的个数</p>
-<p id="p1420704119149"><a name="p1420704119149"></a><a name="p1420704119149"></a>取值范围：0~intmax</p>
+<td class="cellrowborder" valign="top" width="47.004700470047%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 </tbody>
@@ -257,7 +263,7 @@ GET https://{Endpoint}/v2.0/subnets?limit=2&marker=011fc878-5521-4654-a1ad-f5b0b
 </td>
 <td class="cellrowborder" valign="top" width="28.292829282928288%" headers="mcps1.2.4.1.2 "><p id="p18246193118245"><a name="p18246193118245"></a><a name="p18246193118245"></a>Array of <a href="#table177865912715">host_route</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.37433743374337%" headers="mcps1.2.4.1.3 "><p id="p2074459132712"><a name="p2074459132712"></a><a name="p2074459132712"></a>虚拟机静态路由，参见“<a href="#table177865912715">表5</a></p>
+<td class="cellrowborder" valign="top" width="43.37433743374337%" headers="mcps1.2.4.1.3 "><p id="p2074459132712"><a name="p2074459132712"></a><a name="p2074459132712"></a>虚拟机静态路由，参见<a href="#table177865912715">表5</a></p>
 <p id="p1674359172717"><a name="p1674359172717"></a><a name="p1674359172717"></a>【使用说明】不支持，忽略输入信息</p>
 </td>
 </tr>

@@ -4,6 +4,10 @@
 
 查询提交请求的租户有权限操作的所有网络ACL规则信息。单次查询最多返回2000条数据，超过2000后会返回分页标记，分页查询请参见[分页查询](分页查询.md)
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronListFirewallRules)中直接运行调试该接口。
+
 ## URI<a name="section11642292122541"></a>
 
 GET /v2.0/fwaas/firewall\_rules
@@ -107,7 +111,9 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_rules?limit=2&marker=2a193015-4a88-4a
 </td>
 <td class="cellrowborder" valign="top" width="17.8017801780178%" headers="mcps1.2.5.1.3 "><p id="p14138450134211"><a name="p14138450134211"></a><a name="p14138450134211"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.83458345834583%" headers="mcps1.2.5.1.4 "><p id="p15138165064212"><a name="p15138165064212"></a><a name="p15138165064212"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="45.83458345834583%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row813815500428"><td class="cellrowborder" valign="top" width="14.72147214721472%" headers="mcps1.2.5.1.1 "><p id="p813825014428"><a name="p813825014428"></a><a name="p813825014428"></a>limit</p>
@@ -116,8 +122,8 @@ GET https://{Endpoint}/v2.0/fwaas/firewall_rules?limit=2&marker=2a193015-4a88-4a
 </td>
 <td class="cellrowborder" valign="top" width="17.8017801780178%" headers="mcps1.2.5.1.3 "><p id="p41381750124216"><a name="p41381750124216"></a><a name="p41381750124216"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="45.83458345834583%" headers="mcps1.2.5.1.4 "><p id="p491518711431"><a name="p491518711431"></a><a name="p491518711431"></a>每页返回的个数</p>
-<p id="p161381350114216"><a name="p161381350114216"></a><a name="p161381350114216"></a>取值范围：0~intmax</p>
+<td class="cellrowborder" valign="top" width="45.83458345834583%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 </tbody>

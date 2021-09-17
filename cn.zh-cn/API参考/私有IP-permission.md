@@ -7,7 +7,7 @@
 </th>
 <th class="cellrowborder" valign="top" width="23.32233223322332%" id="mcps1.1.6.1.3"><p id="p1936201424312"><a name="p1936201424312"></a><a name="p1936201424312"></a>授权项(Action)</p>
 </th>
-<th class="cellrowborder" valign="top" width="19.65196519651965%" id="mcps1.1.6.1.4"><p id="p1840915704317"><a name="p1840915704317"></a><a name="p1840915704317"></a>IAM项目（Project)</p>
+<th class="cellrowborder" valign="top" width="19.65196519651965%" id="mcps1.1.6.1.4"><p id="p1840915704317"><a name="p1840915704317"></a><a name="p1840915704317"></a>IAM项目(Project)</p>
 </th>
 <th class="cellrowborder" valign="top" width="17.97179717971797%" id="mcps1.1.6.1.5"><p id="p94098719436"><a name="p94098719436"></a><a name="p94098719436"></a>企业项目(Enterprise Project)</p>
 </th>

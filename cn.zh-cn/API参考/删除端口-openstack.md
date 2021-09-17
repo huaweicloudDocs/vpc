@@ -9,6 +9,10 @@
 -   不允许删除device\_owner为非空且不为neutron:VIP\_PORT的端口。
 -   不允许删除device\_id为非空的端口。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronDeletePort)中直接运行调试该接口。
+
 ## URI<a name="zh-cn_topic_0062207359_section4490990"></a>
 
 DELETE /v2.0/ports/\{port\_id\}

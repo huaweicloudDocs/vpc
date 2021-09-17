@@ -4,6 +4,10 @@
 
 删除虚拟私有云。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=DeleteVpc)中直接运行调试该接口。
+
 ## URI<a name="section4581796"></a>
 
 DELETE /v1/\{project\_id\}/vpcs/\{vpc\_id\}

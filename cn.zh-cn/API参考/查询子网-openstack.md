@@ -4,6 +4,10 @@
 
 查询子网详情
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronShowSubnet)中直接运行调试该接口。
+
 ## URI<a name="section23166934"></a>
 
 GET /v2.0/subnets/\{subnet\_id\}
@@ -27,7 +31,7 @@ GET /v2.0/subnets/\{subnet\_id\}
 </thead>
 <tbody><tr id="row28921355"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p60928390"><a name="p60928390"></a><a name="p60928390"></a>subnet</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p36252562"><a name="p36252562"></a><a name="p36252562"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p36252562"><a name="p36252562"></a><a name="p36252562"></a><a href="#table176735992713">subnet</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p19248251"><a name="p19248251"></a><a name="p19248251"></a>subnet对象列表，参见<a href="#table176735992713">表2</a>。</p>
 </td>

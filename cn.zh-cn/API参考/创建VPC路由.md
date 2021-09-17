@@ -4,6 +4,10 @@
 
 创建路由。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=CreateVpcRoute)中直接运行调试该接口。
+
 ## URI<a name="section13791164631218"></a>
 
 POST /v2.0/vpc/routes
@@ -27,7 +31,7 @@ POST /v2.0/vpc/routes
     </thead>
     <tbody><tr id="row20947134611120"><td class="cellrowborder" valign="top" width="14.14%" headers="mcps1.2.5.1.1 "><p id="p1947194618124"><a name="p1947194618124"></a><a name="p1947194618124"></a>route</p>
     </td>
-    <td class="cellrowborder" valign="top" width="8.08%" headers="mcps1.2.5.1.2 "><p id="p179478465125"><a name="p179478465125"></a><a name="p179478465125"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="8.08%" headers="mcps1.2.5.1.2 "><p id="p179478465125"><a name="p179478465125"></a><a name="p179478465125"></a><a href="创建VPC路由.md">route</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="8.08%" headers="mcps1.2.5.1.3 "><p id="p094714468129"><a name="p094714468129"></a><a name="p094714468129"></a>是</p>
     </td>
@@ -122,7 +126,7 @@ POST /v2.0/vpc/routes
     </thead>
     <tbody><tr id="row18947144601211"><td class="cellrowborder" valign="top" width="21.349999999999998%" headers="mcps1.2.4.1.1 "><p id="p1794734651219"><a name="p1794734651219"></a><a name="p1794734651219"></a>route</p>
     </td>
-    <td class="cellrowborder" valign="top" width="13.48%" headers="mcps1.2.4.1.2 "><p id="p19471546151212"><a name="p19471546151212"></a><a name="p19471546151212"></a>Object</p>
+    <td class="cellrowborder" valign="top" width="13.48%" headers="mcps1.2.4.1.2 "><p id="p19471546151212"><a name="p19471546151212"></a><a name="p19471546151212"></a><a href="创建VPC路由.md">route</a> object</p>
     </td>
     <td class="cellrowborder" valign="top" width="65.16999999999999%" headers="mcps1.2.4.1.3 "><p id="p16548142183616"><a name="p16548142183616"></a><a name="p16548142183616"></a>route对象列表，参见<a href="#table1163544010410">表4</a>。</p>
     </td>

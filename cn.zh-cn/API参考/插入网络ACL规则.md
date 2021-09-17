@@ -4,13 +4,44 @@
 
 插入一条网络ACL规则到某一网络ACL策略中。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronAddFirewallRule)中直接运行调试该接口。
+
 ## URI<a name="section17120978132610"></a>
 
 PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/insert\_rule
 
+参数说明请参见[表1](#table18880184689)。
+
+**表 1**  参数说明
+
+<a name="table18880184689"></a>
+<table><thead align="left"><tr id="row13968641385"><th class="cellrowborder" valign="top" width="22.222222222222225%" id="mcps1.2.5.1.1"><p id="p209684410817"><a name="p209684410817"></a><a name="p209684410817"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="14.14141414141414%" id="mcps1.2.5.1.2"><p id="p69681441386"><a name="p69681441386"></a><a name="p69681441386"></a>是否必选</p>
+</th>
+<th class="cellrowborder" valign="top" width="27.27272727272727%" id="mcps1.2.5.1.3"><p id="p1096813412811"><a name="p1096813412811"></a><a name="p1096813412811"></a>参数类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="36.36363636363636%" id="mcps1.2.5.1.4"><p id="p139686416813"><a name="p139686416813"></a><a name="p139686416813"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row19681041189"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p1682422682817"><a name="p1682422682817"></a><a name="p1682422682817"></a>firewall_policy_id</p>
+</td>
+<td class="cellrowborder" valign="top" width="14.14141414141414%" headers="mcps1.2.5.1.2 "><p id="p1797015416817"><a name="p1797015416817"></a><a name="p1797015416817"></a>是</p>
+</td>
+<td class="cellrowborder" valign="top" width="27.27272727272727%" headers="mcps1.2.5.1.3 "><p id="p19701411813"><a name="p19701411813"></a><a name="p19701411813"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="36.36363636363636%" headers="mcps1.2.5.1.4 "><p id="p1888212430318"><a name="p1888212430318"></a><a name="p1888212430318"></a><span id="text084952910464"><a name="text084952910464"></a><a name="text084952910464"></a>网络ACL</span><span id="text6849112913464"><a name="text6849112913464"></a><a name="text6849112913464"></a></span>策略唯一标识</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 请求消息<a name="section22829642132610"></a>
 
-**表 1**  请求参数
+**表 2**  请求参数
 
 <a name="table57910527132610"></a>
 <table><thead align="left"><tr id="row56750671132610"><th class="cellrowborder" valign="top" width="23.46765323467653%" id="mcps1.2.5.1.1"><p id="p7811312132610"><a name="p7811312132610"></a><a name="p7811312132610"></a>参数名称</p>
@@ -23,16 +54,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/insert\_rule
 </th>
 </tr>
 </thead>
-<tbody><tr id="row13167705132610"><td class="cellrowborder" valign="top" width="23.46765323467653%" headers="mcps1.2.5.1.1 "><p id="p30726413132610"><a name="p30726413132610"></a><a name="p30726413132610"></a>firewall_policy_id</p>
-</td>
-<td class="cellrowborder" valign="top" width="17.348265173482652%" headers="mcps1.2.5.1.2 "><p id="p27151448132610"><a name="p27151448132610"></a><a name="p27151448132610"></a>String</p>
-</td>
-<td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p12448089132610"><a name="p12448089132610"></a><a name="p12448089132610"></a>是</p>
-</td>
-<td class="cellrowborder" valign="top" width="42.85571442855714%" headers="mcps1.2.5.1.4 "><p id="p35868466132610"><a name="p35868466132610"></a><a name="p35868466132610"></a><span id="text36551223104815"><a name="text36551223104815"></a><a name="text36551223104815"></a>网络ACL</span><span id="text1965516232484"><a name="text1965516232484"></a><a name="text1965516232484"></a></span>策略唯一标识</p>
-</td>
-</tr>
-<tr id="row26604881132610"><td class="cellrowborder" valign="top" width="23.46765323467653%" headers="mcps1.2.5.1.1 "><p id="p12663304132610"><a name="p12663304132610"></a><a name="p12663304132610"></a>firewall_rule_id</p>
+<tbody><tr id="row26604881132610"><td class="cellrowborder" valign="top" width="23.46765323467653%" headers="mcps1.2.5.1.1 "><p id="p12663304132610"><a name="p12663304132610"></a><a name="p12663304132610"></a>firewall_rule_id</p>
 </td>
 <td class="cellrowborder" valign="top" width="17.348265173482652%" headers="mcps1.2.5.1.2 "><p id="p32486375132610"><a name="p32486375132610"></a><a name="p32486375132610"></a>String</p>
 </td>
@@ -66,7 +88,7 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/insert\_rule
 
 ## 响应消息<a name="section56633148132610"></a>
 
-**表 2**  响应参数
+**表 3**  响应参数
 
 <a name="table50663598132610"></a>
 <table><thead align="left"><tr id="row38032515132610"><th class="cellrowborder" valign="top" width="23.169999999999998%" id="mcps1.2.4.1.1"><p id="p37452312132610"><a name="p37452312132610"></a><a name="p37452312132610"></a>参数名称</p>
@@ -109,14 +131,14 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/insert\_rule
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p31295563132610"><a name="p31295563132610"></a><a name="p31295563132610"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p19158555132610"><a name="p19158555132610"></a><a name="p19158555132610"></a>Policy 名称</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p19158555132610"><a name="p19158555132610"></a><a name="p19158555132610"></a>Policy名称</p>
 </td>
 </tr>
 <tr id="row17433093132610"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p3069015132610"><a name="p3069015132610"></a><a name="p3069015132610"></a>public</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p63788416132610"><a name="p63788416132610"></a><a name="p63788416132610"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p17812694132610"><a name="p17812694132610"></a><a name="p17812694132610"></a>如果为True, 该policy对于其他项目<span id="text538913347482"><a name="text538913347482"></a><a name="text538913347482"></a>网络ACL</span><span id="text1638933484816"><a name="text1638933484816"></a><a name="text1638933484816"></a></span>策略可见， 默认不可见</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p17812694132610"><a name="p17812694132610"></a><a name="p17812694132610"></a>如果为true，该policy对于其他项目<span id="text538913347482"><a name="text538913347482"></a><a name="text538913347482"></a>网络ACL</span><span id="text1638933484816"><a name="text1638933484816"></a><a name="text1638933484816"></a></span>策略可见， 默认不可见</p>
 </td>
 </tr>
 <tr id="row66677436132610"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p61139761132610"><a name="p61139761132610"></a><a name="p61139761132610"></a>tenant_id</p>

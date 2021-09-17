@@ -4,6 +4,10 @@
 
 从某一网络ACL策略中移除一条网络ACL规则。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronRemoveFirewallRule)中直接运行调试该接口。
+
 ## URI<a name="section17986671132633"></a>
 
 PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/remove\_rule
@@ -80,14 +84,14 @@ PUT /v2.0/fwaas/firewall\_policies/\{firewall\_policy\_id\}/remove\_rule
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p36587630132633"><a name="p36587630132633"></a><a name="p36587630132633"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p14824904132633"><a name="p14824904132633"></a><a name="p14824904132633"></a>Policy 名称</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p14824904132633"><a name="p14824904132633"></a><a name="p14824904132633"></a>Policy名称</p>
 </td>
 </tr>
 <tr id="row64601479132633"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p61245310132633"><a name="p61245310132633"></a><a name="p61245310132633"></a>public</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p21782173132633"><a name="p21782173132633"></a><a name="p21782173132633"></a>Boolean</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p9188558132633"><a name="p9188558132633"></a><a name="p9188558132633"></a>如果为True, 该policy对于其他项目<span id="text983811810491"><a name="text983811810491"></a><a name="text983811810491"></a>网络ACL</span><span id="text783878124916"><a name="text783878124916"></a><a name="text783878124916"></a></span>策略可见， 默认不可见</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p9188558132633"><a name="p9188558132633"></a><a name="p9188558132633"></a>如果为True，该policy对于其他项目<span id="text983811810491"><a name="text983811810491"></a><a name="text983811810491"></a>网络ACL</span><span id="text783878124916"><a name="text783878124916"></a><a name="text783878124916"></a></span>策略可见， 默认不可见</p>
 </td>
 </tr>
 <tr id="row31674173132633"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p49506560132633"><a name="p49506560132633"></a><a name="p49506560132633"></a>tenant_id</p>

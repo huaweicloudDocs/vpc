@@ -12,7 +12,9 @@
 
 删除时，如果删除的标签不存在，默认处理成功，删除时不对标签字符集范围做校验。删除时tags结构体不能缺失，key不能为空，或者空字符串。
 
-该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“亚太-香港”区域开放。
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=BatchCreateVpcTags)中直接运行调试该接口。
 
 ## URI<a name="section14718205991814"></a>
 

@@ -57,10 +57,15 @@
 <td class="cellrowborder" valign="top" width="79.19%" headers="mcps1.2.3.1.2 "><p id="p136411583451"><a name="p136411583451"></a><a name="p136411583451"></a>VPC路由查询、创建、删除等接口。</p>
 </td>
 </tr>
+<tr id="row163551827142410"><td class="cellrowborder" valign="top" width="20.810000000000002%" headers="mcps1.2.3.1.1 "><p id="p11263163072414"><a name="p11263163072414"></a><a name="p11263163072414"></a><a href="https://support.huaweicloud.com/api-vpc/vpc_apiroutetab_0000.html" target="_blank" rel="noopener noreferrer">路由表</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="79.19%" headers="mcps1.2.3.1.2 "><p id="p326323015240"><a name="p326323015240"></a><a name="p326323015240"></a>路由表查询、创建、删除等接口。</p>
+</td>
+</tr>
 <tr id="row836417588454"><td class="cellrowborder" valign="top" width="20.810000000000002%" headers="mcps1.2.3.1.1 "><p id="p036414581456"><a name="p036414581456"></a><a name="p036414581456"></a><a href="https://support.huaweicloud.com/api-vpc/vpc_tag_0000.html" target="_blank" rel="noopener noreferrer">标签管理</a></p>
 </td>
 <td class="cellrowborder" valign="top" width="79.19%" headers="mcps1.2.3.1.2 "><a name="ul136485854520"></a><a name="ul136485854520"></a><ul id="ul136485854520"><li>VPC资源标签的创建、查询、删除等接口。</li><li>子网资源标签的创建、查询、删除等接口。</li></ul>
-<p id="p103659580457"><a name="p103659580457"></a><a name="p103659580457"></a>该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“亚太-香港”区域开放。</p>
+<p id="p103659580457"><a name="p103659580457"></a><a name="p103659580457"></a>该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“<span id="text71381530143612"><a name="text71381530143612"></a><a name="text71381530143612"></a>中国-香港</span>”区域开放。</p>
 </td>
 </tr>
 <tr id="row636520586451"><td class="cellrowborder" valign="top" width="20.810000000000002%" headers="mcps1.2.3.1.1 "><p id="p13654589453"><a name="p13654589453"></a><a name="p13654589453"></a><a href="https://support.huaweicloud.com/api-vpc/vpc_natworkip_0000.html" target="_blank" rel="noopener noreferrer">查询网络IP使用情况</a></p>

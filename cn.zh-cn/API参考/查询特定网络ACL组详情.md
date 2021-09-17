@@ -4,6 +4,10 @@
 
 查询特定网络ACL组详情。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronShowFirewallGroup)中直接运行调试该接口。
+
 ## URI<a name="section36516119132713"></a>
 
 GET /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
@@ -54,7 +58,7 @@ GET /v2.0/fwaas/firewall\_groups/\{firewall\_group\_id\}
 </thead>
 <tbody><tr id="row6968505132713"><td class="cellrowborder" valign="top" width="21.349999999999998%" headers="mcps1.2.4.1.1 "><p id="p61606520132713"><a name="p61606520132713"></a><a name="p61606520132713"></a>firewall_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p13430132393915"><a name="p13430132393915"></a><a name="p13430132393915"></a>Object</p>
+<td class="cellrowborder" valign="top" width="19.11%" headers="mcps1.2.4.1.2 "><p id="p13430132393915"><a name="p13430132393915"></a><a name="p13430132393915"></a><a href="#table31629250121127">firewall_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="59.540000000000006%" headers="mcps1.2.4.1.3 "><p id="p14666204132713"><a name="p14666204132713"></a><a name="p14666204132713"></a>firewall group对象列表。请参见<a href="#table31629250121127">表3</a>。</p>
 </td>

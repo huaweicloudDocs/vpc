@@ -4,6 +4,10 @@
 
 查询提交请求的租户有权限操作的所有安全组。单次查询最多返回2000条数据，超过2000后会返回分页标记。分页查询请参考[分页查询](分页查询.md)。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronListSecurityGroups)中直接运行调试该接口。
+
 ## URI<a name="section2797834416037"></a>
 
 GET /v2.0/security-groups
@@ -71,7 +75,9 @@ GET https://{Endpoint}/v2.0/security-groups?limit=2&marker=0431c9c5-1660-42e0-8a
 </td>
 <td class="cellrowborder" valign="top" width="17.54175417541754%" headers="mcps1.2.5.1.3 "><p id="p796412174223"><a name="p796412174223"></a><a name="p796412174223"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.09460946094609%" headers="mcps1.2.5.1.4 "><p id="p496412171223"><a name="p496412171223"></a><a name="p496412171223"></a>分页查询起始的资源ID，为空时为查询第一页</p>
+<td class="cellrowborder" valign="top" width="46.09460946094609%" headers="mcps1.2.5.1.4 "><p id="p28526205175853"><a name="p28526205175853"></a><a name="p28526205175853"></a>分页查询的起始资源ID，表示从指定资源的下一条记录开始查询。</p>
+<p id="p538818488578"><a name="p538818488578"></a><a name="p538818488578"></a>marker需要和limit配合使用：</p>
+<a name="ul12704811125810"></a><a name="ul12704811125810"></a><ul id="ul12704811125810"><li>若不传入marker和limit参数，查询结果返回全部资源记录。</li><li>若不传入marker参数，limit为10，查询结果返回第1~10条资源记录。</li><li>若marker为第10条记录的资源ID，limit为10，查询结果返回第11~20条资源记录。</li><li>若marker为第10条记录的资源ID，不传入limit参数，查询结果返回第11条及之后的所有资源记录。</li></ul>
 </td>
 </tr>
 <tr id="row10964201702215"><td class="cellrowborder" valign="top" width="22.222222222222225%" headers="mcps1.2.5.1.1 "><p id="p10964111722211"><a name="p10964111722211"></a><a name="p10964111722211"></a>limit</p>
@@ -80,8 +86,8 @@ GET https://{Endpoint}/v2.0/security-groups?limit=2&marker=0431c9c5-1660-42e0-8a
 </td>
 <td class="cellrowborder" valign="top" width="17.54175417541754%" headers="mcps1.2.5.1.3 "><p id="p18965161732218"><a name="p18965161732218"></a><a name="p18965161732218"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.09460946094609%" headers="mcps1.2.5.1.4 "><p id="p96971524162214"><a name="p96971524162214"></a><a name="p96971524162214"></a>每页返回的个数</p>
-<p id="p1496571772219"><a name="p1496571772219"></a><a name="p1496571772219"></a>取值范围：0~intmax</p>
+<td class="cellrowborder" valign="top" width="46.09460946094609%" headers="mcps1.2.5.1.4 "><p id="p2017153116589"><a name="p2017153116589"></a><a name="p2017153116589"></a>分页查询每页返回的记录个数，取值范围为0~intmax。</p>
+<p id="p125192338584"><a name="p125192338584"></a><a name="p125192338584"></a>limit需要和marker配合使用，详细规则请见marker的参数说明。</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +114,14 @@ GET https://{Endpoint}/v2.0/security-groups?limit=2&marker=0431c9c5-1660-42e0-8a
 </td>
 <td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p86066502616"><a name="p86066502616"></a><a name="p86066502616"></a>Array of <a href="#table513726041607">Security Group</a> objects</p>
 </td>
-<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p6079210416037"><a name="p6079210416037"></a><a name="p6079210416037"></a>security group对象列表。请参见<a href="#table513726041607">表3</a>。</p>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p6079210416037"><a name="p6079210416037"></a><a name="p6079210416037"></a>security group对象列表。请参见<a href="#table513726041607">表3</a></p>
+</td>
+</tr>
+<tr id="row1081361216185"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p281361251816"><a name="p281361251816"></a><a name="p281361251816"></a>security_groups_links</p>
+</td>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p16813141216189"><a name="p16813141216189"></a><a name="p16813141216189"></a>Array of <a href="#table1318194661915">SecurityGroupsLink</a> objects</p>
+</td>
+<td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p1813612171815"><a name="p1813612171815"></a><a name="p1813612171815"></a>分页信息</p>
 </td>
 </tr>
 </tbody>
@@ -300,6 +313,34 @@ GET https://{Endpoint}/v2.0/security-groups?limit=2&marker=0431c9c5-1660-42e0-8a
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="vpc_sg02_0006_p1127018513343"><a name="vpc_sg02_0006_p1127018513343"></a><a name="vpc_sg02_0006_p1127018513343"></a>资源更新时间，UTC时间</p>
 <p id="vpc_sg02_0006_p19850105451210"><a name="vpc_sg02_0006_p19850105451210"></a><a name="vpc_sg02_0006_p19850105451210"></a>格式：yyyy-MM-ddTHH:mm:ss</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 5**  SecurityGroupsLink对象
+
+<a name="table1318194661915"></a>
+<table><thead align="left"><tr id="row12181246101911"><th class="cellrowborder" valign="top" width="26.87%" id="mcps1.2.4.1.1"><p id="p19181646101917"><a name="p19181646101917"></a><a name="p19181646101917"></a>参数名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="23.41%" id="mcps1.2.4.1.2"><p id="p718124661912"><a name="p718124661912"></a><a name="p718124661912"></a>类型</p>
+</th>
+<th class="cellrowborder" valign="top" width="49.72%" id="mcps1.2.4.1.3"><p id="p719134621911"><a name="p719134621911"></a><a name="p719134621911"></a>说明</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row191974671910"><td class="cellrowborder" valign="top" width="26.87%" headers="mcps1.2.4.1.1 "><p id="p1919946151916"><a name="p1919946151916"></a><a name="p1919946151916"></a>href</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.41%" headers="mcps1.2.4.1.2 "><p id="p71994671918"><a name="p71994671918"></a><a name="p71994671918"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="49.72%" headers="mcps1.2.4.1.3 "><p id="p1919184631917"><a name="p1919184631917"></a><a name="p1919184631917"></a>API链接</p>
+</td>
+</tr>
+<tr id="row519846181910"><td class="cellrowborder" valign="top" width="26.87%" headers="mcps1.2.4.1.1 "><p id="p519646121916"><a name="p519646121916"></a><a name="p519646121916"></a>rel</p>
+</td>
+<td class="cellrowborder" valign="top" width="23.41%" headers="mcps1.2.4.1.2 "><p id="p19191464193"><a name="p19191464193"></a><a name="p19191464193"></a>String</p>
+</td>
+<td class="cellrowborder" valign="top" width="49.72%" headers="mcps1.2.4.1.3 "><p id="p101954681914"><a name="p101954681914"></a><a name="p101954681914"></a>API链接与该API版本的关系</p>
 </td>
 </tr>
 </tbody>

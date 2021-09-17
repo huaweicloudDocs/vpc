@@ -4,6 +4,10 @@
 
 创建安全组规则。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreateSecurityGroupRule)中直接运行调试该接口。
+
 ## URI<a name="section6291358016319"></a>
 
 POST /v2.0/security-group-rules
@@ -25,7 +29,7 @@ POST /v2.0/security-group-rules
 </thead>
 <tbody><tr id="row3793835116319"><td class="cellrowborder" valign="top" width="26.52734726527347%" headers="mcps1.2.5.1.1 "><p id="p4303593816319"><a name="p4303593816319"></a><a name="p4303593816319"></a>security_group_rule</p>
 </td>
-<td class="cellrowborder" valign="top" width="14.288571142885711%" headers="mcps1.2.5.1.2 "><p id="p3852346816319"><a name="p3852346816319"></a><a name="p3852346816319"></a>Object</p>
+<td class="cellrowborder" valign="top" width="14.288571142885711%" headers="mcps1.2.5.1.2 "><p id="p3852346816319"><a name="p3852346816319"></a><a name="p3852346816319"></a><a href="#table655457801607">security_group_rule</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="16.328367163283673%" headers="mcps1.2.5.1.3 "><p id="p6530542116319"><a name="p6530542116319"></a><a name="p6530542116319"></a>是</p>
 </td>
@@ -156,7 +160,7 @@ POST /v2.0/security-group-rules
 </thead>
 <tbody><tr id="row60629616319"><td class="cellrowborder" valign="top" width="31.7%" headers="mcps1.2.4.1.1 "><p id="p2428304416319"><a name="p2428304416319"></a><a name="p2428304416319"></a>security_group_rule</p>
 </td>
-<td class="cellrowborder" valign="top" width="17.080000000000002%" headers="mcps1.2.4.1.2 "><p id="p2724314316319"><a name="p2724314316319"></a><a name="p2724314316319"></a>Object</p>
+<td class="cellrowborder" valign="top" width="17.080000000000002%" headers="mcps1.2.4.1.2 "><p id="p2724314316319"><a name="p2724314316319"></a><a name="p2724314316319"></a><a href="#table1794215178501">security_group_rule</a> object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p5745755316319"><a name="p5745755316319"></a><a name="p5745755316319"></a>security group rule对象列表。请参见<a href="#table1794215178501">表4</a>。</p>
 </td>

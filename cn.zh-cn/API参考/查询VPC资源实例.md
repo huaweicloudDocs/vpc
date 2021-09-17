@@ -4,7 +4,9 @@
 
 使用标签过滤实例。
 
-该类型接口目前在“华北-北京一”“华北-北京四”、“华东-上海一”、“华东-上海二”、“西南-贵阳一”“华南-广州”、“亚太-香港”区域开放。
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=ListVpcsByTags)中直接运行调试该接口。
 
 ## URI<a name="section204655230197"></a>
 
@@ -61,20 +63,20 @@ POST /v2.0/\{project\_id\}/vpcs/resource\_instances/action
 </tr>
 <tr id="row485202331911"><td class="cellrowborder" valign="top" width="13.861386138613863%" headers="mcps1.2.5.1.1 "><p id="p08523237195"><a name="p08523237195"></a><a name="p08523237195"></a>limit</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.891089108910892%" headers="mcps1.2.5.1.2 "><p id="p1285218232197"><a name="p1285218232197"></a><a name="p1285218232197"></a>String</p>
+<td class="cellrowborder" valign="top" width="10.891089108910892%" headers="mcps1.2.5.1.2 "><p id="p1285218232197"><a name="p1285218232197"></a><a name="p1285218232197"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="17.82178217821782%" headers="mcps1.2.5.1.3 "><p id="p1985292314197"><a name="p1985292314197"></a><a name="p1985292314197"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.42574257425742%" headers="mcps1.2.5.1.4 "><p id="p13852152341914"><a name="p13852152341914"></a><a name="p13852152341914"></a>查询记录数（action为count时无此参数）如果action为filter默认为1000，limit最多为1000,不能为负数，最小值为1</p>
+<td class="cellrowborder" valign="top" width="57.42574257425742%" headers="mcps1.2.5.1.4 "><p id="p13852152341914"><a name="p13852152341914"></a><a name="p13852152341914"></a>查询记录数（action为count时无此参数）如果action为filter默认为1000，limit最多为1000，不能为负数，最小值为1</p>
 </td>
 </tr>
 <tr id="row14852423111914"><td class="cellrowborder" valign="top" width="13.861386138613863%" headers="mcps1.2.5.1.1 "><p id="p885219237198"><a name="p885219237198"></a><a name="p885219237198"></a>offset</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.891089108910892%" headers="mcps1.2.5.1.2 "><p id="p1985218237191"><a name="p1985218237191"></a><a name="p1985218237191"></a>String</p>
+<td class="cellrowborder" valign="top" width="10.891089108910892%" headers="mcps1.2.5.1.2 "><p id="p1985218237191"><a name="p1985218237191"></a><a name="p1985218237191"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="17.82178217821782%" headers="mcps1.2.5.1.3 "><p id="p5852132317199"><a name="p5852132317199"></a><a name="p5852132317199"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="57.42574257425742%" headers="mcps1.2.5.1.4 "><p id="p1785342311917"><a name="p1785342311917"></a><a name="p1785342311917"></a>（索引位置）， 从offset指定的下一条数据开始查询。 查询第一页数据时，不需要传入此参数，查询后续页码数据时，将查询前一页数据时响应体中的值带入此参数（action为count时无此参数）如果action为filter默认为0,必须为数字，不能为负数</p>
+<td class="cellrowborder" valign="top" width="57.42574257425742%" headers="mcps1.2.5.1.4 "><p id="p1785342311917"><a name="p1785342311917"></a><a name="p1785342311917"></a>（索引位置）， 从offset指定的下一条数据开始查询。 查询第一页数据时，不需要传入此参数，查询后续页码数据时，将查询前一页数据时响应体中的值带入此参数（action为count时无此参数）如果action为filter默认为0，必须为数字，不能为负数</p>
 </td>
 </tr>
 <tr id="row28531123181913"><td class="cellrowborder" valign="top" width="13.861386138613863%" headers="mcps1.2.5.1.1 "><p id="p1853123121912"><a name="p1853123121912"></a><a name="p1853123121912"></a>action</p>

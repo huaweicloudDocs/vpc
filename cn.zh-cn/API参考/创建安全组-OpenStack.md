@@ -4,6 +4,10 @@
 
 创建安全组。
 
+## 调试<a name="section1062181918110"></a>
+
+您可以在[API Explorer](https://apiexplorer.developer.huaweicloud.com/apiexplorer/doc?product=VPC&version=v2&api=NeutronCreateSecurityGroup)中直接运行调试该接口。
+
 ## URI<a name="section745182516116"></a>
 
 POST /v2.0/security-groups
@@ -27,7 +31,7 @@ POST /v2.0/security-groups
 </td>
 <td class="cellrowborder" valign="top" width="9.9%" headers="mcps1.2.5.1.2 "><p id="p3558909616116"><a name="p3558909616116"></a><a name="p3558909616116"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="14.549999999999999%" headers="mcps1.2.5.1.3 "><p id="p714515916116"><a name="p714515916116"></a><a name="p714515916116"></a>Object</p>
+<td class="cellrowborder" valign="top" width="14.549999999999999%" headers="mcps1.2.5.1.3 "><p id="p714515916116"><a name="p714515916116"></a><a name="p714515916116"></a><a href="#table513726041607">security_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="61.11%" headers="mcps1.2.5.1.4 "><p id="p4305865716116"><a name="p4305865716116"></a><a name="p4305865716116"></a>security group对象列表。请参见<a href="#table513726041607">表2</a></p>
 </td>
@@ -84,7 +88,7 @@ POST /v2.0/security-groups
 </thead>
 <tbody><tr id="row1989548816116"><td class="cellrowborder" valign="top" width="23.169999999999998%" headers="mcps1.2.4.1.1 "><p id="p3843802816116"><a name="p3843802816116"></a><a name="p3843802816116"></a>security_group</p>
 </td>
-<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p4806907216116"><a name="p4806907216116"></a><a name="p4806907216116"></a>Object</p>
+<td class="cellrowborder" valign="top" width="25.61%" headers="mcps1.2.4.1.2 "><p id="p4806907216116"><a name="p4806907216116"></a><a name="p4806907216116"></a><a href="#table32081555104215">security_group </a>object</p>
 </td>
 <td class="cellrowborder" valign="top" width="51.22%" headers="mcps1.2.4.1.3 "><p id="p944057316116"><a name="p944057316116"></a><a name="p944057316116"></a>security group对象列表。请参见<a href="#table32081555104215">表4</a>。</p>
 </td>

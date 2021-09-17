@@ -32,14 +32,14 @@
 </tr>
 <tr id="row36596319174845"><td class="cellrowborder" valign="top" width="18.990000000000002%" headers="mcps1.2.4.1.1 "><p id="p9252182132813"><a name="p9252182132813"></a><a name="p9252182132813"></a>配置策略</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.8%" headers="mcps1.2.4.1.2 "><p id="p11511833174845"><a name="p11511833174845"></a><a name="p11511833174845"></a>仅支持允许策略。</p>
+<td class="cellrowborder" valign="top" width="35.8%" headers="mcps1.2.4.1.2 "><p id="p3453151051917"><a name="p3453151051917"></a><a name="p3453151051917"></a>仅支持允许策略（拒绝策略目前仅在“华东-上海一”、“华南-广州”、“西南-贵阳一”、“华北-北京四”、“<span id="text1876320614114"><a name="text1876320614114"></a><a name="text1876320614114"></a>中国-香港</span>”、“亚太-新加坡”支持）。</p>
 </td>
 <td class="cellrowborder" valign="top" width="45.21%" headers="mcps1.2.4.1.3 "><p id="p60043263174845"><a name="p60043263174845"></a><a name="p60043263174845"></a>支持允许、拒绝策略。</p>
 </td>
 </tr>
 <tr id="row3518463174845"><td class="cellrowborder" valign="top" width="18.990000000000002%" headers="mcps1.2.4.1.1 "><p id="p3252321102813"><a name="p3252321102813"></a><a name="p3252321102813"></a>优先级</p>
 </td>
-<td class="cellrowborder" valign="top" width="35.8%" headers="mcps1.2.4.1.2 "><p id="p16560083174845"><a name="p16560083174845"></a><a name="p16560083174845"></a>多个规则冲突，取其并集生效。</p>
+<td class="cellrowborder" valign="top" width="35.8%" headers="mcps1.2.4.1.2 "><p id="p1266220316362"><a name="p1266220316362"></a><a name="p1266220316362"></a>多个规则冲突，先根据绑定安全组的顺序生效，再根据组内规则的优先级生效（安全组规则优先级目前仅在“华东-上海一”、“华南-广州”、“西南-贵阳一”、“华北-北京四”、“<span id="text11348519181112"><a name="text11348519181112"></a><a name="text11348519181112"></a>中国-香港</span>”、“亚太-新加坡”支持）。</p>
 </td>
 <td class="cellrowborder" valign="top" width="45.21%" headers="mcps1.2.4.1.3 "><p id="p66298376174845"><a name="p66298376174845"></a><a name="p66298376174845"></a>多个规则冲突，优先级高的规则生效，优先级低的不生效。</p>
 </td>
