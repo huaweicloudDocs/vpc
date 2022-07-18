@@ -35,12 +35,12 @@
     </td>
     <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><p id="p42342941211344"><a name="p42342941211344"></a><a name="p42342941211344"></a>不同区域的资源之间内网不互通。请选择靠近您客户的区域，可以降低网络时延、提高访问速度。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p14727534142017"><a name="p14727534142017"></a><a name="p14727534142017"></a>华北-北京一</p>
+    <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p14727534142017"><a name="p14727534142017"></a><a name="p14727534142017"></a>华东-上海一</p>
     </td>
     </tr>
     <tr id="row65243563111847"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p50321163111847"><a name="p50321163111847"></a><a name="p50321163111847"></a>线路</p>
     </td>
-    <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><a name="ul1206270693355"></a><a name="ul1206270693355"></a><ul id="ul1206270693355"><li>全动态BGP：可以根据设定的寻路协议实时自动优化网络结构，以保持客户使用的网络持续稳定、高效。</li><li>静态BGP：网络结构发生变化时，无法实时自动调整网络设置以保障用户体验。</li><li>优选BGP：特定方向的优质线路。为中国香港及海外区域访问中国大陆区域方向的流量提供低时延、高质量的公网服务。（该线路资源仅在“<span id="text8305112918412"><a name="text8305112918412"></a><a name="text8305112918412"></a>中国-香港</span>”区域支持。）</li><li>公网IP池：计费模式为按需计费时，该项可见。公网IP池是一种批量EIP开通到管理的专属解决方案。公网IP池为EIP分配全动态BGP线路，持续保证网络稳定、高效。公网IP池详细信息请参见<a href="https://support.huaweicloud.com/usermanual-eip/eipPools_0001.html" target="_blank" rel="noopener noreferrer">公网IP池简介</a>。</li></ul>
+    <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><a name="ul1206270693355"></a><a name="ul1206270693355"></a><ul id="ul1206270693355"><li>全动态BGP：可以根据设定的寻路协议实时自动优化网络结构，以保持客户使用的网络持续稳定、高效。</li><li>静态BGP：网络结构发生变化时，无法实时自动调整网络设置以保障用户体验。</li><li>优选BGP：是特定方向的优质线路。使用BGP协议与多家主流运营商线路互联对接，建立直连中国内地的公网互联路径，提供中国-香港区域与中国内地间的低时延、高质量的网络互通。（该线路资源仅在“<span id="text8305112918412"><a name="text8305112918412"></a><a name="text8305112918412"></a>中国-香港</span>”区域支持。）</li><li>公网IP池：计费模式为按需计费时，该项可见。公网IP池是一种批量EIP开通到管理的专属解决方案。公网IP池为EIP分配全动态BGP线路，持续保证网络稳定、高效。公网IP池详细信息请参见<a href="https://support.huaweicloud.com/usermanual-eip/eipPools_0001.html" target="_blank" rel="noopener noreferrer">公网IP池简介</a>。</li></ul>
     <p id="p466726161319"><a name="p466726161319"></a><a name="p466726161319"></a>更多静态BGP与全动态BGP区别信息请参见<a href="https://support.huaweicloud.com/vpc_faq/faq_bandwidth_0008.html" target="_blank" rel="noopener noreferrer">静态BGP与全动态BGP有何区别？</a></p>
     </td>
     <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p48649567111847"><a name="p48649567111847"></a><a name="p48649567111847"></a>全动态BGP</p>
@@ -80,7 +80,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="43.96%" headers="mcps1.2.4.1.2 "><p id="p695719550242"><a name="p695719550242"></a><a name="p695719550242"></a>弹性公网IP的名称。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p19957555132412"><a name="p19957555132412"></a><a name="p19957555132412"></a>-</p>
+    <td class="cellrowborder" valign="top" width="25.040000000000003%" headers="mcps1.2.4.1.3 "><p id="p19957555132412"><a name="p19957555132412"></a><a name="p19957555132412"></a>eip-test</p>
     </td>
     </tr>
     <tr id="row1635012812255"><td class="cellrowborder" valign="top" width="31%" headers="mcps1.2.4.1.1 "><p id="p23501128182517"><a name="p23501128182517"></a><a name="p23501128182517"></a>高级配置</p>
