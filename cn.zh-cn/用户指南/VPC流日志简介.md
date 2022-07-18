@@ -11,7 +11,10 @@ VPC流日志本身是免费的，您只需要为使用过程中用到的其他�
 
 ## 约束与限制<a name="section1095231112517"></a>
 
--   目前支持S2、M2、Hc2、H2、D2、P1、G3、Pi1、fp1、S3、C3、M3、H3、D3、Ir3、I3、Sn3、S6、E3、C3ne、M3ne、G5、P2v、Ai1、C6、M6、D6类型的弹性云服务器。弹性云服务器类型具体信息请参见[实例类型](https://support.huaweicloud.com/productdesc-ecs/zh-cn_topic_0035470096.html)。
+-   目前支持S2、M2、Hc2、H2、D2、P1、G3、Pi1、fp1、S3、C3、M3、H3、D3、Ir3、I3、Sn3、S6、E3、C3ne、M3ne、G5、P2v、Ai1、C6、M6、D6、P1、G3、Pi1、H3、T6类型的弹性云服务器。
+
+    弹性云服务器类型具体信息请参见[实例类型](https://support.huaweicloud.com/productdesc-ecs/zh-cn_topic_0035470096.html)。
+
 -   默认情况下，一个用户最多允许创建10个VPC流日志。
 -   默认情况下，最大支持40万条流日志记录。
 
